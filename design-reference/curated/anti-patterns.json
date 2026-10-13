@@ -1,0 +1,322 @@
+[
+  {
+    "id": "generic-hero-cards-cta",
+    "type": "anti-pattern",
+    "title": "所有需求都 hero + 三卡片 + CTA",
+    "userLabel": "所有需求都 hero + 三卡片 + CTA",
+    "summary": "把所有页面都套成同一种落地页结构。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "把所有页面都套成同一种落地页结构。",
+    "risks": [
+      "把所有页面都套成同一种落地页结构。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "high"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 95,
+    "trigger": "所有需求都 hero + 三卡片 + CTA",
+    "whyBad": "把所有页面都套成同一种落地页结构。",
+    "allowedWhen": "当用户输入很少且页面任务就是快速转化时可以作为候选，但必须说明理由。",
+    "saferAlternative": "根据页面任务选择信任、作品、产品、叙事或内容入口结构。",
+    "severity": "high"
+  },
+  {
+    "id": "tech-blue-purple",
+    "type": "anti-pattern",
+    "title": "科技 = 蓝紫渐变",
+    "userLabel": "科技 = 蓝紫渐变",
+    "summary": "用颜色刻板印象代替产品、技术或结构证明。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "用颜色刻板印象代替产品、技术或结构证明。",
+    "risks": [
+      "用颜色刻板印象代替产品、技术或结构证明。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "high"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 95,
+    "trigger": "科技 = 蓝紫渐变",
+    "whyBad": "用颜色刻板印象代替产品、技术或结构证明。",
+    "allowedWhen": "用户明确要求未来感且有真实技术/产品内容支撑时可谨慎使用。",
+    "saferAlternative": "用产品界面、数据结构、代码/流程和克制强调色表达技术可信。",
+    "severity": "high"
+  },
+  {
+    "id": "premium-black-gold",
+    "type": "anti-pattern",
+    "title": "高端 = 黑金",
+    "userLabel": "高端 = 黑金",
+    "summary": "把高级感简化为黑底金色，容易廉价和同质化。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "把高级感简化为黑底金色，容易廉价和同质化。",
+    "risks": [
+      "把高级感简化为黑底金色，容易廉价和同质化。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "high"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 95,
+    "trigger": "高端 = 黑金",
+    "whyBad": "把高级感简化为黑底金色，容易廉价和同质化。",
+    "allowedWhen": "珠宝、夜场、奢华活动等确实需要暗场精品时可以使用。",
+    "saferAlternative": "从素材、留白、字体、服务流程和细节表达品质。",
+    "severity": "high"
+  },
+  {
+    "id": "ecommerce-promotion",
+    "type": "anti-pattern",
+    "title": "电商 = 大促销",
+    "userLabel": "电商 = 大促销",
+    "summary": "默认用促销色、倒计时和大折扣，会压低品牌和信任。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "默认用促销色、倒计时和大折扣，会压低品牌和信任。",
+    "risks": [
+      "默认用促销色、倒计时和大折扣，会压低品牌和信任。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "high"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 95,
+    "trigger": "电商 = 大促销",
+    "whyBad": "默认用促销色、倒计时和大折扣，会压低品牌和信任。",
+    "allowedWhen": "用户明确做促销活动或清仓页面时可用。",
+    "saferAlternative": "先判断是品牌展示、产品目录、购买决策还是促销转化。",
+    "severity": "high"
+  },
+  {
+    "id": "visual-as-color-test",
+    "type": "anti-pattern",
+    "title": "视觉推荐像配色题",
+    "userLabel": "视觉推荐像配色题",
+    "summary": "只让用户选颜色字体圆角，缺少设计意图和适用条件。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "只让用户选颜色字体圆角，缺少设计意图和适用条件。",
+    "risks": [
+      "只让用户选颜色字体圆角，缺少设计意图和适用条件。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "high"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 95,
+    "trigger": "视觉推荐像配色题",
+    "whyBad": "只让用户选颜色字体圆角，缺少设计意图和适用条件。",
+    "allowedWhen": "作为高级微调可以出现。",
+    "saferAlternative": "先给具体视觉方案，再允许微调 token。",
+    "severity": "high"
+  },
+  {
+    "id": "brand-copycat",
+    "type": "anti-pattern",
+    "title": "像某品牌",
+    "userLabel": "像某品牌",
+    "summary": "直接模仿品牌外观，而不是抽象背后的判断逻辑。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "直接模仿品牌外观，而不是抽象背后的判断逻辑。",
+    "risks": [
+      "直接模仿品牌外观，而不是抽象背后的判断逻辑。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "high"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 95,
+    "trigger": "像某品牌",
+    "whyBad": "直接模仿品牌外观，而不是抽象背后的判断逻辑。",
+    "allowedWhen": "用户提供自己的品牌系统时可沿用自己的规范。",
+    "saferAlternative": "提取案例模式，不暴露品牌仿制。",
+    "severity": "high"
+  },
+  {
+    "id": "consulting-jargon",
+    "type": "anti-pattern",
+    "title": "咨询腔解释",
+    "userLabel": "咨询腔解释",
+    "summary": "用抽象术语让新手无法判断方案差异。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "用抽象术语让新手无法判断方案差异。",
+    "risks": [
+      "用抽象术语让新手无法判断方案差异。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "medium"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 75,
+    "trigger": "咨询腔解释",
+    "whyBad": "用抽象术语让新手无法判断方案差异。",
+    "allowedWhen": "用户要求专业报告时可展开。",
+    "saferAlternative": "用短句说明依据、解决的问题和风险。",
+    "severity": "medium"
+  },
+  {
+    "id": "image-first-without-images",
+    "type": "anti-pattern",
+    "title": "没有好图还强推大图",
+    "userLabel": "没有好图还强推大图",
+    "summary": "忽略素材条件会导致生成页面空或假。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "忽略素材条件会导致生成页面空或假。",
+    "risks": [
+      "忽略素材条件会导致生成页面空或假。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "high"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 95,
+    "trigger": "没有好图还强推大图",
+    "whyBad": "忽略素材条件会导致生成页面空或假。",
+    "allowedWhen": "可以用结构化占位说明需要补图，但不能当最终强方案。",
+    "saferAlternative": "选择文字/证明/流程更强的方案，或提示用户需要图片。",
+    "severity": "high"
+  },
+  {
+    "id": "dark-dashboard-for-professional",
+    "type": "anti-pattern",
+    "title": "专业 = 深色仪表盘",
+    "userLabel": "专业 = 深色仪表盘",
+    "summary": "把专业感等同于深色和数据面板。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "把专业感等同于深色和数据面板。",
+    "risks": [
+      "把专业感等同于深色和数据面板。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "medium"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 75,
+    "trigger": "专业 = 深色仪表盘",
+    "whyBad": "把专业感等同于深色和数据面板。",
+    "allowedWhen": "监控、开发、数据密集场景可用。",
+    "saferAlternative": "根据用户风险和信息密度决定，而不是默认深色。",
+    "severity": "medium"
+  },
+  {
+    "id": "too-many-visual-moves",
+    "type": "anti-pattern",
+    "title": "每个地方都想出彩",
+    "userLabel": "每个地方都想出彩",
+    "summary": "视觉记忆点太多会分散注意力。",
+    "appliesWhen": [
+      "检测推荐和生成结果"
+    ],
+    "avoidWhen": [],
+    "rationale": "视觉记忆点太多会分散注意力。",
+    "risks": [
+      "视觉记忆点太多会分散注意力。"
+    ],
+    "tags": [
+      "anti-pattern",
+      "medium"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 75,
+    "trigger": "每个地方都想出彩",
+    "whyBad": "视觉记忆点太多会分散注意力。",
+    "allowedWhen": "实验艺术项目可接受更高复杂度。",
+    "saferAlternative": "把大胆用在一个地方，其它保持纪律。",
+    "severity": "medium"
+  }
+]

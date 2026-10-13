@@ -1,0 +1,5744 @@
+[
+  {
+    "id": "clean-white-gallery",
+    "type": "visual-variant",
+    "judgmentId": "asset-first-restraint",
+    "title": "白底大图，作品先说话",
+    "userLabel": "白底大图，作品先说话",
+    "plainName": "白底大图，作品先说话",
+    "summary": "白底大图，作品先说话：清爽、专业、客观。",
+    "appliesWhen": [
+      "视觉素材强",
+      "用户先判断审美",
+      "作品本身最有说服力"
+    ],
+    "avoidWhen": [
+      "素材质量不足",
+      "用户先关心安全或价格"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当素材质量不足时，这个方向可能不适合。",
+      "当用户先关心安全或价格时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "asset-first-restraint",
+      "清爽、专业、客观",
+      "image-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 84,
+    "bestFor": [
+      "视觉素材强",
+      "用户先判断审美",
+      "作品本身最有说服力"
+    ],
+    "feeling": "清爽、专业、客观",
+    "color": "背景 #FAFAF8，正文 #1A1A1A，强调色 #111111。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "大图优先，图片只加极轻边框",
+    "reason": "适合用户先看作品风格是否匹配，视觉退后一点，让图片承担第一判断。",
+    "risk": "如果图片质量一般或数量不足，页面会显得单薄。",
+    "previewRules": {
+      "background": "#FAFAF8",
+      "text": "#1A1A1A",
+      "accent": "#111111",
+      "density": "spacious",
+      "hero": "image-first",
+      "imageTreatment": "minimal-frame",
+      "radiusPx": 4,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "大图优先，图片只加极轻边框",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "几乎无阴影",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FAFAF8 作为主背景，#1A1A1A 作为正文色，#111111 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：大图优先，图片只加极轻边框。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=大图优先，图片只加极轻边框；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=几乎无阴影；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 spacious，圆角约 4px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "大图优先，图片只加极轻边框",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "几乎无阴影",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FAFAF8",
+        "text": "#1A1A1A",
+        "accent": "#111111",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "4px",
+        "button": "4px",
+        "image": "4px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "大图优先，图片只加极轻边框"
+      }
+    },
+    "tokenHints": {
+      "background": "#FAFAF8",
+      "text": "#1A1A1A",
+      "accent": "#111111",
+      "radiusPx": 4,
+      "color": {
+        "background": "#FAFAF8",
+        "text": "#1A1A1A",
+        "accent": "#111111",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "4px",
+        "button": "4px",
+        "image": "4px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "大图优先，图片只加极轻边框"
+      }
+    }
+  },
+  {
+    "id": "warm-soft-gallery",
+    "type": "visual-variant",
+    "judgmentId": "asset-first-restraint",
+    "title": "暖白留白，生活感作品",
+    "userLabel": "暖白留白，生活感作品",
+    "plainName": "暖白留白，生活感作品",
+    "summary": "暖白留白，生活感作品：亲近、自然、有温度。",
+    "appliesWhen": [
+      "视觉素材强",
+      "用户先判断审美",
+      "作品本身最有说服力"
+    ],
+    "avoidWhen": [
+      "素材质量不足",
+      "用户先关心安全或价格"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当素材质量不足时，这个方向可能不适合。",
+      "当用户先关心安全或价格时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "asset-first-restraint",
+      "亲近、自然、有温度",
+      "image-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 84,
+    "bestFor": [
+      "视觉素材强",
+      "用户先判断审美",
+      "作品本身最有说服力"
+    ],
+    "feeling": "亲近、自然、有温度",
+    "color": "背景 #FBF6EF，正文 #3A312B，强调色 #8A5A3C。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "图片用柔和背景和小阴影承托",
+    "reason": "适合用户先看作品风格是否匹配，视觉退后一点，让图片承担第一判断。",
+    "risk": "如果图片质量一般或数量不足，页面会显得单薄。",
+    "previewRules": {
+      "background": "#FBF6EF",
+      "text": "#3A312B",
+      "accent": "#8A5A3C",
+      "density": "spacious",
+      "hero": "image-first",
+      "imageTreatment": "soft-frame",
+      "radiusPx": 10,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "图片用柔和背景和小阴影承托",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FBF6EF 作为主背景，#3A312B 作为正文色，#8A5A3C 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图片用柔和背景和小阴影承托。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=图片用柔和背景和小阴影承托；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 spacious，圆角约 10px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "图片用柔和背景和小阴影承托",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FBF6EF",
+        "text": "#3A312B",
+        "accent": "#8A5A3C",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图片用柔和背景和小阴影承托"
+      }
+    },
+    "tokenHints": {
+      "background": "#FBF6EF",
+      "text": "#3A312B",
+      "accent": "#8A5A3C",
+      "radiusPx": 10,
+      "color": {
+        "background": "#FBF6EF",
+        "text": "#3A312B",
+        "accent": "#8A5A3C",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图片用柔和背景和小阴影承托"
+      }
+    }
+  },
+  {
+    "id": "editorial-portfolio-grid",
+    "type": "visual-variant",
+    "judgmentId": "asset-first-restraint",
+    "title": "杂志网格，精选作品",
+    "userLabel": "杂志网格，精选作品",
+    "plainName": "杂志网格，精选作品",
+    "summary": "杂志网格，精选作品：编辑感、克制、有节奏。",
+    "appliesWhen": [
+      "视觉素材强",
+      "用户先判断审美",
+      "作品本身最有说服力"
+    ],
+    "avoidWhen": [
+      "素材质量不足",
+      "用户先关心安全或价格"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当素材质量不足时，这个方向可能不适合。",
+      "当用户先关心安全或价格时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "asset-first-restraint",
+      "编辑感、克制、有节奏",
+      "image-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 84,
+    "bestFor": [
+      "视觉素材强",
+      "用户先判断审美",
+      "作品本身最有说服力"
+    ],
+    "feeling": "编辑感、克制、有节奏",
+    "color": "背景 #FFFFFF，正文 #111111，强调色 #1F4E79。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "直角或极小圆角",
+    "imagery": "图片按杂志网格排布",
+    "reason": "适合用户先看作品风格是否匹配，视觉退后一点，让图片承担第一判断。",
+    "risk": "如果图片质量一般或数量不足，页面会显得单薄。",
+    "previewRules": {
+      "background": "#FFFFFF",
+      "text": "#111111",
+      "accent": "#1F4E79",
+      "density": "balanced",
+      "hero": "image-first",
+      "imageTreatment": "editorial-grid",
+      "radiusPx": 0,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "图片按杂志网格排布",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "几乎无阴影",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFFFFF 作为主背景，#111111 作为正文色，#1F4E79 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图片按杂志网格排布。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=图片按杂志网格排布；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=几乎无阴影；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 balanced，圆角约 0px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "gallery-grid-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "图片按杂志网格排布",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "几乎无阴影",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#111111",
+        "accent": "#1F4E79",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "图片按杂志网格排布"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFFFFF",
+      "text": "#111111",
+      "accent": "#1F4E79",
+      "radiusPx": 0,
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#111111",
+        "accent": "#1F4E79",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "图片按杂志网格排布"
+      }
+    }
+  },
+  {
+    "id": "light-product-console",
+    "type": "visual-variant",
+    "judgmentId": "product-clarity-interface-first",
+    "title": "浅色界面，产品居中",
+    "userLabel": "浅色界面，产品居中",
+    "plainName": "浅色界面，产品居中",
+    "summary": "浅色界面，产品居中：清楚、稳定、易理解。",
+    "appliesWhen": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件"
+    ],
+    "avoidWhen": [
+      "没有产品截图",
+      "功能还不成熟"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当没有产品截图时，这个方向可能不适合。",
+      "当功能还不成熟时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "product-clarity-interface-first",
+      "清楚、稳定、易理解",
+      "product-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 83,
+    "bestFor": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件"
+    ],
+    "feeling": "清楚、稳定、易理解",
+    "color": "背景 #F7F8FA，正文 #111827，强调色 #2563EB。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "产品截图放在清楚的界面卡片里",
+    "reason": "适合先让用户看懂产品怎么工作，用界面和流程代替空泛口号。",
+    "risk": "如果没有真实截图或 demo，需要先补足产品素材。",
+    "previewRules": {
+      "background": "#F7F8FA",
+      "text": "#111827",
+      "accent": "#2563EB",
+      "density": "balanced",
+      "hero": "product-first",
+      "imageTreatment": "screen-card",
+      "radiusPx": 10,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "产品截图放在清楚的界面卡片里",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F7F8FA 作为主背景，#111827 作为正文色，#2563EB 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：产品截图放在清楚的界面卡片里。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=产品截图放在清楚的界面卡片里；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 10px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "产品截图放在清楚的界面卡片里",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F7F8FA",
+        "text": "#111827",
+        "accent": "#2563EB",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "产品截图放在清楚的界面卡片里"
+      }
+    },
+    "tokenHints": {
+      "background": "#F7F8FA",
+      "text": "#111827",
+      "accent": "#2563EB",
+      "radiusPx": 10,
+      "color": {
+        "background": "#F7F8FA",
+        "text": "#111827",
+        "accent": "#2563EB",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "产品截图放在清楚的界面卡片里"
+      }
+    }
+  },
+  {
+    "id": "dark-product-stage",
+    "type": "visual-variant",
+    "judgmentId": "product-clarity-interface-first",
+    "title": "深色舞台，界面发光",
+    "userLabel": "深色舞台，界面发光",
+    "plainName": "深色舞台，界面发光",
+    "summary": "深色舞台，界面发光：专注、技术、沉浸。",
+    "appliesWhen": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件"
+    ],
+    "avoidWhen": [
+      "没有产品截图",
+      "功能还不成熟"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当没有产品截图时，这个方向可能不适合。",
+      "当功能还不成熟时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "product-clarity-interface-first",
+      "专注、技术、沉浸",
+      "product-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 83,
+    "bestFor": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件"
+    ],
+    "feeling": "专注、技术、沉浸",
+    "color": "背景 #080A10，正文 #F8FAFC，强调色 #7C9CFF。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "产品截图使用暗色承托和轻微发光",
+    "reason": "适合先让用户看懂产品怎么工作，用界面和流程代替空泛口号。",
+    "risk": "如果没有真实截图或 demo，需要先补足产品素材。",
+    "previewRules": {
+      "background": "#080A10",
+      "text": "#F8FAFC",
+      "accent": "#7C9CFF",
+      "density": "balanced",
+      "hero": "product-first",
+      "imageTreatment": "glow-screen",
+      "radiusPx": 12,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "产品截图使用暗色承托和轻微发光",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #080A10 作为主背景，#F8FAFC 作为正文色，#7C9CFF 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：产品截图使用暗色承托和轻微发光。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=产品截图使用暗色承托和轻微发光；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 12px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "产品截图使用暗色承托和轻微发光",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#080A10",
+        "text": "#F8FAFC",
+        "accent": "#7C9CFF",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "产品截图使用暗色承托和轻微发光"
+      }
+    },
+    "tokenHints": {
+      "background": "#080A10",
+      "text": "#F8FAFC",
+      "accent": "#7C9CFF",
+      "radiusPx": 12,
+      "color": {
+        "background": "#080A10",
+        "text": "#F8FAFC",
+        "accent": "#7C9CFF",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "产品截图使用暗色承托和轻微发光"
+      }
+    }
+  },
+  {
+    "id": "demo-first-workflow",
+    "type": "visual-variant",
+    "judgmentId": "product-clarity-interface-first",
+    "title": "先试 demo，再看功能",
+    "userLabel": "先试 demo，再看功能",
+    "plainName": "先试 demo，再看功能",
+    "summary": "先试 demo，再看功能：直接、互动、低门槛。",
+    "appliesWhen": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件"
+    ],
+    "avoidWhen": [
+      "没有产品截图",
+      "功能还不成熟"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当没有产品截图时，这个方向可能不适合。",
+      "当功能还不成熟时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "product-clarity-interface-first",
+      "直接、互动、低门槛",
+      "product-first",
+      "compact"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 83,
+    "bestFor": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件"
+    ],
+    "feeling": "直接、互动、低门槛",
+    "color": "背景 #F8FAFC，正文 #0F172A，强调色 #16A34A。",
+    "font": "清晰无衬线，正文优先可读，数字和标签保持稳定。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "把 demo/结果预览做成可操作面板",
+    "reason": "适合先让用户看懂产品怎么工作，用界面和流程代替空泛口号。",
+    "risk": "如果没有真实截图或 demo，需要先补足产品素材。",
+    "previewRules": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#16A34A",
+      "density": "compact",
+      "hero": "product-first",
+      "imageTreatment": "interactive-demo",
+      "radiusPx": 8,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "functional",
+      "implicitDecisions": {
+        "留白": "紧凑留白",
+        "内容密度": "高信息密度但分组清楚",
+        "图片处理": "把 demo/结果预览做成可操作面板",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F8FAFC 作为主背景，#0F172A 作为正文色，#16A34A 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：把 demo/结果预览做成可操作面板。",
+      "自动补齐视觉细节：留白=紧凑留白；内容密度=高信息密度但分组清楚；图片处理=把 demo/结果预览做成可操作面板；卡片样式=轻边框、柔和小圆角卡片；阴影层级=极轻阴影或无阴影，依靠边框分层；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 compact，圆角约 8px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "compact-panel-preview",
+    "implicitDecisions": {
+      "留白": "紧凑留白",
+      "内容密度": "高信息密度但分组清楚",
+      "图片处理": "把 demo/结果预览做成可操作面板",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#16A34A",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "把 demo/结果预览做成可操作面板"
+      }
+    },
+    "tokenHints": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#16A34A",
+      "radiusPx": 8,
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#16A34A",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "把 demo/结果预览做成可操作面板"
+      }
+    }
+  },
+  {
+    "id": "institutional-light",
+    "type": "visual-variant",
+    "judgmentId": "trust-restraint-proof-first",
+    "title": "浅色可信，证明前置",
+    "userLabel": "浅色可信，证明前置",
+    "plainName": "浅色可信，证明前置",
+    "summary": "浅色可信，证明前置：可靠、克制、清楚。",
+    "appliesWhen": [
+      "高风险",
+      "高客单价",
+      "专业服务"
+    ],
+    "avoidWhen": [
+      "低风险活动",
+      "强娱乐体验"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当低风险活动时，这个方向可能不适合。",
+      "当强娱乐体验时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "trust-restraint-proof-first",
+      "可靠、克制、清楚",
+      "proof-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 82,
+    "bestFor": [
+      "高风险",
+      "高客单价",
+      "专业服务"
+    ],
+    "feeling": "可靠、克制、清楚",
+    "color": "背景 #F8FAFC，正文 #0F172A，强调色 #0F766E。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "证明材料用细线卡片表达",
+    "reason": "适合需要先降低风险感的服务，把证明、流程和保障放在更显眼的位置。",
+    "risk": "如果证明很多但价值不清，页面会显得沉重。",
+    "previewRules": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#0F766E",
+      "density": "balanced",
+      "hero": "proof-first",
+      "imageTreatment": "hairline-cards",
+      "radiusPx": 6,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "证明材料用细线卡片表达",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F8FAFC 作为主背景，#0F172A 作为正文色，#0F766E 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：证明材料用细线卡片表达。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=证明材料用细线卡片表达；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 6px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "证明材料用细线卡片表达",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#0F766E",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "证明材料用细线卡片表达"
+      }
+    },
+    "tokenHints": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#0F766E",
+      "radiusPx": 6,
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#0F766E",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "证明材料用细线卡片表达"
+      }
+    }
+  },
+  {
+    "id": "navy-authority",
+    "type": "visual-variant",
+    "judgmentId": "trust-restraint-proof-first",
+    "title": "深海军蓝，专业背书",
+    "userLabel": "深海军蓝，专业背书",
+    "plainName": "深海军蓝，专业背书",
+    "summary": "深海军蓝，专业背书：稳重、权威、低风险。",
+    "appliesWhen": [
+      "高风险",
+      "高客单价",
+      "专业服务"
+    ],
+    "avoidWhen": [
+      "低风险活动",
+      "强娱乐体验"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当低风险活动时，这个方向可能不适合。",
+      "当强娱乐体验时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "trust-restraint-proof-first",
+      "稳重、权威、低风险",
+      "proof-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 82,
+    "bestFor": [
+      "高风险",
+      "高客单价",
+      "专业服务"
+    ],
+    "feeling": "稳重、权威、低风险",
+    "color": "背景 #07111F，正文 #F8FAFC，强调色 #38BDF8。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "证明和数据用稳定面板表达",
+    "reason": "适合需要先降低风险感的服务，把证明、流程和保障放在更显眼的位置。",
+    "risk": "如果证明很多但价值不清，页面会显得沉重。",
+    "previewRules": {
+      "background": "#07111F",
+      "text": "#F8FAFC",
+      "accent": "#38BDF8",
+      "density": "balanced",
+      "hero": "proof-first",
+      "imageTreatment": "structured-panels",
+      "radiusPx": 8,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "证明和数据用稳定面板表达",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #07111F 作为主背景，#F8FAFC 作为正文色，#38BDF8 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：证明和数据用稳定面板表达。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=证明和数据用稳定面板表达；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 8px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "证明和数据用稳定面板表达",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#07111F",
+        "text": "#F8FAFC",
+        "accent": "#38BDF8",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "证明和数据用稳定面板表达"
+      }
+    },
+    "tokenHints": {
+      "background": "#07111F",
+      "text": "#F8FAFC",
+      "accent": "#38BDF8",
+      "radiusPx": 8,
+      "color": {
+        "background": "#07111F",
+        "text": "#F8FAFC",
+        "accent": "#38BDF8",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "证明和数据用稳定面板表达"
+      }
+    }
+  },
+  {
+    "id": "calm-human-service",
+    "type": "visual-variant",
+    "judgmentId": "trust-restraint-proof-first",
+    "title": "柔和可信，服务亲和",
+    "userLabel": "柔和可信，服务亲和",
+    "plainName": "柔和可信，服务亲和",
+    "summary": "柔和可信，服务亲和：安心、温和、可信。",
+    "appliesWhen": [
+      "高风险",
+      "高客单价",
+      "专业服务"
+    ],
+    "avoidWhen": [
+      "低风险活动",
+      "强娱乐体验"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当低风险活动时，这个方向可能不适合。",
+      "当强娱乐体验时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "trust-restraint-proof-first",
+      "安心、温和、可信",
+      "proof-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 82,
+    "bestFor": [
+      "高风险",
+      "高客单价",
+      "专业服务"
+    ],
+    "feeling": "安心、温和、可信",
+    "color": "背景 #F7F3EC，正文 #2F2A24，强调色 #3B7A57。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "服务说明用柔和分区表达",
+    "reason": "适合需要先降低风险感的服务，把证明、流程和保障放在更显眼的位置。",
+    "risk": "如果证明很多但价值不清，页面会显得沉重。",
+    "previewRules": {
+      "background": "#F7F3EC",
+      "text": "#2F2A24",
+      "accent": "#3B7A57",
+      "density": "spacious",
+      "hero": "proof-first",
+      "imageTreatment": "soft-sections",
+      "radiusPx": 12,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "服务说明用柔和分区表达",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F7F3EC 作为主背景，#2F2A24 作为正文色，#3B7A57 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：服务说明用柔和分区表达。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=服务说明用柔和分区表达；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 spacious，圆角约 12px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "服务说明用柔和分区表达",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F7F3EC",
+        "text": "#2F2A24",
+        "accent": "#3B7A57",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "服务说明用柔和分区表达"
+      }
+    },
+    "tokenHints": {
+      "background": "#F7F3EC",
+      "text": "#2F2A24",
+      "accent": "#3B7A57",
+      "radiusPx": 12,
+      "color": {
+        "background": "#F7F3EC",
+        "text": "#2F2A24",
+        "accent": "#3B7A57",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "服务说明用柔和分区表达"
+      }
+    }
+  },
+  {
+    "id": "broadsheet-editorial",
+    "type": "visual-variant",
+    "judgmentId": "editorial-reading-rhythm",
+    "title": "报刊版式，观点先行",
+    "userLabel": "报刊版式，观点先行",
+    "plainName": "报刊版式，观点先行",
+    "summary": "报刊版式，观点先行：权威、阅读、锋利。",
+    "appliesWhen": [
+      "内容",
+      "报告",
+      "媒体",
+      "文化项目"
+    ],
+    "avoidWhen": [
+      "快速购买场景"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当快速购买场景时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "editorial-reading-rhythm",
+      "权威、阅读、锋利",
+      "text-first",
+      "compact"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 81,
+    "bestFor": [
+      "内容",
+      "报告",
+      "媒体",
+      "文化项目"
+    ],
+    "feeling": "权威、阅读、锋利",
+    "color": "背景 #FAFAF7，正文 #111111，强调色 #B91C1C。",
+    "font": "清晰无衬线，正文优先可读，数字和标签保持稳定。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "直角或极小圆角",
+    "imagery": "文字和图片用细线分隔",
+    "reason": "适合先讲观点或故事，用阅读节奏带用户继续看下去。",
+    "risk": "如果用户只想快速预约或购买，叙事节奏可能偏慢。",
+    "previewRules": {
+      "background": "#FAFAF7",
+      "text": "#111111",
+      "accent": "#B91C1C",
+      "density": "compact",
+      "hero": "text-first",
+      "imageTreatment": "hairline-editorial",
+      "radiusPx": 0,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "functional",
+      "implicitDecisions": {
+        "留白": "紧凑留白",
+        "内容密度": "高信息密度但分组清楚",
+        "图片处理": "文字和图片用细线分隔",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FAFAF7 作为主背景，#111111 作为正文色，#B91C1C 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：文字和图片用细线分隔。",
+      "自动补齐视觉细节：留白=紧凑留白；内容密度=高信息密度但分组清楚；图片处理=文字和图片用细线分隔；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=极轻阴影或无阴影，依靠边框分层；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 compact，圆角约 0px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "compact-panel-preview",
+    "implicitDecisions": {
+      "留白": "紧凑留白",
+      "内容密度": "高信息密度但分组清楚",
+      "图片处理": "文字和图片用细线分隔",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FAFAF7",
+        "text": "#111111",
+        "accent": "#B91C1C",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "文字和图片用细线分隔"
+      }
+    },
+    "tokenHints": {
+      "background": "#FAFAF7",
+      "text": "#111111",
+      "accent": "#B91C1C",
+      "radiusPx": 0,
+      "color": {
+        "background": "#FAFAF7",
+        "text": "#111111",
+        "accent": "#B91C1C",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "文字和图片用细线分隔"
+      }
+    }
+  },
+  {
+    "id": "longform-calm",
+    "type": "visual-variant",
+    "judgmentId": "editorial-reading-rhythm",
+    "title": "长文留白，慢节奏阅读",
+    "userLabel": "长文留白，慢节奏阅读",
+    "plainName": "长文留白，慢节奏阅读",
+    "summary": "长文留白，慢节奏阅读：安静、深入、克制。",
+    "appliesWhen": [
+      "内容",
+      "报告",
+      "媒体",
+      "文化项目"
+    ],
+    "avoidWhen": [
+      "快速购买场景"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当快速购买场景时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "editorial-reading-rhythm",
+      "安静、深入、克制",
+      "text-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 81,
+    "bestFor": [
+      "内容",
+      "报告",
+      "媒体",
+      "文化项目"
+    ],
+    "feeling": "安静、深入、克制",
+    "color": "背景 #FFFCF7，正文 #26221E，强调色 #6D5D46。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "图片少量穿插，文字节奏优先",
+    "reason": "适合先讲观点或故事，用阅读节奏带用户继续看下去。",
+    "risk": "如果用户只想快速预约或购买，叙事节奏可能偏慢。",
+    "previewRules": {
+      "background": "#FFFCF7",
+      "text": "#26221E",
+      "accent": "#6D5D46",
+      "density": "spacious",
+      "hero": "text-first",
+      "imageTreatment": "longform",
+      "radiusPx": 4,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "图片少量穿插，文字节奏优先",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "几乎无阴影",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFFCF7 作为主背景，#26221E 作为正文色，#6D5D46 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图片少量穿插，文字节奏优先。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=图片少量穿插，文字节奏优先；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=几乎无阴影；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 spacious，圆角约 4px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "图片少量穿插，文字节奏优先",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "几乎无阴影",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFFCF7",
+        "text": "#26221E",
+        "accent": "#6D5D46",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "4px",
+        "button": "4px",
+        "image": "4px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "图片少量穿插，文字节奏优先"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFFCF7",
+      "text": "#26221E",
+      "accent": "#6D5D46",
+      "radiusPx": 4,
+      "color": {
+        "background": "#FFFCF7",
+        "text": "#26221E",
+        "accent": "#6D5D46",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "4px",
+        "button": "4px",
+        "image": "4px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "图片少量穿插，文字节奏优先"
+      }
+    }
+  },
+  {
+    "id": "visual-essay",
+    "type": "visual-variant",
+    "judgmentId": "editorial-reading-rhythm",
+    "title": "图文穿插，像专题文章",
+    "userLabel": "图文穿插，像专题文章",
+    "plainName": "图文穿插，像专题文章",
+    "summary": "图文穿插，像专题文章：叙事、层次、探索。",
+    "appliesWhen": [
+      "内容",
+      "报告",
+      "媒体",
+      "文化项目"
+    ],
+    "avoidWhen": [
+      "快速购买场景"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当快速购买场景时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "editorial-reading-rhythm",
+      "叙事、层次、探索",
+      "image-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 81,
+    "bestFor": [
+      "内容",
+      "报告",
+      "媒体",
+      "文化项目"
+    ],
+    "feeling": "叙事、层次、探索",
+    "color": "背景 #FFFFFF，正文 #18181B，强调色 #4F46E5。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "图文穿插，图片作为论证证据",
+    "reason": "适合先讲观点或故事，用阅读节奏带用户继续看下去。",
+    "risk": "如果用户只想快速预约或购买，叙事节奏可能偏慢。",
+    "previewRules": {
+      "background": "#FFFFFF",
+      "text": "#18181B",
+      "accent": "#4F46E5",
+      "density": "balanced",
+      "hero": "image-first",
+      "imageTreatment": "essay-layout",
+      "radiusPx": 6,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "图文穿插，图片作为论证证据",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFFFFF 作为主背景，#18181B 作为正文色，#4F46E5 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图文穿插，图片作为论证证据。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=图文穿插，图片作为论证证据；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 6px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "图文穿插，图片作为论证证据",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#18181B",
+        "accent": "#4F46E5",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图文穿插，图片作为论证证据"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFFFFF",
+      "text": "#18181B",
+      "accent": "#4F46E5",
+      "radiusPx": 6,
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#18181B",
+        "accent": "#4F46E5",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图文穿插，图片作为论证证据"
+      }
+    }
+  },
+  {
+    "id": "cream-lifestyle",
+    "type": "visual-variant",
+    "judgmentId": "warm-real-life",
+    "title": "奶油底色，真实生活",
+    "userLabel": "奶油底色，真实生活",
+    "plainName": "奶油底色，真实生活",
+    "summary": "奶油底色，真实生活：温暖、亲近、轻松。",
+    "appliesWhen": [
+      "生活方式",
+      "亲子",
+      "民宿",
+      "美食",
+      "本地服务"
+    ],
+    "avoidWhen": [
+      "需要严肃权威",
+      "高精密工具"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当需要严肃权威时，这个方向可能不适合。",
+      "当高精密工具时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "warm-real-life",
+      "温暖、亲近、轻松",
+      "image-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 80,
+    "bestFor": [
+      "生活方式",
+      "亲子",
+      "民宿",
+      "美食",
+      "本地服务"
+    ],
+    "feeling": "温暖、亲近、轻松",
+    "color": "背景 #FBF3E8，正文 #3B2F2A，强调色 #C26A3D。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "照片真实、柔和、生活化",
+    "reason": "适合需要亲近感和真实感的服务，让页面更像生活场景而不是广告。",
+    "risk": "如果场景图太普通，容易变成泛泛的生活方式模板。",
+    "previewRules": {
+      "background": "#FBF3E8",
+      "text": "#3B2F2A",
+      "accent": "#C26A3D",
+      "density": "spacious",
+      "hero": "image-first",
+      "imageTreatment": "soft-photo",
+      "radiusPx": 16,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "照片真实、柔和、生活化",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FBF3E8 作为主背景，#3B2F2A 作为正文色，#C26A3D 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：照片真实、柔和、生活化。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=照片真实、柔和、生活化；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 spacious，圆角约 16px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "照片真实、柔和、生活化",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FBF3E8",
+        "text": "#3B2F2A",
+        "accent": "#C26A3D",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "16px",
+        "button": "16px",
+        "image": "16px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "照片真实、柔和、生活化"
+      }
+    },
+    "tokenHints": {
+      "background": "#FBF3E8",
+      "text": "#3B2F2A",
+      "accent": "#C26A3D",
+      "radiusPx": 16,
+      "color": {
+        "background": "#FBF3E8",
+        "text": "#3B2F2A",
+        "accent": "#C26A3D",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "16px",
+        "button": "16px",
+        "image": "16px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "照片真实、柔和、生活化"
+      }
+    }
+  },
+  {
+    "id": "natural-green-service",
+    "type": "visual-variant",
+    "judgmentId": "warm-real-life",
+    "title": "自然绿色，低压力服务",
+    "userLabel": "自然绿色，低压力服务",
+    "plainName": "自然绿色，低压力服务",
+    "summary": "自然绿色，低压力服务：自然、安心、健康。",
+    "appliesWhen": [
+      "生活方式",
+      "亲子",
+      "民宿",
+      "美食",
+      "本地服务"
+    ],
+    "avoidWhen": [
+      "需要严肃权威",
+      "高精密工具"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当需要严肃权威时，这个方向可能不适合。",
+      "当高精密工具时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "warm-real-life",
+      "自然、安心、健康",
+      "proof-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 80,
+    "bestFor": [
+      "生活方式",
+      "亲子",
+      "民宿",
+      "美食",
+      "本地服务"
+    ],
+    "feeling": "自然、安心、健康",
+    "color": "背景 #F4F8F1，正文 #1F2A1F，强调色 #4F7D4A。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "图片和卡片更自然，少硬边框",
+    "reason": "适合需要亲近感和真实感的服务，让页面更像生活场景而不是广告。",
+    "risk": "如果场景图太普通，容易变成泛泛的生活方式模板。",
+    "previewRules": {
+      "background": "#F4F8F1",
+      "text": "#1F2A1F",
+      "accent": "#4F7D4A",
+      "density": "balanced",
+      "hero": "proof-first",
+      "imageTreatment": "organic-cards",
+      "radiusPx": 14,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "图片和卡片更自然，少硬边框",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F4F8F1 作为主背景，#1F2A1F 作为正文色，#4F7D4A 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图片和卡片更自然，少硬边框。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=图片和卡片更自然，少硬边框；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 14px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "图片和卡片更自然，少硬边框",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F4F8F1",
+        "text": "#1F2A1F",
+        "accent": "#4F7D4A",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "14px",
+        "button": "14px",
+        "image": "14px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图片和卡片更自然，少硬边框"
+      }
+    },
+    "tokenHints": {
+      "background": "#F4F8F1",
+      "text": "#1F2A1F",
+      "accent": "#4F7D4A",
+      "radiusPx": 14,
+      "color": {
+        "background": "#F4F8F1",
+        "text": "#1F2A1F",
+        "accent": "#4F7D4A",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "14px",
+        "button": "14px",
+        "image": "14px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图片和卡片更自然，少硬边框"
+      }
+    }
+  },
+  {
+    "id": "human-story-cards",
+    "type": "visual-variant",
+    "judgmentId": "warm-real-life",
+    "title": "人物故事，亲切卡片",
+    "userLabel": "人物故事，亲切卡片",
+    "plainName": "人物故事，亲切卡片",
+    "summary": "人物故事，亲切卡片：真实、有陪伴感。",
+    "appliesWhen": [
+      "生活方式",
+      "亲子",
+      "民宿",
+      "美食",
+      "本地服务"
+    ],
+    "avoidWhen": [
+      "需要严肃权威",
+      "高精密工具"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当需要严肃权威时，这个方向可能不适合。",
+      "当高精密工具时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "warm-real-life",
+      "真实、有陪伴感",
+      "text-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 80,
+    "bestFor": [
+      "生活方式",
+      "亲子",
+      "民宿",
+      "美食",
+      "本地服务"
+    ],
+    "feeling": "真实、有陪伴感",
+    "color": "背景 #FFF8F1，正文 #332822，强调色 #D97706。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "人物或故事卡片承接内容",
+    "reason": "适合需要亲近感和真实感的服务，让页面更像生活场景而不是广告。",
+    "risk": "如果场景图太普通，容易变成泛泛的生活方式模板。",
+    "previewRules": {
+      "background": "#FFF8F1",
+      "text": "#332822",
+      "accent": "#D97706",
+      "density": "balanced",
+      "hero": "text-first",
+      "imageTreatment": "story-cards",
+      "radiusPx": 12,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "人物或故事卡片承接内容",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFF8F1 作为主背景，#332822 作为正文色，#D97706 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：人物或故事卡片承接内容。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=人物或故事卡片承接内容；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 12px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "人物或故事卡片承接内容",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFF8F1",
+        "text": "#332822",
+        "accent": "#D97706",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "人物或故事卡片承接内容"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFF8F1",
+      "text": "#332822",
+      "accent": "#D97706",
+      "radiusPx": 12,
+      "color": {
+        "background": "#FFF8F1",
+        "text": "#332822",
+        "accent": "#D97706",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "人物或故事卡片承接内容"
+      }
+    }
+  },
+  {
+    "id": "dark-gallery-spotlight",
+    "type": "visual-variant",
+    "judgmentId": "dark-gallery-premium",
+    "title": "暗场画廊，聚光作品",
+    "userLabel": "暗场画廊，聚光作品",
+    "plainName": "暗场画廊，聚光作品",
+    "summary": "暗场画廊，聚光作品：沉浸、精品、戏剧。",
+    "appliesWhen": [
+      "艺术",
+      "珠宝",
+      "夜间氛围",
+      "高品质作品"
+    ],
+    "avoidWhen": [
+      "亲和服务",
+      "信息密度高"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当亲和服务时，这个方向可能不适合。",
+      "当信息密度高时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "dark-gallery-premium",
+      "沉浸、精品、戏剧",
+      "image-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 79,
+    "bestFor": [
+      "艺术",
+      "珠宝",
+      "夜间氛围",
+      "高品质作品"
+    ],
+    "feeling": "沉浸、精品、戏剧",
+    "color": "背景 #080808，正文 #F5F5EF，强调色 #C6A15B。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "直角或极小圆角",
+    "imagery": "图片像展览陈列，背景退后",
+    "reason": "适合强调作品细节和沉浸氛围，让图片像展览或精品陈列一样被观看。",
+    "risk": "如果品牌需要亲和感，暗场会带来距离感。",
+    "previewRules": {
+      "background": "#080808",
+      "text": "#F5F5EF",
+      "accent": "#C6A15B",
+      "density": "spacious",
+      "hero": "image-first",
+      "imageTreatment": "spotlight",
+      "radiusPx": 2,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "图片像展览陈列，背景退后",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "几乎无阴影",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #080808 作为主背景，#F5F5EF 作为正文色，#C6A15B 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图片像展览陈列，背景退后。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=图片像展览陈列，背景退后；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=几乎无阴影；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 spacious，圆角约 2px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "图片像展览陈列，背景退后",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "几乎无阴影",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#080808",
+        "text": "#F5F5EF",
+        "accent": "#C6A15B",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "2px",
+        "button": "4px",
+        "image": "2px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "图片像展览陈列，背景退后"
+      }
+    },
+    "tokenHints": {
+      "background": "#080808",
+      "text": "#F5F5EF",
+      "accent": "#C6A15B",
+      "radiusPx": 2,
+      "color": {
+        "background": "#080808",
+        "text": "#F5F5EF",
+        "accent": "#C6A15B",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "2px",
+        "button": "4px",
+        "image": "2px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "图片像展览陈列，背景退后"
+      }
+    }
+  },
+  {
+    "id": "cinematic-black",
+    "type": "visual-variant",
+    "judgmentId": "dark-gallery-premium",
+    "title": "电影黑场，强氛围首屏",
+    "userLabel": "电影黑场，强氛围首屏",
+    "plainName": "电影黑场，强氛围首屏",
+    "summary": "电影黑场，强氛围首屏：高级、沉稳、场景感。",
+    "appliesWhen": [
+      "艺术",
+      "珠宝",
+      "夜间氛围",
+      "高品质作品"
+    ],
+    "avoidWhen": [
+      "亲和服务",
+      "信息密度高"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当亲和服务时，这个方向可能不适合。",
+      "当信息密度高时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "dark-gallery-premium",
+      "高级、沉稳、场景感",
+      "image-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 79,
+    "bestFor": [
+      "艺术",
+      "珠宝",
+      "夜间氛围",
+      "高品质作品"
+    ],
+    "feeling": "高级、沉稳、场景感",
+    "color": "背景 #050505，正文 #F4F1EA，强调色 #BFA77A。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "直角或极小圆角",
+    "imagery": "图片大、暗场、强场景",
+    "reason": "适合强调作品细节和沉浸氛围，让图片像展览或精品陈列一样被观看。",
+    "risk": "如果品牌需要亲和感，暗场会带来距离感。",
+    "previewRules": {
+      "background": "#050505",
+      "text": "#F4F1EA",
+      "accent": "#BFA77A",
+      "density": "spacious",
+      "hero": "image-first",
+      "imageTreatment": "cinematic",
+      "radiusPx": 0,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "图片大、暗场、强场景",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "几乎无阴影",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #050505 作为主背景，#F4F1EA 作为正文色，#BFA77A 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图片大、暗场、强场景。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=图片大、暗场、强场景；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=几乎无阴影；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 spacious，圆角约 0px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "图片大、暗场、强场景",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "几乎无阴影",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#050505",
+        "text": "#F4F1EA",
+        "accent": "#BFA77A",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "图片大、暗场、强场景"
+      }
+    },
+    "tokenHints": {
+      "background": "#050505",
+      "text": "#F4F1EA",
+      "accent": "#BFA77A",
+      "radiusPx": 0,
+      "color": {
+        "background": "#050505",
+        "text": "#F4F1EA",
+        "accent": "#BFA77A",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "图片大、暗场、强场景"
+      }
+    }
+  },
+  {
+    "id": "luxury-detail-closeup",
+    "type": "visual-variant",
+    "judgmentId": "dark-gallery-premium",
+    "title": "细节特写，低调金属",
+    "userLabel": "细节特写，低调金属",
+    "plainName": "细节特写，低调金属",
+    "summary": "细节特写，低调金属：精致、稀缺、克制。",
+    "appliesWhen": [
+      "艺术",
+      "珠宝",
+      "夜间氛围",
+      "高品质作品"
+    ],
+    "avoidWhen": [
+      "亲和服务",
+      "信息密度高"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当亲和服务时，这个方向可能不适合。",
+      "当信息密度高时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "dark-gallery-premium",
+      "精致、稀缺、克制",
+      "image-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 79,
+    "bestFor": [
+      "艺术",
+      "珠宝",
+      "夜间氛围",
+      "高品质作品"
+    ],
+    "feeling": "精致、稀缺、克制",
+    "color": "背景 #11100E，正文 #F8F3EA，强调色 #9A7B4F。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "用局部特写表达质感",
+    "reason": "适合强调作品细节和沉浸氛围，让图片像展览或精品陈列一样被观看。",
+    "risk": "如果品牌需要亲和感，暗场会带来距离感。",
+    "previewRules": {
+      "background": "#11100E",
+      "text": "#F8F3EA",
+      "accent": "#9A7B4F",
+      "density": "balanced",
+      "hero": "image-first",
+      "imageTreatment": "detail-crop",
+      "radiusPx": 6,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "用局部特写表达质感",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #11100E 作为主背景，#F8F3EA 作为正文色，#9A7B4F 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：用局部特写表达质感。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=用局部特写表达质感；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 6px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "用局部特写表达质感",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#11100E",
+        "text": "#F8F3EA",
+        "accent": "#9A7B4F",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "用局部特写表达质感"
+      }
+    },
+    "tokenHints": {
+      "background": "#11100E",
+      "text": "#F8F3EA",
+      "accent": "#9A7B4F",
+      "radiusPx": 6,
+      "color": {
+        "background": "#11100E",
+        "text": "#F8F3EA",
+        "accent": "#9A7B4F",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "用局部特写表达质感"
+      }
+    }
+  },
+  {
+    "id": "bright-event-action",
+    "type": "visual-variant",
+    "judgmentId": "active-conversion-clear-action",
+    "title": "明亮活动，行动突出",
+    "userLabel": "明亮活动，行动突出",
+    "plainName": "明亮活动，行动突出",
+    "summary": "明亮活动，行动突出：活力、清楚、有冲劲。",
+    "appliesWhen": [
+      "活动",
+      "课程",
+      "消费品",
+      "促销但不廉价"
+    ],
+    "avoidWhen": [
+      "用户明确不要促销感",
+      "高信任采购"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当用户明确不要促销感时，这个方向可能不适合。",
+      "当高信任采购时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "active-conversion-clear-action",
+      "活力、清楚、有冲劲",
+      "text-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 78,
+    "bestFor": [
+      "活动",
+      "课程",
+      "消费品",
+      "促销但不廉价"
+    ],
+    "feeling": "活力、清楚、有冲劲",
+    "color": "背景 #FFF7ED，正文 #1F2937，强调色 #F97316。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "图片/色块更直接，行动入口明显",
+    "reason": "适合活动、课程或轻量服务，把行动入口和权益讲得更直接。",
+    "risk": "如果用户明确不要促销感，需要降低色彩和 CTA 强度。",
+    "previewRules": {
+      "background": "#FFF7ED",
+      "text": "#1F2937",
+      "accent": "#F97316",
+      "density": "balanced",
+      "hero": "text-first",
+      "imageTreatment": "bold-blocks",
+      "radiusPx": 12,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "图片/色块更直接，行动入口明显",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFF7ED 作为主背景，#1F2937 作为正文色，#F97316 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图片/色块更直接，行动入口明显。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=图片/色块更直接，行动入口明显；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 12px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "图片/色块更直接，行动入口明显",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFF7ED",
+        "text": "#1F2937",
+        "accent": "#F97316",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图片/色块更直接，行动入口明显"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFF7ED",
+      "text": "#1F2937",
+      "accent": "#F97316",
+      "radiusPx": 12,
+      "color": {
+        "background": "#FFF7ED",
+        "text": "#1F2937",
+        "accent": "#F97316",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图片/色块更直接，行动入口明显"
+      }
+    }
+  },
+  {
+    "id": "course-launch",
+    "type": "visual-variant",
+    "judgmentId": "active-conversion-clear-action",
+    "title": "课程发布，权益清楚",
+    "userLabel": "课程发布，权益清楚",
+    "plainName": "课程发布，权益清楚",
+    "summary": "课程发布，权益清楚：直接、可信、节奏快。",
+    "appliesWhen": [
+      "活动",
+      "课程",
+      "消费品",
+      "促销但不廉价"
+    ],
+    "avoidWhen": [
+      "用户明确不要促销感",
+      "高信任采购"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当用户明确不要促销感时，这个方向可能不适合。",
+      "当高信任采购时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "active-conversion-clear-action",
+      "直接、可信、节奏快",
+      "text-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 78,
+    "bestFor": [
+      "活动",
+      "课程",
+      "消费品",
+      "促销但不廉价"
+    ],
+    "feeling": "直接、可信、节奏快",
+    "color": "背景 #F8FAFC，正文 #0F172A，强调色 #7C3AED。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "收益点用清楚卡片承接",
+    "reason": "适合活动、课程或轻量服务，把行动入口和权益讲得更直接。",
+    "risk": "如果用户明确不要促销感，需要降低色彩和 CTA 强度。",
+    "previewRules": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#7C3AED",
+      "density": "balanced",
+      "hero": "text-first",
+      "imageTreatment": "benefit-cards",
+      "radiusPx": 10,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "收益点用清楚卡片承接",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F8FAFC 作为主背景，#0F172A 作为正文色，#7C3AED 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：收益点用清楚卡片承接。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=收益点用清楚卡片承接；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 10px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "收益点用清楚卡片承接",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#7C3AED",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "收益点用清楚卡片承接"
+      }
+    },
+    "tokenHints": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#7C3AED",
+      "radiusPx": 10,
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#7C3AED",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "收益点用清楚卡片承接"
+      }
+    }
+  },
+  {
+    "id": "consumer-offer-clean",
+    "type": "visual-variant",
+    "judgmentId": "active-conversion-clear-action",
+    "title": "消费 offer，干净转化",
+    "userLabel": "消费 offer，干净转化",
+    "plainName": "消费 offer，干净转化",
+    "summary": "消费 offer，干净转化：轻快、不廉价。",
+    "appliesWhen": [
+      "活动",
+      "课程",
+      "消费品",
+      "促销但不廉价"
+    ],
+    "avoidWhen": [
+      "用户明确不要促销感",
+      "高信任采购"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当用户明确不要促销感时，这个方向可能不适合。",
+      "当高信任采购时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "active-conversion-clear-action",
+      "轻快、不廉价",
+      "text-first",
+      "compact"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 78,
+    "bestFor": [
+      "活动",
+      "课程",
+      "消费品",
+      "促销但不廉价"
+    ],
+    "feeling": "轻快、不廉价",
+    "color": "背景 #FFFFFF，正文 #111827，强调色 #E11D48。",
+    "font": "清晰无衬线，正文优先可读，数字和标签保持稳定。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "offer 和行动入口做成清楚横向区",
+    "reason": "适合活动、课程或轻量服务，把行动入口和权益讲得更直接。",
+    "risk": "如果用户明确不要促销感，需要降低色彩和 CTA 强度。",
+    "previewRules": {
+      "background": "#FFFFFF",
+      "text": "#111827",
+      "accent": "#E11D48",
+      "density": "compact",
+      "hero": "text-first",
+      "imageTreatment": "offer-band",
+      "radiusPx": 8,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "functional",
+      "implicitDecisions": {
+        "留白": "紧凑留白",
+        "内容密度": "高信息密度但分组清楚",
+        "图片处理": "offer 和行动入口做成清楚横向区",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFFFFF 作为主背景，#111827 作为正文色，#E11D48 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：offer 和行动入口做成清楚横向区。",
+      "自动补齐视觉细节：留白=紧凑留白；内容密度=高信息密度但分组清楚；图片处理=offer 和行动入口做成清楚横向区；卡片样式=轻边框、柔和小圆角卡片；阴影层级=极轻阴影或无阴影，依靠边框分层；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 compact，圆角约 8px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "compact-panel-preview",
+    "implicitDecisions": {
+      "留白": "紧凑留白",
+      "内容密度": "高信息密度但分组清楚",
+      "图片处理": "offer 和行动入口做成清楚横向区",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#111827",
+        "accent": "#E11D48",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "offer 和行动入口做成清楚横向区"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFFFFF",
+      "text": "#111827",
+      "accent": "#E11D48",
+      "radiusPx": 8,
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#111827",
+        "accent": "#E11D48",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "offer 和行动入口做成清楚横向区"
+      }
+    }
+  },
+  {
+    "id": "dense-workbench-light",
+    "type": "visual-variant",
+    "judgmentId": "system-efficiency-clear-density",
+    "title": "浅色工作台，密度清楚",
+    "userLabel": "浅色工作台，密度清楚",
+    "plainName": "浅色工作台，密度清楚",
+    "summary": "浅色工作台，密度清楚：高效、清晰、可操作。",
+    "appliesWhen": [
+      "后台",
+      "插件",
+      "工作台",
+      "分析工具"
+    ],
+    "avoidWhen": [
+      "品牌展示页",
+      "情绪型页面"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当品牌展示页时，这个方向可能不适合。",
+      "当情绪型页面时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "system-efficiency-clear-density",
+      "高效、清晰、可操作",
+      "product-first",
+      "compact"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 77,
+    "bestFor": [
+      "后台",
+      "插件",
+      "工作台",
+      "分析工具"
+    ],
+    "feeling": "高效、清晰、可操作",
+    "color": "背景 #F6F7F9，正文 #111827，强调色 #2563EB。",
+    "font": "清晰无衬线，正文优先可读，数字和标签保持稳定。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "信息用面板网格组织",
+    "reason": "适合工具和工作台，让用户快速操作、看结果、理解状态。",
+    "risk": "如果信息密度过高，新手会觉得压迫。",
+    "previewRules": {
+      "background": "#F6F7F9",
+      "text": "#111827",
+      "accent": "#2563EB",
+      "density": "compact",
+      "hero": "product-first",
+      "imageTreatment": "panel-grid",
+      "radiusPx": 6,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "functional",
+      "implicitDecisions": {
+        "留白": "紧凑留白",
+        "内容密度": "高信息密度但分组清楚",
+        "图片处理": "信息用面板网格组织",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F6F7F9 作为主背景，#111827 作为正文色，#2563EB 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：信息用面板网格组织。",
+      "自动补齐视觉细节：留白=紧凑留白；内容密度=高信息密度但分组清楚；图片处理=信息用面板网格组织；卡片样式=轻边框、柔和小圆角卡片；阴影层级=极轻阴影或无阴影，依靠边框分层；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 compact，圆角约 6px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "compact-panel-preview",
+    "implicitDecisions": {
+      "留白": "紧凑留白",
+      "内容密度": "高信息密度但分组清楚",
+      "图片处理": "信息用面板网格组织",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F6F7F9",
+        "text": "#111827",
+        "accent": "#2563EB",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "信息用面板网格组织"
+      }
+    },
+    "tokenHints": {
+      "background": "#F6F7F9",
+      "text": "#111827",
+      "accent": "#2563EB",
+      "radiusPx": 6,
+      "color": {
+        "background": "#F6F7F9",
+        "text": "#111827",
+        "accent": "#2563EB",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "信息用面板网格组织"
+      }
+    }
+  },
+  {
+    "id": "dark-ops-dashboard",
+    "type": "visual-variant",
+    "judgmentId": "system-efficiency-clear-density",
+    "title": "深色监控台，状态优先",
+    "userLabel": "深色监控台，状态优先",
+    "plainName": "深色监控台，状态优先",
+    "summary": "深色监控台，状态优先：专注、实时、稳定。",
+    "appliesWhen": [
+      "后台",
+      "插件",
+      "工作台",
+      "分析工具"
+    ],
+    "avoidWhen": [
+      "品牌展示页",
+      "情绪型页面"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当品牌展示页时，这个方向可能不适合。",
+      "当情绪型页面时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "system-efficiency-clear-density",
+      "专注、实时、稳定",
+      "product-first",
+      "compact"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 77,
+    "bestFor": [
+      "后台",
+      "插件",
+      "工作台",
+      "分析工具"
+    ],
+    "feeling": "专注、实时、稳定",
+    "color": "背景 #060B12，正文 #E5EEF8，强调色 #22C55E。",
+    "font": "清晰无衬线，正文优先可读，数字和标签保持稳定。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "状态和数据优先，面板分区清楚",
+    "reason": "适合工具和工作台，让用户快速操作、看结果、理解状态。",
+    "risk": "如果信息密度过高，新手会觉得压迫。",
+    "previewRules": {
+      "background": "#060B12",
+      "text": "#E5EEF8",
+      "accent": "#22C55E",
+      "density": "compact",
+      "hero": "product-first",
+      "imageTreatment": "status-panels",
+      "radiusPx": 8,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "functional",
+      "implicitDecisions": {
+        "留白": "紧凑留白",
+        "内容密度": "高信息密度但分组清楚",
+        "图片处理": "状态和数据优先，面板分区清楚",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #060B12 作为主背景，#E5EEF8 作为正文色，#22C55E 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：状态和数据优先，面板分区清楚。",
+      "自动补齐视觉细节：留白=紧凑留白；内容密度=高信息密度但分组清楚；图片处理=状态和数据优先，面板分区清楚；卡片样式=轻边框、柔和小圆角卡片；阴影层级=极轻阴影或无阴影，依靠边框分层；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 compact，圆角约 8px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "compact-panel-preview",
+    "implicitDecisions": {
+      "留白": "紧凑留白",
+      "内容密度": "高信息密度但分组清楚",
+      "图片处理": "状态和数据优先，面板分区清楚",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#060B12",
+        "text": "#E5EEF8",
+        "accent": "#22C55E",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "状态和数据优先，面板分区清楚"
+      }
+    },
+    "tokenHints": {
+      "background": "#060B12",
+      "text": "#E5EEF8",
+      "accent": "#22C55E",
+      "radiusPx": 8,
+      "color": {
+        "background": "#060B12",
+        "text": "#E5EEF8",
+        "accent": "#22C55E",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "状态和数据优先，面板分区清楚"
+      }
+    }
+  },
+  {
+    "id": "plugin-compact-panel",
+    "type": "visual-variant",
+    "judgmentId": "system-efficiency-clear-density",
+    "title": "插件面板，控件优先",
+    "userLabel": "插件面板，控件优先",
+    "plainName": "插件面板，控件优先",
+    "summary": "插件面板，控件优先：紧凑、明确、低干扰。",
+    "appliesWhen": [
+      "后台",
+      "插件",
+      "工作台",
+      "分析工具"
+    ],
+    "avoidWhen": [
+      "品牌展示页",
+      "情绪型页面"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当品牌展示页时，这个方向可能不适合。",
+      "当情绪型页面时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "system-efficiency-clear-density",
+      "紧凑、明确、低干扰",
+      "product-first",
+      "compact"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 77,
+    "bestFor": [
+      "后台",
+      "插件",
+      "工作台",
+      "分析工具"
+    ],
+    "feeling": "紧凑、明确、低干扰",
+    "color": "背景 #FFFFFF，正文 #111827，强调色 #4F46E5。",
+    "font": "清晰无衬线，正文优先可读，数字和标签保持稳定。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "控件紧凑，减少装饰",
+    "reason": "适合工具和工作台，让用户快速操作、看结果、理解状态。",
+    "risk": "如果信息密度过高，新手会觉得压迫。",
+    "previewRules": {
+      "background": "#FFFFFF",
+      "text": "#111827",
+      "accent": "#4F46E5",
+      "density": "compact",
+      "hero": "product-first",
+      "imageTreatment": "compact-controls",
+      "radiusPx": 6,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "functional",
+      "implicitDecisions": {
+        "留白": "紧凑留白",
+        "内容密度": "高信息密度但分组清楚",
+        "图片处理": "控件紧凑，减少装饰",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFFFFF 作为主背景，#111827 作为正文色，#4F46E5 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：控件紧凑，减少装饰。",
+      "自动补齐视觉细节：留白=紧凑留白；内容密度=高信息密度但分组清楚；图片处理=控件紧凑，减少装饰；卡片样式=轻边框、柔和小圆角卡片；阴影层级=极轻阴影或无阴影，依靠边框分层；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 compact，圆角约 6px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "compact-panel-preview",
+    "implicitDecisions": {
+      "留白": "紧凑留白",
+      "内容密度": "高信息密度但分组清楚",
+      "图片处理": "控件紧凑，减少装饰",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#111827",
+        "accent": "#4F46E5",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "控件紧凑，减少装饰"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFFFFF",
+      "text": "#111827",
+      "accent": "#4F46E5",
+      "radiusPx": 6,
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#111827",
+        "accent": "#4F46E5",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "控件紧凑，减少装饰"
+      }
+    }
+  },
+  {
+    "id": "structured-tech-light",
+    "type": "visual-variant",
+    "judgmentId": "technical-precision-structured-trust",
+    "title": "结构化技术白底",
+    "userLabel": "结构化技术白底",
+    "plainName": "结构化技术白底",
+    "summary": "结构化技术白底：精密、可信、工程感。",
+    "appliesWhen": [
+      "开发者工具",
+      "基础设施",
+      "安全",
+      "数据产品"
+    ],
+    "avoidWhen": [
+      "没有真实技术内容",
+      "用户讨厌科技感"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当没有真实技术内容时，这个方向可能不适合。",
+      "当用户讨厌科技感时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "technical-precision-structured-trust",
+      "精密、可信、工程感",
+      "product-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 76,
+    "bestFor": [
+      "开发者工具",
+      "基础设施",
+      "安全",
+      "数据产品"
+    ],
+    "feeling": "精密、可信、工程感",
+    "color": "背景 #F8FAFC，正文 #0F172A，强调色 #0EA5E9。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "使用细网格和结构线表达技术感",
+    "reason": "适合复杂技术或系统产品，用结构、界面和细节建立可信度。",
+    "risk": "如果没有真实技术内容支撑，会变成空泛科技感。",
+    "previewRules": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#0EA5E9",
+      "density": "balanced",
+      "hero": "product-first",
+      "imageTreatment": "grid-lines",
+      "radiusPx": 4,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "使用细网格和结构线表达技术感",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "几乎无阴影",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F8FAFC 作为主背景，#0F172A 作为正文色，#0EA5E9 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：使用细网格和结构线表达技术感。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=使用细网格和结构线表达技术感；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=几乎无阴影；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 balanced，圆角约 4px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "gallery-grid-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "使用细网格和结构线表达技术感",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "几乎无阴影",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#0EA5E9",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "4px",
+        "button": "4px",
+        "image": "4px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "使用细网格和结构线表达技术感"
+      }
+    },
+    "tokenHints": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#0EA5E9",
+      "radiusPx": 4,
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#0EA5E9",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "4px",
+        "button": "4px",
+        "image": "4px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "使用细网格和结构线表达技术感"
+      }
+    }
+  },
+  {
+    "id": "terminal-docs-dark",
+    "type": "visual-variant",
+    "judgmentId": "technical-precision-structured-trust",
+    "title": "终端暗色，文档清楚",
+    "userLabel": "终端暗色，文档清楚",
+    "plainName": "终端暗色，文档清楚",
+    "summary": "终端暗色，文档清楚：开发者、专注、专业。",
+    "appliesWhen": [
+      "开发者工具",
+      "基础设施",
+      "安全",
+      "数据产品"
+    ],
+    "avoidWhen": [
+      "没有真实技术内容",
+      "用户讨厌科技感"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当没有真实技术内容时，这个方向可能不适合。",
+      "当用户讨厌科技感时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "technical-precision-structured-trust",
+      "开发者、专注、专业",
+      "product-first",
+      "compact"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 76,
+    "bestFor": [
+      "开发者工具",
+      "基础设施",
+      "安全",
+      "数据产品"
+    ],
+    "feeling": "开发者、专注、专业",
+    "color": "背景 #0B1020，正文 #E2E8F0，强调色 #A3E635。",
+    "font": "清晰无衬线，正文优先可读，数字和标签保持稳定。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "代码/终端面板作为真实内容承载",
+    "reason": "适合复杂技术或系统产品，用结构、界面和细节建立可信度。",
+    "risk": "如果没有真实技术内容支撑，会变成空泛科技感。",
+    "previewRules": {
+      "background": "#0B1020",
+      "text": "#E2E8F0",
+      "accent": "#A3E635",
+      "density": "compact",
+      "hero": "product-first",
+      "imageTreatment": "code-panels",
+      "radiusPx": 6,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "functional",
+      "implicitDecisions": {
+        "留白": "紧凑留白",
+        "内容密度": "高信息密度但分组清楚",
+        "图片处理": "代码/终端面板作为真实内容承载",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #0B1020 作为主背景，#E2E8F0 作为正文色，#A3E635 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：代码/终端面板作为真实内容承载。",
+      "自动补齐视觉细节：留白=紧凑留白；内容密度=高信息密度但分组清楚；图片处理=代码/终端面板作为真实内容承载；卡片样式=轻边框、柔和小圆角卡片；阴影层级=极轻阴影或无阴影，依靠边框分层；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 compact，圆角约 6px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "compact-panel-preview",
+    "implicitDecisions": {
+      "留白": "紧凑留白",
+      "内容密度": "高信息密度但分组清楚",
+      "图片处理": "代码/终端面板作为真实内容承载",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "极轻阴影或无阴影，依靠边框分层",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#0B1020",
+        "text": "#E2E8F0",
+        "accent": "#A3E635",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "代码/终端面板作为真实内容承载"
+      }
+    },
+    "tokenHints": {
+      "background": "#0B1020",
+      "text": "#E2E8F0",
+      "accent": "#A3E635",
+      "radiusPx": 6,
+      "color": {
+        "background": "#0B1020",
+        "text": "#E2E8F0",
+        "accent": "#A3E635",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "compact",
+        "label": "紧凑留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "极轻阴影或无阴影，依靠边框分层"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "代码/终端面板作为真实内容承载"
+      }
+    }
+  },
+  {
+    "id": "data-infrastructure",
+    "type": "visual-variant",
+    "judgmentId": "technical-precision-structured-trust",
+    "title": "数据结构，可信系统",
+    "userLabel": "数据结构，可信系统",
+    "plainName": "数据结构，可信系统",
+    "summary": "数据结构，可信系统：严谨、复杂但清楚。",
+    "appliesWhen": [
+      "开发者工具",
+      "基础设施",
+      "安全",
+      "数据产品"
+    ],
+    "avoidWhen": [
+      "没有真实技术内容",
+      "用户讨厌科技感"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当没有真实技术内容时，这个方向可能不适合。",
+      "当用户讨厌科技感时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "technical-precision-structured-trust",
+      "严谨、复杂但清楚",
+      "proof-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 76,
+    "bestFor": [
+      "开发者工具",
+      "基础设施",
+      "安全",
+      "数据产品"
+    ],
+    "feeling": "严谨、复杂但清楚",
+    "color": "背景 #F9FAFB，正文 #111827，强调色 #4338CA。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "数据卡片和结构关系优先",
+    "reason": "适合复杂技术或系统产品，用结构、界面和细节建立可信度。",
+    "risk": "如果没有真实技术内容支撑，会变成空泛科技感。",
+    "previewRules": {
+      "background": "#F9FAFB",
+      "text": "#111827",
+      "accent": "#4338CA",
+      "density": "balanced",
+      "hero": "proof-first",
+      "imageTreatment": "data-cards",
+      "radiusPx": 8,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "数据卡片和结构关系优先",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F9FAFB 作为主背景，#111827 作为正文色，#4338CA 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：数据卡片和结构关系优先。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=数据卡片和结构关系优先；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 8px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "数据卡片和结构关系优先",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F9FAFB",
+        "text": "#111827",
+        "accent": "#4338CA",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "数据卡片和结构关系优先"
+      }
+    },
+    "tokenHints": {
+      "background": "#F9FAFB",
+      "text": "#111827",
+      "accent": "#4338CA",
+      "radiusPx": 8,
+      "color": {
+        "background": "#F9FAFB",
+        "text": "#111827",
+        "accent": "#4338CA",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "数据卡片和结构关系优先"
+      }
+    }
+  },
+  {
+    "id": "soft-onboarding",
+    "type": "visual-variant",
+    "judgmentId": "friendly-low-pressure",
+    "title": "柔和引导，低压力开始",
+    "userLabel": "柔和引导，低压力开始",
+    "plainName": "柔和引导，低压力开始",
+    "summary": "柔和引导，低压力开始：友好、轻松、不吓人。",
+    "appliesWhen": [
+      "教育",
+      "新手工具",
+      "社区",
+      "入门产品"
+    ],
+    "avoidWhen": [
+      "奢华精品",
+      "严肃合规"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当奢华精品时，这个方向可能不适合。",
+      "当严肃合规时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "friendly-low-pressure",
+      "友好、轻松、不吓人",
+      "text-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 75,
+    "bestFor": [
+      "教育",
+      "新手工具",
+      "社区",
+      "入门产品"
+    ],
+    "feeling": "友好、轻松、不吓人",
+    "color": "背景 #F7F5FF，正文 #242038，强调色 #7C3AED。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "步骤用柔和卡片承接",
+    "reason": "适合面向新手或低门槛产品，用更温和的方式引导用户开始。",
+    "risk": "如果场景需要权威或精品感，可能显得不够有分量。",
+    "previewRules": {
+      "background": "#F7F5FF",
+      "text": "#242038",
+      "accent": "#7C3AED",
+      "density": "spacious",
+      "hero": "text-first",
+      "imageTreatment": "soft-steps",
+      "radiusPx": 14,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "步骤用柔和卡片承接",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F7F5FF 作为主背景，#242038 作为正文色，#7C3AED 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：步骤用柔和卡片承接。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=步骤用柔和卡片承接；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 spacious，圆角约 14px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "步骤用柔和卡片承接",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F7F5FF",
+        "text": "#242038",
+        "accent": "#7C3AED",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "14px",
+        "button": "14px",
+        "image": "14px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "步骤用柔和卡片承接"
+      }
+    },
+    "tokenHints": {
+      "background": "#F7F5FF",
+      "text": "#242038",
+      "accent": "#7C3AED",
+      "radiusPx": 14,
+      "color": {
+        "background": "#F7F5FF",
+        "text": "#242038",
+        "accent": "#7C3AED",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "14px",
+        "button": "14px",
+        "image": "14px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "步骤用柔和卡片承接"
+      }
+    }
+  },
+  {
+    "id": "education-clear",
+    "type": "visual-variant",
+    "judgmentId": "friendly-low-pressure",
+    "title": "教育清晰，像老师讲解",
+    "userLabel": "教育清晰，像老师讲解",
+    "plainName": "教育清晰，像老师讲解",
+    "summary": "教育清晰，像老师讲解：耐心、明确、可信。",
+    "appliesWhen": [
+      "教育",
+      "新手工具",
+      "社区",
+      "入门产品"
+    ],
+    "avoidWhen": [
+      "奢华精品",
+      "严肃合规"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当奢华精品时，这个方向可能不适合。",
+      "当严肃合规时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "friendly-low-pressure",
+      "耐心、明确、可信",
+      "text-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 75,
+    "bestFor": [
+      "教育",
+      "新手工具",
+      "社区",
+      "入门产品"
+    ],
+    "feeling": "耐心、明确、可信",
+    "color": "背景 #FFFDF5，正文 #24221F，强调色 #2563EB。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "内容像课程讲解一样分块",
+    "reason": "适合面向新手或低门槛产品，用更温和的方式引导用户开始。",
+    "risk": "如果场景需要权威或精品感，可能显得不够有分量。",
+    "previewRules": {
+      "background": "#FFFDF5",
+      "text": "#24221F",
+      "accent": "#2563EB",
+      "density": "balanced",
+      "hero": "text-first",
+      "imageTreatment": "lesson-blocks",
+      "radiusPx": 10,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "内容像课程讲解一样分块",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFFDF5 作为主背景，#24221F 作为正文色，#2563EB 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：内容像课程讲解一样分块。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=内容像课程讲解一样分块；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 10px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "内容像课程讲解一样分块",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFFDF5",
+        "text": "#24221F",
+        "accent": "#2563EB",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "内容像课程讲解一样分块"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFFDF5",
+      "text": "#24221F",
+      "accent": "#2563EB",
+      "radiusPx": 10,
+      "color": {
+        "background": "#FFFDF5",
+        "text": "#24221F",
+        "accent": "#2563EB",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "内容像课程讲解一样分块"
+      }
+    }
+  },
+  {
+    "id": "community-warm",
+    "type": "visual-variant",
+    "judgmentId": "friendly-low-pressure",
+    "title": "社群暖色，参与感强",
+    "userLabel": "社群暖色，参与感强",
+    "plainName": "社群暖色，参与感强",
+    "summary": "社群暖色，参与感强：开放、亲近、有活力。",
+    "appliesWhen": [
+      "教育",
+      "新手工具",
+      "社区",
+      "入门产品"
+    ],
+    "avoidWhen": [
+      "奢华精品",
+      "严肃合规"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当奢华精品时，这个方向可能不适合。",
+      "当严肃合规时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "friendly-low-pressure",
+      "开放、亲近、有活力",
+      "text-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 75,
+    "bestFor": [
+      "教育",
+      "新手工具",
+      "社区",
+      "入门产品"
+    ],
+    "feeling": "开放、亲近、有活力",
+    "color": "背景 #FFF7ED，正文 #2A2018，强调色 #EA580C。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "人物/社群卡片更亲近",
+    "reason": "适合面向新手或低门槛产品，用更温和的方式引导用户开始。",
+    "risk": "如果场景需要权威或精品感，可能显得不够有分量。",
+    "previewRules": {
+      "background": "#FFF7ED",
+      "text": "#2A2018",
+      "accent": "#EA580C",
+      "density": "balanced",
+      "hero": "text-first",
+      "imageTreatment": "people-cards",
+      "radiusPx": 16,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "人物/社群卡片更亲近",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFF7ED 作为主背景，#2A2018 作为正文色，#EA580C 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：人物/社群卡片更亲近。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=人物/社群卡片更亲近；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 16px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "人物/社群卡片更亲近",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFF7ED",
+        "text": "#2A2018",
+        "accent": "#EA580C",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "16px",
+        "button": "16px",
+        "image": "16px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "人物/社群卡片更亲近"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFF7ED",
+      "text": "#2A2018",
+      "accent": "#EA580C",
+      "radiusPx": 16,
+      "color": {
+        "background": "#FFF7ED",
+        "text": "#2A2018",
+        "accent": "#EA580C",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "16px",
+        "button": "16px",
+        "image": "16px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "人物/社群卡片更亲近"
+      }
+    }
+  },
+  {
+    "id": "one-bold-accent",
+    "type": "visual-variant",
+    "judgmentId": "single-signature-memory",
+    "title": "一个强记忆点，其它克制",
+    "userLabel": "一个强记忆点，其它克制",
+    "plainName": "一个强记忆点，其它克制",
+    "summary": "一个强记忆点，其它克制：有识别度、不混乱。",
+    "appliesWhen": [
+      "品牌需要差异化",
+      "活动",
+      "创意项目"
+    ],
+    "avoidWhen": [
+      "信息复杂或信任风险高"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当信息复杂或信任风险高时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "single-signature-memory",
+      "有识别度、不混乱",
+      "text-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 74,
+    "bestFor": [
+      "品牌需要差异化",
+      "活动",
+      "创意项目"
+    ],
+    "feeling": "有识别度、不混乱",
+    "color": "背景 #FFFFFF，正文 #111111，强调色 #FF4D00。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "一个强强调点，其余克制",
+    "reason": "适合需要被记住的品牌或活动，把大胆表达集中在一个清楚的记忆点。",
+    "risk": "如果记忆点太多，会分散注意力。",
+    "previewRules": {
+      "background": "#FFFFFF",
+      "text": "#111111",
+      "accent": "#FF4D00",
+      "density": "balanced",
+      "hero": "text-first",
+      "imageTreatment": "signature-accent",
+      "radiusPx": 6,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "一个强强调点，其余克制",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #FFFFFF 作为主背景，#111111 作为正文色，#FF4D00 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：一个强强调点，其余克制。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=一个强强调点，其余克制；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 6px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "一个强强调点，其余克制",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#111111",
+        "accent": "#FF4D00",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "一个强强调点，其余克制"
+      }
+    },
+    "tokenHints": {
+      "background": "#FFFFFF",
+      "text": "#111111",
+      "accent": "#FF4D00",
+      "radiusPx": 6,
+      "color": {
+        "background": "#FFFFFF",
+        "text": "#111111",
+        "accent": "#FF4D00",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "6px",
+        "button": "6px",
+        "image": "6px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "一个强强调点，其余克制"
+      }
+    }
+  },
+  {
+    "id": "graphic-poster",
+    "type": "visual-variant",
+    "judgmentId": "single-signature-memory",
+    "title": "海报式首屏，强标题",
+    "userLabel": "海报式首屏，强标题",
+    "plainName": "海报式首屏，强标题",
+    "summary": "海报式首屏，强标题：大胆、明确、可记住。",
+    "appliesWhen": [
+      "品牌需要差异化",
+      "活动",
+      "创意项目"
+    ],
+    "avoidWhen": [
+      "信息复杂或信任风险高"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当信息复杂或信任风险高时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "single-signature-memory",
+      "大胆、明确、可记住",
+      "text-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 74,
+    "bestFor": [
+      "品牌需要差异化",
+      "活动",
+      "创意项目"
+    ],
+    "feeling": "大胆、明确、可记住",
+    "color": "背景 #F8F5EF，正文 #111111，强调色 #0F62FE。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "直角或极小圆角",
+    "imagery": "大标题和几何块形成记忆点",
+    "reason": "适合需要被记住的品牌或活动，把大胆表达集中在一个清楚的记忆点。",
+    "risk": "如果记忆点太多，会分散注意力。",
+    "previewRules": {
+      "background": "#F8F5EF",
+      "text": "#111111",
+      "accent": "#0F62FE",
+      "density": "spacious",
+      "hero": "text-first",
+      "imageTreatment": "poster-block",
+      "radiusPx": 0,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "大标题和几何块形成记忆点",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "几乎无阴影",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F8F5EF 作为主背景，#111111 作为正文色，#0F62FE 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：大标题和几何块形成记忆点。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=大标题和几何块形成记忆点；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=几乎无阴影；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 spacious，圆角约 0px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "大标题和几何块形成记忆点",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "几乎无阴影",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F8F5EF",
+        "text": "#111111",
+        "accent": "#0F62FE",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "大标题和几何块形成记忆点"
+      }
+    },
+    "tokenHints": {
+      "background": "#F8F5EF",
+      "text": "#111111",
+      "accent": "#0F62FE",
+      "radiusPx": 0,
+      "color": {
+        "background": "#F8F5EF",
+        "text": "#111111",
+        "accent": "#0F62FE",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "大标题和几何块形成记忆点"
+      }
+    }
+  },
+  {
+    "id": "interactive-signature",
+    "type": "visual-variant",
+    "judgmentId": "single-signature-memory",
+    "title": "一个互动记忆点",
+    "userLabel": "一个互动记忆点",
+    "plainName": "一个互动记忆点",
+    "summary": "一个互动记忆点：新鲜、可玩、有传播性。",
+    "appliesWhen": [
+      "品牌需要差异化",
+      "活动",
+      "创意项目"
+    ],
+    "avoidWhen": [
+      "信息复杂或信任风险高"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当信息复杂或信任风险高时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "single-signature-memory",
+      "新鲜、可玩、有传播性",
+      "product-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 74,
+    "bestFor": [
+      "品牌需要差异化",
+      "活动",
+      "创意项目"
+    ],
+    "feeling": "新鲜、可玩、有传播性",
+    "color": "背景 #F8FAFC，正文 #0F172A，强调色 #DB2777。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "一个互动对象作为记忆点",
+    "reason": "适合需要被记住的品牌或活动，把大胆表达集中在一个清楚的记忆点。",
+    "risk": "如果记忆点太多，会分散注意力。",
+    "previewRules": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#DB2777",
+      "density": "balanced",
+      "hero": "product-first",
+      "imageTreatment": "interactive-object",
+      "radiusPx": 12,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "一个互动对象作为记忆点",
+        "卡片样式": "柔和圆角、轻背景分区卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F8FAFC 作为主背景，#0F172A 作为正文色，#DB2777 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：一个互动对象作为记忆点。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=一个互动对象作为记忆点；卡片样式=柔和圆角、轻背景分区卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 12px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "一个互动对象作为记忆点",
+      "卡片样式": "柔和圆角、轻背景分区卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#DB2777",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "一个互动对象作为记忆点"
+      }
+    },
+    "tokenHints": {
+      "background": "#F8FAFC",
+      "text": "#0F172A",
+      "accent": "#DB2777",
+      "radiusPx": 12,
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#0F172A",
+        "accent": "#DB2777",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "12px",
+        "button": "12px",
+        "image": "12px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "柔和圆角、轻背景分区卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "一个互动对象作为记忆点"
+      }
+    }
+  },
+  {
+    "id": "full-bleed-scene",
+    "type": "visual-variant",
+    "judgmentId": "immersive-scene-driven",
+    "title": "全屏场景，先进入氛围",
+    "userLabel": "全屏场景，先进入氛围",
+    "plainName": "全屏场景，先进入氛围",
+    "summary": "全屏场景，先进入氛围：沉浸、直观、有现场感。",
+    "appliesWhen": [
+      "旅游",
+      "空间",
+      "游戏",
+      "艺术展",
+      "体验型活动"
+    ],
+    "avoidWhen": [
+      "低素材",
+      "强工具效率"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当低素材时，这个方向可能不适合。",
+      "当强工具效率时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "immersive-scene-driven",
+      "沉浸、直观、有现场感",
+      "image-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 73,
+    "bestFor": [
+      "旅游",
+      "空间",
+      "游戏",
+      "艺术展",
+      "体验型活动"
+    ],
+    "feeling": "沉浸、直观、有现场感",
+    "color": "背景 #0D0D0D，正文 #F8F7F2，强调色 #EAB308。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "直角或极小圆角",
+    "imagery": "场景图片尽量满幅呈现",
+    "reason": "适合体验、旅行、空间和活动，用场景先把用户带进去。",
+    "risk": "如果素材不够具体，会变成普通氛围页。",
+    "previewRules": {
+      "background": "#0D0D0D",
+      "text": "#F8F7F2",
+      "accent": "#EAB308",
+      "density": "spacious",
+      "hero": "image-first",
+      "imageTreatment": "full-bleed",
+      "radiusPx": 0,
+      "cardStyle": "flat-hairline",
+      "buttonStyle": "compact-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "场景图片尽量满幅呈现",
+        "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+        "阴影层级": "几乎无阴影",
+        "按钮语气": "克制实心按钮，数量少"
+      }
+    },
+    "generationRules": [
+      "整体使用 #0D0D0D 作为主背景，#F8F7F2 作为正文色，#EAB308 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：场景图片尽量满幅呈现。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=场景图片尽量满幅呈现；卡片样式=弱边框、低阴影、直角或小圆角卡片；阴影层级=几乎无阴影；按钮语气=克制实心按钮，数量少。",
+      "整体密度为 spacious，圆角约 0px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "场景图片尽量满幅呈现",
+      "卡片样式": "弱边框、低阴影、直角或小圆角卡片",
+      "阴影层级": "几乎无阴影",
+      "按钮语气": "克制实心按钮，数量少"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#0D0D0D",
+        "text": "#F8F7F2",
+        "accent": "#EAB308",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "场景图片尽量满幅呈现"
+      }
+    },
+    "tokenHints": {
+      "background": "#0D0D0D",
+      "text": "#F8F7F2",
+      "accent": "#EAB308",
+      "radiusPx": 0,
+      "color": {
+        "background": "#0D0D0D",
+        "text": "#F8F7F2",
+        "accent": "#EAB308",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "0px",
+        "button": "4px",
+        "image": "0px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "弱边框、低阴影、直角或小圆角卡片",
+        "shadow": "几乎无阴影"
+      },
+      "button": {
+        "tone": "克制实心按钮，数量少"
+      },
+      "image": {
+        "treatment": "场景图片尽量满幅呈现"
+      }
+    }
+  },
+  {
+    "id": "travel-story",
+    "type": "visual-variant",
+    "judgmentId": "immersive-scene-driven",
+    "title": "旅行故事，分段进入",
+    "userLabel": "旅行故事，分段进入",
+    "plainName": "旅行故事，分段进入",
+    "summary": "旅行故事，分段进入：向往、探索、叙事。",
+    "appliesWhen": [
+      "旅游",
+      "空间",
+      "游戏",
+      "艺术展",
+      "体验型活动"
+    ],
+    "avoidWhen": [
+      "低素材",
+      "强工具效率"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当低素材时，这个方向可能不适合。",
+      "当强工具效率时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "immersive-scene-driven",
+      "向往、探索、叙事",
+      "image-first",
+      "spacious"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 73,
+    "bestFor": [
+      "旅游",
+      "空间",
+      "游戏",
+      "艺术展",
+      "体验型活动"
+    ],
+    "feeling": "向往、探索、叙事",
+    "color": "背景 #F7EFE3，正文 #2D241F，强调色 #0F766E。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "中等到偏大的柔和圆角",
+    "imagery": "图片跟随故事分段出现",
+    "reason": "适合体验、旅行、空间和活动，用场景先把用户带进去。",
+    "risk": "如果素材不够具体，会变成普通氛围页。",
+    "previewRules": {
+      "background": "#F7EFE3",
+      "text": "#2D241F",
+      "accent": "#0F766E",
+      "density": "spacious",
+      "hero": "image-first",
+      "imageTreatment": "story-scroll",
+      "radiusPx": 10,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "大留白",
+        "内容密度": "低内容密度",
+        "图片处理": "图片跟随故事分段出现",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F7EFE3 作为主背景，#2D241F 作为正文色，#0F766E 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：图片跟随故事分段出现。",
+      "自动补齐视觉细节：留白=大留白；内容密度=低内容密度；图片处理=图片跟随故事分段出现；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 spacious，圆角约 10px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "大留白",
+      "内容密度": "低内容密度",
+      "图片处理": "图片跟随故事分段出现",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F7EFE3",
+        "text": "#2D241F",
+        "accent": "#0F766E",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图片跟随故事分段出现"
+      }
+    },
+    "tokenHints": {
+      "background": "#F7EFE3",
+      "text": "#2D241F",
+      "accent": "#0F766E",
+      "radiusPx": 10,
+      "color": {
+        "background": "#F7EFE3",
+        "text": "#2D241F",
+        "accent": "#0F766E",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "10px",
+        "button": "10px",
+        "image": "10px"
+      },
+      "spacing": {
+        "density": "spacious",
+        "label": "大留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "图片跟随故事分段出现"
+      }
+    }
+  },
+  {
+    "id": "experience-map",
+    "type": "visual-variant",
+    "judgmentId": "immersive-scene-driven",
+    "title": "体验地图，路径感清楚",
+    "userLabel": "体验地图，路径感清楚",
+    "plainName": "体验地图，路径感清楚",
+    "summary": "体验地图，路径感清楚：探索、参与、空间感。",
+    "appliesWhen": [
+      "旅游",
+      "空间",
+      "游戏",
+      "艺术展",
+      "体验型活动"
+    ],
+    "avoidWhen": [
+      "低素材",
+      "强工具效率"
+    ],
+    "rationale": "这个变体把视觉判断落成具体颜色、字体、留白、图片处理和组件样式，方便用户预览和后续生成。",
+    "risks": [
+      "当低素材时，这个方向可能不适合。",
+      "当强工具效率时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-variant",
+      "immersive-scene-driven",
+      "探索、参与、空间感",
+      "image-first",
+      "balanced"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/styles.csv",
+      "ux-pro/colors.csv",
+      "ux-pro/typography.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 73,
+    "bestFor": [
+      "旅游",
+      "空间",
+      "游戏",
+      "艺术展",
+      "体验型活动"
+    ],
+    "feeling": "探索、参与、空间感",
+    "color": "背景 #F8FAFC，正文 #1E293B，强调色 #2563EB。",
+    "font": "标题有明确性格，但正文保持舒适易读。",
+    "layout": "视觉只负责表达已选页面架构，不改变首屏重心和模块顺序。",
+    "radius": "小圆角",
+    "imagery": "用路径/地图式区块表达体验",
+    "reason": "适合体验、旅行、空间和活动，用场景先把用户带进去。",
+    "risk": "如果素材不够具体，会变成普通氛围页。",
+    "previewRules": {
+      "background": "#F8FAFC",
+      "text": "#1E293B",
+      "accent": "#2563EB",
+      "density": "balanced",
+      "hero": "image-first",
+      "imageTreatment": "map-sections",
+      "radiusPx": 8,
+      "cardStyle": "soft-card",
+      "buttonStyle": "rounded-solid",
+      "typeScale": "expressive",
+      "implicitDecisions": {
+        "留白": "适中留白",
+        "内容密度": "中等内容密度",
+        "图片处理": "用路径/地图式区块表达体验",
+        "卡片样式": "轻边框、柔和小圆角卡片",
+        "阴影层级": "轻柔阴影",
+        "按钮语气": "柔和圆角按钮，主次分明"
+      }
+    },
+    "generationRules": [
+      "整体使用 #F8FAFC 作为主背景，#1E293B 作为正文色，#2563EB 作为主要行动或重点色。",
+      "视觉方案不得改变 selectedInfoArchitecture 规定的首屏重心、模块顺序和页面骨架。",
+      "图片/产品处理方式：用路径/地图式区块表达体验。",
+      "自动补齐视觉细节：留白=适中留白；内容密度=中等内容密度；图片处理=用路径/地图式区块表达体验；卡片样式=轻边框、柔和小圆角卡片；阴影层级=轻柔阴影；按钮语气=柔和圆角按钮，主次分明。",
+      "整体密度为 balanced，圆角约 8px。"
+    ],
+    "forbiddenPatterns": [
+      "无依据改成蓝紫科技渐变",
+      "多个高饱和强调色互相争抢",
+      "忽略用户明确反向要求",
+      "用视觉方案覆盖已选信息组织"
+    ],
+    "requiredElements": [],
+    "previewTemplate": "page-slice-preview",
+    "implicitDecisions": {
+      "留白": "适中留白",
+      "内容密度": "中等内容密度",
+      "图片处理": "用路径/地图式区块表达体验",
+      "卡片样式": "轻边框、柔和小圆角卡片",
+      "阴影层级": "轻柔阴影",
+      "按钮语气": "柔和圆角按钮，主次分明"
+    },
+    "visualTokens": {
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#1E293B",
+        "accent": "#2563EB",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "用路径/地图式区块表达体验"
+      }
+    },
+    "tokenHints": {
+      "background": "#F8FAFC",
+      "text": "#1E293B",
+      "accent": "#2563EB",
+      "radiusPx": 8,
+      "color": {
+        "background": "#F8FAFC",
+        "text": "#1E293B",
+        "accent": "#2563EB",
+        "surface": "#FFFFFF"
+      },
+      "radius": {
+        "card": "8px",
+        "button": "8px",
+        "image": "8px"
+      },
+      "spacing": {
+        "density": "balanced",
+        "label": "适中留白"
+      },
+      "card": {
+        "style": "轻边框、柔和小圆角卡片",
+        "shadow": "轻柔阴影"
+      },
+      "button": {
+        "tone": "柔和圆角按钮，主次分明"
+      },
+      "image": {
+        "treatment": "用路径/地图式区块表达体验"
+      }
+    }
+  }
+]

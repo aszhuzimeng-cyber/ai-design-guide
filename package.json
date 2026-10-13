@@ -1,0 +1,30 @@
+{
+  "name": "design-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:lan": "vite --host 0.0.0.0",
+    "lan:firewall": "powershell -ExecutionPolicy Bypass -File scripts/allow-lan-firewall.ps1",
+    "dev:force": "vite --host 127.0.0.1 --force",
+    "build": "tsc -b && vite build",
+    "eval:info-presets": "node scripts/run-info-preset-evals.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "mastergo:import": "node scripts/mastergo-import-to-canvas.mjs --latest"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.20",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.5.0",
+    "playwright": "^1.60.0",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.19"
+  }
+}

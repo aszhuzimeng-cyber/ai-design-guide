@@ -1,0 +1,366 @@
+[
+  {
+    "id": "decision-before-decoration",
+    "type": "principle",
+    "title": "先帮用户做判断，再考虑风格",
+    "userLabel": "先判断，再设计",
+    "summary": "页面首先要帮助用户判断是否相关、是否可信、是否值得继续，而不是先追求视觉炫技。",
+    "appliesWhen": [
+      "任何网页、落地页、插件页、生成页"
+    ],
+    "avoidWhen": [
+      "用户明确要求做纯视觉实验或艺术海报"
+    ],
+    "rationale": "新手用户很容易被风格词带偏；先明确判断对象和页面任务，才能生成真正有用的结构与视觉。",
+    "risks": [
+      "如果只追求好看，页面可能无法解释价值或推动行动。"
+    ],
+    "tags": [
+      "core",
+      "intent",
+      "judgment"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 100
+  },
+  {
+    "id": "visual-serves-need",
+    "type": "principle",
+    "title": "视觉服务需求，不服务炫技",
+    "userLabel": "视觉要有用",
+    "summary": "颜色、字体、动效和图片都必须支持页面任务、说服机制和内容资产。",
+    "appliesWhen": [
+      "推荐视觉方案",
+      "生成页面",
+      "做 MasterGo 画布输出"
+    ],
+    "avoidWhen": [
+      "品牌本身要求强实验视觉且已提供明确方向"
+    ],
+    "rationale": "视觉是信息判断的语言，不是装饰层。没有依据的视觉会让 AI 生成看似高级但不解决问题的页面。",
+    "risks": [
+      "过度炫技会稀释信息层级，降低信任或转化。"
+    ],
+    "tags": [
+      "core",
+      "visual",
+      "anti-decoration"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 100
+  },
+  {
+    "id": "plain-language-for-beginners",
+    "type": "principle",
+    "title": "给新手看具体选择，不给术语面板",
+    "userLabel": "用人话解释",
+    "summary": "用户可以看到具体颜色、字体、布局和风险，但不应被信息架构、视觉语法、品牌系统等术语压住。",
+    "appliesWhen": [
+      "展示三问选项",
+      "展示信息方案",
+      "展示视觉方案"
+    ],
+    "avoidWhen": [
+      "面向专业设计团队的内部调试界面"
+    ],
+    "rationale": "目标用户能感知好不好看，但往往说不清为什么；产品应把复杂判断留在后台。",
+    "risks": [
+      "术语过多会让用户感觉自己在被教育，降低选择信心。"
+    ],
+    "tags": [
+      "core",
+      "copy",
+      "beginner"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 100
+  },
+  {
+    "id": "short-clear-reasons",
+    "type": "principle",
+    "title": "理由短，但必须清楚",
+    "userLabel": "短理由，讲清楚",
+    "summary": "每个推荐都要说明依据、解决的问题和风险，但不要写成咨询腔长段落。",
+    "appliesWhen": [
+      "所有推荐卡片",
+      "AI 输出文案"
+    ],
+    "avoidWhen": [
+      "用户要求深入分析报告"
+    ],
+    "rationale": "新手需要知道为什么，但不需要大量理论。短理由能帮助比较，不打断流程。",
+    "risks": [
+      "理由过长会让选项难比较；理由过短会变成黑箱。"
+    ],
+    "tags": [
+      "core",
+      "explainability"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 98
+  },
+  {
+    "id": "options-must-differ",
+    "type": "principle",
+    "title": "方案之间必须真的不同",
+    "userLabel": "选项要有差异",
+    "summary": "多个方案应代表不同页面策略或视觉策略，而不是同一结构换标题。",
+    "appliesWhen": [
+      "生成 2-3 个方案"
+    ],
+    "avoidWhen": [
+      "用户只要求一个确定方向"
+    ],
+    "rationale": "用户选择的价值来自策略差异；假差异会让用户以为自己做了选择，实际仍是模板。",
+    "risks": [
+      "多个方案过于相似会削弱产品可信度。"
+    ],
+    "tags": [
+      "core",
+      "option-quality"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 96
+  },
+  {
+    "id": "risk-is-part-of-recommendation",
+    "type": "principle",
+    "title": "风险是推荐的一部分",
+    "userLabel": "告诉我可能不适合哪里",
+    "summary": "每个推荐都要告诉用户什么情况下不适合，尤其是素材不足、目标用户不同或转化压力不同的时候。",
+    "appliesWhen": [
+      "推荐信息方案",
+      "推荐视觉方案"
+    ],
+    "avoidWhen": [
+      "极低风险的微小样式调整"
+    ],
+    "rationale": "新手害怕选错，风险说明能帮助用户更有把握地决定或补充信息。",
+    "risks": [
+      "没有风险说明会让推荐显得过度确定。"
+    ],
+    "tags": [
+      "core",
+      "risk"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 96
+  },
+  {
+    "id": "user-constraints-first",
+    "type": "principle",
+    "title": "用户明确要求高于参考库",
+    "userLabel": "先听用户说的",
+    "summary": "用户明确说不要的东西必须优先排除，不能被行业默认或案例相似度覆盖。",
+    "appliesWhen": [
+      "存在用户偏好、反向约束、禁用风格"
+    ],
+    "avoidWhen": [],
+    "rationale": "参考库是依据，不是命令。用户说“宠物但不要可爱”时，不能因为题材是宠物就推荐可爱风。",
+    "risks": [
+      "忽略用户约束会让 AI 看起来像在套模板。"
+    ],
+    "tags": [
+      "core",
+      "constraints",
+      "conflict"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 100
+  },
+  {
+    "id": "no-brand-imitation",
+    "type": "principle",
+    "title": "抽象案例模式，不复制品牌",
+    "userLabel": "不做品牌仿制",
+    "summary": "design-md 中的品牌案例只能抽象成模式，不能变成“像 Apple/Stripe/Linear”的用户选项。",
+    "appliesWhen": [
+      "使用 design-md 案例材料"
+    ],
+    "avoidWhen": [
+      "用户提供自己的品牌系统并授权沿用"
+    ],
+    "rationale": "品牌案例的价值在于背后的信息组织和视觉逻辑，而不是外观复制。",
+    "risks": [
+      "品牌模仿会带来审美依赖和潜在版权/品牌风险。"
+    ],
+    "tags": [
+      "core",
+      "case-abstraction"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 98
+  },
+  {
+    "id": "ordinary-is-allowed-with-reason",
+    "type": "principle",
+    "title": "常规可以，但要有理由",
+    "userLabel": "常规也要说清楚",
+    "summary": "常规结构或视觉不是错，错的是不知道为什么常规、什么时候应该偏离常规。",
+    "appliesWhen": [
+      "推荐经典落地页结构",
+      "使用常见白底/蓝色/卡片"
+    ],
+    "avoidWhen": [],
+    "rationale": "很多页面确实需要清晰、常规、稳定，但必须和页面任务绑定，而不是默认套用。",
+    "risks": [
+      "无理由的常规会变成模板感。"
+    ],
+    "tags": [
+      "core",
+      "anti-template"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 94
+  },
+  {
+    "id": "assets-affect-strategy",
+    "type": "principle",
+    "title": "素材条件会改变策略",
+    "userLabel": "看你有没有素材",
+    "summary": "有无真实图片、产品截图、案例、评价和数据，会直接影响信息组织与视觉方案。",
+    "appliesWhen": [
+      "选择作品先行",
+      "产品展示",
+      "信任证明",
+      "视觉向往"
+    ],
+    "avoidWhen": [],
+    "rationale": "强推大图或案例而没有素材，会让生成页面空、假或廉价。",
+    "risks": [
+      "忽略素材条件会导致最终效果与选择不一致。"
+    ],
+    "tags": [
+      "core",
+      "assets",
+      "generation"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 94
+  },
+  {
+    "id": "structure-is-information",
+    "type": "principle",
+    "title": "结构本身就是信息",
+    "userLabel": "顺序会表达重点",
+    "summary": "模块顺序、编号、分组、留白和标题都在表达内容关系，不是装饰。",
+    "appliesWhen": [
+      "信息组织",
+      "模块排序",
+      "页面布局"
+    ],
+    "avoidWhen": [],
+    "rationale": "同样的内容顺序不同，说服逻辑完全不同。结构必须服务用户的认知路径。",
+    "risks": [
+      "装饰性结构会造成阅读负担和假层级。"
+    ],
+    "tags": [
+      "core",
+      "information"
+    ],
+    "sourceRefs": [
+      "external/frontend-design-skill",
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 92
+  },
+  {
+    "id": "visual-choice-must-compile",
+    "type": "principle",
+    "title": "视觉选项必须能编译成规则",
+    "userLabel": "选了就要生成得像",
+    "summary": "每个视觉方案都必须有 previewRules 和 generationRules，保证前端能预览，生成能保持一致。",
+    "appliesWhen": [
+      "视觉方案库",
+      "生成 HTML",
+      "MasterGo 输出"
+    ],
+    "avoidWhen": [],
+    "rationale": "只用自然语言描述视觉方向，无法保证预览和最终生成一致。",
+    "risks": [
+      "用户选择 A，预览像 A，生成出来却像 B。"
+    ],
+    "tags": [
+      "core",
+      "preview",
+      "generation"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 98
+  }
+]

@@ -1,0 +1,994 @@
+[
+  {
+    "id": "module-首屏定位",
+    "type": "content-module",
+    "title": "首屏定位",
+    "userLabel": "首屏定位",
+    "summary": "首屏定位模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "首屏定位"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-核心方案",
+    "type": "content-module",
+    "title": "核心方案",
+    "userLabel": "核心方案",
+    "summary": "核心方案模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "核心方案"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-主行动",
+    "type": "content-module",
+    "title": "主行动",
+    "userLabel": "主行动",
+    "summary": "主行动模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "主行动"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-代表作品",
+    "type": "content-module",
+    "title": "代表作品",
+    "userLabel": "代表作品",
+    "summary": "代表作品模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "代表作品"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-作品分类",
+    "type": "content-module",
+    "title": "作品分类",
+    "userLabel": "作品分类",
+    "summary": "作品分类模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "作品分类"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-产品截图",
+    "type": "content-module",
+    "title": "产品截图",
+    "userLabel": "产品截图",
+    "summary": "产品截图模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "产品截图"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-互动演示",
+    "type": "content-module",
+    "title": "互动演示",
+    "userLabel": "互动演示",
+    "summary": "互动演示模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "互动演示"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-功能分组",
+    "type": "content-module",
+    "title": "功能分组",
+    "userLabel": "功能分组",
+    "summary": "功能分组模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "功能分组"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-使用场景",
+    "type": "content-module",
+    "title": "使用场景",
+    "userLabel": "使用场景",
+    "summary": "使用场景模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "使用场景"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-服务流程",
+    "type": "content-module",
+    "title": "服务流程",
+    "userLabel": "服务流程",
+    "summary": "服务流程模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "服务流程"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-价格套餐",
+    "type": "content-module",
+    "title": "价格套餐",
+    "userLabel": "价格套餐",
+    "summary": "价格套餐模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "价格套餐"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-权益对比",
+    "type": "content-module",
+    "title": "权益对比",
+    "userLabel": "权益对比",
+    "summary": "权益对比模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "权益对比"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-客户评价",
+    "type": "content-module",
+    "title": "客户评价",
+    "userLabel": "客户评价",
+    "summary": "客户评价模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "客户评价"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-客户标识",
+    "type": "content-module",
+    "title": "客户标识",
+    "userLabel": "客户标识",
+    "summary": "客户标识模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "客户标识"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-案例研究",
+    "type": "content-module",
+    "title": "案例研究",
+    "userLabel": "案例研究",
+    "summary": "案例研究模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "案例研究"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-前后对比",
+    "type": "content-module",
+    "title": "前后对比",
+    "userLabel": "前后对比",
+    "summary": "前后对比模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "前后对比"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-资质证书",
+    "type": "content-module",
+    "title": "资质证书",
+    "userLabel": "资质证书",
+    "summary": "资质证书模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "资质证书"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-安全合规",
+    "type": "content-module",
+    "title": "安全合规",
+    "userLabel": "安全合规",
+    "summary": "安全合规模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "安全合规"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-保障承诺",
+    "type": "content-module",
+    "title": "保障承诺",
+    "userLabel": "保障承诺",
+    "summary": "保障承诺模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "保障承诺"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-常见问题",
+    "type": "content-module",
+    "title": "常见问题",
+    "userLabel": "常见问题",
+    "summary": "常见问题模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "常见问题"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-内容分类",
+    "type": "content-module",
+    "title": "内容分类",
+    "userLabel": "内容分类",
+    "summary": "内容分类模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "内容分类"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-搜索筛选",
+    "type": "content-module",
+    "title": "搜索筛选",
+    "userLabel": "搜索筛选",
+    "summary": "搜索筛选模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "搜索筛选"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-专题集合",
+    "type": "content-module",
+    "title": "专题集合",
+    "userLabel": "专题集合",
+    "summary": "专题集合模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "专题集合"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-订阅入口",
+    "type": "content-module",
+    "title": "订阅入口",
+    "userLabel": "订阅入口",
+    "summary": "订阅入口模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "订阅入口"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-活动议程",
+    "type": "content-module",
+    "title": "活动议程",
+    "userLabel": "活动议程",
+    "summary": "活动议程模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "活动议程"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-嘉宾介绍",
+    "type": "content-module",
+    "title": "嘉宾介绍",
+    "userLabel": "嘉宾介绍",
+    "summary": "嘉宾介绍模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "嘉宾介绍"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-报名表单",
+    "type": "content-module",
+    "title": "报名表单",
+    "userLabel": "报名表单",
+    "summary": "报名表单模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "报名表单"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-联系方式",
+    "type": "content-module",
+    "title": "联系方式",
+    "userLabel": "联系方式",
+    "summary": "联系方式模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "联系方式"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-结果预览",
+    "type": "content-module",
+    "title": "结果预览",
+    "userLabel": "结果预览",
+    "summary": "结果预览模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "结果预览"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-历史记录",
+    "type": "content-module",
+    "title": "历史记录",
+    "userLabel": "历史记录",
+    "summary": "历史记录模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "历史记录"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-保存导出",
+    "type": "content-module",
+    "title": "保存导出",
+    "userLabel": "保存导出",
+    "summary": "保存导出模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "保存导出"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  },
+  {
+    "id": "module-空状态",
+    "type": "content-module",
+    "title": "空状态",
+    "userLabel": "空状态",
+    "summary": "空状态模块用于支撑页面的信息组织和说服路径。",
+    "appliesWhen": [
+      "根据页面任务和说服机制选择"
+    ],
+    "avoidWhen": [
+      "与当前页面任务无关或缺少真实内容"
+    ],
+    "rationale": "内容模块要服务用户的下一步判断，而不是为了填满页面。",
+    "risks": [
+      "模块没有真实内容时会显得模板化。"
+    ],
+    "tags": [
+      "content-module",
+      "空状态"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 70
+  }
+]

@@ -1,0 +1,294 @@
+[
+  {
+    "id": "work-proof",
+    "type": "persuasion-mechanism",
+    "title": "作品说服",
+    "userLabel": "作品说服",
+    "summary": "用真实作品、案例、产品图或空间图让用户先判断审美和能力。",
+    "appliesWhen": [
+      "视觉资产强",
+      "审美优先",
+      "作品本身最能说明问题"
+    ],
+    "avoidWhen": [
+      "素材弱",
+      "用户更关心合规/价格"
+    ],
+    "rationale": "用真实作品、案例、产品图或空间图让用户先判断审美和能力。",
+    "risks": [
+      "如果证明材料不足，需要降低该机制权重或换用其他说服方式。"
+    ],
+    "tags": [
+      "persuasion",
+      "work-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 90
+  },
+  {
+    "id": "product-proof",
+    "type": "persuasion-mechanism",
+    "title": "产品说服",
+    "userLabel": "产品说服",
+    "summary": "用界面、demo、功能路径或交互预览解释产品怎么工作。",
+    "appliesWhen": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件",
+      "平台"
+    ],
+    "avoidWhen": [
+      "没有产品截图",
+      "功能还不稳定"
+    ],
+    "rationale": "用界面、demo、功能路径或交互预览解释产品怎么工作。",
+    "risks": [
+      "如果证明材料不足，需要降低该机制权重或换用其他说服方式。"
+    ],
+    "tags": [
+      "persuasion",
+      "product-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 89
+  },
+  {
+    "id": "result-proof",
+    "type": "persuasion-mechanism",
+    "title": "结果说服",
+    "userLabel": "结果说服",
+    "summary": "用数据、前后对比、案例结果和客户收益建立信心。",
+    "appliesWhen": [
+      "效果可量化",
+      "用户关心投入产出"
+    ],
+    "avoidWhen": [
+      "没有真实数据",
+      "结果不可验证"
+    ],
+    "rationale": "用数据、前后对比、案例结果和客户收益建立信心。",
+    "risks": [
+      "如果证明材料不足，需要降低该机制权重或换用其他说服方式。"
+    ],
+    "tags": [
+      "persuasion",
+      "result-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88
+  },
+  {
+    "id": "trust-proof",
+    "type": "persuasion-mechanism",
+    "title": "信任说服",
+    "userLabel": "信任说服",
+    "summary": "用资质、流程、评价、合规、客户 Logo 和保障降低风险。",
+    "appliesWhen": [
+      "高风险",
+      "高客单价",
+      "长期合作"
+    ],
+    "avoidWhen": [
+      "低风险娱乐",
+      "用户只想快速体验"
+    ],
+    "rationale": "用资质、流程、评价、合规、客户 Logo 和保障降低风险。",
+    "risks": [
+      "如果证明材料不足，需要降低该机制权重或换用其他说服方式。"
+    ],
+    "tags": [
+      "persuasion",
+      "trust-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 87
+  },
+  {
+    "id": "experience-proof",
+    "type": "persuasion-mechanism",
+    "title": "体验说服",
+    "userLabel": "体验说服",
+    "summary": "通过试用、样例、互动、生成预览降低行动门槛。",
+    "appliesWhen": [
+      "工具",
+      "软件",
+      "AI 服务",
+      "自助产品"
+    ],
+    "avoidWhen": [
+      "需要人工交付",
+      "体验不稳定"
+    ],
+    "rationale": "通过试用、样例、互动、生成预览降低行动门槛。",
+    "risks": [
+      "如果证明材料不足，需要降低该机制权重或换用其他说服方式。"
+    ],
+    "tags": [
+      "persuasion",
+      "experience-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 86
+  },
+  {
+    "id": "emotion-proof",
+    "type": "persuasion-mechanism",
+    "title": "情绪说服",
+    "userLabel": "情绪说服",
+    "summary": "通过生活方式、身份感、氛围和向往感促进行动。",
+    "appliesWhen": [
+      "生活方式",
+      "旅游",
+      "美食",
+      "艺术",
+      "高端服务"
+    ],
+    "avoidWhen": [
+      "高信任采购",
+      "严肃合规场景"
+    ],
+    "rationale": "通过生活方式、身份感、氛围和向往感促进行动。",
+    "risks": [
+      "如果证明材料不足，需要降低该机制权重或换用其他说服方式。"
+    ],
+    "tags": [
+      "persuasion",
+      "emotion-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 85
+  },
+  {
+    "id": "efficiency-proof",
+    "type": "persuasion-mechanism",
+    "title": "效率说服",
+    "userLabel": "效率说服",
+    "summary": "强调更快、更省事、更自动化、更少摩擦。",
+    "appliesWhen": [
+      "效率工具",
+      "B2B",
+      "生产力",
+      "后台"
+    ],
+    "avoidWhen": [
+      "用户先关心审美或情绪价值"
+    ],
+    "rationale": "强调更快、更省事、更自动化、更少摩擦。",
+    "risks": [
+      "如果证明材料不足，需要降低该机制权重或换用其他说服方式。"
+    ],
+    "tags": [
+      "persuasion",
+      "efficiency-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 84
+  },
+  {
+    "id": "expertise-proof",
+    "type": "persuasion-mechanism",
+    "title": "专业说服",
+    "userLabel": "专业说服",
+    "summary": "用方法论、团队背景、技术细节、流程和文档建立可靠性。",
+    "appliesWhen": [
+      "咨询",
+      "技术服务",
+      "教育",
+      "复杂服务"
+    ],
+    "avoidWhen": [
+      "用户只需要快速购买"
+    ],
+    "rationale": "用方法论、团队背景、技术细节、流程和文档建立可靠性。",
+    "risks": [
+      "如果证明材料不足，需要降低该机制权重或换用其他说服方式。"
+    ],
+    "tags": [
+      "persuasion",
+      "expertise-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 83
+  }
+]

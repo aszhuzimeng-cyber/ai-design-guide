@@ -1,0 +1,866 @@
+[
+  {
+    "id": "compose-info-work-first-service",
+    "type": "option-composition-rule",
+    "title": "info-work-first-service 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "作品先行的信息结构需要让图片成为第一判断，工具工作台或数据密集视觉会冲突。",
+    "appliesWhen": [
+      "info-work-first-service"
+    ],
+    "avoidWhen": [
+      "visual-dense-workbench-light",
+      "visual-dark-ops-dashboard",
+      "visual-plugin-compact-panel"
+    ],
+    "rationale": "作品先行的信息结构需要让图片成为第一判断，工具工作台或数据密集视觉会冲突。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-work-first-service"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 90,
+    "infoPresetId": "info-work-first-service",
+    "recommendedVisualPresets": [
+      "visual-clean-white-gallery",
+      "visual-warm-soft-gallery",
+      "visual-editorial-portfolio-grid",
+      "visual-dark-gallery-spotlight"
+    ],
+    "avoidVisualPresets": [
+      "visual-dense-workbench-light",
+      "visual-dark-ops-dashboard",
+      "visual-plugin-compact-panel"
+    ],
+    "reason": "作品先行的信息结构需要让图片成为第一判断，工具工作台或数据密集视觉会冲突。"
+  },
+  {
+    "id": "compose-info-trust-first-service",
+    "type": "option-composition-rule",
+    "title": "info-trust-first-service 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "信任优先需要稳定和证明，过度活动化或强记忆点会削弱可靠感。",
+    "appliesWhen": [
+      "info-trust-first-service"
+    ],
+    "avoidWhen": [
+      "visual-bright-event-action",
+      "visual-graphic-poster",
+      "visual-interactive-signature"
+    ],
+    "rationale": "信任优先需要稳定和证明，过度活动化或强记忆点会削弱可靠感。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-trust-first-service"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 89,
+    "infoPresetId": "info-trust-first-service",
+    "recommendedVisualPresets": [
+      "visual-institutional-light",
+      "visual-navy-authority",
+      "visual-calm-human-service"
+    ],
+    "avoidVisualPresets": [
+      "visual-bright-event-action",
+      "visual-graphic-poster",
+      "visual-interactive-signature"
+    ],
+    "reason": "信任优先需要稳定和证明，过度活动化或强记忆点会削弱可靠感。"
+  },
+  {
+    "id": "compose-info-product-demo-first",
+    "type": "option-composition-rule",
+    "title": "info-product-demo-first 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "产品展示要突出界面、demo 或工作流，生活方式和画廊视觉容易偏离产品解释。",
+    "appliesWhen": [
+      "info-product-demo-first"
+    ],
+    "avoidWhen": [
+      "visual-cream-lifestyle",
+      "visual-dark-gallery-spotlight"
+    ],
+    "rationale": "产品展示要突出界面、demo 或工作流，生活方式和画廊视觉容易偏离产品解释。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-product-demo-first"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "infoPresetId": "info-product-demo-first",
+    "recommendedVisualPresets": [
+      "visual-light-product-console",
+      "visual-dark-product-stage",
+      "visual-demo-first-workflow",
+      "visual-structured-tech-light"
+    ],
+    "avoidVisualPresets": [
+      "visual-cream-lifestyle",
+      "visual-dark-gallery-spotlight"
+    ],
+    "reason": "产品展示要突出界面、demo 或工作流，生活方式和画廊视觉容易偏离产品解释。"
+  },
+  {
+    "id": "compose-info-clear-conversion-offer",
+    "type": "option-composition-rule",
+    "title": "info-clear-conversion-offer 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "清晰转化需要行动入口和利益点清楚，过慢叙事或暗场氛围会拖慢行动。",
+    "appliesWhen": [
+      "info-clear-conversion-offer"
+    ],
+    "avoidWhen": [
+      "visual-broadsheet-editorial",
+      "visual-cinematic-black"
+    ],
+    "rationale": "清晰转化需要行动入口和利益点清楚，过慢叙事或暗场氛围会拖慢行动。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-clear-conversion-offer"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 87,
+    "infoPresetId": "info-clear-conversion-offer",
+    "recommendedVisualPresets": [
+      "visual-bright-event-action",
+      "visual-consumer-offer-clean",
+      "visual-soft-onboarding"
+    ],
+    "avoidVisualPresets": [
+      "visual-broadsheet-editorial",
+      "visual-cinematic-black"
+    ],
+    "reason": "清晰转化需要行动入口和利益点清楚，过慢叙事或暗场氛围会拖慢行动。"
+  },
+  {
+    "id": "compose-info-editorial-thesis",
+    "type": "option-composition-rule",
+    "title": "info-editorial-thesis 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "叙事编辑需要阅读节奏，工具密度和强转化视觉会打断阅读。",
+    "appliesWhen": [
+      "info-editorial-thesis"
+    ],
+    "avoidWhen": [
+      "visual-dense-workbench-light",
+      "visual-bright-event-action"
+    ],
+    "rationale": "叙事编辑需要阅读节奏，工具密度和强转化视觉会打断阅读。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-editorial-thesis"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 86,
+    "infoPresetId": "info-editorial-thesis",
+    "recommendedVisualPresets": [
+      "visual-broadsheet-editorial",
+      "visual-longform-calm",
+      "visual-visual-essay"
+    ],
+    "avoidVisualPresets": [
+      "visual-dense-workbench-light",
+      "visual-bright-event-action"
+    ],
+    "reason": "叙事编辑需要阅读节奏，工具密度和强转化视觉会打断阅读。"
+  },
+  {
+    "id": "compose-info-content-hub-explore",
+    "type": "option-composition-rule",
+    "title": "info-content-hub-explore 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "内容入口需要分类、卡片和可读性，过强沉浸视觉会影响查找。",
+    "appliesWhen": [
+      "info-content-hub-explore"
+    ],
+    "avoidWhen": [
+      "visual-dark-gallery-spotlight",
+      "visual-full-bleed-scene"
+    ],
+    "rationale": "内容入口需要分类、卡片和可读性，过强沉浸视觉会影响查找。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-content-hub-explore"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 85,
+    "infoPresetId": "info-content-hub-explore",
+    "recommendedVisualPresets": [
+      "visual-broadsheet-editorial",
+      "visual-visual-essay",
+      "visual-education-clear"
+    ],
+    "avoidVisualPresets": [
+      "visual-dark-gallery-spotlight",
+      "visual-full-bleed-scene"
+    ],
+    "reason": "内容入口需要分类、卡片和可读性，过强沉浸视觉会影响查找。"
+  },
+  {
+    "id": "compose-info-tool-operate-preview",
+    "type": "option-composition-rule",
+    "title": "info-tool-operate-preview 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "工具操作需要控件、状态和结果预览稳定，氛围型视觉会干扰效率。",
+    "appliesWhen": [
+      "info-tool-operate-preview"
+    ],
+    "avoidWhen": [
+      "visual-cream-lifestyle",
+      "visual-cinematic-black"
+    ],
+    "rationale": "工具操作需要控件、状态和结果预览稳定，氛围型视觉会干扰效率。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-tool-operate-preview"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 84,
+    "infoPresetId": "info-tool-operate-preview",
+    "recommendedVisualPresets": [
+      "visual-dense-workbench-light",
+      "visual-plugin-compact-panel",
+      "visual-demo-first-workflow",
+      "visual-dark-ops-dashboard"
+    ],
+    "avoidVisualPresets": [
+      "visual-cream-lifestyle",
+      "visual-cinematic-black"
+    ],
+    "reason": "工具操作需要控件、状态和结果预览稳定，氛围型视觉会干扰效率。"
+  },
+  {
+    "id": "compose-info-compare-packages",
+    "type": "option-composition-rule",
+    "title": "info-compare-packages 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "比较决策需要表格、卡片和层级清楚，不适合过强沉浸或画廊视觉。",
+    "appliesWhen": [
+      "info-compare-packages"
+    ],
+    "avoidWhen": [
+      "visual-full-bleed-scene",
+      "visual-dark-gallery-spotlight"
+    ],
+    "rationale": "比较决策需要表格、卡片和层级清楚，不适合过强沉浸或画廊视觉。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-compare-packages"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 83,
+    "infoPresetId": "info-compare-packages",
+    "recommendedVisualPresets": [
+      "visual-institutional-light",
+      "visual-consumer-offer-clean",
+      "visual-course-launch"
+    ],
+    "avoidVisualPresets": [
+      "visual-full-bleed-scene",
+      "visual-dark-gallery-spotlight"
+    ],
+    "reason": "比较决策需要表格、卡片和层级清楚，不适合过强沉浸或画廊视觉。"
+  },
+  {
+    "id": "compose-info-event-participation",
+    "type": "option-composition-rule",
+    "title": "info-event-participation 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "活动页面需要亮点和报名路径明确，工作台视觉会显得不合语境。",
+    "appliesWhen": [
+      "info-event-participation"
+    ],
+    "avoidWhen": [
+      "visual-dense-workbench-light"
+    ],
+    "rationale": "活动页面需要亮点和报名路径明确，工作台视觉会显得不合语境。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-event-participation"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 82,
+    "infoPresetId": "info-event-participation",
+    "recommendedVisualPresets": [
+      "visual-bright-event-action",
+      "visual-course-launch",
+      "visual-community-warm",
+      "visual-graphic-poster"
+    ],
+    "avoidVisualPresets": [
+      "visual-dense-workbench-light"
+    ],
+    "reason": "活动页面需要亮点和报名路径明确，工作台视觉会显得不合语境。"
+  },
+  {
+    "id": "compose-info-price-package-clarity",
+    "type": "option-composition-rule",
+    "title": "info-price-package-clarity 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "价格套餐需要权益和限制清楚，沉浸氛围会遮住决策信息。",
+    "appliesWhen": [
+      "info-price-package-clarity"
+    ],
+    "avoidWhen": [
+      "visual-full-bleed-scene",
+      "visual-cinematic-black"
+    ],
+    "rationale": "价格套餐需要权益和限制清楚，沉浸氛围会遮住决策信息。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-price-package-clarity"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 81,
+    "infoPresetId": "info-price-package-clarity",
+    "recommendedVisualPresets": [
+      "visual-consumer-offer-clean",
+      "visual-course-launch",
+      "visual-institutional-light"
+    ],
+    "avoidVisualPresets": [
+      "visual-full-bleed-scene",
+      "visual-cinematic-black"
+    ],
+    "reason": "价格套餐需要权益和限制清楚，沉浸氛围会遮住决策信息。"
+  },
+  {
+    "id": "compose-info-work-first-story-gallery",
+    "type": "option-composition-rule",
+    "title": "info-work-first-story-gallery 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "案例叙事先行仍需要图片承托，工作台视觉会破坏故事节奏。",
+    "appliesWhen": [
+      "info-work-first-story-gallery"
+    ],
+    "avoidWhen": [
+      "visual-dense-workbench-light",
+      "visual-dark-ops-dashboard"
+    ],
+    "rationale": "案例叙事先行仍需要图片承托，工作台视觉会破坏故事节奏。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-work-first-story-gallery"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 80,
+    "infoPresetId": "info-work-first-story-gallery",
+    "recommendedVisualPresets": [
+      "visual-clean-white-gallery",
+      "visual-warm-soft-gallery",
+      "visual-editorial-portfolio-grid"
+    ],
+    "avoidVisualPresets": [
+      "visual-dense-workbench-light",
+      "visual-dark-ops-dashboard"
+    ],
+    "reason": "案例叙事先行仍需要图片承托，工作台视觉会破坏故事节奏。"
+  },
+  {
+    "id": "compose-info-trust-first-cases-before-proof",
+    "type": "option-composition-rule",
+    "title": "info-trust-first-cases-before-proof 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "案例先行仍属信任路径，需要稳定克制，不宜强促销视觉。",
+    "appliesWhen": [
+      "info-trust-first-cases-before-proof"
+    ],
+    "avoidWhen": [
+      "visual-bright-event-action",
+      "visual-graphic-poster"
+    ],
+    "rationale": "案例先行仍属信任路径，需要稳定克制，不宜强促销视觉。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-trust-first-cases-before-proof"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 79,
+    "infoPresetId": "info-trust-first-cases-before-proof",
+    "recommendedVisualPresets": [
+      "visual-institutional-light",
+      "visual-calm-human-service",
+      "visual-navy-authority"
+    ],
+    "avoidVisualPresets": [
+      "visual-bright-event-action",
+      "visual-graphic-poster"
+    ],
+    "reason": "案例先行仍属信任路径，需要稳定克制，不宜强促销视觉。"
+  },
+  {
+    "id": "compose-info-product-demo-problem-solution",
+    "type": "option-composition-rule",
+    "title": "info-product-demo-problem-solution 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "问题驱动演示仍需界面和工作流清楚，氛围型视觉会冲淡逻辑。",
+    "appliesWhen": [
+      "info-product-demo-problem-solution"
+    ],
+    "avoidWhen": [
+      "visual-cream-lifestyle",
+      "visual-dark-gallery-spotlight"
+    ],
+    "rationale": "问题驱动演示仍需界面和工作流清楚，氛围型视觉会冲淡逻辑。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-product-demo-problem-solution"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 78,
+    "infoPresetId": "info-product-demo-problem-solution",
+    "recommendedVisualPresets": [
+      "visual-light-product-console",
+      "visual-demo-first-workflow",
+      "visual-structured-tech-light"
+    ],
+    "avoidVisualPresets": [
+      "visual-cream-lifestyle",
+      "visual-dark-gallery-spotlight"
+    ],
+    "reason": "问题驱动演示仍需界面和工作流清楚，氛围型视觉会冲淡逻辑。"
+  },
+  {
+    "id": "compose-info-clear-conversion-proof-before-offer",
+    "type": "option-composition-rule",
+    "title": "info-clear-conversion-proof-before-offer 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "证明前置转化需要可信与行动平衡，慢叙事视觉会拖慢节奏。",
+    "appliesWhen": [
+      "info-clear-conversion-proof-before-offer"
+    ],
+    "avoidWhen": [
+      "visual-broadsheet-editorial",
+      "visual-cinematic-black"
+    ],
+    "rationale": "证明前置转化需要可信与行动平衡，慢叙事视觉会拖慢节奏。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-clear-conversion-proof-before-offer"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 77,
+    "infoPresetId": "info-clear-conversion-proof-before-offer",
+    "recommendedVisualPresets": [
+      "visual-institutional-light",
+      "visual-consumer-offer-clean",
+      "visual-soft-onboarding"
+    ],
+    "avoidVisualPresets": [
+      "visual-broadsheet-editorial",
+      "visual-cinematic-black"
+    ],
+    "reason": "证明前置转化需要可信与行动平衡，慢叙事视觉会拖慢节奏。"
+  },
+  {
+    "id": "compose-info-editorial-chapter-thread",
+    "type": "option-composition-rule",
+    "title": "info-editorial-chapter-thread 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "章节线索叙事需要阅读节奏，工具密度和强转化会打断阅读。",
+    "appliesWhen": [
+      "info-editorial-chapter-thread"
+    ],
+    "avoidWhen": [
+      "visual-dense-workbench-light",
+      "visual-bright-event-action"
+    ],
+    "rationale": "章节线索叙事需要阅读节奏，工具密度和强转化会打断阅读。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-editorial-chapter-thread"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "infoPresetId": "info-editorial-chapter-thread",
+    "recommendedVisualPresets": [
+      "visual-broadsheet-editorial",
+      "visual-longform-calm",
+      "visual-visual-essay"
+    ],
+    "avoidVisualPresets": [
+      "visual-dense-workbench-light",
+      "visual-bright-event-action"
+    ],
+    "reason": "章节线索叙事需要阅读节奏，工具密度和强转化会打断阅读。"
+  },
+  {
+    "id": "compose-info-content-hub-task-lanes",
+    "type": "option-composition-rule",
+    "title": "info-content-hub-task-lanes 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "任务分栏入口需要清楚车道和卡片，沉浸视觉影响查找。",
+    "appliesWhen": [
+      "info-content-hub-task-lanes"
+    ],
+    "avoidWhen": [
+      "visual-dark-gallery-spotlight",
+      "visual-full-bleed-scene"
+    ],
+    "rationale": "任务分栏入口需要清楚车道和卡片，沉浸视觉影响查找。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-content-hub-task-lanes"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 75,
+    "infoPresetId": "info-content-hub-task-lanes",
+    "recommendedVisualPresets": [
+      "visual-education-clear",
+      "visual-dense-workbench-light",
+      "visual-broadsheet-editorial"
+    ],
+    "avoidVisualPresets": [
+      "visual-dark-gallery-spotlight",
+      "visual-full-bleed-scene"
+    ],
+    "reason": "任务分栏入口需要清楚车道和卡片，沉浸视觉影响查找。"
+  },
+  {
+    "id": "compose-info-tool-operate-guided-walkthrough",
+    "type": "option-composition-rule",
+    "title": "info-tool-operate-guided-walkthrough 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "引导式工具需要步骤与面板清楚，氛围视觉干扰操作。",
+    "appliesWhen": [
+      "info-tool-operate-guided-walkthrough"
+    ],
+    "avoidWhen": [
+      "visual-cream-lifestyle",
+      "visual-cinematic-black"
+    ],
+    "rationale": "引导式工具需要步骤与面板清楚，氛围视觉干扰操作。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-tool-operate-guided-walkthrough"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 74,
+    "infoPresetId": "info-tool-operate-guided-walkthrough",
+    "recommendedVisualPresets": [
+      "visual-soft-onboarding",
+      "visual-dense-workbench-light",
+      "visual-plugin-compact-panel"
+    ],
+    "avoidVisualPresets": [
+      "visual-cream-lifestyle",
+      "visual-cinematic-black"
+    ],
+    "reason": "引导式工具需要步骤与面板清楚，氛围视觉干扰操作。"
+  },
+  {
+    "id": "compose-info-compare-scenario-matrix",
+    "type": "option-composition-rule",
+    "title": "info-compare-scenario-matrix 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "场景矩阵需要表格层级清楚，沉浸或画廊视觉不利对照。",
+    "appliesWhen": [
+      "info-compare-scenario-matrix"
+    ],
+    "avoidWhen": [
+      "visual-full-bleed-scene",
+      "visual-dark-gallery-spotlight"
+    ],
+    "rationale": "场景矩阵需要表格层级清楚，沉浸或画廊视觉不利对照。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-compare-scenario-matrix"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 73,
+    "infoPresetId": "info-compare-scenario-matrix",
+    "recommendedVisualPresets": [
+      "visual-institutional-light",
+      "visual-structured-tech-light",
+      "visual-consumer-offer-clean"
+    ],
+    "avoidVisualPresets": [
+      "visual-full-bleed-scene",
+      "visual-dark-gallery-spotlight"
+    ],
+    "reason": "场景矩阵需要表格层级清楚，沉浸或画廊视觉不利对照。"
+  },
+  {
+    "id": "compose-info-event-agenda-first",
+    "type": "option-composition-rule",
+    "title": "info-event-agenda-first 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "议程先行活动页需要时间与信息密度清楚，过强工具面板视觉不合语境。",
+    "appliesWhen": [
+      "info-event-agenda-first"
+    ],
+    "avoidWhen": [
+      "visual-plugin-compact-panel"
+    ],
+    "rationale": "议程先行活动页需要时间与信息密度清楚，过强工具面板视觉不合语境。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-event-agenda-first"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 72,
+    "infoPresetId": "info-event-agenda-first",
+    "recommendedVisualPresets": [
+      "visual-bright-event-action",
+      "visual-course-launch",
+      "visual-dense-workbench-light"
+    ],
+    "avoidVisualPresets": [
+      "visual-plugin-compact-panel"
+    ],
+    "reason": "议程先行活动页需要时间与信息密度清楚，过强工具面板视觉不合语境。"
+  },
+  {
+    "id": "compose-info-price-package-value-before-price",
+    "type": "option-composition-rule",
+    "title": "info-price-package-value-before-price 组合规则",
+    "userLabel": "信息方案与视觉方案组合规则",
+    "summary": "价值先行定价仍需权益清楚，沉浸氛围会遮住价值与价格关系。",
+    "appliesWhen": [
+      "info-price-package-value-before-price"
+    ],
+    "avoidWhen": [
+      "visual-full-bleed-scene",
+      "visual-cinematic-black"
+    ],
+    "rationale": "价值先行定价仍需权益清楚，沉浸氛围会遮住价值与价格关系。",
+    "risks": [
+      "如果忽略组合规则，信息结构和视觉方向可能互相打架。"
+    ],
+    "tags": [
+      "option-composition-rule",
+      "info-price-package-value-before-price"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 71,
+    "infoPresetId": "info-price-package-value-before-price",
+    "recommendedVisualPresets": [
+      "visual-institutional-light",
+      "visual-consumer-offer-clean",
+      "visual-course-launch"
+    ],
+    "avoidVisualPresets": [
+      "visual-full-bleed-scene",
+      "visual-cinematic-black"
+    ],
+    "reason": "价值先行定价仍需权益清楚，沉浸氛围会遮住价值与价格关系。"
+  }
+]

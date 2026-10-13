@@ -1,0 +1,503 @@
+[
+  {
+    "id": "decision-user-buyer",
+    "type": "intent-judgment",
+    "dimension": "decisionObject",
+    "title": "购买或预约的人",
+    "userLabel": "准备购买、预约或咨询的人",
+    "summary": "用户已经有行动可能，页面需要降低犹豫并给清楚路径。",
+    "appliesWhen": [
+      "提到预约",
+      "提到购买",
+      "提到咨询",
+      "需要转化"
+    ],
+    "avoidWhen": [
+      "用户只是想做内容展示或长期品牌认知"
+    ],
+    "rationale": "这类人最需要确认值不值得行动，以及行动是否简单可靠。",
+    "risks": [
+      "过度转化会削弱品牌气质或审美判断。"
+    ],
+    "designConsequences": [
+      "CTA 提前",
+      "流程、价格、保障和 FAQ 更重要",
+      "视觉不能过度干扰行动"
+    ],
+    "tags": [
+      "intent",
+      "conversion",
+      "buyer"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 90
+  },
+  {
+    "id": "decision-user-comparer",
+    "type": "intent-judgment",
+    "dimension": "decisionObject",
+    "title": "正在比较的人",
+    "userLabel": "正在比较不同选择的人",
+    "summary": "用户需要快速看出差异、优势、风险和是否适合自己。",
+    "appliesWhen": [
+      "提到比较",
+      "提到选择",
+      "竞争明显",
+      "服务/产品同质化"
+    ],
+    "avoidWhen": [
+      "用户目标非常明确，只差行动"
+    ],
+    "rationale": "比较型用户会跳读，页面需要明确差异点和证明材料。",
+    "risks": [
+      "如果只讲自己，不回应比较，会显得空。"
+    ],
+    "designConsequences": [
+      "对比模块、案例、评价、FAQ 前置",
+      "标题要明确差异",
+      "视觉要帮助扫读"
+    ],
+    "tags": [
+      "intent",
+      "comparison"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 88
+  },
+  {
+    "id": "decision-user-trust-sensitive",
+    "type": "intent-judgment",
+    "dimension": "decisionObject",
+    "title": "需要先确认可信的人",
+    "userLabel": "需要先确认靠不靠谱的人",
+    "summary": "用户担心风险、成本、安全、专业度或交付质量。",
+    "appliesWhen": [
+      "高客单价",
+      "医疗/金融/教育/法律/咨询",
+      "B2B",
+      "数据安全",
+      "长期合作"
+    ],
+    "avoidWhen": [
+      "低风险娱乐或轻量活动"
+    ],
+    "rationale": "高风险决策需要先降低不确定性，再谈价值和行动。",
+    "risks": [
+      "证明过多但价值不清，会变得沉重。"
+    ],
+    "designConsequences": [
+      "资质、流程、案例、保障前置",
+      "视觉克制稳定",
+      "减少夸张促销"
+    ],
+    "tags": [
+      "intent",
+      "trust",
+      "risk"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/ui-reasoning"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 92
+  },
+  {
+    "id": "decision-user-aesthetic-first",
+    "type": "intent-judgment",
+    "dimension": "decisionObject",
+    "title": "先看审美是否匹配的人",
+    "userLabel": "先看风格合不合的人",
+    "summary": "用户会通过作品、图片、场景或产品外观先做直觉判断。",
+    "appliesWhen": [
+      "摄影",
+      "作品集",
+      "空间",
+      "美食",
+      "时尚",
+      "艺术",
+      "设计服务"
+    ],
+    "avoidWhen": [
+      "图片素材不足或用户更关心流程/价格"
+    ],
+    "rationale": "审美型决策必须让用户先看到真实风格，否则再多文案也难说服。",
+    "risks": [
+      "素材弱时，作品先行会暴露短板。"
+    ],
+    "designConsequences": [
+      "大图、精选作品、案例场景前置",
+      "文案克制",
+      "装饰退后"
+    ],
+    "tags": [
+      "intent",
+      "aesthetic",
+      "assets"
+    ],
+    "sourceRefs": [
+      "design-md/apple",
+      "design-md/nike",
+      "design-md/airbnb"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 90
+  },
+  {
+    "id": "page-task-understand-product",
+    "type": "intent-judgment",
+    "dimension": "pageTask",
+    "title": "先看懂产品怎么工作",
+    "userLabel": "先弄明白产品怎么用",
+    "summary": "页面要通过界面、功能路径、demo 或使用场景解释产品价值。",
+    "appliesWhen": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件",
+      "平台",
+      "生成器"
+    ],
+    "avoidWhen": [
+      "没有产品界面或功能还不成熟"
+    ],
+    "rationale": "复杂产品不靠口号说服，需要让用户看见工作方式。",
+    "risks": [
+      "截图质量差或功能过多时，会让页面显得复杂。"
+    ],
+    "designConsequences": [
+      "产品截图/demonstration 前置",
+      "功能按场景分组",
+      "减少抽象插画"
+    ],
+    "tags": [
+      "page-task",
+      "product",
+      "demo"
+    ],
+    "sourceRefs": [
+      "design-md/linear.app",
+      "design-md/vercel",
+      "design-md/stripe"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 90
+  },
+  {
+    "id": "page-task-book-or-contact",
+    "type": "intent-judgment",
+    "dimension": "pageTask",
+    "title": "快速预约或联系",
+    "userLabel": "让用户尽快预约或联系",
+    "summary": "页面要减少决策步骤，突出行动入口、流程和基本信任材料。",
+    "appliesWhen": [
+      "预约",
+      "咨询",
+      "报名",
+      "线索收集",
+      "本地服务"
+    ],
+    "avoidWhen": [
+      "需要长时间教育市场或高复杂产品"
+    ],
+    "rationale": "当目标是行动，页面要让用户知道下一步是什么、成本如何、是否可靠。",
+    "risks": [
+      "过度催促会显得销售感强。"
+    ],
+    "designConsequences": [
+      "CTA 重复出现",
+      "流程/价格/FAQ 简明",
+      "视觉高可读"
+    ],
+    "tags": [
+      "page-task",
+      "conversion",
+      "booking"
+    ],
+    "sourceRefs": [
+      "ux-pro/landing",
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "ux-pro",
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 86
+  },
+  {
+    "id": "page-task-build-brand-impression",
+    "type": "intent-judgment",
+    "dimension": "pageTask",
+    "title": "建立气质和记忆点",
+    "userLabel": "先让用户记住你是什么感觉",
+    "summary": "页面要先建立鲜明但有依据的第一印象，再进入内容或转化。",
+    "appliesWhen": [
+      "品牌官网",
+      "个人品牌",
+      "新消费",
+      "艺术文化",
+      "活动"
+    ],
+    "avoidWhen": [
+      "高风险采购或工具效率场景"
+    ],
+    "rationale": "当用户还不知道为什么要关心你，清晰的气质和记忆点能打开认知入口。",
+    "risks": [
+      "只有气质没有内容，会变成空壳品牌页。"
+    ],
+    "designConsequences": [
+      "首屏 thesis 清楚",
+      "视觉记忆点集中一处",
+      "文案更短更准"
+    ],
+    "tags": [
+      "page-task",
+      "brand",
+      "memory"
+    ],
+    "sourceRefs": [
+      "design-md/nike",
+      "design-md/wired",
+      "external/frontend-design-skill"
+    ],
+    "sourceTypes": [
+      "design-md",
+      "manual-curation"
+    ],
+    "confidence": "medium",
+    "priority": 82
+  },
+  {
+    "id": "page-task-read-or-explore",
+    "type": "intent-judgment",
+    "dimension": "pageTask",
+    "title": "阅读、探索或持续浏览",
+    "userLabel": "让用户愿意继续看内容",
+    "summary": "页面要靠分类、节奏、推荐和阅读体验组织长期内容。",
+    "appliesWhen": [
+      "博客",
+      "媒体",
+      "知识库",
+      "案例库",
+      "资源站",
+      "课程"
+    ],
+    "avoidWhen": [
+      "单一 offer 的短转化页"
+    ],
+    "rationale": "内容型页面的关键不是立即 CTA，而是帮助用户找到下一条有价值内容。",
+    "risks": [
+      "分类不按用户任务组织，会难找。"
+    ],
+    "designConsequences": [
+      "入口、分类、卡片、专题和搜索重要",
+      "视觉服务阅读",
+      "CTA 次要"
+    ],
+    "tags": [
+      "page-task",
+      "content"
+    ],
+    "sourceRefs": [
+      "design-md/wired",
+      "design-md/theverge",
+      "ux-pro/landing"
+    ],
+    "sourceTypes": [
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 84
+  },
+  {
+    "id": "page-task-choose-package",
+    "type": "intent-judgment",
+    "dimension": "pageTask",
+    "title": "比较套餐并做选择",
+    "userLabel": "帮用户看懂该选哪个",
+    "summary": "用户需要理解不同套餐、服务层级或方案差异，并知道哪个最适合自己。",
+    "appliesWhen": [
+      "套餐",
+      "价格",
+      "会员",
+      "订阅",
+      "服务层级",
+      "方案对比"
+    ],
+    "avoidWhen": [
+      "只有一个明确 offer",
+      "价格不能公开"
+    ],
+    "rationale": "当选择成本来自方案差异时，页面要解释每档适合谁，而不是只列价格。",
+    "risks": [
+      "如果对比维度太多，会让用户更难选择。"
+    ],
+    "designConsequences": [
+      "套餐卡片、权益对比、适合人群、FAQ 和保障更重要",
+      "视觉要帮助横向比较"
+    ],
+    "tags": [
+      "page-task",
+      "pricing",
+      "comparison"
+    ],
+    "sourceRefs": [
+      "ux-pro/landing",
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "ux-pro",
+      "internal-principle"
+    ],
+    "confidence": "high",
+    "priority": 83
+  },
+  {
+    "id": "persuasion-work-proof",
+    "type": "intent-judgment",
+    "dimension": "persuasionMechanism",
+    "title": "靠真实作品说服",
+    "userLabel": "让作品自己说话",
+    "summary": "用户通过真实图片、案例或作品判断审美、能力和适配度。",
+    "appliesWhen": [
+      "视觉资产强",
+      "审美判断优先",
+      "作品/产品本身有说服力"
+    ],
+    "avoidWhen": [
+      "素材不足",
+      "用户更关心安全或价格"
+    ],
+    "rationale": "如果作品是第一证据，页面要减少干扰，让作品成为判断中心。",
+    "risks": [
+      "素材质量不稳定会拉低整体感。"
+    ],
+    "designConsequences": [
+      "作品前置",
+      "文案克制",
+      "白底/暗场/展览式变体可选"
+    ],
+    "tags": [
+      "persuasion",
+      "work-proof",
+      "assets"
+    ],
+    "sourceRefs": [
+      "design-md/apple",
+      "design-md/nike"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 90
+  },
+  {
+    "id": "persuasion-trust-proof",
+    "type": "intent-judgment",
+    "dimension": "persuasionMechanism",
+    "title": "靠可信证明说服",
+    "userLabel": "先证明可靠",
+    "summary": "用户需要看到资质、流程、评价、案例、保障或合规信息才能继续。",
+    "appliesWhen": [
+      "高风险",
+      "高客单价",
+      "长期合作",
+      "安全/健康/钱/数据"
+    ],
+    "avoidWhen": [
+      "低风险娱乐或强视觉消费"
+    ],
+    "rationale": "信任证明是降低行动成本的关键，不应藏在页面底部。",
+    "risks": [
+      "证明堆太多会沉重，需要先讲清价值。"
+    ],
+    "designConsequences": [
+      "证明前置",
+      "视觉克制",
+      "行动入口稳定"
+    ],
+    "tags": [
+      "persuasion",
+      "trust"
+    ],
+    "sourceRefs": [
+      "ux-pro/ui-reasoning",
+      "design-md/coinbase",
+      "design-md/cohere"
+    ],
+    "sourceTypes": [
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 92
+  },
+  {
+    "id": "persuasion-experience-sample",
+    "type": "intent-judgment",
+    "dimension": "persuasionMechanism",
+    "title": "靠低门槛体验说服",
+    "userLabel": "先试一下，再决定",
+    "summary": "通过 demo、试用、样例、生成预览或互动降低用户犹豫。",
+    "appliesWhen": [
+      "工具",
+      "AI 产品",
+      "插件",
+      "自助服务",
+      "软件"
+    ],
+    "avoidWhen": [
+      "体验成本高或需要人工交付"
+    ],
+    "rationale": "体验型说服能让用户直接感受到价值，比抽象说明更有力。",
+    "risks": [
+      "体验区不稳定会反向降低信任。"
+    ],
+    "designConsequences": [
+      "Demo/输入框/预览区前置",
+      "降低注册门槛",
+      "反馈状态清楚"
+    ],
+    "tags": [
+      "persuasion",
+      "trial",
+      "product"
+    ],
+    "sourceRefs": [
+      "design-md/vercel",
+      "design-md/raycast",
+      "ux-pro/landing"
+    ],
+    "sourceTypes": [
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88
+  }
+]

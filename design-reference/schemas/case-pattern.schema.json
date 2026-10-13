@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "title",
+    "summary",
+    "appliesWhen",
+    "avoidWhen",
+    "rationale",
+    "risks",
+    "tags",
+    "sourceRefs",
+    "sourceTypes",
+    "confidence",
+    "priority"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "userLabel": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "appliesWhen": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "avoidWhen": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sourceRefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sourceTypes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "priority": {
+      "type": "number"
+    }
+  },
+  "title": "Case Pattern"
+}

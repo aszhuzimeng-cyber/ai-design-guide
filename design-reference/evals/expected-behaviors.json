@@ -1,0 +1,8 @@
+{
+  "optionCount": "每类推荐默认 2-3 个，方案之间必须有明显策略差异。",
+  "planDifferentiation": "三个信息组织方案必须对应不同 archetype 或明显不同的 layoutRhythm / 首屏策略，禁止三张卡仅换措辞。",
+  "distinctnessChecks": "易混淆输入（企业官网 vs B2B 服务、产品演示 vs 可操作工具、套餐对比 vs 单一价格）必须用 evals/prompts.json 中带 minDistinctInfoDirections 的用例回归。",
+  "explanation": "每个方案必须有一句短理由和一句风险。",
+  "userConstraints": "用户明确不要的元素必须进入 negativePreferences 或 forbiddenPatterns。",
+  "visualConsistency": "视觉方案必须能编译为 previewRules 和 generationRules。"
+}

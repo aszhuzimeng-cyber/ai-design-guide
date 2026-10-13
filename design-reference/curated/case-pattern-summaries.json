@@ -1,0 +1,3248 @@
+[
+  {
+    "id": "case-airbnb-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Airbnb is the canonical example of a generous, photography-led consumer marketplace. The base canvas is **pure white** (`` — #ffffff) with deep near-black ink (`` — #222222) for headlines and body, and a single voltage of **Rausch** (`` — #ff385c) carrying every primary CTA, the search-button orb, the heart save state,",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "airbnb",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/airbnb"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-airtable-summary",
+    "type": "case-pattern-summary",
+    "title": "作品/图片先行案例模式",
+    "userLabel": "作品/图片先行案例模式",
+    "summary": "Airtable's marketing surfaces are quietly editorial. The base atmosphere is white canvas, dark ink type, generous whitespace, and a near-black pill CTA — nothing is fighting for attention until a section needs to. The brand voltage doesn't come from gradient washes or accent walls; it comes from **full-bleed signature ",
+    "appliesWhen": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "airtable",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/airtable"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-apple-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Apple's web presence is a masterclass in **reverent product photography framed by near-invisible UI**. Every page is a stack of edge-to-edge product \"tiles\" — alternating light and dark canvases, each centered on a hero headline, a one-line tagline, two tiny blue pill CTAs, and an impossibly crisp product render. Nothi",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "apple",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/apple"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-binance-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Binance reads like a financial trading platform that wants to feel both authoritative and energetic. The base atmosphere is **deep near-black canvas** (`` — #0b0e11) holding white type and a single, ubiquitous accent: **Binance Yellow** (`` — #FCD535). That yellow does almost all of the brand's heavy lifting — it carri",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "binance",
+      "产品展示",
+      "工具/SaaS",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/binance"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-bmw-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "BMW's corporate site carries a far more **measured, corporate-automotive** interface than its motorsport-bombastic cousin BMW M. The atmosphere is light: `` (#ffffff) is the base surface, `` (#fafafa) carries the soft-grey card plates, and dark navy `` (#1a2129) appears only inside hero bands — one per page, framing th",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "bmw",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/bmw"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-bmw-m-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "BMW M's marketing surface is a near-pure black canvas (`` — #000) holding white BMW Type Next Latin headlines in **confident UPPERCASE**. The system has no decorative voltage of its own; brand energy comes from **full-bleed automotive photography** — cars cornering at speed, carbon-fiber wheel detail, driver cockpit sh",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "bmw-m",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/bmw-m"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-bugatti-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Bugatti's marketing surface is the most austere interface in luxury automotive: a near-pure black canvas (`` — #000000) holding white uppercase **letterspaced** display type and full-bleed automotive photography. The system has no accent color, no surface card decoration, no shadows, no gradients, no chrome — only **ph",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "bugatti",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/bugatti"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-cal-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Cal.com's marketing surface is a clean, friendly modern-SaaS interface — white canvas (`` — #ffffff) with black primary CTAs (`` — #111111), custom **Cal Sans** display typography, and `` (#f5f5f5) light-gray cards holding product UI fragments. The system reads as confidently engineered without trying to impress — ever",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "cal",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/cal"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-claude-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Claude.com is the warmest, most editorial interface in the AI-product category. The base atmosphere is a **tinted cream canvas** (`` — #faf9f5) — distinctly warm, deliberately not the cool gray-white that every other AI brand uses. Headlines run a **slab-serif display** (\"Copernicus\" / Tiempos Headline) at weight 400 w",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "claude",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/claude"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-clay-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Clay.com is the most playful B2B SaaS interface in the GTM-data category. The base atmosphere is **cream-tinted white canvas** (`` — #fffaf0) holding dark-navy ink type and **3D-rendered claymation illustrations** (mountains, mascot characters, peach/ochre/lavender landscapes) as the dominant brand voltage. Where most ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "clay",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/clay"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-clickhouse-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "ClickHouse's marketing surface is the highest-contrast interface in the database / data-platform category. The base atmosphere is **near-pure black canvas** (`` — #0a0a0a) with **electric yellow** (`` — #faff69) as the singular brand voltage. The yellow handles every primary CTA, every stat-callout number, every \"GET S",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "clickhouse",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/clickhouse"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-cohere-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Cohere's current web presence feels like a sober enterprise AI command center with editorial restraint. The home page opens on a huge typographic declaration over a white canvas, then uses photography, dark product mockups, trust logos, and generous empty space to make AI infrastructure feel controlled rather than spec",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "cohere",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/cohere"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-coinbase-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Coinbase reads like an institutional financial brand that happens to trade crypto — the marketing surfaces are quiet, white-canvas, editorially-spaced, and almost monochromatic. The single brand voltage is **Coinbase Blue** (`` — #0052ff), used scarcely: every primary CTA pill, the brand wordmark, and inline emphasis l",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "coinbase",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/coinbase"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-composio-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Composio's marketing site reads like a serious developer-infrastructure brand — closer to Vercel or Stripe Docs in atmosphere than to a typical AI-tools startup. The base canvas is a near-black `` (#0f0f0f) holding white type and a single voltage of **deep electric blue** (`` — #0007cd) carrying every primary CTA, bran",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "composio",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/composio"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-cursor-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Cursor's marketing site reads as a quietly-confident developer brand that believes in editorial calm over IDE-darkness. The base canvas is **warm cream** (`` — #f7f7f4) holding warm near-black ink (`` — #26251e) for body and display alike. The single brand voltage is **Cursor Orange** (`` — #f54e00) reserved for primar",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "cursor",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/cursor"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-dell-1996-summary",
+    "type": "case-pattern-summary",
+    "title": "信任优先案例模式",
+    "userLabel": "信任优先案例模式",
+    "summary": "Dell's December 1996 home page is a perfectly preserved fossil of catalog-era enterprise web design — the moment when a Fortune-100 brand decided the web was *important enough* to invest in, but two years before CSS would be widely adopted and three years before \"design system\" was a phrase anyone used. Every visual ch",
+    "appliesWhen": [
+      "信任优先"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "dell-1996",
+      "信任优先",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/dell-1996"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "信任优先"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-elevenlabs-summary",
+    "type": "case-pattern-summary",
+    "title": "作品/图片先行案例模式",
+    "userLabel": "作品/图片先行案例模式",
+    "summary": "ElevenLabs reads like a quietly editorial print maga",
+    "appliesWhen": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "elevenlabs",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/elevenlabs"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-expo-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Expo's marketing site reads like a quietly-confident React-Native developer platform. The base canvas is **pure white** (`` — #ffffff) with a soft **sky-blue gradient atmospheric wash** behind the hero band. Near-black ink `` (#171717) carries body and display alike. The single brand voltage is **pure black** (`` — #00",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "expo",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/expo"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-ferrari-summary",
+    "type": "case-pattern-summary",
+    "title": "作品/图片先行案例模式",
+    "userLabel": "作品/图片先行案例模式",
+    "summary": "Ferrari's marketing site reads as cinematic editorial — closer to a luxury-maga",
+    "appliesWhen": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "ferrari",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/ferrari"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-figma-summary",
+    "type": "case-pattern-summary",
+    "title": "作品/图片先行案例模式",
+    "userLabel": "作品/图片先行案例模式",
+    "summary": "Figma's marketing canvas is, at the system level, an editor-clean black-and-white frame. The chrome — top nav, body type, footer, primary CTA — is monochrome. Headlines are oversi",
+    "appliesWhen": [
+      "作品/图片先行"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "figma",
+      "作品/图片先行",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/figma"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "作品/图片先行"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-framer-summary",
+    "type": "case-pattern-summary",
+    "title": "作品/图片先行案例模式",
+    "userLabel": "作品/图片先行案例模式",
+    "summary": "Framer's marketing canvas is a near-pure black artboard. The dominant surface is `` — almost pure black with a faint warmth — and on top of it sits oversi",
+    "appliesWhen": [
+      "作品/图片先行"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "framer",
+      "作品/图片先行",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/framer"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "作品/图片先行"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-hashicorp-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "HashiCorp's marketing canvas is a near-black ground that serves a multi-product portfolio without ever feeling generic. The dominant surface is `` (pure black) layered with `` charcoal cards and 1px translucent gray hairlines. The chrome is monochrome — white pill-rounded buttons (``), white type, gray secondary type —",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "hashicorp",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/hashicorp"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-hp-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "HP reads like a long-running consumer-electronics catalog crossed with an enterprise-software product page. The whole system sits on **pure white** (`` — `#ffffff`) with thin gray panels (`` / ``) for alternating section bands. There is one chromatic action color — **HP Electric Blue** (`` — `#024ad8`) — and one ink co",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "hp",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/hp"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-ibm-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "IBM's marketing system is a faithful application of **Carbon Design System** — IBM's open-source enterprise design system. The dominant surface is `` pure white with `` light gray for elevation, charcoal `` (#161616) for text, and IBM Blue `` (#0f62fe) as the single brand accent. The defining choice is **flat geometry*",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "ibm",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/ibm"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-intercom-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Intercom's marketing canvas is a soft cream-white ground (`` ≈ #f5f1ec) — not pure white. The warmth is the brand's signal: this is editorial, calm, and product-focused, not bright SaaS. On top of the cream canvas sit white floating cards (``), thin hairline dividers (``), and charcoal type (`` #111111). Display type i",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "intercom",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/intercom"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-kraken-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "kraken",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/kraken"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-lamborghini-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "lamborghini",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/lamborghini"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-linear-app-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Linear's marketing canvas is the deepest dark surface in this collection — `` is #010102, essentially pure black with a faint blue tint. On top sits a four-step surface ladder (`` through ``) for cards, panels, and lifted tiles, with hairline borders running from `` (#23252a) up through `` and ``. Light gray text (`` #",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "linear.app",
+      "产品展示",
+      "工具/SaaS",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/linear.app"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-lovable-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "lovable",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/lovable"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-mastercard-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "mastercard",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/mastercard"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-meta-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Meta's commerce surfaces (homepage, Quest configurator, Ray-Ban product detail, prescription page) read as a confident hardware merchandiser. The brand voice is photography-first: large, full-bleed product imagery dominates above-the-fold real estate, with white space and tight typographic hierarchy carrying the rest. ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "meta",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/meta"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-minimax-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "MiniMax stages itself as a Chinese AI infrastructure brand with a sophisticated dual identity. Marketing surfaces and platform pages anchor in stark white canvas with deep-black typographic emphasis — the brand voice is confident, technical, almost editorial. But each model release gets its own vibrant gradient identit",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "minimax",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/minimax"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-mintlify-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Mintlify positions itself at the intersection of polished marketing presentation and developer-grade documentation density. The home and startups pages open with cinematic atmospheric heroes — soft sky-gradient backdrops with cloud illustrations on the homepage, dark teal-to-mint gradients with a rocket launch on the s",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "mintlify",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/mintlify"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-miro-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Miro positions itself as the AI-powered visual workspace through a confident, slightly playful brand voice. The homepage opens with a stark white canvas anchored by a small canary-yellow Miro wordmark in the top-left, a black-pill primary CTA \"Get started free\" and a secondary \"Book a demo\" outline pill — then dramatic",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "miro",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/miro"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-mistral-ai-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Mistral AI carries itself with a singular, almost cinematographic visual signature — the homepage opens with \"Frontier AI. In your hands.\" rendered in elegant near-serif display type over a photographic mountain landscape bathed in mustard-orange sunset light. Below the hero, every page closes with the same recogni",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "mistral.ai",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/mistral.ai"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-mongodb-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "MongoDB carries a strong dual-mode visual identity — dark deep-teal hero bands with the unmistakable bright MongoDB green () CTA pill paired with stark white documentation and pricing surfaces. The homepage opens with \"One data platform. Unlimited AI potential.\" headline over a deep navy hero, the green pill sitting at",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "mongodb",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/mongodb"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-nike-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Nike's commerce system is built on a single, almost violently simple idea: photography speaks, the chrome doesn't. Every page reads as an athletic editorial — towering uppercase Futura display lockups (``) burned into full-bleed campaign imagery, with everything else (nav, filters, buttons, cards, footer) reduced to ne",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "nike",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/nike"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-nintendo-2001-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Nintendo.com circa 2001 is the web rendered as **console hardware**. Where most sites of the era reached for either grunge texture or corporate gradients, this interface builds itself out of **brushed-periwinkle metal plates** — every region is a discrete beveled panel, edge-lit with a brighter highlight on top and a `",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "nintendo-2001",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/nintendo-2001"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-notion-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Notion presents itself as the all-in-one workspace through a confident, illustration-rich brand voice. The homepage opens with **\"Meet the night shift.\"** rendered centered over a deep navy hero band (), decorated with brand-colored sticky-note dots and mesh wire illustrations scattered around the headline. The signatu",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "notion",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/notion"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-nvidia-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "NVIDIA's marketing system is built like a piece of engineering documentation that learned graphic design — every page is a structured cascade of dense, factual information arranged on a paper-white grid, framed top and bottom by deep black hero/footer chapters. There is exactly one accent color in the entire system, an",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "nvidia",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/nvidia"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-ollama-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Ollama's site is the most aggressively under-designed marketing surface in the AI tooling space, and that is the entire point. The home page reads like a Markdown README rendered with care: a 36px center-aligned heading sits above an inline `curl` install snippet inside a soft-gray pill, a single black \"Download\" CTA, ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "ollama",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/ollama"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-opencode-ai-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "OpenCode's marketing site is rendered entirely in Berkeley Mono — every word on the page, from the 38px hero headline down to the 14px footer fine print, sits in the same monospaced face. The visual identity comes from that single typographic decision: the page reads like a manpage or a static-site README, complete wit",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "opencode.ai",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/opencode.ai"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-pinterest-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Pinterest's marketing system is built around a single instructional principle: get out of the photograph's way. The chrome is a quiet warm-cream neutral palette (``, ``, ``) carrying typography in Pinterest's proprietary Pin Sans face, with Pinterest Red (`` — `#e60023`) reserved exclusively for the \"Sign up\" CTA, the ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "pinterest",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/pinterest"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-playstation-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "PlayStation's marketing system reads like a console launch trailer scrolling past the viewer in chapters. Each section is a full-bleed band — pure black ``, true white ``, or PlayStation Blue `` — and each chapter owns one editorial moment: hero console photography, a games-coming-soon strip, the PlayStation Plus tier ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "playstation",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/playstation"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-posthog-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "PostHog's marketing system is built on the visual contradiction at the heart of the brand: a serious open-source product analytics platform rendered as if it were a friendly engineering sketchbook. The chrome runs on a warm cream canvas (`` — `#eeefe9`) — not white — and every page is dotted with hand-drawn hedgehog ma",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "posthog",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/posthog"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-raycast-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Raycast's marketing site reads like an extended product screenshot. The chrome IS the in-product command palette at marketing scale: pure near-black canvas (`` — `#07080a`), hairline 1px borders (`` — `#242728`), command-palette-style cards with rounded corners between 6 and 16px, Inter typography with the **ss03 styli",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "raycast",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/raycast"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-renault-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Renault's Turkish marketing surfaces are unapologetically high-contrast: a white canvas for browsing, a black canvas for product storytelling, and a single Sunlight Yellow accent (`` — `#ffed00`) reserved for the most consequential actions. The brand's modernised flat diamond logo sets the tone — geometric, confident, ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "renault",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/renault"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-replicate-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Replicate is a developer-tools platform with the soul of an art",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "replicate",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/replicate"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-resend-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Resend looks like a developer tool with the typography of an editorial. Every page opens on `` (`#000000`), and the loudest element on the canvas is not a button or a brand stamp — it's a 96px Domaine Display serif headline (\"Email for developers\", \"Email reimagined\") with the `ss01 / ss04 / ss11` stylistic alternates ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "resend",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/resend"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-revolut-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Revolut's marketing canvas operates in a high-contrast two-mode system: a **near-black storytelling canvas** (`` — `#000000`) that hosts hero bands, product mockups, and the planning section, alternating with **white catalogue bands** (`` — `#ffffff`) that host comparison tables, FAQ rows, and download tiles. The two m",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "revolut",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/revolut"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-runwayml-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "runwayml",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/runwayml"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-sanity-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "sanity",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/sanity"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-sentry-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Sentri's design language reads like a debugging console wearing a leather jacket. The home and product surfaces sit on a near-black violet midnight (`` / ``), strewn with starfield textures and floating sticker-style mascots — astronauts, monsters, traffic cones — that puncture the seriousness of an observability produ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "sentry",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/sentry"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-shopify-summary",
+    "type": "case-pattern-summary",
+    "title": "作品/图片先行案例模式",
+    "userLabel": "作品/图片先行案例模式",
+    "summary": "Shopifi runs two parallel design tracks that share typographic DNA and a single button vocabulary, but diverge in canvas polarity. The marketing track lives on `` (`#000000`) — full-bleed cinematic photography of merchants, giant `` headlines in Neue Haas Grotesk Display set at weight 330 (a thin, almost editorial cut)",
+    "appliesWhen": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "shopify",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/shopify"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-slack-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Slacc's design language centers on a deep aubergine primary (``) — the brand's most enduring visual asset — applied as the dominant button color, the footer band, the featured pricing tier, and the brand wordmark. Around that aubergine the system stages an unusually delicate ecosystem: cream-lavender hero canvases with",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "slack",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/slack"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-spacex-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Spasex's design language is an exercise in negation: pure black canvas, white display type set in tight vertical leading and uppercase, full-bleed photography or autoplaying rocket-launch video as the only chrome. There is no brand color beyond black-and-white; there are no decorative shapes; there are no card grids or",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "spacex",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/spacex"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-spotify-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "spotify",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/spotify"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-starbucks-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "starbucks",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/starbucks"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-stripe-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Stripi's design language opens with the gradient mesh. A wide hori",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "stripe",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/stripe"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-supabase-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Supaba",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "supabase",
+      "产品展示",
+      "工具/SaaS",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/supabase"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-superhuman-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Superhumon's marketing pages open in an editorial dark register: a deep indigo navy `` (`#1b1938`) canvas overlaid with a soft violet-and-sky atmospheric backdrop and a half-bleed portrait subject (often a person looking off-frame, photographed at twilight). Headlines render in `` (Super Sans VF at 64px / weight 540) w",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "superhuman",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/superhuman"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-tesla-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "tesla",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/tesla"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-theverge-summary",
+    "type": "case-pattern-summary",
+    "title": "品牌表达案例模式",
+    "userLabel": "品牌表达案例模式",
+    "summary": "",
+    "appliesWhen": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "theverge",
+      "品牌表达",
+      "视觉参考",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/theverge"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "品牌表达",
+      "视觉参考"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-together-ai-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Together AI is an AI cloud-infrastructure platform — model inference, GPU clusters, fine-tuning, all the plumbing that makes \"the AI native cloud\" deliverable to a developer team — and the brand's web surface signals exactly that posture: a near-black hero on top, a long ribbon of white technical content in the middle,",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "together.ai",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/together.ai"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "信任优先",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-uber-summary",
+    "type": "case-pattern-summary",
+    "title": "作品/图片先行案例模式",
+    "userLabel": "作品/图片先行案例模式",
+    "summary": "Uber is a transportation-and-delivery super-app — ride, eats, freight, the whole urban logistics layer — and the brand's web surface signals that scale through restraint: no third colour, no accent palette, no illustration that fights the headline. The page is structurally a black-and-white duet, where black `` is the ",
+    "appliesWhen": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "uber",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/uber"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-vercel-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Vercel is a developer-platform brand — the page is a deployment dashboard's marketing surface, written for engineers who already know the syntax. It earns that posture with one of the cleanest stark systems on the web: near-white `` body background, ink-near-black `` text, a 200-step gray scale that gives every divider",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "vercel",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/vercel"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-vodafone-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Vodafone is a global telecom super-brand and its web surface delivers exactly that posture: heroic editorial photography, occasionally cropping a portrait so tight only an eye line and a phone hand are visible, with a single colossal uppercase headline floating on top in the brand's proprietary heavy display weight. Th",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "vodafone",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/vodafone"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-voltagent-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Voltagent is an AI agent engineering platform built for developers, and the brand wears that audience proudly: a near-black `` (`#101010`) page background that runs edge-to-edge with no light-mode counterpart, a single electric-green accent (`` `#00d992`) reserved for CTAs, status pills, and the brand lightning glyph, ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "voltagent",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/voltagent"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-warp-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Warp is an \"agentic development environment\" — a terminal application that wraps an AI agent — and its marketing site mirrors the product's posture: a single dark band running the entire page, warmer than pure black (`` `#2b2622` carries a hint of brown-beige from the brand's oklch-defined warmth value), with copy set ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "warp",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/warp"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-webflow-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Webflow positions itself as the visual web development platform — the marketing surface reads as a confident professional product, not a tech startup. The default page is a generous white canvas (``) with a deep near-black `` (`#080808`) for the brand's primary CTA, typography, and ink. Around this restrained primary, ",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "webflow",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/webflow"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-wired-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Wired is the flagship technology-maga",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "wired",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/wired"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-wise-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "Wise — the global money-transfer brand — wears its identity in a single signature pairing: a vivid lime-green `` (`#9fe870`) used as the CTA pill and brand accent, set against a pale sage-tinted canvas `` (`#e8ebe6`) that runs across the hero band, and a near-black ink `` (`#0e0f0c`) with a hint of warmth from the bran",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "wise",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/wise"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-x-ai-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "xAI is Elon Musk's frontier-AI lab and the website wears that posture with engineered restraint: a near-black canvas `` (`#0a0a0a`) edge-to-edge, white outline pills as every interactive element, and a single proprietary geometric sans `Universal Sans` carrying every display headline at weight 400. There is no gradient",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "x.ai",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/x.ai"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  },
+  {
+    "id": "case-zapier-summary",
+    "type": "case-pattern-summary",
+    "title": "产品展示案例模式",
+    "userLabel": "产品展示案例模式",
+    "summary": "### Spacing System - **Base unit**: 4 px. - **Tokens**: `` 2 px · `` 4 px · `` 8 px · `` 12 px · `` 16 px · `` 24 px · `` 32 px · `` 48 px · `` 64 px. - **Section padding**: bands use `` 64 px top/bottom. - **Card interior**: cards at `` 24 px. ### Grid & Container - Marketing container ~1280 px wide; centred with gutt",
+    "appliesWhen": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "avoidWhen": [
+      "不要作为品牌仿制选项直接暴露给用户"
+    ],
+    "rationale": "从 design-md 案例中抽取信息组织、视觉语言和反模式，作为 AI 判断参考。",
+    "risks": [
+      "如果直接模仿品牌外观，会偏离产品原则。"
+    ],
+    "tags": [
+      "case-pattern",
+      "zapier",
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事",
+      "summary-only"
+    ],
+    "sourceRefs": [
+      "design-md/zapier"
+    ],
+    "sourceTypes": [
+      "design-md"
+    ],
+    "confidence": "medium",
+    "priority": 68,
+    "usefulFor": [
+      "产品展示",
+      "工具/SaaS",
+      "作品/图片先行",
+      "编辑叙事"
+    ],
+    "notBrandImitation": true,
+    "userVisible": false
+  }
+]

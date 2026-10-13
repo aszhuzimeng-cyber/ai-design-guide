@@ -1,0 +1,670 @@
+[
+  {
+    "id": "asset-first-restraint",
+    "type": "visual-judgment",
+    "title": "作品主导、文字克制",
+    "userLabel": "作品主导、文字克制",
+    "summary": "让视觉资产成为第一说服力，减少文案和装饰干扰。",
+    "appliesWhen": [
+      "视觉素材强",
+      "用户先判断审美",
+      "作品本身最有说服力"
+    ],
+    "avoidWhen": [
+      "素材质量不足",
+      "用户先关心安全或价格"
+    ],
+    "rationale": "让视觉资产成为第一说服力，减少文案和装饰干扰。",
+    "risks": [
+      "当素材质量不足时，这个方向可能不适合。",
+      "当用户先关心安全或价格时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "视觉素材强",
+      "用户先判断审美",
+      "作品本身最有说服力",
+      "work-first"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 90,
+    "principle": "让视觉资产成为第一说服力，减少文案和装饰干扰。",
+    "relatedInfoArchetypes": [
+      "work-first"
+    ],
+    "supportedPersuasionMechanisms": [
+      "work-proof"
+    ],
+    "variantIds": [
+      "clean-white-gallery",
+      "warm-soft-gallery",
+      "editorial-portfolio-grid"
+    ]
+  },
+  {
+    "id": "product-clarity-interface-first",
+    "type": "visual-judgment",
+    "title": "产品清晰、界面先行",
+    "userLabel": "产品清晰、界面先行",
+    "summary": "让用户通过界面、demo 和工作流看懂产品价值。",
+    "appliesWhen": [
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件"
+    ],
+    "avoidWhen": [
+      "没有产品截图",
+      "功能还不成熟"
+    ],
+    "rationale": "让用户通过界面、demo 和工作流看懂产品价值。",
+    "risks": [
+      "当没有产品截图时，这个方向可能不适合。",
+      "当功能还不成熟时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "SaaS",
+      "工具",
+      "AI 产品",
+      "插件",
+      "product-showcase"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 89,
+    "principle": "让用户通过界面、demo 和工作流看懂产品价值。",
+    "relatedInfoArchetypes": [
+      "product-showcase"
+    ],
+    "supportedPersuasionMechanisms": [
+      "product-proof",
+      "experience-proof"
+    ],
+    "variantIds": [
+      "light-product-console",
+      "dark-product-stage",
+      "demo-first-workflow"
+    ]
+  },
+  {
+    "id": "trust-restraint-proof-first",
+    "type": "visual-judgment",
+    "title": "信任克制、证明前置",
+    "userLabel": "信任克制、证明前置",
+    "summary": "用稳定视觉和明确证明降低风险感。",
+    "appliesWhen": [
+      "高风险",
+      "高客单价",
+      "专业服务"
+    ],
+    "avoidWhen": [
+      "低风险活动",
+      "强娱乐体验"
+    ],
+    "rationale": "用稳定视觉和明确证明降低风险感。",
+    "risks": [
+      "当低风险活动时，这个方向可能不适合。",
+      "当强娱乐体验时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "高风险",
+      "高客单价",
+      "专业服务",
+      "trust-first"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "principle": "用稳定视觉和明确证明降低风险感。",
+    "relatedInfoArchetypes": [
+      "trust-first"
+    ],
+    "supportedPersuasionMechanisms": [
+      "trust-proof",
+      "expertise-proof"
+    ],
+    "variantIds": [
+      "institutional-light",
+      "navy-authority",
+      "calm-human-service"
+    ]
+  },
+  {
+    "id": "editorial-reading-rhythm",
+    "type": "visual-judgment",
+    "title": "编辑叙事、阅读节奏",
+    "userLabel": "编辑叙事、阅读节奏",
+    "summary": "通过版式、段落和图片节奏引导用户理解观点。",
+    "appliesWhen": [
+      "内容",
+      "报告",
+      "媒体",
+      "文化项目"
+    ],
+    "avoidWhen": [
+      "快速购买场景"
+    ],
+    "rationale": "通过版式、段落和图片节奏引导用户理解观点。",
+    "risks": [
+      "当快速购买场景时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "内容",
+      "报告",
+      "媒体",
+      "文化项目",
+      "editorial-story",
+      "content-hub"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 87,
+    "principle": "通过版式、段落和图片节奏引导用户理解观点。",
+    "relatedInfoArchetypes": [
+      "editorial-story",
+      "content-hub"
+    ],
+    "supportedPersuasionMechanisms": [
+      "emotion-proof",
+      "expertise-proof"
+    ],
+    "variantIds": [
+      "broadsheet-editorial",
+      "longform-calm",
+      "visual-essay"
+    ]
+  },
+  {
+    "id": "warm-real-life",
+    "type": "visual-judgment",
+    "title": "温暖生活、真实亲近",
+    "userLabel": "温暖生活、真实亲近",
+    "summary": "用真实场景和柔和视觉降低距离感。",
+    "appliesWhen": [
+      "生活方式",
+      "亲子",
+      "民宿",
+      "美食",
+      "本地服务"
+    ],
+    "avoidWhen": [
+      "需要严肃权威",
+      "高精密工具"
+    ],
+    "rationale": "用真实场景和柔和视觉降低距离感。",
+    "risks": [
+      "当需要严肃权威时，这个方向可能不适合。",
+      "当高精密工具时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "生活方式",
+      "亲子",
+      "民宿",
+      "美食",
+      "本地服务",
+      "work-first",
+      "clear-conversion"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 86,
+    "principle": "用真实场景和柔和视觉降低距离感。",
+    "relatedInfoArchetypes": [
+      "work-first",
+      "clear-conversion"
+    ],
+    "supportedPersuasionMechanisms": [
+      "emotion-proof",
+      "trust-proof"
+    ],
+    "variantIds": [
+      "cream-lifestyle",
+      "natural-green-service",
+      "human-story-cards"
+    ]
+  },
+  {
+    "id": "dark-gallery-premium",
+    "type": "visual-judgment",
+    "title": "暗场精品、聚光展示",
+    "userLabel": "暗场精品、聚光展示",
+    "summary": "用暗色场景和聚光式构图营造沉浸与精品感。",
+    "appliesWhen": [
+      "艺术",
+      "珠宝",
+      "夜间氛围",
+      "高品质作品"
+    ],
+    "avoidWhen": [
+      "亲和服务",
+      "信息密度高"
+    ],
+    "rationale": "用暗色场景和聚光式构图营造沉浸与精品感。",
+    "risks": [
+      "当亲和服务时，这个方向可能不适合。",
+      "当信息密度高时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "艺术",
+      "珠宝",
+      "夜间氛围",
+      "高品质作品",
+      "work-first",
+      "editorial-story"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 85,
+    "principle": "用暗色场景和聚光式构图营造沉浸与精品感。",
+    "relatedInfoArchetypes": [
+      "work-first",
+      "editorial-story"
+    ],
+    "supportedPersuasionMechanisms": [
+      "work-proof",
+      "emotion-proof"
+    ],
+    "variantIds": [
+      "dark-gallery-spotlight",
+      "cinematic-black",
+      "luxury-detail-closeup"
+    ]
+  },
+  {
+    "id": "active-conversion-clear-action",
+    "type": "visual-judgment",
+    "title": "活力转化、行动明确",
+    "userLabel": "活力转化、行动明确",
+    "summary": "用高可见行动入口和快节奏模块推动报名或购买。",
+    "appliesWhen": [
+      "活动",
+      "课程",
+      "消费品",
+      "促销但不廉价"
+    ],
+    "avoidWhen": [
+      "用户明确不要促销感",
+      "高信任采购"
+    ],
+    "rationale": "用高可见行动入口和快节奏模块推动报名或购买。",
+    "risks": [
+      "当用户明确不要促销感时，这个方向可能不适合。",
+      "当高信任采购时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "活动",
+      "课程",
+      "消费品",
+      "促销但不廉价",
+      "clear-conversion",
+      "community-event"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 84,
+    "principle": "用高可见行动入口和快节奏模块推动报名或购买。",
+    "relatedInfoArchetypes": [
+      "clear-conversion",
+      "community-event"
+    ],
+    "supportedPersuasionMechanisms": [
+      "experience-proof",
+      "emotion-proof"
+    ],
+    "variantIds": [
+      "bright-event-action",
+      "course-launch",
+      "consumer-offer-clean"
+    ]
+  },
+  {
+    "id": "system-efficiency-clear-density",
+    "type": "visual-judgment",
+    "title": "系统效率、密度清晰",
+    "userLabel": "系统效率、密度清晰",
+    "summary": "在高密度信息中保持层级、控件和状态清楚。",
+    "appliesWhen": [
+      "后台",
+      "插件",
+      "工作台",
+      "分析工具"
+    ],
+    "avoidWhen": [
+      "品牌展示页",
+      "情绪型页面"
+    ],
+    "rationale": "在高密度信息中保持层级、控件和状态清楚。",
+    "risks": [
+      "当品牌展示页时，这个方向可能不适合。",
+      "当情绪型页面时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "后台",
+      "插件",
+      "工作台",
+      "分析工具",
+      "tool-operation"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 83,
+    "principle": "在高密度信息中保持层级、控件和状态清楚。",
+    "relatedInfoArchetypes": [
+      "tool-operation"
+    ],
+    "supportedPersuasionMechanisms": [
+      "efficiency-proof",
+      "product-proof"
+    ],
+    "variantIds": [
+      "dense-workbench-light",
+      "dark-ops-dashboard",
+      "plugin-compact-panel"
+    ]
+  },
+  {
+    "id": "technical-precision-structured-trust",
+    "type": "visual-judgment",
+    "title": "技术精密、结构可信",
+    "userLabel": "技术精密、结构可信",
+    "summary": "用结构、网格、代码/数据细节表达复杂系统的可靠性。",
+    "appliesWhen": [
+      "开发者工具",
+      "基础设施",
+      "安全",
+      "数据产品"
+    ],
+    "avoidWhen": [
+      "没有真实技术内容",
+      "用户讨厌科技感"
+    ],
+    "rationale": "用结构、网格、代码/数据细节表达复杂系统的可靠性。",
+    "risks": [
+      "当没有真实技术内容时，这个方向可能不适合。",
+      "当用户讨厌科技感时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "开发者工具",
+      "基础设施",
+      "安全",
+      "数据产品",
+      "product-showcase",
+      "trust-first"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 82,
+    "principle": "用结构、网格、代码/数据细节表达复杂系统的可靠性。",
+    "relatedInfoArchetypes": [
+      "product-showcase",
+      "trust-first"
+    ],
+    "supportedPersuasionMechanisms": [
+      "expertise-proof",
+      "product-proof"
+    ],
+    "variantIds": [
+      "structured-tech-light",
+      "terminal-docs-dark",
+      "data-infrastructure"
+    ]
+  },
+  {
+    "id": "friendly-low-pressure",
+    "type": "visual-judgment",
+    "title": "轻松友好、低压力引导",
+    "userLabel": "轻松友好、低压力引导",
+    "summary": "用亲和色彩、清楚引导和低门槛行动减少用户压力。",
+    "appliesWhen": [
+      "教育",
+      "新手工具",
+      "社区",
+      "入门产品"
+    ],
+    "avoidWhen": [
+      "奢华精品",
+      "严肃合规"
+    ],
+    "rationale": "用亲和色彩、清楚引导和低门槛行动减少用户压力。",
+    "risks": [
+      "当奢华精品时，这个方向可能不适合。",
+      "当严肃合规时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "教育",
+      "新手工具",
+      "社区",
+      "入门产品",
+      "clear-conversion",
+      "community-event"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 81,
+    "principle": "用亲和色彩、清楚引导和低门槛行动减少用户压力。",
+    "relatedInfoArchetypes": [
+      "clear-conversion",
+      "community-event"
+    ],
+    "supportedPersuasionMechanisms": [
+      "experience-proof",
+      "trust-proof"
+    ],
+    "variantIds": [
+      "soft-onboarding",
+      "education-clear",
+      "community-warm"
+    ]
+  },
+  {
+    "id": "single-signature-memory",
+    "type": "visual-judgment",
+    "title": "高识别表达、单点记忆",
+    "userLabel": "高识别表达、单点记忆",
+    "summary": "把视觉冒险集中在一个记忆点，其它部分保持纪律。",
+    "appliesWhen": [
+      "品牌需要差异化",
+      "活动",
+      "创意项目"
+    ],
+    "avoidWhen": [
+      "信息复杂或信任风险高"
+    ],
+    "rationale": "把视觉冒险集中在一个记忆点，其它部分保持纪律。",
+    "risks": [
+      "当信息复杂或信任风险高时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "品牌需要差异化",
+      "活动",
+      "创意项目",
+      "editorial-story",
+      "community-event"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 80,
+    "principle": "把视觉冒险集中在一个记忆点，其它部分保持纪律。",
+    "relatedInfoArchetypes": [
+      "editorial-story",
+      "community-event"
+    ],
+    "supportedPersuasionMechanisms": [
+      "emotion-proof"
+    ],
+    "variantIds": [
+      "one-bold-accent",
+      "graphic-poster",
+      "interactive-signature"
+    ]
+  },
+  {
+    "id": "immersive-scene-driven",
+    "type": "visual-judgment",
+    "title": "内容沉浸、场景驱动",
+    "userLabel": "内容沉浸、场景驱动",
+    "summary": "用完整场景、故事和空间感让用户进入体验。",
+    "appliesWhen": [
+      "旅游",
+      "空间",
+      "游戏",
+      "艺术展",
+      "体验型活动"
+    ],
+    "avoidWhen": [
+      "低素材",
+      "强工具效率"
+    ],
+    "rationale": "用完整场景、故事和空间感让用户进入体验。",
+    "risks": [
+      "当低素材时，这个方向可能不适合。",
+      "当强工具效率时，这个方向可能不适合。"
+    ],
+    "tags": [
+      "visual-judgment",
+      "旅游",
+      "空间",
+      "游戏",
+      "艺术展",
+      "体验型活动",
+      "editorial-story",
+      "work-first"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/styles.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 79,
+    "principle": "用完整场景、故事和空间感让用户进入体验。",
+    "relatedInfoArchetypes": [
+      "editorial-story",
+      "work-first"
+    ],
+    "supportedPersuasionMechanisms": [
+      "emotion-proof",
+      "work-proof"
+    ],
+    "variantIds": [
+      "full-bleed-scene",
+      "travel-story",
+      "experience-map"
+    ]
+  }
+]

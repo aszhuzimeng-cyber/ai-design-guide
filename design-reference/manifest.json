@@ -1,0 +1,60 @@
+{
+  "name": "design-judgment-reference-library",
+  "version": "1.0.0",
+  "description": "设计判断参考库：UX-PRO 提供材料和结构，design-md 提供案例抽象，我们自己的设计哲学决定判断逻辑。",
+  "generatedAt": "2026-06-14T13:06:07.431Z",
+  "sources": [
+    {
+      "id": "internal-product-principles",
+      "type": "internal-principle",
+      "role": "highest-priority-judgment",
+      "path": "docs/design-philosophy-core.md"
+    },
+    {
+      "id": "design-md",
+      "type": "case-source",
+      "role": "case-abstraction",
+      "path": "design-md/**/DESIGN.md"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "type": "external-skill",
+      "role": "structure-quality-primitives",
+      "path": "ui-ux-pro-max-skill-main",
+      "license": "MIT"
+    }
+  ],
+  "priorityOrder": [
+    "user explicit requirements",
+    "user freeform constraints",
+    "product principles",
+    "page task",
+    "persuasion mechanism",
+    "curated reference library",
+    "case similarity",
+    "industry defaults"
+  ],
+  "counts": {
+    "principles": 12,
+    "intentJudgment": 12,
+    "persuasionMechanisms": 8,
+    "infoArchetypes": 10,
+    "contentModules": 32,
+    "proofMaterials": 32,
+    "visualJudgments": 12,
+    "visualVariants": 36,
+    "infoOptionPresets": 20,
+    "visualOptionPresets": 36,
+    "optionCompositionRules": 20,
+    "materialStylePrimitives": 310,
+    "materialUxQualityRules": 129,
+    "materialUxProAutoAntiPatterns": 418,
+    "antiPatterns": 10,
+    "casePatterns": 74,
+    "casePatternSummaries": 74,
+    "uxQualityRules": 80,
+    "checklists": 3,
+    "evalPrompts": 35,
+    "runtimeIndex": 275
+  }
+}

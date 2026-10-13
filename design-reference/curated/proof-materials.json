@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "proof-真实作品",
+    "type": "proof-material",
+    "title": "真实作品",
+    "userLabel": "真实作品",
+    "summary": "真实作品可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "真实作品"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-产品截图",
+    "type": "proof-material",
+    "title": "产品截图",
+    "userLabel": "产品截图",
+    "summary": "产品截图可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "产品截图"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-视频-demo",
+    "type": "proof-material",
+    "title": "视频 demo",
+    "userLabel": "视频 demo",
+    "summary": "视频 demo可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "视频 demo"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-客户评价",
+    "type": "proof-material",
+    "title": "客户评价",
+    "userLabel": "客户评价",
+    "summary": "客户评价可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "客户评价"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-客户-logo",
+    "type": "proof-material",
+    "title": "客户 Logo",
+    "userLabel": "客户 Logo",
+    "summary": "客户 Logo可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "客户 Logo"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-成功案例",
+    "type": "proof-material",
+    "title": "成功案例",
+    "userLabel": "成功案例",
+    "summary": "成功案例可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "成功案例"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-数据指标",
+    "type": "proof-material",
+    "title": "数据指标",
+    "userLabel": "数据指标",
+    "summary": "数据指标可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "数据指标"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-前后对比",
+    "type": "proof-material",
+    "title": "前后对比",
+    "userLabel": "前后对比",
+    "summary": "前后对比可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "前后对比"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-资质证书",
+    "type": "proof-material",
+    "title": "资质证书",
+    "userLabel": "资质证书",
+    "summary": "资质证书可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "资质证书"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-安全认证",
+    "type": "proof-material",
+    "title": "安全认证",
+    "userLabel": "安全认证",
+    "summary": "安全认证可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "安全认证"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-合规说明",
+    "type": "proof-material",
+    "title": "合规说明",
+    "userLabel": "合规说明",
+    "summary": "合规说明可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "合规说明"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-退款保障",
+    "type": "proof-material",
+    "title": "退款保障",
+    "userLabel": "退款保障",
+    "summary": "退款保障可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "退款保障"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-试用入口",
+    "type": "proof-material",
+    "title": "试用入口",
+    "userLabel": "试用入口",
+    "summary": "试用入口可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "试用入口"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-样例结果",
+    "type": "proof-material",
+    "title": "样例结果",
+    "userLabel": "样例结果",
+    "summary": "样例结果可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "样例结果"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-媒体报道",
+    "type": "proof-material",
+    "title": "媒体报道",
+    "userLabel": "媒体报道",
+    "summary": "媒体报道可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "媒体报道"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-专家背书",
+    "type": "proof-material",
+    "title": "专家背书",
+    "userLabel": "专家背书",
+    "summary": "专家背书可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "专家背书"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-团队背景",
+    "type": "proof-material",
+    "title": "团队背景",
+    "userLabel": "团队背景",
+    "summary": "团队背景可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "团队背景"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-方法论",
+    "type": "proof-material",
+    "title": "方法论",
+    "userLabel": "方法论",
+    "summary": "方法论可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "方法论"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-流程图",
+    "type": "proof-material",
+    "title": "流程图",
+    "userLabel": "流程图",
+    "summary": "流程图可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "流程图"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-交付清单",
+    "type": "proof-material",
+    "title": "交付清单",
+    "userLabel": "交付清单",
+    "summary": "交付清单可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "交付清单"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-价格透明",
+    "type": "proof-material",
+    "title": "价格透明",
+    "userLabel": "价格透明",
+    "summary": "价格透明可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "价格透明"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-faq",
+    "type": "proof-material",
+    "title": "FAQ",
+    "userLabel": "FAQ",
+    "summary": "FAQ可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "FAQ"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-过往活动照片",
+    "type": "proof-material",
+    "title": "过往活动照片",
+    "userLabel": "过往活动照片",
+    "summary": "过往活动照片可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "过往活动照片"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-参与人数",
+    "type": "proof-material",
+    "title": "参与人数",
+    "userLabel": "参与人数",
+    "summary": "参与人数可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "参与人数"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-社区反馈",
+    "type": "proof-material",
+    "title": "社区反馈",
+    "userLabel": "社区反馈",
+    "summary": "社区反馈可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "社区反馈"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-下载量",
+    "type": "proof-material",
+    "title": "下载量",
+    "userLabel": "下载量",
+    "summary": "下载量可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "下载量"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-评分",
+    "type": "proof-material",
+    "title": "评分",
+    "userLabel": "评分",
+    "summary": "评分可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "评分"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-合作伙伴",
+    "type": "proof-material",
+    "title": "合作伙伴",
+    "userLabel": "合作伙伴",
+    "summary": "合作伙伴可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "合作伙伴"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-集成列表",
+    "type": "proof-material",
+    "title": "集成列表",
+    "userLabel": "集成列表",
+    "summary": "集成列表可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "集成列表"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-开源仓库",
+    "type": "proof-material",
+    "title": "开源仓库",
+    "userLabel": "开源仓库",
+    "summary": "开源仓库可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "开源仓库"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-文档链接",
+    "type": "proof-material",
+    "title": "文档链接",
+    "userLabel": "文档链接",
+    "summary": "文档链接可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "文档链接"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  },
+  {
+    "id": "proof-响应时间",
+    "type": "proof-material",
+    "title": "响应时间",
+    "userLabel": "响应时间",
+    "summary": "响应时间可以作为页面的可信证明或价值证明。",
+    "appliesWhen": [
+      "与用户担心的问题直接相关"
+    ],
+    "avoidWhen": [
+      "无法真实提供或与页面任务无关"
+    ],
+    "rationale": "证明材料应该回答用户为什么相信，而不是作为装饰。",
+    "risks": [
+      "虚假的证明材料会严重损害信任。"
+    ],
+    "tags": [
+      "proof-material",
+      "响应时间"
+    ],
+    "sourceRefs": [
+      "internal/manual-curation",
+      "design-md/*",
+      "ux-pro/ui-reasoning.csv"
+    ],
+    "sourceTypes": [
+      "manual-curation",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "medium",
+    "priority": 72
+  }
+]

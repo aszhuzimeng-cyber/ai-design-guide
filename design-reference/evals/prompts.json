@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "tech-no-purple",
+    "prompt": "做一个科技产品官网，但不要蓝紫渐变，也不要发光球体",
+    "expected": {
+      "constraints": [
+        "不要蓝紫渐变",
+        "不要发光球体"
+      ],
+      "avoidAntiPatterns": [
+        "tech-blue-purple"
+      ],
+      "allowedInfoDirections": [
+        "product-showcase",
+        "trust-first"
+      ],
+      "allowedVisualDirections": [
+        "product-clarity-interface-first",
+        "technical-precision-structured-trust"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "premium-no-black-gold",
+    "prompt": "做一个高端品牌网站，但不要黑金，想要更克制更现代",
+    "expected": {
+      "constraints": [
+        "不要黑金"
+      ],
+      "avoidAntiPatterns": [
+        "premium-black-gold"
+      ],
+      "allowedInfoDirections": [
+        "work-first",
+        "editorial-story"
+      ],
+      "allowedVisualDirections": [
+        "asset-first-restraint",
+        "single-signature-memory"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "pet-photo-not-cute",
+    "prompt": "做宠物摄影网站，但不要可爱，想像艺术展一样安静，有纪实感",
+    "expected": {
+      "constraints": [
+        "不要可爱",
+        "艺术展",
+        "纪实"
+      ],
+      "avoidAntiPatterns": [
+        "generic-hero-cards-cta"
+      ],
+      "allowedInfoDirections": [
+        "work-first",
+        "editorial-story"
+      ],
+      "allowedVisualDirections": [
+        "asset-first-restraint",
+        "dark-gallery-premium"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "ecommerce-no-promo",
+    "prompt": "做电商页面，但不要大促销感，想突出产品质感和品牌信任",
+    "expected": {
+      "constraints": [
+        "不要大促销"
+      ],
+      "avoidAntiPatterns": [
+        "ecommerce-promotion"
+      ],
+      "allowedInfoDirections": [
+        "product-showcase",
+        "trust-first"
+      ],
+      "allowedVisualDirections": [
+        "asset-first-restraint",
+        "trust-restraint-proof-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "ai-tool-no-orbs",
+    "prompt": "做 AI 工具首页，但不要蓝紫发光和抽象球体，要清楚展示怎么用",
+    "expected": {
+      "constraints": [
+        "不要蓝紫发光",
+        "不要抽象球体"
+      ],
+      "avoidAntiPatterns": [
+        "tech-blue-purple"
+      ],
+      "allowedInfoDirections": [
+        "product-showcase",
+        "tool-operation"
+      ],
+      "allowedVisualDirections": [
+        "product-clarity-interface-first",
+        "system-efficiency-clear-density"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "medical-warm",
+    "prompt": "做医疗咨询网站，希望亲和一点，不要医院感太强",
+    "expected": {
+      "constraints": [
+        "亲和",
+        "不要医院感太强"
+      ],
+      "avoidAntiPatterns": [
+        "dark-dashboard-for-professional"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "clear-conversion"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "warm-real-life"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "law-not-oppressive",
+    "prompt": "做律师网站，但不要严肃压迫，希望专业但容易接近",
+    "expected": {
+      "constraints": [
+        "不要严肃压迫"
+      ],
+      "avoidAntiPatterns": [
+        "consulting-jargon"
+      ],
+      "allowedInfoDirections": [
+        "trust-first"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "friendly-low-pressure"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "kids-education-not-childish",
+    "prompt": "做儿童教育网站，但不要幼稚卡通，要让家长觉得可靠",
+    "expected": {
+      "constraints": [
+        "不要幼稚卡通",
+        "家长可靠"
+      ],
+      "avoidAntiPatterns": [
+        "visual-as-color-test"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "clear-conversion"
+      ],
+      "allowedVisualDirections": [
+        "friendly-low-pressure",
+        "trust-restraint-proof-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "saas-no-generic",
+    "prompt": "做 SaaS 官网，但不要 hero 加三卡片加 CTA 那种模板",
+    "expected": {
+      "constraints": [
+        "不要 hero + 三卡片 + CTA"
+      ],
+      "avoidAntiPatterns": [
+        "generic-hero-cards-cta"
+      ],
+      "allowedInfoDirections": [
+        "product-showcase",
+        "comparison-decision"
+      ],
+      "allowedVisualDirections": [
+        "product-clarity-interface-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "portfolio-weak-images",
+    "prompt": "做作品集，但图片素材一般，不想页面显得空",
+    "expected": {
+      "constraints": [
+        "图片素材一般",
+        "不要显得空"
+      ],
+      "avoidAntiPatterns": [
+        "image-first-without-images"
+      ],
+      "allowedInfoDirections": [
+        "editorial-story",
+        "trust-first"
+      ],
+      "allowedVisualDirections": [
+        "editorial-reading-rhythm",
+        "trust-restraint-proof-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "restaurant-premium-warm",
+    "prompt": "做餐厅网站，想高级但有烟火气，不要冷冰冰",
+    "expected": {
+      "constraints": [
+        "高级",
+        "有烟火气",
+        "不要冷冰冰"
+      ],
+      "avoidAntiPatterns": [
+        "premium-black-gold"
+      ],
+      "allowedInfoDirections": [
+        "work-first",
+        "clear-conversion"
+      ],
+      "allowedVisualDirections": [
+        "warm-real-life",
+        "asset-first-restraint"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "plugin-tool-compact",
+    "prompt": "做 MasterGo 插件界面，用户要快速生成并同步画布",
+    "expected": {
+      "constraints": [
+        "插件",
+        "快速生成",
+        "同步画布"
+      ],
+      "avoidAntiPatterns": [
+        "generic-hero-cards-cta"
+      ],
+      "allowedInfoDirections": [
+        "tool-operation"
+      ],
+      "allowedVisualDirections": [
+        "system-efficiency-clear-density"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "consulting-no-corporate",
+    "prompt": "做咨询公司网站，但不要传统企业蓝白模板，要讲清方法和案例",
+    "expected": {
+      "constraints": [
+        "不要传统企业蓝白模板"
+      ],
+      "avoidAntiPatterns": [
+        "tech-blue-purple",
+        "consulting-jargon"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "editorial-story"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "editorial-reading-rhythm"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "travel-not-stock",
+    "prompt": "做旅行体验页面，不想要普通风景图堆砌，要有路线和故事",
+    "expected": {
+      "constraints": [
+        "不要普通风景图堆砌",
+        "路线和故事"
+      ],
+      "avoidAntiPatterns": [
+        "generic-hero-cards-cta"
+      ],
+      "allowedInfoDirections": [
+        "editorial-story",
+        "community-event"
+      ],
+      "allowedVisualDirections": [
+        "immersive-scene-driven",
+        "editorial-reading-rhythm"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "finance-friendly",
+    "prompt": "做个人理财工具，想可信但不要金融机构那种冷硬感",
+    "expected": {
+      "constraints": [
+        "可信",
+        "不要冷硬"
+      ],
+      "avoidAntiPatterns": [
+        "dark-dashboard-for-professional"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "product-showcase"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "friendly-low-pressure"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "course-clear",
+    "prompt": "做线上课程落地页，想清楚说明适合谁和能学到什么，不要太鸡血",
+    "expected": {
+      "constraints": [
+        "不要太鸡血"
+      ],
+      "avoidAntiPatterns": [
+        "active-conversion-clear-action"
+      ],
+      "allowedInfoDirections": [
+        "clear-conversion",
+        "pricing-packages"
+      ],
+      "allowedVisualDirections": [
+        "friendly-low-pressure",
+        "trust-restraint-proof-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "fashion-not-template",
+    "prompt": "做服装品牌首页，想有记忆点，但不要像普通电商列表",
+    "expected": {
+      "constraints": [
+        "有记忆点",
+        "不要普通电商列表"
+      ],
+      "avoidAntiPatterns": [
+        "ecommerce-promotion"
+      ],
+      "allowedInfoDirections": [
+        "work-first",
+        "editorial-story"
+      ],
+      "allowedVisualDirections": [
+        "single-signature-memory",
+        "asset-first-restraint"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "dashboard-human",
+    "prompt": "做数据看板，但给非专业用户用，不要密密麻麻",
+    "expected": {
+      "constraints": [
+        "非专业用户",
+        "不要密密麻麻"
+      ],
+      "avoidAntiPatterns": [
+        "dark-dashboard-for-professional"
+      ],
+      "allowedInfoDirections": [
+        "tool-operation"
+      ],
+      "allowedVisualDirections": [
+        "system-efficiency-clear-density",
+        "friendly-low-pressure"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "local-service-trust",
+    "prompt": "做本地家政服务页面，想让人放心预约，不要廉价广告感",
+    "expected": {
+      "constraints": [
+        "放心",
+        "不要廉价广告感"
+      ],
+      "avoidAntiPatterns": [
+        "ecommerce-promotion"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "clear-conversion"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "warm-real-life"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "art-event-info",
+    "prompt": "做艺术展活动页，要有氛围，但时间地点票务必须清楚",
+    "expected": {
+      "constraints": [
+        "有氛围",
+        "信息清楚"
+      ],
+      "avoidAntiPatterns": [
+        "too-many-visual-moves"
+      ],
+      "allowedInfoDirections": [
+        "community-event",
+        "editorial-story"
+      ],
+      "allowedVisualDirections": [
+        "immersive-scene-driven",
+        "dark-gallery-premium"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "developer-docs",
+    "prompt": "做开发者工具文档首页，重点是快速理解和开始，不要营销感",
+    "expected": {
+      "constraints": [
+        "快速开始",
+        "不要营销感"
+      ],
+      "avoidAntiPatterns": [
+        "generic-hero-cards-cta"
+      ],
+      "allowedInfoDirections": [
+        "product-showcase",
+        "content-hub"
+      ],
+      "allowedVisualDirections": [
+        "technical-precision-structured-trust",
+        "system-efficiency-clear-density"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "beauty-not-pink",
+    "prompt": "做美容服务网站，但不要粉色少女感，要干净可信",
+    "expected": {
+      "constraints": [
+        "不要粉色少女感",
+        "干净可信"
+      ],
+      "avoidAntiPatterns": [
+        "visual-as-color-test"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "work-first"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "asset-first-restraint"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "nonprofit-clarity",
+    "prompt": "做公益组织网站，要说明问题和行动方式，不要煽情过度",
+    "expected": {
+      "constraints": [
+        "不要煽情过度"
+      ],
+      "avoidAntiPatterns": [
+        "consulting-jargon"
+      ],
+      "allowedInfoDirections": [
+        "editorial-story",
+        "clear-conversion"
+      ],
+      "allowedVisualDirections": [
+        "editorial-reading-rhythm",
+        "trust-restraint-proof-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "startup-bold-but-clear",
+    "prompt": "做创业项目官网，希望有一点大胆，但不能影响理解",
+    "expected": {
+      "constraints": [
+        "大胆",
+        "不能影响理解"
+      ],
+      "avoidAntiPatterns": [
+        "too-many-visual-moves"
+      ],
+      "allowedInfoDirections": [
+        "product-showcase",
+        "clear-conversion"
+      ],
+      "allowedVisualDirections": [
+        "single-signature-memory",
+        "product-clarity-interface-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "real-estate-no-luxury-cliche",
+    "prompt": "做房产项目页，不要豪宅黑金套路，要讲清位置、户型和生活方式",
+    "expected": {
+      "constraints": [
+        "不要豪宅黑金",
+        "位置户型生活方式"
+      ],
+      "avoidAntiPatterns": [
+        "premium-black-gold"
+      ],
+      "allowedInfoDirections": [
+        "work-first",
+        "comparison-decision"
+      ],
+      "allowedVisualDirections": [
+        "warm-real-life",
+        "asset-first-restraint"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "music-artist",
+    "prompt": "做音乐人主页，想有个性但不要乱，作品试听要突出",
+    "expected": {
+      "constraints": [
+        "有个性",
+        "不要乱",
+        "试听突出"
+      ],
+      "avoidAntiPatterns": [
+        "too-many-visual-moves"
+      ],
+      "allowedInfoDirections": [
+        "work-first",
+        "editorial-story"
+      ],
+      "allowedVisualDirections": [
+        "single-signature-memory",
+        "immersive-scene-driven"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "b2b-service-roi",
+    "prompt": "做 B2B 服务网站，客户关心 ROI 和案例，不要空泛品牌词",
+    "expected": {
+      "constraints": [
+        "ROI",
+        "案例",
+        "不要空泛"
+      ],
+      "avoidAntiPatterns": [
+        "consulting-jargon"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "comparison-decision"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "technical-precision-structured-trust"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "recipe-content",
+    "prompt": "做菜谱内容站，用户要快速找菜谱，也想被图片吸引",
+    "expected": {
+      "constraints": [
+        "快速找菜谱",
+        "图片吸引"
+      ],
+      "avoidAntiPatterns": [
+        "image-first-without-images"
+      ],
+      "allowedInfoDirections": [
+        "content-hub",
+        "work-first"
+      ],
+      "allowedVisualDirections": [
+        "warm-real-life",
+        "asset-first-restraint"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "mental-health-soft",
+    "prompt": "做心理咨询网站，要温和可信，不要医疗机构感，也不要鸡汤",
+    "expected": {
+      "constraints": [
+        "温和可信",
+        "不要医疗机构感",
+        "不要鸡汤"
+      ],
+      "avoidAntiPatterns": [
+        "consulting-jargon"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "clear-conversion"
+      ],
+      "allowedVisualDirections": [
+        "friendly-low-pressure",
+        "trust-restraint-proof-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "ai-design-tool",
+    "prompt": "做 AI 设计工具首页，要解释流程和最终效果，别只说智能生成",
+    "expected": {
+      "constraints": [
+        "解释流程",
+        "最终效果",
+        "别只说智能生成"
+      ],
+      "avoidAntiPatterns": [
+        "tech-blue-purple"
+      ],
+      "allowedInfoDirections": [
+        "product-showcase",
+        "tool-operation"
+      ],
+      "allowedVisualDirections": [
+        "product-clarity-interface-first",
+        "system-efficiency-clear-density"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ]
+    }
+  },
+  {
+    "id": "corporate-brand-not-sales",
+    "prompt": "做科技公司企业官网，让第一次来访的人知道我们是谁、做什么，不是推具体套餐成交",
+    "expected": {
+      "constraints": [
+        "认识品牌",
+        "不是推套餐"
+      ],
+      "avoidAntiPatterns": [
+        "generic-hero-cards-cta",
+        "ecommerce-promotion"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "editorial-story",
+        "product-showcase"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "editorial-reading-rhythm"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ],
+      "disallowedInfoDirections": [
+        "clear-conversion",
+        "pricing-packages"
+      ],
+      "minDistinctInfoDirections": 2
+    }
+  },
+  {
+    "id": "b2b-implementation-trust",
+    "prompt": "做 B2B 软件实施服务网站，客户要先确认资质、交付案例和流程才敢联系",
+    "expected": {
+      "constraints": [
+        "资质",
+        "交付案例",
+        "流程"
+      ],
+      "avoidAntiPatterns": [
+        "consulting-jargon"
+      ],
+      "allowedInfoDirections": [
+        "trust-first",
+        "comparison-decision"
+      ],
+      "allowedVisualDirections": [
+        "trust-restraint-proof-first",
+        "technical-precision-structured-trust"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ],
+      "disallowedInfoDirections": [
+        "work-first",
+        "content-hub",
+        "community-event"
+      ],
+      "minDistinctInfoDirections": 2
+    }
+  },
+  {
+    "id": "saas-demo-vs-interactive",
+    "prompt": "做 SaaS 数据分析工具首页，有人只想看懂怎么用，有人希望直接在页面上试一两步",
+    "expected": {
+      "constraints": [
+        "看懂怎么用",
+        "页面上试"
+      ],
+      "avoidAntiPatterns": [
+        "generic-hero-cards-cta"
+      ],
+      "allowedInfoDirections": [
+        "product-showcase",
+        "tool-operation"
+      ],
+      "allowedVisualDirections": [
+        "product-clarity-interface-first",
+        "system-efficiency-clear-density"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ],
+      "minDistinctInfoDirections": 2,
+      "mustIncludeInfoDirections": [
+        "product-showcase",
+        "tool-operation"
+      ]
+    }
+  },
+  {
+    "id": "saas-tier-compare",
+    "prompt": "做 SaaS 订阅官网，有三个档位，用户主要在犹豫选 Professional 还是 Enterprise",
+    "expected": {
+      "constraints": [
+        "三个档位",
+        "犹豫选择"
+      ],
+      "avoidAntiPatterns": [
+        "generic-hero-cards-cta"
+      ],
+      "allowedInfoDirections": [
+        "comparison-decision",
+        "pricing-packages"
+      ],
+      "allowedVisualDirections": [
+        "product-clarity-interface-first",
+        "system-efficiency-clear-density"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ],
+      "disallowedInfoDirections": [
+        "work-first",
+        "editorial-story"
+      ],
+      "minDistinctInfoDirections": 2,
+      "mustIncludeInfoDirections": [
+        "comparison-decision",
+        "pricing-packages"
+      ]
+    }
+  },
+  {
+    "id": "single-service-pricing",
+    "prompt": "做一对一咨询教练落地页，就一个服务和明码标价，用户只差要不要预约",
+    "expected": {
+      "constraints": [
+        "一个服务",
+        "明码标价",
+        "预约"
+      ],
+      "avoidAntiPatterns": [
+        "ecommerce-promotion"
+      ],
+      "allowedInfoDirections": [
+        "clear-conversion",
+        "pricing-packages"
+      ],
+      "allowedVisualDirections": [
+        "friendly-low-pressure",
+        "trust-restraint-proof-first"
+      ],
+      "shouldNotContain": [
+        "高级现代但无理由",
+        "符合行业调性",
+        "像 Apple",
+        "像 Stripe",
+        "像 Linear"
+      ],
+      "disallowedInfoDirections": [
+        "comparison-decision",
+        "content-hub"
+      ],
+      "minDistinctInfoDirections": 2
+    }
+  }
+]

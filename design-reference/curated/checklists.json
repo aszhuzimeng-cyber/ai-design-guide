@@ -1,0 +1,95 @@
+[
+  {
+    "id": "pre-recommendation",
+    "type": "checklist",
+    "title": "推荐前检查",
+    "summary": "确保 AI 推荐不是模板匹配，而是基于用户输入和设计判断。",
+    "items": [
+      "是否识别了用户明确要求和反向偏好？",
+      "是否判断了谁在看、要弄明白什么、凭什么相信？",
+      "是否避免把行业当第一判断依据？",
+      "三个方案是否真的不同？",
+      "每个方案是否有短理由和风险？",
+      "视觉方案是否具体到颜色、字体、布局和图片方式？",
+      "是否避免品牌仿制？"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ]
+  },
+  {
+    "id": "pre-generation",
+    "type": "checklist",
+    "title": "生成前检查",
+    "summary": "确保用户选择已经编译成结构化生成约束。",
+    "items": [
+      "是否存在 selectedInfoPlanId？",
+      "是否存在 selectedVisualVariantId？",
+      "是否有 previewRules？",
+      "是否有 generationRules？",
+      "是否有 forbiddenPatterns？",
+      "用户微调是否写入 userOverrides？",
+      "素材缺失是否被记录？"
+    ],
+    "sourceRefs": [
+      "internal/product-principles"
+    ],
+    "sourceTypes": [
+      "internal-principle"
+    ]
+  },
+  {
+    "id": "post-generation",
+    "type": "checklist",
+    "title": "生成后检查",
+    "summary": "确保最终页面和用户选择保持一致，并满足基本 UX 质量。",
+    "items": [
+      "模块顺序是否符合信息方案？",
+      "首屏是否符合视觉变体？",
+      "颜色、字体、圆角是否符合 previewRules？",
+      "是否触发 forbiddenPatterns？",
+      "是否保留用户明确约束？",
+      "Smooth Scroll",
+      "Back Button",
+      "Excessive Motion",
+      "Reduced Motion",
+      "Loading States",
+      "Hover vs Tap",
+      "Z-Index Management",
+      "Content Jumping",
+      "Touch Target Size",
+      "Focus States",
+      "Loading Buttons",
+      "Error Feedback",
+      "Confirmation Dialogs",
+      "Color Contrast",
+      "Color Only",
+      "Alt Text",
+      "ARIA Labels",
+      "Keyboard Navigation",
+      "Form Labels",
+      "Error Messages",
+      "Image Optimization",
+      "Input Labels",
+      "Submit Feedback",
+      "Touch Friendly",
+      "Readable Font Size",
+      "Viewport Meta",
+      "Horizontal Scroll",
+      "Contrast Readability",
+      "Loading Indicators"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/ux-guidelines.csv",
+      "ux-pro/app-interface.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro"
+    ]
+  }
+]

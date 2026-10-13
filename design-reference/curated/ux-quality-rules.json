@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "ux-navigation-smooth-scroll-1",
+    "type": "ux-quality-rule",
+    "title": "Smooth Scroll",
+    "userLabel": "Smooth Scroll",
+    "summary": "Anchor links should scroll smoothly to target section",
+    "appliesWhen": [
+      "Web",
+      "Navigation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use scroll-behavior: smooth on html element",
+    "risks": [
+      "Jump directly without transition"
+    ],
+    "tags": [
+      "ux-quality",
+      "Navigation",
+      "Web",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Navigation",
+    "platform": "Web",
+    "do": "Use scroll-behavior: smooth on html element",
+    "dont": "Jump directly without transition",
+    "goodExample": "html { scroll-behavior: smooth; }",
+    "badExample": "<a href='#section'> without CSS",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-navigation-sticky-navigation-2",
+    "type": "ux-quality-rule",
+    "title": "Sticky Navigation",
+    "userLabel": "Sticky Navigation",
+    "summary": "Fixed nav should not obscure content",
+    "appliesWhen": [
+      "Web",
+      "Navigation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Add padding-top to body equal to nav height",
+    "risks": [
+      "Let nav overlap first section content"
+    ],
+    "tags": [
+      "ux-quality",
+      "Navigation",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Navigation",
+    "platform": "Web",
+    "do": "Add padding-top to body equal to nav height",
+    "dont": "Let nav overlap first section content",
+    "goodExample": "pt-20 (if nav is h-20)",
+    "badExample": "No padding compensation",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-navigation-active-state-3",
+    "type": "ux-quality-rule",
+    "title": "Active State",
+    "userLabel": "Active State",
+    "summary": "Current page/section should be visually indicated",
+    "appliesWhen": [
+      "All",
+      "Navigation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Highlight active nav item with color/underline",
+    "risks": [
+      "No visual feedback on current location"
+    ],
+    "tags": [
+      "ux-quality",
+      "Navigation",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Navigation",
+    "platform": "All",
+    "do": "Highlight active nav item with color/underline",
+    "dont": "No visual feedback on current location",
+    "goodExample": "text-primary border-b-2",
+    "badExample": "All links same style",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-navigation-back-button-4",
+    "type": "ux-quality-rule",
+    "title": "Back Button",
+    "userLabel": "Back Button",
+    "summary": "Users expect back to work predictably",
+    "appliesWhen": [
+      "Mobile",
+      "Navigation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Preserve navigation history properly",
+    "risks": [
+      "Break browser/app back button behavior"
+    ],
+    "tags": [
+      "ux-quality",
+      "Navigation",
+      "Mobile",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Navigation",
+    "platform": "Mobile",
+    "do": "Preserve navigation history properly",
+    "dont": "Break browser/app back button behavior",
+    "goodExample": "history.pushState()",
+    "badExample": "location.replace()",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-navigation-deep-linking-5",
+    "type": "ux-quality-rule",
+    "title": "Deep Linking",
+    "userLabel": "Deep Linking",
+    "summary": "URLs should reflect current state for sharing",
+    "appliesWhen": [
+      "All",
+      "Navigation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Update URL on state/view changes",
+    "risks": [
+      "Static URLs for dynamic content"
+    ],
+    "tags": [
+      "ux-quality",
+      "Navigation",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Navigation",
+    "platform": "All",
+    "do": "Update URL on state/view changes",
+    "dont": "Static URLs for dynamic content",
+    "goodExample": "Use query params or hash",
+    "badExample": "Single URL for all states",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-navigation-breadcrumbs-6",
+    "type": "ux-quality-rule",
+    "title": "Breadcrumbs",
+    "userLabel": "Breadcrumbs",
+    "summary": "Show user location in site hierarchy",
+    "appliesWhen": [
+      "Web",
+      "Navigation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use for sites with 3+ levels of depth",
+    "risks": [
+      "Use for flat single-level sites"
+    ],
+    "tags": [
+      "ux-quality",
+      "Navigation",
+      "Web",
+      "Low",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 64,
+    "category": "Navigation",
+    "platform": "Web",
+    "do": "Use for sites with 3+ levels of depth",
+    "dont": "Use for flat single-level sites",
+    "goodExample": "Home > Category > Product",
+    "badExample": "Only on deep nested pages",
+    "severity": "Low",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-animation-excessive-motion-7",
+    "type": "ux-quality-rule",
+    "title": "Excessive Motion",
+    "userLabel": "Excessive Motion",
+    "summary": "Too many animations cause distraction and motion sickness",
+    "appliesWhen": [
+      "All",
+      "Animation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Animate 1-2 key elements per view maximum",
+    "risks": [
+      "Animate everything that moves"
+    ],
+    "tags": [
+      "ux-quality",
+      "Animation",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Animation",
+    "platform": "All",
+    "do": "Animate 1-2 key elements per view maximum",
+    "dont": "Animate everything that moves",
+    "goodExample": "Single hero animation",
+    "badExample": "animate-bounce on 5+ elements",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-animation-duration-timing-8",
+    "type": "ux-quality-rule",
+    "title": "Duration Timing",
+    "userLabel": "Duration Timing",
+    "summary": "Animations should feel responsive not sluggish",
+    "appliesWhen": [
+      "All",
+      "Animation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use 150-300ms for micro-interactions",
+    "risks": [
+      "Use animations longer than 500ms for UI"
+    ],
+    "tags": [
+      "ux-quality",
+      "Animation",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Animation",
+    "platform": "All",
+    "do": "Use 150-300ms for micro-interactions",
+    "dont": "Use animations longer than 500ms for UI",
+    "goodExample": "transition-all duration-200",
+    "badExample": "duration-1000",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-animation-reduced-motion-9",
+    "type": "ux-quality-rule",
+    "title": "Reduced Motion",
+    "userLabel": "Reduced Motion",
+    "summary": "Respect user's motion preferences",
+    "appliesWhen": [
+      "All",
+      "Animation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Check prefers-reduced-motion media query",
+    "risks": [
+      "Ignore accessibility motion settings"
+    ],
+    "tags": [
+      "ux-quality",
+      "Animation",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Animation",
+    "platform": "All",
+    "do": "Check prefers-reduced-motion media query",
+    "dont": "Ignore accessibility motion settings",
+    "goodExample": "@media (prefers-reduced-motion: reduce)",
+    "badExample": "No motion query check",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-animation-loading-states-10",
+    "type": "ux-quality-rule",
+    "title": "Loading States",
+    "userLabel": "Loading States",
+    "summary": "Show feedback during async operations",
+    "appliesWhen": [
+      "All",
+      "Animation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use skeleton screens or spinners",
+    "risks": [
+      "Leave UI frozen with no feedback"
+    ],
+    "tags": [
+      "ux-quality",
+      "Animation",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Animation",
+    "platform": "All",
+    "do": "Use skeleton screens or spinners",
+    "dont": "Leave UI frozen with no feedback",
+    "goodExample": "animate-pulse skeleton",
+    "badExample": "Blank screen while loading",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-animation-hover-vs-tap-11",
+    "type": "ux-quality-rule",
+    "title": "Hover vs Tap",
+    "userLabel": "Hover vs Tap",
+    "summary": "Hover effects don't work on touch devices",
+    "appliesWhen": [
+      "All",
+      "Animation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use click/tap for primary interactions",
+    "risks": [
+      "Rely only on hover for important actions"
+    ],
+    "tags": [
+      "ux-quality",
+      "Animation",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Animation",
+    "platform": "All",
+    "do": "Use click/tap for primary interactions",
+    "dont": "Rely only on hover for important actions",
+    "goodExample": "onClick handler",
+    "badExample": "onMouseEnter only",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-animation-continuous-animation-12",
+    "type": "ux-quality-rule",
+    "title": "Continuous Animation",
+    "userLabel": "Continuous Animation",
+    "summary": "Infinite animations are distracting",
+    "appliesWhen": [
+      "All",
+      "Animation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use for loading indicators only",
+    "risks": [
+      "Use for decorative elements"
+    ],
+    "tags": [
+      "ux-quality",
+      "Animation",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Animation",
+    "platform": "All",
+    "do": "Use for loading indicators only",
+    "dont": "Use for decorative elements",
+    "goodExample": "animate-spin on loader",
+    "badExample": "animate-bounce on icons",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-animation-transform-performance-13",
+    "type": "ux-quality-rule",
+    "title": "Transform Performance",
+    "userLabel": "Transform Performance",
+    "summary": "Some CSS properties trigger expensive repaints",
+    "appliesWhen": [
+      "Web",
+      "Animation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use transform and opacity for animations",
+    "risks": [
+      "Animate width/height/top/left properties"
+    ],
+    "tags": [
+      "ux-quality",
+      "Animation",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Animation",
+    "platform": "Web",
+    "do": "Use transform and opacity for animations",
+    "dont": "Animate width/height/top/left properties",
+    "goodExample": "transform: translateY()",
+    "badExample": "top: 10px animation",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-animation-easing-functions-14",
+    "type": "ux-quality-rule",
+    "title": "Easing Functions",
+    "userLabel": "Easing Functions",
+    "summary": "Linear motion feels robotic",
+    "appliesWhen": [
+      "All",
+      "Animation"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use ease-out for entering ease-in for exiting",
+    "risks": [
+      "Use linear for UI transitions"
+    ],
+    "tags": [
+      "ux-quality",
+      "Animation",
+      "All",
+      "Low",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 64,
+    "category": "Animation",
+    "platform": "All",
+    "do": "Use ease-out for entering ease-in for exiting",
+    "dont": "Use linear for UI transitions",
+    "goodExample": "ease-out",
+    "badExample": "linear",
+    "severity": "Low",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-layout-z-index-management-15",
+    "type": "ux-quality-rule",
+    "title": "Z-Index Management",
+    "userLabel": "Z-Index Management",
+    "summary": "Stacking context conflicts cause hidden elements",
+    "appliesWhen": [
+      "Web",
+      "Layout"
+    ],
+    "avoidWhen": [],
+    "rationale": "Define z-index scale system (10 20 30 50)",
+    "risks": [
+      "Use arbitrary large z-index values"
+    ],
+    "tags": [
+      "ux-quality",
+      "Layout",
+      "Web",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Layout",
+    "platform": "Web",
+    "do": "Define z-index scale system (10 20 30 50)",
+    "dont": "Use arbitrary large z-index values",
+    "goodExample": "z-10 z-20 z-50",
+    "badExample": "z-[9999]",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-layout-overflow-hidden-16",
+    "type": "ux-quality-rule",
+    "title": "Overflow Hidden",
+    "userLabel": "Overflow Hidden",
+    "summary": "Hidden overflow can clip important content",
+    "appliesWhen": [
+      "Web",
+      "Layout"
+    ],
+    "avoidWhen": [],
+    "rationale": "Test all content fits within containers",
+    "risks": [
+      "Blindly apply overflow-hidden"
+    ],
+    "tags": [
+      "ux-quality",
+      "Layout",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Layout",
+    "platform": "Web",
+    "do": "Test all content fits within containers",
+    "dont": "Blindly apply overflow-hidden",
+    "goodExample": "overflow-auto with scroll",
+    "badExample": "overflow-hidden truncating content",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-layout-fixed-positioning-17",
+    "type": "ux-quality-rule",
+    "title": "Fixed Positioning",
+    "userLabel": "Fixed Positioning",
+    "summary": "Fixed elements can overlap or be inaccessible",
+    "appliesWhen": [
+      "Web",
+      "Layout"
+    ],
+    "avoidWhen": [],
+    "rationale": "Account for safe areas and other fixed elements",
+    "risks": [
+      "Stack multiple fixed elements carelessly"
+    ],
+    "tags": [
+      "ux-quality",
+      "Layout",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Layout",
+    "platform": "Web",
+    "do": "Account for safe areas and other fixed elements",
+    "dont": "Stack multiple fixed elements carelessly",
+    "goodExample": "Fixed nav + fixed bottom with gap",
+    "badExample": "Multiple overlapping fixed elements",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-layout-stacking-context-18",
+    "type": "ux-quality-rule",
+    "title": "Stacking Context",
+    "userLabel": "Stacking Context",
+    "summary": "New stacking contexts reset z-index",
+    "appliesWhen": [
+      "Web",
+      "Layout"
+    ],
+    "avoidWhen": [],
+    "rationale": "Understand what creates new stacking context",
+    "risks": [
+      "Expect z-index to work across contexts"
+    ],
+    "tags": [
+      "ux-quality",
+      "Layout",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Layout",
+    "platform": "Web",
+    "do": "Understand what creates new stacking context",
+    "dont": "Expect z-index to work across contexts",
+    "goodExample": "Parent with z-index isolates children",
+    "badExample": "z-index: 9999 not working",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-layout-content-jumping-19",
+    "type": "ux-quality-rule",
+    "title": "Content Jumping",
+    "userLabel": "Content Jumping",
+    "summary": "Layout shift when content loads is jarring",
+    "appliesWhen": [
+      "Web",
+      "Layout"
+    ],
+    "avoidWhen": [],
+    "rationale": "Reserve space for async content",
+    "risks": [
+      "Let images/content push layout around"
+    ],
+    "tags": [
+      "ux-quality",
+      "Layout",
+      "Web",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Layout",
+    "platform": "Web",
+    "do": "Reserve space for async content",
+    "dont": "Let images/content push layout around",
+    "goodExample": "aspect-ratio or fixed height",
+    "badExample": "No dimensions on images",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-layout-viewport-units-20",
+    "type": "ux-quality-rule",
+    "title": "Viewport Units",
+    "userLabel": "Viewport Units",
+    "summary": "100vh can be problematic on mobile browsers",
+    "appliesWhen": [
+      "Web",
+      "Layout"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use dvh or account for mobile browser chrome",
+    "risks": [
+      "Use 100vh for full-screen mobile layouts"
+    ],
+    "tags": [
+      "ux-quality",
+      "Layout",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Layout",
+    "platform": "Web",
+    "do": "Use dvh or account for mobile browser chrome",
+    "dont": "Use 100vh for full-screen mobile layouts",
+    "goodExample": "min-h-dvh or min-h-screen",
+    "badExample": "h-screen on mobile",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-layout-container-width-21",
+    "type": "ux-quality-rule",
+    "title": "Container Width",
+    "userLabel": "Container Width",
+    "summary": "Content too wide is hard to read",
+    "appliesWhen": [
+      "Web",
+      "Layout"
+    ],
+    "avoidWhen": [],
+    "rationale": "Limit max-width for text content (65-75ch)",
+    "risks": [
+      "Let text span full viewport width"
+    ],
+    "tags": [
+      "ux-quality",
+      "Layout",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Layout",
+    "platform": "Web",
+    "do": "Limit max-width for text content (65-75ch)",
+    "dont": "Let text span full viewport width",
+    "goodExample": "max-w-prose or max-w-3xl",
+    "badExample": "Full width paragraphs",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-touch-touch-target-size-22",
+    "type": "ux-quality-rule",
+    "title": "Touch Target Size",
+    "userLabel": "Touch Target Size",
+    "summary": "Small buttons are hard to tap accurately",
+    "appliesWhen": [
+      "Mobile",
+      "Touch"
+    ],
+    "avoidWhen": [],
+    "rationale": "Minimum 44x44px touch targets",
+    "risks": [
+      "Tiny clickable areas"
+    ],
+    "tags": [
+      "ux-quality",
+      "Touch",
+      "Mobile",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Touch",
+    "platform": "Mobile",
+    "do": "Minimum 44x44px touch targets",
+    "dont": "Tiny clickable areas",
+    "goodExample": "min-h-[44px] min-w-[44px]",
+    "badExample": "w-6 h-6 buttons",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-touch-haptic-feedback-27",
+    "type": "ux-quality-rule",
+    "title": "Haptic Feedback",
+    "userLabel": "Haptic Feedback",
+    "summary": "Tactile feedback improves interaction feel",
+    "appliesWhen": [
+      "Mobile",
+      "Touch"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use for confirmations and important actions",
+    "risks": [
+      "Overuse vibration feedback"
+    ],
+    "tags": [
+      "ux-quality",
+      "Touch",
+      "Mobile",
+      "Low",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 64,
+    "category": "Touch",
+    "platform": "Mobile",
+    "do": "Use for confirmations and important actions",
+    "dont": "Overuse vibration feedback",
+    "goodExample": "navigator.vibrate(10)",
+    "badExample": "Vibrate on every tap",
+    "severity": "Low",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-interaction-focus-states-28",
+    "type": "ux-quality-rule",
+    "title": "Focus States",
+    "userLabel": "Focus States",
+    "summary": "Keyboard users need visible focus indicators",
+    "appliesWhen": [
+      "All",
+      "Interaction"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use visible focus rings on interactive elements",
+    "risks": [
+      "Remove focus outline without replacement"
+    ],
+    "tags": [
+      "ux-quality",
+      "Interaction",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Interaction",
+    "platform": "All",
+    "do": "Use visible focus rings on interactive elements",
+    "dont": "Remove focus outline without replacement",
+    "goodExample": "focus:ring-2 focus:ring-blue-500",
+    "badExample": "outline-none without alternative",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-interaction-hover-states-29",
+    "type": "ux-quality-rule",
+    "title": "Hover States",
+    "userLabel": "Hover States",
+    "summary": "Visual feedback on interactive elements",
+    "appliesWhen": [
+      "Web",
+      "Interaction"
+    ],
+    "avoidWhen": [],
+    "rationale": "Change cursor and add subtle visual change",
+    "risks": [
+      "No hover feedback on clickable elements"
+    ],
+    "tags": [
+      "ux-quality",
+      "Interaction",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Interaction",
+    "platform": "Web",
+    "do": "Change cursor and add subtle visual change",
+    "dont": "No hover feedback on clickable elements",
+    "goodExample": "hover:bg-gray-100 cursor-pointer",
+    "badExample": "No hover style",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-interaction-active-states-30",
+    "type": "ux-quality-rule",
+    "title": "Active States",
+    "userLabel": "Active States",
+    "summary": "Show immediate feedback on press/click",
+    "appliesWhen": [
+      "All",
+      "Interaction"
+    ],
+    "avoidWhen": [],
+    "rationale": "Add pressed/active state visual change",
+    "risks": [
+      "No feedback during interaction"
+    ],
+    "tags": [
+      "ux-quality",
+      "Interaction",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Interaction",
+    "platform": "All",
+    "do": "Add pressed/active state visual change",
+    "dont": "No feedback during interaction",
+    "goodExample": "active:scale-95",
+    "badExample": "No active state",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-interaction-disabled-states-31",
+    "type": "ux-quality-rule",
+    "title": "Disabled States",
+    "userLabel": "Disabled States",
+    "summary": "Clearly indicate non-interactive elements",
+    "appliesWhen": [
+      "All",
+      "Interaction"
+    ],
+    "avoidWhen": [],
+    "rationale": "Reduce opacity and change cursor",
+    "risks": [
+      "Confuse disabled with normal state"
+    ],
+    "tags": [
+      "ux-quality",
+      "Interaction",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Interaction",
+    "platform": "All",
+    "do": "Reduce opacity and change cursor",
+    "dont": "Confuse disabled with normal state",
+    "goodExample": "opacity-50 cursor-not-allowed",
+    "badExample": "Same style as enabled",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-interaction-loading-buttons-32",
+    "type": "ux-quality-rule",
+    "title": "Loading Buttons",
+    "userLabel": "Loading Buttons",
+    "summary": "Prevent double submission during async actions",
+    "appliesWhen": [
+      "All",
+      "Interaction"
+    ],
+    "avoidWhen": [],
+    "rationale": "Disable button and show loading state",
+    "risks": [
+      "Allow multiple clicks during processing"
+    ],
+    "tags": [
+      "ux-quality",
+      "Interaction",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Interaction",
+    "platform": "All",
+    "do": "Disable button and show loading state",
+    "dont": "Allow multiple clicks during processing",
+    "goodExample": "disabled={loading} spinner",
+    "badExample": "Button clickable while loading",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-interaction-error-feedback-33",
+    "type": "ux-quality-rule",
+    "title": "Error Feedback",
+    "userLabel": "Error Feedback",
+    "summary": "Users need to know when something fails",
+    "appliesWhen": [
+      "All",
+      "Interaction"
+    ],
+    "avoidWhen": [],
+    "rationale": "Show clear error messages near problem",
+    "risks": [
+      "Silent failures with no feedback"
+    ],
+    "tags": [
+      "ux-quality",
+      "Interaction",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Interaction",
+    "platform": "All",
+    "do": "Show clear error messages near problem",
+    "dont": "Silent failures with no feedback",
+    "goodExample": "Red border + error message",
+    "badExample": "No indication of error",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-interaction-success-feedback-34",
+    "type": "ux-quality-rule",
+    "title": "Success Feedback",
+    "userLabel": "Success Feedback",
+    "summary": "Confirm successful actions to users",
+    "appliesWhen": [
+      "All",
+      "Interaction"
+    ],
+    "avoidWhen": [],
+    "rationale": "Show success message or visual change",
+    "risks": [
+      "No confirmation of completed action"
+    ],
+    "tags": [
+      "ux-quality",
+      "Interaction",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Interaction",
+    "platform": "All",
+    "do": "Show success message or visual change",
+    "dont": "No confirmation of completed action",
+    "goodExample": "Toast notification or checkmark",
+    "badExample": "Action completes silently",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-interaction-confirmation-dialogs-35",
+    "type": "ux-quality-rule",
+    "title": "Confirmation Dialogs",
+    "userLabel": "Confirmation Dialogs",
+    "summary": "Prevent accidental destructive actions",
+    "appliesWhen": [
+      "All",
+      "Interaction"
+    ],
+    "avoidWhen": [],
+    "rationale": "Confirm before delete/irreversible actions",
+    "risks": [
+      "Delete without confirmation"
+    ],
+    "tags": [
+      "ux-quality",
+      "Interaction",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Interaction",
+    "platform": "All",
+    "do": "Confirm before delete/irreversible actions",
+    "dont": "Delete without confirmation",
+    "goodExample": "Are you sure modal",
+    "badExample": "Direct delete on click",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-color-contrast-36",
+    "type": "ux-quality-rule",
+    "title": "Color Contrast",
+    "userLabel": "Color Contrast",
+    "summary": "Text must be readable against background",
+    "appliesWhen": [
+      "All",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Minimum 4.5:1 ratio for normal text",
+    "risks": [
+      "Low contrast text"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Accessibility",
+    "platform": "All",
+    "do": "Minimum 4.5:1 ratio for normal text",
+    "dont": "Low contrast text",
+    "goodExample": "#333 on white (7:1)",
+    "badExample": "#999 on white (2.8:1)",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-color-only-37",
+    "type": "ux-quality-rule",
+    "title": "Color Only",
+    "userLabel": "Color Only",
+    "summary": "Don't convey information by color alone",
+    "appliesWhen": [
+      "All",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use icons/text in addition to color",
+    "risks": [
+      "Red/green only for error/success"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Accessibility",
+    "platform": "All",
+    "do": "Use icons/text in addition to color",
+    "dont": "Red/green only for error/success",
+    "goodExample": "Red text + error icon",
+    "badExample": "Red border only for error",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-alt-text-38",
+    "type": "ux-quality-rule",
+    "title": "Alt Text",
+    "userLabel": "Alt Text",
+    "summary": "Images need text alternatives",
+    "appliesWhen": [
+      "All",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Descriptive alt text for meaningful images",
+    "risks": [
+      "Empty or missing alt attributes"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Accessibility",
+    "platform": "All",
+    "do": "Descriptive alt text for meaningful images",
+    "dont": "Empty or missing alt attributes",
+    "goodExample": "alt='Dog playing in park'",
+    "badExample": "alt='' for content images",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-heading-hierarchy-39",
+    "type": "ux-quality-rule",
+    "title": "Heading Hierarchy",
+    "userLabel": "Heading Hierarchy",
+    "summary": "Screen readers use headings for navigation",
+    "appliesWhen": [
+      "Web",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use sequential heading levels h1-h6",
+    "risks": [
+      "Skip heading levels or misuse for styling"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Accessibility",
+    "platform": "Web",
+    "do": "Use sequential heading levels h1-h6",
+    "dont": "Skip heading levels or misuse for styling",
+    "goodExample": "h1 then h2 then h3",
+    "badExample": "h1 then h4",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-aria-labels-40",
+    "type": "ux-quality-rule",
+    "title": "ARIA Labels",
+    "userLabel": "ARIA Labels",
+    "summary": "Interactive elements need accessible names",
+    "appliesWhen": [
+      "All",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Add aria-label for icon-only buttons",
+    "risks": [
+      "Icon buttons without labels"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Accessibility",
+    "platform": "All",
+    "do": "Add aria-label for icon-only buttons",
+    "dont": "Icon buttons without labels",
+    "goodExample": "aria-label='Close menu'",
+    "badExample": "<button><Icon/></button>",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-keyboard-navigation-41",
+    "type": "ux-quality-rule",
+    "title": "Keyboard Navigation",
+    "userLabel": "Keyboard Navigation",
+    "summary": "All functionality accessible via keyboard",
+    "appliesWhen": [
+      "Web",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Tab order matches visual order",
+    "risks": [
+      "Keyboard traps or illogical tab order"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "Web",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Accessibility",
+    "platform": "Web",
+    "do": "Tab order matches visual order",
+    "dont": "Keyboard traps or illogical tab order",
+    "goodExample": "tabIndex for custom order",
+    "badExample": "Unreachable elements",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-screen-reader-42",
+    "type": "ux-quality-rule",
+    "title": "Screen Reader",
+    "userLabel": "Screen Reader",
+    "summary": "Content should make sense when read aloud",
+    "appliesWhen": [
+      "All",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use semantic HTML and ARIA properly",
+    "risks": [
+      "Div soup with no semantics"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Accessibility",
+    "platform": "All",
+    "do": "Use semantic HTML and ARIA properly",
+    "dont": "Div soup with no semantics",
+    "goodExample": "<nav> <main> <article>",
+    "badExample": "<div> for everything",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-form-labels-43",
+    "type": "ux-quality-rule",
+    "title": "Form Labels",
+    "userLabel": "Form Labels",
+    "summary": "Inputs must have associated labels",
+    "appliesWhen": [
+      "All",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use label with for attribute or wrap input",
+    "risks": [
+      "Placeholder-only inputs"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Accessibility",
+    "platform": "All",
+    "do": "Use label with for attribute or wrap input",
+    "dont": "Placeholder-only inputs",
+    "goodExample": "<label for='email'>",
+    "badExample": "placeholder='Email' only",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-error-messages-44",
+    "type": "ux-quality-rule",
+    "title": "Error Messages",
+    "userLabel": "Error Messages",
+    "summary": "Error messages must be announced",
+    "appliesWhen": [
+      "All",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use aria-live or role=alert for errors",
+    "risks": [
+      "Visual-only error indication"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Accessibility",
+    "platform": "All",
+    "do": "Use aria-live or role=alert for errors",
+    "dont": "Visual-only error indication",
+    "goodExample": "role='alert'",
+    "badExample": "Red border only",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-accessibility-skip-links-45",
+    "type": "ux-quality-rule",
+    "title": "Skip Links",
+    "userLabel": "Skip Links",
+    "summary": "Allow keyboard users to skip navigation",
+    "appliesWhen": [
+      "Web",
+      "Accessibility"
+    ],
+    "avoidWhen": [],
+    "rationale": "Provide skip to main content link",
+    "risks": [
+      "No skip link on nav-heavy pages"
+    ],
+    "tags": [
+      "ux-quality",
+      "Accessibility",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Accessibility",
+    "platform": "Web",
+    "do": "Provide skip to main content link",
+    "dont": "No skip link on nav-heavy pages",
+    "goodExample": "Skip to main content link",
+    "badExample": "100 tabs to reach content",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-performance-image-optimization-46",
+    "type": "ux-quality-rule",
+    "title": "Image Optimization",
+    "userLabel": "Image Optimization",
+    "summary": "Large images slow page load",
+    "appliesWhen": [
+      "All",
+      "Performance"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use appropriate size and format (WebP)",
+    "risks": [
+      "Unoptimized full-size images"
+    ],
+    "tags": [
+      "ux-quality",
+      "Performance",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Performance",
+    "platform": "All",
+    "do": "Use appropriate size and format (WebP)",
+    "dont": "Unoptimized full-size images",
+    "goodExample": "srcset with multiple sizes",
+    "badExample": "4000px image for 400px display",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-performance-lazy-loading-47",
+    "type": "ux-quality-rule",
+    "title": "Lazy Loading",
+    "userLabel": "Lazy Loading",
+    "summary": "Load content as needed",
+    "appliesWhen": [
+      "All",
+      "Performance"
+    ],
+    "avoidWhen": [],
+    "rationale": "Lazy load below-fold images and content",
+    "risks": [
+      "Load everything upfront"
+    ],
+    "tags": [
+      "ux-quality",
+      "Performance",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Performance",
+    "platform": "All",
+    "do": "Lazy load below-fold images and content",
+    "dont": "Load everything upfront",
+    "goodExample": "loading='lazy'",
+    "badExample": "All images eager load",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-performance-code-splitting-48",
+    "type": "ux-quality-rule",
+    "title": "Code Splitting",
+    "userLabel": "Code Splitting",
+    "summary": "Large bundles slow initial load",
+    "appliesWhen": [
+      "Web",
+      "Performance"
+    ],
+    "avoidWhen": [],
+    "rationale": "Split code by route/feature",
+    "risks": [
+      "Single large bundle"
+    ],
+    "tags": [
+      "ux-quality",
+      "Performance",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Performance",
+    "platform": "Web",
+    "do": "Split code by route/feature",
+    "dont": "Single large bundle",
+    "goodExample": "dynamic import()",
+    "badExample": "All code in main bundle",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-performance-caching-49",
+    "type": "ux-quality-rule",
+    "title": "Caching",
+    "userLabel": "Caching",
+    "summary": "Repeat visits should be fast",
+    "appliesWhen": [
+      "Web",
+      "Performance"
+    ],
+    "avoidWhen": [],
+    "rationale": "Set appropriate cache headers",
+    "risks": [
+      "No caching strategy"
+    ],
+    "tags": [
+      "ux-quality",
+      "Performance",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Performance",
+    "platform": "Web",
+    "do": "Set appropriate cache headers",
+    "dont": "No caching strategy",
+    "goodExample": "Cache-Control headers",
+    "badExample": "Every request hits server",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-performance-font-loading-50",
+    "type": "ux-quality-rule",
+    "title": "Font Loading",
+    "userLabel": "Font Loading",
+    "summary": "Web fonts can block rendering",
+    "appliesWhen": [
+      "Web",
+      "Performance"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use font-display swap or optional",
+    "risks": [
+      "Invisible text during font load"
+    ],
+    "tags": [
+      "ux-quality",
+      "Performance",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Performance",
+    "platform": "Web",
+    "do": "Use font-display swap or optional",
+    "dont": "Invisible text during font load",
+    "goodExample": "font-display: swap",
+    "badExample": "FOIT (Flash of Invisible Text)",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-performance-third-party-scripts-51",
+    "type": "ux-quality-rule",
+    "title": "Third Party Scripts",
+    "userLabel": "Third Party Scripts",
+    "summary": "External scripts can block rendering",
+    "appliesWhen": [
+      "Web",
+      "Performance"
+    ],
+    "avoidWhen": [],
+    "rationale": "Load non-critical scripts async/defer",
+    "risks": [
+      "Synchronous third-party scripts"
+    ],
+    "tags": [
+      "ux-quality",
+      "Performance",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Performance",
+    "platform": "Web",
+    "do": "Load non-critical scripts async/defer",
+    "dont": "Synchronous third-party scripts",
+    "goodExample": "async or defer attribute",
+    "badExample": "<script src='...'> in head",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-performance-bundle-size-52",
+    "type": "ux-quality-rule",
+    "title": "Bundle Size",
+    "userLabel": "Bundle Size",
+    "summary": "Large JavaScript slows interaction",
+    "appliesWhen": [
+      "Web",
+      "Performance"
+    ],
+    "avoidWhen": [],
+    "rationale": "Monitor and minimize bundle size",
+    "risks": [
+      "Ignore bundle size growth"
+    ],
+    "tags": [
+      "ux-quality",
+      "Performance",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Performance",
+    "platform": "Web",
+    "do": "Monitor and minimize bundle size",
+    "dont": "Ignore bundle size growth",
+    "goodExample": "Bundle analyzer",
+    "badExample": "No size monitoring",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-performance-render-blocking-53",
+    "type": "ux-quality-rule",
+    "title": "Render Blocking",
+    "userLabel": "Render Blocking",
+    "summary": "CSS/JS can block first paint",
+    "appliesWhen": [
+      "Web",
+      "Performance"
+    ],
+    "avoidWhen": [],
+    "rationale": "Inline critical CSS defer non-critical",
+    "risks": [
+      "Large blocking CSS files"
+    ],
+    "tags": [
+      "ux-quality",
+      "Performance",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Performance",
+    "platform": "Web",
+    "do": "Inline critical CSS defer non-critical",
+    "dont": "Large blocking CSS files",
+    "goodExample": "Critical CSS inline",
+    "badExample": "All CSS in head",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-input-labels-54",
+    "type": "ux-quality-rule",
+    "title": "Input Labels",
+    "userLabel": "Input Labels",
+    "summary": "Every input needs a visible label",
+    "appliesWhen": [
+      "All",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Always show label above or beside input",
+    "risks": [
+      "Placeholder as only label"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Forms",
+    "platform": "All",
+    "do": "Always show label above or beside input",
+    "dont": "Placeholder as only label",
+    "goodExample": "<label>Email</label><input>",
+    "badExample": "placeholder='Email' only",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-error-placement-55",
+    "type": "ux-quality-rule",
+    "title": "Error Placement",
+    "userLabel": "Error Placement",
+    "summary": "Errors should appear near the problem",
+    "appliesWhen": [
+      "All",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Show error below related input",
+    "risks": [
+      "Single error message at top of form"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Forms",
+    "platform": "All",
+    "do": "Show error below related input",
+    "dont": "Single error message at top of form",
+    "goodExample": "Error under each field",
+    "badExample": "All errors at form top",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-inline-validation-56",
+    "type": "ux-quality-rule",
+    "title": "Inline Validation",
+    "userLabel": "Inline Validation",
+    "summary": "Validate as user types or on blur",
+    "appliesWhen": [
+      "All",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Validate on blur for most fields",
+    "risks": [
+      "Validate only on submit"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Forms",
+    "platform": "All",
+    "do": "Validate on blur for most fields",
+    "dont": "Validate only on submit",
+    "goodExample": "onBlur validation",
+    "badExample": "Submit-only validation",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-input-types-57",
+    "type": "ux-quality-rule",
+    "title": "Input Types",
+    "userLabel": "Input Types",
+    "summary": "Use appropriate input types",
+    "appliesWhen": [
+      "All",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use email tel number url etc",
+    "risks": [
+      "Text input for everything"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Forms",
+    "platform": "All",
+    "do": "Use email tel number url etc",
+    "dont": "Text input for everything",
+    "goodExample": "type='email'",
+    "badExample": "type='text' for email",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-autofill-support-58",
+    "type": "ux-quality-rule",
+    "title": "Autofill Support",
+    "userLabel": "Autofill Support",
+    "summary": "Help browsers autofill correctly",
+    "appliesWhen": [
+      "Web",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use autocomplete attribute properly",
+    "risks": [
+      "Block or ignore autofill"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Forms",
+    "platform": "Web",
+    "do": "Use autocomplete attribute properly",
+    "dont": "Block or ignore autofill",
+    "goodExample": "autocomplete='email'",
+    "badExample": "autocomplete='off' everywhere",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-required-indicators-59",
+    "type": "ux-quality-rule",
+    "title": "Required Indicators",
+    "userLabel": "Required Indicators",
+    "summary": "Mark required fields clearly",
+    "appliesWhen": [
+      "All",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use asterisk or (required) text",
+    "risks": [
+      "No indication of required fields"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Forms",
+    "platform": "All",
+    "do": "Use asterisk or (required) text",
+    "dont": "No indication of required fields",
+    "goodExample": "* required indicator",
+    "badExample": "Guess which are required",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-password-visibility-60",
+    "type": "ux-quality-rule",
+    "title": "Password Visibility",
+    "userLabel": "Password Visibility",
+    "summary": "Let users see password while typing",
+    "appliesWhen": [
+      "All",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Toggle to show/hide password",
+    "risks": [
+      "No visibility toggle"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Forms",
+    "platform": "All",
+    "do": "Toggle to show/hide password",
+    "dont": "No visibility toggle",
+    "goodExample": "Show/hide password button",
+    "badExample": "Password always hidden",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-submit-feedback-61",
+    "type": "ux-quality-rule",
+    "title": "Submit Feedback",
+    "userLabel": "Submit Feedback",
+    "summary": "Confirm form submission status",
+    "appliesWhen": [
+      "All",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Show loading then success/error state",
+    "risks": [
+      "No feedback after submit"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Forms",
+    "platform": "All",
+    "do": "Show loading then success/error state",
+    "dont": "No feedback after submit",
+    "goodExample": "Loading -> Success message",
+    "badExample": "Button click with no response",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-input-affordance-62",
+    "type": "ux-quality-rule",
+    "title": "Input Affordance",
+    "userLabel": "Input Affordance",
+    "summary": "Inputs should look interactive",
+    "appliesWhen": [
+      "All",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use distinct input styling",
+    "risks": [
+      "Inputs that look like plain text"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Forms",
+    "platform": "All",
+    "do": "Use distinct input styling",
+    "dont": "Inputs that look like plain text",
+    "goodExample": "Border/background on inputs",
+    "badExample": "Borderless inputs",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-forms-mobile-keyboards-63",
+    "type": "ux-quality-rule",
+    "title": "Mobile Keyboards",
+    "userLabel": "Mobile Keyboards",
+    "summary": "Show appropriate keyboard for input type",
+    "appliesWhen": [
+      "Mobile",
+      "Forms"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use inputmode attribute",
+    "risks": [
+      "Default keyboard for all inputs"
+    ],
+    "tags": [
+      "ux-quality",
+      "Forms",
+      "Mobile",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Forms",
+    "platform": "Mobile",
+    "do": "Use inputmode attribute",
+    "dont": "Default keyboard for all inputs",
+    "goodExample": "inputmode='numeric'",
+    "badExample": "Text keyboard for numbers",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-responsive-mobile-first-64",
+    "type": "ux-quality-rule",
+    "title": "Mobile First",
+    "userLabel": "Mobile First",
+    "summary": "Design for mobile then enhance for larger",
+    "appliesWhen": [
+      "Web",
+      "Responsive"
+    ],
+    "avoidWhen": [],
+    "rationale": "Start with mobile styles then add breakpoints",
+    "risks": [
+      "Desktop-first causing mobile issues"
+    ],
+    "tags": [
+      "ux-quality",
+      "Responsive",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Responsive",
+    "platform": "Web",
+    "do": "Start with mobile styles then add breakpoints",
+    "dont": "Desktop-first causing mobile issues",
+    "goodExample": "Default mobile + md: lg: xl:",
+    "badExample": "Desktop default + max-width queries",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-responsive-breakpoint-testing-65",
+    "type": "ux-quality-rule",
+    "title": "Breakpoint Testing",
+    "userLabel": "Breakpoint Testing",
+    "summary": "Test at all common screen sizes",
+    "appliesWhen": [
+      "Web",
+      "Responsive"
+    ],
+    "avoidWhen": [],
+    "rationale": "Test at 320 375 414 768 1024 1440",
+    "risks": [
+      "Only test on your device"
+    ],
+    "tags": [
+      "ux-quality",
+      "Responsive",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Responsive",
+    "platform": "Web",
+    "do": "Test at 320 375 414 768 1024 1440",
+    "dont": "Only test on your device",
+    "goodExample": "Multiple device testing",
+    "badExample": "Single device development",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-responsive-touch-friendly-66",
+    "type": "ux-quality-rule",
+    "title": "Touch Friendly",
+    "userLabel": "Touch Friendly",
+    "summary": "Mobile layouts need touch-sized targets",
+    "appliesWhen": [
+      "Web",
+      "Responsive"
+    ],
+    "avoidWhen": [],
+    "rationale": "Increase touch targets on mobile",
+    "risks": [
+      "Same tiny buttons on mobile"
+    ],
+    "tags": [
+      "ux-quality",
+      "Responsive",
+      "Web",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Responsive",
+    "platform": "Web",
+    "do": "Increase touch targets on mobile",
+    "dont": "Same tiny buttons on mobile",
+    "goodExample": "Larger buttons on mobile",
+    "badExample": "Desktop-sized targets on mobile",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-responsive-readable-font-size-67",
+    "type": "ux-quality-rule",
+    "title": "Readable Font Size",
+    "userLabel": "Readable Font Size",
+    "summary": "Text must be readable on all devices",
+    "appliesWhen": [
+      "All",
+      "Responsive"
+    ],
+    "avoidWhen": [],
+    "rationale": "Minimum 16px body text on mobile",
+    "risks": [
+      "Tiny text on mobile"
+    ],
+    "tags": [
+      "ux-quality",
+      "Responsive",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Responsive",
+    "platform": "All",
+    "do": "Minimum 16px body text on mobile",
+    "dont": "Tiny text on mobile",
+    "goodExample": "text-base or larger",
+    "badExample": "text-xs for body text",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-responsive-viewport-meta-68",
+    "type": "ux-quality-rule",
+    "title": "Viewport Meta",
+    "userLabel": "Viewport Meta",
+    "summary": "Set viewport for mobile devices",
+    "appliesWhen": [
+      "Web",
+      "Responsive"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use width=device-width initial-scale=1",
+    "risks": [
+      "Missing or incorrect viewport"
+    ],
+    "tags": [
+      "ux-quality",
+      "Responsive",
+      "Web",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Responsive",
+    "platform": "Web",
+    "do": "Use width=device-width initial-scale=1",
+    "dont": "Missing or incorrect viewport",
+    "goodExample": "<meta name='viewport'...>",
+    "badExample": "No viewport meta tag",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-responsive-horizontal-scroll-69",
+    "type": "ux-quality-rule",
+    "title": "Horizontal Scroll",
+    "userLabel": "Horizontal Scroll",
+    "summary": "Avoid horizontal scrolling",
+    "appliesWhen": [
+      "Web",
+      "Responsive"
+    ],
+    "avoidWhen": [],
+    "rationale": "Ensure content fits viewport width",
+    "risks": [
+      "Content wider than viewport"
+    ],
+    "tags": [
+      "ux-quality",
+      "Responsive",
+      "Web",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Responsive",
+    "platform": "Web",
+    "do": "Ensure content fits viewport width",
+    "dont": "Content wider than viewport",
+    "goodExample": "max-w-full overflow-x-hidden",
+    "badExample": "Horizontal scrollbar on mobile",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-responsive-image-scaling-70",
+    "type": "ux-quality-rule",
+    "title": "Image Scaling",
+    "userLabel": "Image Scaling",
+    "summary": "Images should scale with container",
+    "appliesWhen": [
+      "Web",
+      "Responsive"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use max-width: 100% on images",
+    "risks": [
+      "Fixed width images overflow"
+    ],
+    "tags": [
+      "ux-quality",
+      "Responsive",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Responsive",
+    "platform": "Web",
+    "do": "Use max-width: 100% on images",
+    "dont": "Fixed width images overflow",
+    "goodExample": "max-w-full h-auto",
+    "badExample": "width='800' fixed",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-responsive-table-handling-71",
+    "type": "ux-quality-rule",
+    "title": "Table Handling",
+    "userLabel": "Table Handling",
+    "summary": "Tables can overflow on mobile",
+    "appliesWhen": [
+      "Web",
+      "Responsive"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use horizontal scroll or card layout",
+    "risks": [
+      "Wide tables breaking layout"
+    ],
+    "tags": [
+      "ux-quality",
+      "Responsive",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Responsive",
+    "platform": "Web",
+    "do": "Use horizontal scroll or card layout",
+    "dont": "Wide tables breaking layout",
+    "goodExample": "overflow-x-auto wrapper",
+    "badExample": "Table overflows viewport",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-typography-line-height-72",
+    "type": "ux-quality-rule",
+    "title": "Line Height",
+    "userLabel": "Line Height",
+    "summary": "Adequate line height improves readability",
+    "appliesWhen": [
+      "All",
+      "Typography"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use 1.5-1.75 for body text",
+    "risks": [
+      "Cramped or excessive line height"
+    ],
+    "tags": [
+      "ux-quality",
+      "Typography",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Typography",
+    "platform": "All",
+    "do": "Use 1.5-1.75 for body text",
+    "dont": "Cramped or excessive line height",
+    "goodExample": "leading-relaxed (1.625)",
+    "badExample": "leading-none (1)",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-typography-line-length-73",
+    "type": "ux-quality-rule",
+    "title": "Line Length",
+    "userLabel": "Line Length",
+    "summary": "Long lines are hard to read",
+    "appliesWhen": [
+      "Web",
+      "Typography"
+    ],
+    "avoidWhen": [],
+    "rationale": "Limit to 65-75 characters per line",
+    "risks": [
+      "Full-width text on large screens"
+    ],
+    "tags": [
+      "ux-quality",
+      "Typography",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Typography",
+    "platform": "Web",
+    "do": "Limit to 65-75 characters per line",
+    "dont": "Full-width text on large screens",
+    "goodExample": "max-w-prose",
+    "badExample": "Full viewport width text",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-typography-font-size-scale-74",
+    "type": "ux-quality-rule",
+    "title": "Font Size Scale",
+    "userLabel": "Font Size Scale",
+    "summary": "Consistent type hierarchy aids scanning",
+    "appliesWhen": [
+      "All",
+      "Typography"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use consistent modular scale",
+    "risks": [
+      "Random font sizes"
+    ],
+    "tags": [
+      "ux-quality",
+      "Typography",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Typography",
+    "platform": "All",
+    "do": "Use consistent modular scale",
+    "dont": "Random font sizes",
+    "goodExample": "Type scale (12 14 16 18 24 32)",
+    "badExample": "Arbitrary sizes",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-typography-font-loading-75",
+    "type": "ux-quality-rule",
+    "title": "Font Loading",
+    "userLabel": "Font Loading",
+    "summary": "Fonts should load without layout shift",
+    "appliesWhen": [
+      "Web",
+      "Typography"
+    ],
+    "avoidWhen": [],
+    "rationale": "Reserve space with fallback font",
+    "risks": [
+      "Layout shift when fonts load"
+    ],
+    "tags": [
+      "ux-quality",
+      "Typography",
+      "Web",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Typography",
+    "platform": "Web",
+    "do": "Reserve space with fallback font",
+    "dont": "Layout shift when fonts load",
+    "goodExample": "font-display: swap + similar fallback",
+    "badExample": "No fallback font",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-typography-contrast-readability-76",
+    "type": "ux-quality-rule",
+    "title": "Contrast Readability",
+    "userLabel": "Contrast Readability",
+    "summary": "Body text needs good contrast",
+    "appliesWhen": [
+      "All",
+      "Typography"
+    ],
+    "avoidWhen": [],
+    "rationale": "Use darker text on light backgrounds",
+    "risks": [
+      "Gray text on gray background"
+    ],
+    "tags": [
+      "ux-quality",
+      "Typography",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Typography",
+    "platform": "All",
+    "do": "Use darker text on light backgrounds",
+    "dont": "Gray text on gray background",
+    "goodExample": "text-gray-900 on white",
+    "badExample": "text-gray-400 on gray-100",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-typography-heading-clarity-77",
+    "type": "ux-quality-rule",
+    "title": "Heading Clarity",
+    "userLabel": "Heading Clarity",
+    "summary": "Headings should stand out from body",
+    "appliesWhen": [
+      "All",
+      "Typography"
+    ],
+    "avoidWhen": [],
+    "rationale": "Clear size/weight difference",
+    "risks": [
+      "Headings similar to body text"
+    ],
+    "tags": [
+      "ux-quality",
+      "Typography",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Typography",
+    "platform": "All",
+    "do": "Clear size/weight difference",
+    "dont": "Headings similar to body text",
+    "goodExample": "Bold + larger size",
+    "badExample": "Same size as body",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-feedback-loading-indicators-78",
+    "type": "ux-quality-rule",
+    "title": "Loading Indicators",
+    "userLabel": "Loading Indicators",
+    "summary": "Show system status during waits",
+    "appliesWhen": [
+      "All",
+      "Feedback"
+    ],
+    "avoidWhen": [],
+    "rationale": "Show spinner/skeleton for operations > 300ms",
+    "risks": [
+      "No feedback during loading"
+    ],
+    "tags": [
+      "ux-quality",
+      "Feedback",
+      "All",
+      "High",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "category": "Feedback",
+    "platform": "All",
+    "do": "Show spinner/skeleton for operations > 300ms",
+    "dont": "No feedback during loading",
+    "goodExample": "Skeleton or spinner",
+    "badExample": "Frozen UI",
+    "severity": "High",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-feedback-empty-states-79",
+    "type": "ux-quality-rule",
+    "title": "Empty States",
+    "userLabel": "Empty States",
+    "summary": "Guide users when no content exists",
+    "appliesWhen": [
+      "All",
+      "Feedback"
+    ],
+    "avoidWhen": [],
+    "rationale": "Show helpful message and action",
+    "risks": [
+      "Blank empty screens"
+    ],
+    "tags": [
+      "ux-quality",
+      "Feedback",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Feedback",
+    "platform": "All",
+    "do": "Show helpful message and action",
+    "dont": "Blank empty screens",
+    "goodExample": "No items yet. Create one!",
+    "badExample": "Empty white space",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-feedback-error-recovery-80",
+    "type": "ux-quality-rule",
+    "title": "Error Recovery",
+    "userLabel": "Error Recovery",
+    "summary": "Help users recover from errors",
+    "appliesWhen": [
+      "All",
+      "Feedback"
+    ],
+    "avoidWhen": [],
+    "rationale": "Provide clear next steps",
+    "risks": [
+      "Error without recovery path"
+    ],
+    "tags": [
+      "ux-quality",
+      "Feedback",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Feedback",
+    "platform": "All",
+    "do": "Provide clear next steps",
+    "dont": "Error without recovery path",
+    "goodExample": "Try again button + help link",
+    "badExample": "Error message only",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-feedback-progress-indicators-81",
+    "type": "ux-quality-rule",
+    "title": "Progress Indicators",
+    "userLabel": "Progress Indicators",
+    "summary": "Show progress for multi-step processes",
+    "appliesWhen": [
+      "All",
+      "Feedback"
+    ],
+    "avoidWhen": [],
+    "rationale": "Step indicators or progress bar",
+    "risks": [
+      "No indication of progress"
+    ],
+    "tags": [
+      "ux-quality",
+      "Feedback",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Feedback",
+    "platform": "All",
+    "do": "Step indicators or progress bar",
+    "dont": "No indication of progress",
+    "goodExample": "Step 2 of 4 indicator",
+    "badExample": "No step information",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-feedback-toast-notifications-82",
+    "type": "ux-quality-rule",
+    "title": "Toast Notifications",
+    "userLabel": "Toast Notifications",
+    "summary": "Transient messages for non-critical info",
+    "appliesWhen": [
+      "All",
+      "Feedback"
+    ],
+    "avoidWhen": [],
+    "rationale": "Auto-dismiss after 3-5 seconds",
+    "risks": [
+      "Toasts that never disappear"
+    ],
+    "tags": [
+      "ux-quality",
+      "Feedback",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Feedback",
+    "platform": "All",
+    "do": "Auto-dismiss after 3-5 seconds",
+    "dont": "Toasts that never disappear",
+    "goodExample": "Auto-dismiss toast",
+    "badExample": "Persistent toast",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-feedback-confirmation-messages-83",
+    "type": "ux-quality-rule",
+    "title": "Confirmation Messages",
+    "userLabel": "Confirmation Messages",
+    "summary": "Confirm successful actions",
+    "appliesWhen": [
+      "All",
+      "Feedback"
+    ],
+    "avoidWhen": [],
+    "rationale": "Brief success message",
+    "risks": [
+      "Silent success"
+    ],
+    "tags": [
+      "ux-quality",
+      "Feedback",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Feedback",
+    "platform": "All",
+    "do": "Brief success message",
+    "dont": "Silent success",
+    "goodExample": "Saved successfully toast",
+    "badExample": "No confirmation",
+    "severity": "Medium",
+    "runtimeDefault": true
+  },
+  {
+    "id": "ux-content-truncation-84",
+    "type": "ux-quality-rule",
+    "title": "Truncation",
+    "userLabel": "Truncation",
+    "summary": "Handle long content gracefully",
+    "appliesWhen": [
+      "All",
+      "Content"
+    ],
+    "avoidWhen": [],
+    "rationale": "Truncate with ellipsis and expand option",
+    "risks": [
+      "Overflow or broken layout"
+    ],
+    "tags": [
+      "ux-quality",
+      "Content",
+      "All",
+      "Medium",
+      "runtime-selected"
+    ],
+    "sourceRefs": [
+      "ux-pro/ux-guidelines.csv"
+    ],
+    "sourceTypes": [
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 76,
+    "category": "Content",
+    "platform": "All",
+    "do": "Truncate with ellipsis and expand option",
+    "dont": "Overflow or broken layout",
+    "goodExample": "line-clamp-2 with expand",
+    "badExample": "Overflow or cut off",
+    "severity": "Medium",
+    "runtimeDefault": true
+  }
+]

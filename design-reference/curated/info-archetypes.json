@@ -1,0 +1,1115 @@
+[
+  {
+    "type": "info-archetype",
+    "plainTitle": "先讲清楚，然后让用户行动",
+    "decisionLogic": "用户需要快速知道你提供什么、为什么值得、下一步怎么做。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 90,
+    "id": "clear-conversion",
+    "title": "清晰转化型",
+    "userLabel": "先讲清楚，然后让用户行动",
+    "summary": "适合目标明确、需要预约、购买、报名或咨询的页面。",
+    "appliesWhen": [
+      "用户目标明确",
+      "转化压力高",
+      "offer 清楚",
+      "低到中等决策风险"
+    ],
+    "avoidWhen": [
+      "审美先行",
+      "复杂产品教育",
+      "高信任采购"
+    ],
+    "rationale": "用户需要快速知道你提供什么、为什么值得、下一步怎么做。",
+    "risks": [
+      "如果产品需要气质或审美铺垫，过度转化会显得廉价。"
+    ],
+    "structure": [
+      "明确 offer",
+      "核心收益",
+      "关键服务/功能",
+      "可信证明",
+      "流程或价格",
+      "FAQ",
+      "最终行动"
+    ],
+    "requiredAssets": [
+      "清楚 offer",
+      "行动入口",
+      "基础证明",
+      "流程或价格信息"
+    ],
+    "proofMaterials": [
+      "评价",
+      "案例",
+      "保障",
+      "FAQ"
+    ],
+    "antiPatterns": [
+      "大段品牌故事压过行动",
+      "多个主 CTA 同时争抢"
+    ],
+    "tags": [
+      "info",
+      "conversion",
+      "landing"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "先证明可靠，再讲服务",
+    "decisionLogic": "先降低不确定性，用户才愿意继续理解服务或行动。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 89,
+    "id": "trust-first",
+    "title": "信任优先型",
+    "userLabel": "先证明可靠，再讲服务",
+    "summary": "适合高风险、高客单价、长期合作或专业服务。",
+    "appliesWhen": [
+      "用户担心风险",
+      "需要资质",
+      "涉及钱/健康/数据/安全",
+      "B2B 或咨询"
+    ],
+    "avoidWhen": [
+      "低风险冲动消费",
+      "用户只想先看作品"
+    ],
+    "rationale": "先降低不确定性，用户才愿意继续理解服务或行动。",
+    "risks": [
+      "如果证明很多但价值不清，会显得沉重和官样。"
+    ],
+    "structure": [
+      "稳定定位",
+      "关键可信证明",
+      "服务/产品解释",
+      "案例或客户",
+      "流程/保障",
+      "咨询入口"
+    ],
+    "requiredAssets": [
+      "资质",
+      "客户/案例",
+      "流程",
+      "保障或合规说明"
+    ],
+    "proofMaterials": [
+      "证书",
+      "客户 Logo",
+      "安全认证",
+      "评价",
+      "流程图"
+    ],
+    "antiPatterns": [
+      "一上来大促销",
+      "隐藏资质",
+      "过度装饰科技感"
+    ],
+    "tags": [
+      "info",
+      "trust",
+      "risk"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "先看作品，再了解服务",
+    "decisionLogic": "用户会先看风格是否匹配，再关心流程、价格和预约。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 88,
+    "id": "work-first",
+    "title": "作品先行型",
+    "userLabel": "先看作品，再了解服务",
+    "summary": "适合摄影、设计、空间、美食、艺术、作品集等审美判断优先的页面。",
+    "appliesWhen": [
+      "视觉素材强",
+      "用户先判断风格",
+      "作品本身最有说服力"
+    ],
+    "avoidWhen": [
+      "图片质量一般",
+      "用户更关心安全/价格/流程"
+    ],
+    "rationale": "用户会先看风格是否匹配，再关心流程、价格和预约。",
+    "risks": [
+      "素材不足时首屏会弱，页面容易显得空。"
+    ],
+    "structure": [
+      "代表作品",
+      "风格分类",
+      "精选案例",
+      "服务流程",
+      "价格/套餐",
+      "评价",
+      "预约咨询"
+    ],
+    "requiredAssets": [
+      "高质量图片",
+      "作品分类",
+      "服务流程",
+      "评价"
+    ],
+    "proofMaterials": [
+      "真实作品",
+      "客户故事",
+      "前后对比",
+      "评价"
+    ],
+    "antiPatterns": [
+      "用图库假图冒充作品",
+      "大段文案压过图片"
+    ],
+    "tags": [
+      "info",
+      "portfolio",
+      "asset-first"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "先看产品怎么工作",
+    "decisionLogic": "复杂产品需要让用户看见界面、场景和工作流，而不是只听口号。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 87,
+    "id": "product-showcase",
+    "title": "产品展示型",
+    "userLabel": "先看产品怎么工作",
+    "summary": "适合 SaaS、工具、App、插件、平台和复杂产品。",
+    "appliesWhen": [
+      "需要解释功能",
+      "有产品截图",
+      "使用路径能体现价值"
+    ],
+    "avoidWhen": [
+      "没有界面素材",
+      "服务型交付大于产品本身"
+    ],
+    "rationale": "复杂产品需要让用户看见界面、场景和工作流，而不是只听口号。",
+    "risks": [
+      "功能太多或截图质量差，会让页面复杂难读。"
+    ],
+    "structure": [
+      "产品界面/核心 demo",
+      "主要场景",
+      "功能分组",
+      "工作流",
+      "集成/生态",
+      "案例",
+      "试用/联系"
+    ],
+    "requiredAssets": [
+      "产品截图",
+      "功能列表",
+      "使用场景",
+      "demo 或 mockup"
+    ],
+    "proofMaterials": [
+      "界面截图",
+      "视频",
+      "集成 Logo",
+      "客户案例"
+    ],
+    "antiPatterns": [
+      "抽象插画替代产品",
+      "功能堆叠没有场景"
+    ],
+    "tags": [
+      "info",
+      "product",
+      "saas"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "先讲观点，再带用户看下去",
+    "decisionLogic": "叙事型页面通过观点、节奏和例子建立理解，而不是靠模块堆叠。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 86,
+    "id": "editorial-story",
+    "title": "叙事编辑型",
+    "userLabel": "先讲观点，再带用户看下去",
+    "summary": "适合品牌故事、文化项目、内容产品、报告、媒体和活动。",
+    "appliesWhen": [
+      "需要表达观点",
+      "内容有故事线",
+      "用户需要被带入"
+    ],
+    "avoidWhen": [
+      "用户只想快速购买或预约"
+    ],
+    "rationale": "叙事型页面通过观点、节奏和例子建立理解，而不是靠模块堆叠。",
+    "risks": [
+      "节奏太慢会拖累转化。"
+    ],
+    "structure": [
+      "主题/观点",
+      "背景与冲突",
+      "分段故事",
+      "案例/人物/图像",
+      "深入阅读或参与入口"
+    ],
+    "requiredAssets": [
+      "清楚观点",
+      "故事素材",
+      "人物/案例/图片"
+    ],
+    "proofMaterials": [
+      "故事证据",
+      "采访",
+      "数据片段",
+      "媒体引用"
+    ],
+    "antiPatterns": [
+      "每屏都像营销卡片",
+      "编号装饰不表达真实顺序"
+    ],
+    "tags": [
+      "info",
+      "editorial",
+      "story"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "帮用户找到想看的内容",
+    "decisionLogic": "内容型页面的关键是发现路径，而不是单次说服。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 85,
+    "id": "content-hub",
+    "title": "内容入口型",
+    "userLabel": "帮用户找到想看的内容",
+    "summary": "适合知识库、课程、案例库、资源集合、社区和媒体。",
+    "appliesWhen": [
+      "内容持续更新",
+      "需要分类/搜索",
+      "用户目标多样"
+    ],
+    "avoidWhen": [
+      "单一转化页",
+      "内容量不足"
+    ],
+    "rationale": "内容型页面的关键是发现路径，而不是单次说服。",
+    "risks": [
+      "分类按内部视角设计会让用户找不到内容。"
+    ],
+    "structure": [
+      "总入口",
+      "推荐/最新",
+      "分类或搜索",
+      "内容卡片列表",
+      "专题集合",
+      "订阅或行动"
+    ],
+    "requiredAssets": [
+      "内容列表",
+      "分类体系",
+      "标签",
+      "封面/摘要"
+    ],
+    "proofMaterials": [
+      "热门内容",
+      "编辑精选",
+      "阅读量",
+      "作者信息"
+    ],
+    "antiPatterns": [
+      "分类过多",
+      "卡片信息不一致",
+      "没有搜索或筛选"
+    ],
+    "tags": [
+      "info",
+      "content",
+      "hub"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "让用户直接操作并看到结果",
+    "decisionLogic": "工具型界面要优先保证操作效率、反馈清晰和状态稳定。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 84,
+    "id": "tool-operation",
+    "title": "工具操作型",
+    "userLabel": "让用户直接操作并看到结果",
+    "summary": "适合后台、生成器、配置器、插件、分析工具和工作台。",
+    "appliesWhen": [
+      "用户要完成操作",
+      "输入和结果是核心",
+      "状态反馈重要"
+    ],
+    "avoidWhen": [
+      "纯品牌展示或营销页"
+    ],
+    "rationale": "工具型界面要优先保证操作效率、反馈清晰和状态稳定。",
+    "risks": [
+      "营销式视觉会干扰效率和可读性。"
+    ],
+    "structure": [
+      "当前状态/输入",
+      "主要操作区",
+      "结果预览",
+      "辅助设置",
+      "历史/保存/导出"
+    ],
+    "requiredAssets": [
+      "输入模型",
+      "结果预览",
+      "状态反馈",
+      "保存/导出逻辑"
+    ],
+    "proofMaterials": [
+      "示例结果",
+      "历史记录",
+      "成功/失败状态"
+    ],
+    "antiPatterns": [
+      "大 hero 占据首屏",
+      "核心操作隐藏在装饰布局里"
+    ],
+    "tags": [
+      "info",
+      "tool",
+      "operation"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "帮用户比较后做选择",
+    "decisionLogic": "比较型用户需要看到差异、适合谁、风险和推荐选项。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 83,
+    "id": "comparison-decision",
+    "title": "对比决策型",
+    "userLabel": "帮用户比较后做选择",
+    "summary": "适合方案、套餐、产品、服务或竞品差异需要解释的页面。",
+    "appliesWhen": [
+      "用户在比较",
+      "存在多个方案",
+      "差异需要解释"
+    ],
+    "avoidWhen": [
+      "单一明确 offer",
+      "用户不需要比较"
+    ],
+    "rationale": "比较型用户需要看到差异、适合谁、风险和推荐选项。",
+    "risks": [
+      "比较过度会让简单选择变复杂。"
+    ],
+    "structure": [
+      "选择问题",
+      "方案概览",
+      "对比表",
+      "适合人群",
+      "推荐路径",
+      "FAQ/行动"
+    ],
+    "requiredAssets": [
+      "方案列表",
+      "差异点",
+      "价格/权益",
+      "适合人群"
+    ],
+    "proofMaterials": [
+      "对比表",
+      "案例",
+      "推荐标签",
+      "FAQ"
+    ],
+    "antiPatterns": [
+      "只高亮最贵方案",
+      "对比维度过多"
+    ],
+    "tags": [
+      "info",
+      "comparison",
+      "pricing"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "让用户理解活动并愿意参与",
+    "decisionLogic": "活动型页面要快速交代主题、亮点、流程、参与方式和信任证明。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 82,
+    "id": "community-event",
+    "title": "社群活动型",
+    "userLabel": "让用户理解活动并愿意参与",
+    "summary": "适合活动、社群、课程发布、招募和线下体验。",
+    "appliesWhen": [
+      "有时间地点",
+      "参与感重要",
+      "需要报名"
+    ],
+    "avoidWhen": [
+      "长期产品官网",
+      "高复杂服务"
+    ],
+    "rationale": "活动型页面要快速交代主题、亮点、流程、参与方式和信任证明。",
+    "risks": [
+      "只做氛围不讲清楚信息，会影响报名。"
+    ],
+    "structure": [
+      "活动主题",
+      "亮点/收益",
+      "时间地点/对象",
+      "流程安排",
+      "嘉宾/案例",
+      "报名入口",
+      "FAQ"
+    ],
+    "requiredAssets": [
+      "活动信息",
+      "嘉宾/议程",
+      "报名方式",
+      "过往照片或评价"
+    ],
+    "proofMaterials": [
+      "嘉宾",
+      "过往活动",
+      "参与人数",
+      "评价"
+    ],
+    "antiPatterns": [
+      "信息藏太深",
+      "报名入口不清楚"
+    ],
+    "tags": [
+      "info",
+      "event",
+      "community"
+    ]
+  },
+  {
+    "type": "info-archetype",
+    "plainTitle": "帮用户看懂价格和选择",
+    "decisionLogic": "价格型页面要解释每档适合谁、包含什么、风险如何降低。",
+    "industryVariants": [
+      {
+        "industryHint": "医疗/法律/金融/教育",
+        "moduleSubstitutions": [
+          "资质",
+          "流程",
+          "风险说明",
+          "保障",
+          "咨询入口"
+        ],
+        "proofMaterials": [
+          "证书",
+          "专业背景",
+          "合规说明",
+          "真实评价"
+        ]
+      },
+      {
+        "industryHint": "摄影/设计/美食/空间/艺术",
+        "moduleSubstitutions": [
+          "代表作品",
+          "风格分类",
+          "案例故事",
+          "预约入口"
+        ],
+        "proofMaterials": [
+          "真实图片",
+          "作品集",
+          "客户评价",
+          "拍摄/交付过程"
+        ]
+      },
+      {
+        "industryHint": "SaaS/工具/AI/插件",
+        "moduleSubstitutions": [
+          "产品界面",
+          "功能路径",
+          "集成",
+          "试用入口"
+        ],
+        "proofMaterials": [
+          "截图",
+          "demo",
+          "客户 Logo",
+          "安全/性能说明"
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "ux-pro/landing.csv",
+      "design-md/*"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "ux-pro",
+      "design-md"
+    ],
+    "confidence": "high",
+    "priority": 81,
+    "id": "pricing-packages",
+    "title": "价格套餐型",
+    "userLabel": "帮用户看懂价格和选择",
+    "summary": "适合服务套餐、订阅、课程、会员和产品定价页。",
+    "appliesWhen": [
+      "价格/套餐是核心决策点",
+      "存在多个层级"
+    ],
+    "avoidWhen": [
+      "价格无法公开",
+      "高定制咨询"
+    ],
+    "rationale": "价格型页面要解释每档适合谁、包含什么、风险如何降低。",
+    "risks": [
+      "只展示价格不解释价值，会让用户只比较便宜。"
+    ],
+    "structure": [
+      "定价说明",
+      "套餐卡片",
+      "适合人群",
+      "权益对比",
+      "保障/FAQ",
+      "行动入口"
+    ],
+    "requiredAssets": [
+      "价格",
+      "权益",
+      "适合人群",
+      "保障条款"
+    ],
+    "proofMaterials": [
+      "退款保障",
+      "客户评价",
+      "案例",
+      "FAQ"
+    ],
+    "antiPatterns": [
+      "最贵方案过度高亮",
+      "隐藏关键限制"
+    ],
+    "tags": [
+      "info",
+      "pricing",
+      "packages"
+    ]
+  }
+]

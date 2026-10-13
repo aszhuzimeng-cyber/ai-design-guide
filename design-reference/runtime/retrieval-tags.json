@@ -1,0 +1,2006 @@
+{
+  "AI 工具": [
+    "info-product-demo-first"
+  ],
+  "Accessibility": [
+    "ux-accessibility-color-contrast-36",
+    "ux-accessibility-color-only-37",
+    "ux-accessibility-alt-text-38",
+    "ux-accessibility-aria-labels-40",
+    "ux-accessibility-keyboard-navigation-41",
+    "ux-accessibility-form-labels-43",
+    "ux-accessibility-error-messages-44",
+    "ux-accessibility-heading-hierarchy-39",
+    "ux-accessibility-screen-reader-42",
+    "ux-accessibility-skip-links-45"
+  ],
+  "All": [
+    "ux-animation-excessive-motion-7",
+    "ux-animation-reduced-motion-9",
+    "ux-animation-loading-states-10",
+    "ux-animation-hover-vs-tap-11",
+    "ux-interaction-focus-states-28",
+    "ux-interaction-loading-buttons-32",
+    "ux-interaction-error-feedback-33",
+    "ux-interaction-confirmation-dialogs-35",
+    "ux-accessibility-color-contrast-36",
+    "ux-accessibility-color-only-37",
+    "ux-accessibility-alt-text-38",
+    "ux-accessibility-aria-labels-40",
+    "ux-accessibility-form-labels-43",
+    "ux-accessibility-error-messages-44",
+    "ux-performance-image-optimization-46",
+    "ux-forms-input-labels-54",
+    "ux-forms-submit-feedback-61",
+    "ux-responsive-readable-font-size-67",
+    "ux-typography-contrast-readability-76",
+    "ux-feedback-loading-indicators-78",
+    "ux-navigation-active-state-3",
+    "ux-navigation-deep-linking-5",
+    "ux-animation-duration-timing-8",
+    "ux-animation-continuous-animation-12",
+    "ux-interaction-active-states-30",
+    "ux-interaction-disabled-states-31",
+    "ux-interaction-success-feedback-34",
+    "ux-accessibility-screen-reader-42",
+    "ux-performance-lazy-loading-47",
+    "ux-forms-error-placement-55",
+    "ux-forms-inline-validation-56",
+    "ux-forms-input-types-57",
+    "ux-forms-required-indicators-59",
+    "ux-forms-password-visibility-60",
+    "ux-forms-input-affordance-62",
+    "ux-typography-line-height-72",
+    "ux-typography-font-size-scale-74",
+    "ux-typography-heading-clarity-77",
+    "ux-feedback-empty-states-79",
+    "ux-feedback-error-recovery-80",
+    "ux-feedback-progress-indicators-81",
+    "ux-feedback-toast-notifications-82",
+    "ux-feedback-confirmation-messages-83",
+    "ux-content-truncation-84",
+    "ux-animation-easing-functions-14"
+  ],
+  "Animation": [
+    "ux-animation-excessive-motion-7",
+    "ux-animation-reduced-motion-9",
+    "ux-animation-loading-states-10",
+    "ux-animation-hover-vs-tap-11",
+    "ux-animation-duration-timing-8",
+    "ux-animation-continuous-animation-12",
+    "ux-animation-transform-performance-13",
+    "ux-animation-easing-functions-14"
+  ],
+  "B2B 服务": [
+    "info-trust-first-cases-before-proof"
+  ],
+  "Content": [
+    "ux-content-truncation-84"
+  ],
+  "Feedback": [
+    "ux-feedback-loading-indicators-78",
+    "ux-feedback-empty-states-79",
+    "ux-feedback-error-recovery-80",
+    "ux-feedback-progress-indicators-81",
+    "ux-feedback-toast-notifications-82",
+    "ux-feedback-confirmation-messages-83"
+  ],
+  "Forms": [
+    "ux-forms-input-labels-54",
+    "ux-forms-submit-feedback-61",
+    "ux-forms-error-placement-55",
+    "ux-forms-inline-validation-56",
+    "ux-forms-input-types-57",
+    "ux-forms-autofill-support-58",
+    "ux-forms-required-indicators-59",
+    "ux-forms-password-visibility-60",
+    "ux-forms-input-affordance-62",
+    "ux-forms-mobile-keyboards-63"
+  ],
+  "High": [
+    "ux-navigation-smooth-scroll-1",
+    "ux-navigation-back-button-4",
+    "ux-animation-excessive-motion-7",
+    "ux-animation-reduced-motion-9",
+    "ux-animation-loading-states-10",
+    "ux-animation-hover-vs-tap-11",
+    "ux-layout-z-index-management-15",
+    "ux-layout-content-jumping-19",
+    "ux-touch-touch-target-size-22",
+    "ux-interaction-focus-states-28",
+    "ux-interaction-loading-buttons-32",
+    "ux-interaction-error-feedback-33",
+    "ux-interaction-confirmation-dialogs-35",
+    "ux-accessibility-color-contrast-36",
+    "ux-accessibility-color-only-37",
+    "ux-accessibility-alt-text-38",
+    "ux-accessibility-aria-labels-40",
+    "ux-accessibility-keyboard-navigation-41",
+    "ux-accessibility-form-labels-43",
+    "ux-accessibility-error-messages-44",
+    "ux-performance-image-optimization-46",
+    "ux-forms-input-labels-54",
+    "ux-forms-submit-feedback-61",
+    "ux-responsive-touch-friendly-66",
+    "ux-responsive-readable-font-size-67",
+    "ux-responsive-viewport-meta-68",
+    "ux-responsive-horizontal-scroll-69",
+    "ux-typography-contrast-readability-76",
+    "ux-feedback-loading-indicators-78"
+  ],
+  "Interaction": [
+    "ux-interaction-focus-states-28",
+    "ux-interaction-loading-buttons-32",
+    "ux-interaction-error-feedback-33",
+    "ux-interaction-confirmation-dialogs-35",
+    "ux-interaction-hover-states-29",
+    "ux-interaction-active-states-30",
+    "ux-interaction-disabled-states-31",
+    "ux-interaction-success-feedback-34"
+  ],
+  "Layout": [
+    "ux-layout-z-index-management-15",
+    "ux-layout-content-jumping-19",
+    "ux-layout-overflow-hidden-16",
+    "ux-layout-fixed-positioning-17",
+    "ux-layout-stacking-context-18",
+    "ux-layout-viewport-units-20",
+    "ux-layout-container-width-21"
+  ],
+  "Low": [
+    "ux-navigation-breadcrumbs-6",
+    "ux-animation-easing-functions-14",
+    "ux-touch-haptic-feedback-27"
+  ],
+  "Medium": [
+    "ux-navigation-sticky-navigation-2",
+    "ux-navigation-active-state-3",
+    "ux-navigation-deep-linking-5",
+    "ux-animation-duration-timing-8",
+    "ux-animation-continuous-animation-12",
+    "ux-animation-transform-performance-13",
+    "ux-layout-overflow-hidden-16",
+    "ux-layout-fixed-positioning-17",
+    "ux-layout-stacking-context-18",
+    "ux-layout-viewport-units-20",
+    "ux-layout-container-width-21",
+    "ux-interaction-hover-states-29",
+    "ux-interaction-active-states-30",
+    "ux-interaction-disabled-states-31",
+    "ux-interaction-success-feedback-34",
+    "ux-accessibility-heading-hierarchy-39",
+    "ux-accessibility-screen-reader-42",
+    "ux-accessibility-skip-links-45",
+    "ux-performance-lazy-loading-47",
+    "ux-performance-code-splitting-48",
+    "ux-performance-caching-49",
+    "ux-performance-font-loading-50",
+    "ux-performance-third-party-scripts-51",
+    "ux-performance-bundle-size-52",
+    "ux-performance-render-blocking-53",
+    "ux-forms-error-placement-55",
+    "ux-forms-inline-validation-56",
+    "ux-forms-input-types-57",
+    "ux-forms-autofill-support-58",
+    "ux-forms-required-indicators-59",
+    "ux-forms-password-visibility-60",
+    "ux-forms-input-affordance-62",
+    "ux-forms-mobile-keyboards-63",
+    "ux-responsive-mobile-first-64",
+    "ux-responsive-breakpoint-testing-65",
+    "ux-responsive-image-scaling-70",
+    "ux-responsive-table-handling-71",
+    "ux-typography-line-height-72",
+    "ux-typography-line-length-73",
+    "ux-typography-font-size-scale-74",
+    "ux-typography-font-loading-75",
+    "ux-typography-heading-clarity-77",
+    "ux-feedback-empty-states-79",
+    "ux-feedback-error-recovery-80",
+    "ux-feedback-progress-indicators-81",
+    "ux-feedback-toast-notifications-82",
+    "ux-feedback-confirmation-messages-83",
+    "ux-content-truncation-84"
+  ],
+  "Mobile": [
+    "ux-navigation-back-button-4",
+    "ux-touch-touch-target-size-22",
+    "ux-forms-mobile-keyboards-63",
+    "ux-touch-haptic-feedback-27"
+  ],
+  "Navigation": [
+    "ux-navigation-smooth-scroll-1",
+    "ux-navigation-back-button-4",
+    "ux-navigation-sticky-navigation-2",
+    "ux-navigation-active-state-3",
+    "ux-navigation-deep-linking-5",
+    "ux-navigation-breadcrumbs-6"
+  ],
+  "Performance": [
+    "ux-performance-image-optimization-46",
+    "ux-performance-lazy-loading-47",
+    "ux-performance-code-splitting-48",
+    "ux-performance-caching-49",
+    "ux-performance-font-loading-50",
+    "ux-performance-third-party-scripts-51",
+    "ux-performance-bundle-size-52",
+    "ux-performance-render-blocking-53"
+  ],
+  "Responsive": [
+    "ux-responsive-touch-friendly-66",
+    "ux-responsive-readable-font-size-67",
+    "ux-responsive-viewport-meta-68",
+    "ux-responsive-horizontal-scroll-69",
+    "ux-responsive-mobile-first-64",
+    "ux-responsive-breakpoint-testing-65",
+    "ux-responsive-image-scaling-70",
+    "ux-responsive-table-handling-71"
+  ],
+  "SaaS": [
+    "info-product-demo-first"
+  ],
+  "SaaS 套餐": [
+    "info-compare-scenario-matrix"
+  ],
+  "SaaS/AI 工具": [
+    "info-product-demo-problem-solution"
+  ],
+  "Touch": [
+    "ux-touch-touch-target-size-22",
+    "ux-touch-haptic-feedback-27"
+  ],
+  "Typography": [
+    "ux-typography-contrast-readability-76",
+    "ux-typography-line-height-72",
+    "ux-typography-line-length-73",
+    "ux-typography-font-size-scale-74",
+    "ux-typography-font-loading-75",
+    "ux-typography-heading-clarity-77"
+  ],
+  "Web": [
+    "ux-navigation-smooth-scroll-1",
+    "ux-layout-z-index-management-15",
+    "ux-layout-content-jumping-19",
+    "ux-accessibility-keyboard-navigation-41",
+    "ux-responsive-touch-friendly-66",
+    "ux-responsive-viewport-meta-68",
+    "ux-responsive-horizontal-scroll-69",
+    "ux-navigation-sticky-navigation-2",
+    "ux-animation-transform-performance-13",
+    "ux-layout-overflow-hidden-16",
+    "ux-layout-fixed-positioning-17",
+    "ux-layout-stacking-context-18",
+    "ux-layout-viewport-units-20",
+    "ux-layout-container-width-21",
+    "ux-interaction-hover-states-29",
+    "ux-accessibility-heading-hierarchy-39",
+    "ux-accessibility-skip-links-45",
+    "ux-performance-code-splitting-48",
+    "ux-performance-caching-49",
+    "ux-performance-font-loading-50",
+    "ux-performance-third-party-scripts-51",
+    "ux-performance-bundle-size-52",
+    "ux-performance-render-blocking-53",
+    "ux-forms-autofill-support-58",
+    "ux-responsive-mobile-first-64",
+    "ux-responsive-breakpoint-testing-65",
+    "ux-responsive-image-scaling-70",
+    "ux-responsive-table-handling-71",
+    "ux-typography-line-length-73",
+    "ux-typography-font-loading-75",
+    "ux-navigation-breadcrumbs-6"
+  ],
+  "active-conversion-clear-action": [
+    "visual-bright-event-action",
+    "visual-course-launch",
+    "visual-consumer-offer-clean"
+  ],
+  "aesthetic": [
+    "decision-user-aesthetic-first"
+  ],
+  "airbnb": [
+    "case-airbnb-summary"
+  ],
+  "airtable": [
+    "case-airtable-summary"
+  ],
+  "anti-decoration": [
+    "visual-serves-need"
+  ],
+  "anti-pattern": [
+    "generic-hero-cards-cta",
+    "tech-blue-purple",
+    "premium-black-gold",
+    "ecommerce-promotion",
+    "visual-as-color-test",
+    "brand-copycat",
+    "image-first-without-images",
+    "consulting-jargon",
+    "dark-dashboard-for-professional",
+    "too-many-visual-moves"
+  ],
+  "anti-template": [
+    "ordinary-is-allowed-with-reason"
+  ],
+  "apple": [
+    "case-apple-summary"
+  ],
+  "asset-first-restraint": [
+    "visual-clean-white-gallery",
+    "visual-warm-soft-gallery",
+    "visual-editorial-portfolio-grid"
+  ],
+  "assets": [
+    "assets-affect-strategy",
+    "decision-user-aesthetic-first",
+    "persuasion-work-proof"
+  ],
+  "balanced": [
+    "visual-editorial-portfolio-grid",
+    "visual-light-product-console",
+    "visual-dark-product-stage",
+    "visual-institutional-light",
+    "visual-navy-authority",
+    "visual-visual-essay",
+    "visual-natural-green-service",
+    "visual-human-story-cards",
+    "visual-luxury-detail-closeup",
+    "visual-bright-event-action",
+    "visual-course-launch",
+    "visual-structured-tech-light",
+    "visual-data-infrastructure",
+    "visual-education-clear",
+    "visual-community-warm",
+    "visual-one-bold-accent",
+    "visual-interactive-signature",
+    "visual-experience-map"
+  ],
+  "beginner": [
+    "plain-language-for-beginners"
+  ],
+  "binance": [
+    "case-binance-summary"
+  ],
+  "bmw": [
+    "case-bmw-summary"
+  ],
+  "bmw-m": [
+    "case-bmw-m-summary"
+  ],
+  "booking": [
+    "page-task-book-or-contact"
+  ],
+  "brand": [
+    "page-task-build-brand-impression"
+  ],
+  "bugatti": [
+    "case-bugatti-summary"
+  ],
+  "buyer": [
+    "decision-user-buyer"
+  ],
+  "cal": [
+    "case-cal-summary"
+  ],
+  "case-abstraction": [
+    "no-brand-imitation"
+  ],
+  "case-pattern": [
+    "case-airbnb-summary",
+    "case-airtable-summary",
+    "case-apple-summary",
+    "case-binance-summary",
+    "case-bmw-summary",
+    "case-bmw-m-summary",
+    "case-bugatti-summary",
+    "case-cal-summary",
+    "case-claude-summary",
+    "case-clay-summary",
+    "case-clickhouse-summary",
+    "case-cohere-summary",
+    "case-coinbase-summary",
+    "case-composio-summary",
+    "case-cursor-summary",
+    "case-dell-1996-summary",
+    "case-elevenlabs-summary",
+    "case-expo-summary",
+    "case-ferrari-summary",
+    "case-figma-summary",
+    "case-framer-summary",
+    "case-hashicorp-summary",
+    "case-hp-summary",
+    "case-ibm-summary",
+    "case-intercom-summary",
+    "case-kraken-summary",
+    "case-lamborghini-summary",
+    "case-linear-app-summary",
+    "case-lovable-summary",
+    "case-mastercard-summary",
+    "case-meta-summary",
+    "case-minimax-summary",
+    "case-mintlify-summary",
+    "case-miro-summary",
+    "case-mistral-ai-summary",
+    "case-mongodb-summary",
+    "case-nike-summary",
+    "case-nintendo-2001-summary",
+    "case-notion-summary",
+    "case-nvidia-summary",
+    "case-ollama-summary",
+    "case-opencode-ai-summary",
+    "case-pinterest-summary",
+    "case-playstation-summary",
+    "case-posthog-summary",
+    "case-raycast-summary",
+    "case-renault-summary",
+    "case-replicate-summary",
+    "case-resend-summary",
+    "case-revolut-summary",
+    "case-runwayml-summary",
+    "case-sanity-summary",
+    "case-sentry-summary",
+    "case-shopify-summary",
+    "case-slack-summary",
+    "case-spacex-summary",
+    "case-spotify-summary",
+    "case-starbucks-summary",
+    "case-stripe-summary",
+    "case-supabase-summary",
+    "case-superhuman-summary",
+    "case-tesla-summary",
+    "case-theverge-summary",
+    "case-together-ai-summary",
+    "case-uber-summary",
+    "case-vercel-summary",
+    "case-vodafone-summary",
+    "case-voltagent-summary",
+    "case-warp-summary",
+    "case-webflow-summary",
+    "case-wired-summary",
+    "case-wise-summary",
+    "case-x-ai-summary",
+    "case-zapier-summary"
+  ],
+  "claude": [
+    "case-claude-summary"
+  ],
+  "clay": [
+    "case-clay-summary"
+  ],
+  "clear-conversion": [
+    "info-clear-conversion-offer",
+    "info-clear-conversion-proof-before-offer"
+  ],
+  "clickhouse": [
+    "case-clickhouse-summary"
+  ],
+  "cohere": [
+    "case-cohere-summary"
+  ],
+  "coinbase": [
+    "case-coinbase-summary"
+  ],
+  "community-event": [
+    "info-event-agenda-first",
+    "info-event-participation"
+  ],
+  "compact": [
+    "visual-demo-first-workflow",
+    "visual-broadsheet-editorial",
+    "visual-consumer-offer-clean",
+    "visual-dense-workbench-light",
+    "visual-dark-ops-dashboard",
+    "visual-plugin-compact-panel",
+    "visual-terminal-docs-dark"
+  ],
+  "comparison": [
+    "decision-user-comparer",
+    "page-task-choose-package"
+  ],
+  "comparison-decision": [
+    "info-compare-scenario-matrix",
+    "info-compare-packages"
+  ],
+  "composio": [
+    "case-composio-summary"
+  ],
+  "conflict": [
+    "user-constraints-first"
+  ],
+  "constraints": [
+    "user-constraints-first"
+  ],
+  "content": [
+    "page-task-read-or-explore"
+  ],
+  "content-hub": [
+    "info-content-hub-explore",
+    "info-content-hub-task-lanes"
+  ],
+  "conversion": [
+    "decision-user-buyer",
+    "page-task-book-or-contact"
+  ],
+  "copy": [
+    "plain-language-for-beginners"
+  ],
+  "core": [
+    "decision-before-decoration",
+    "visual-serves-need",
+    "plain-language-for-beginners",
+    "user-constraints-first",
+    "short-clear-reasons",
+    "no-brand-imitation",
+    "visual-choice-must-compile",
+    "options-must-differ",
+    "risk-is-part-of-recommendation",
+    "ordinary-is-allowed-with-reason",
+    "assets-affect-strategy",
+    "structure-is-information"
+  ],
+  "cursor": [
+    "case-cursor-summary"
+  ],
+  "dark-gallery-premium": [
+    "visual-dark-gallery-spotlight",
+    "visual-cinematic-black",
+    "visual-luxury-detail-closeup"
+  ],
+  "dell-1996": [
+    "case-dell-1996-summary"
+  ],
+  "demo": [
+    "page-task-understand-product"
+  ],
+  "editorial-reading-rhythm": [
+    "visual-broadsheet-editorial",
+    "visual-longform-calm",
+    "visual-visual-essay"
+  ],
+  "editorial-story": [
+    "info-editorial-thesis",
+    "info-editorial-chapter-thread"
+  ],
+  "efficiency-proof": [
+    "efficiency-proof"
+  ],
+  "elevenlabs": [
+    "case-elevenlabs-summary"
+  ],
+  "emotion-proof": [
+    "emotion-proof"
+  ],
+  "experience-proof": [
+    "experience-proof"
+  ],
+  "expertise-proof": [
+    "expertise-proof"
+  ],
+  "explainability": [
+    "short-clear-reasons"
+  ],
+  "expo": [
+    "case-expo-summary"
+  ],
+  "ferrari": [
+    "case-ferrari-summary"
+  ],
+  "figma": [
+    "case-figma-summary"
+  ],
+  "framer": [
+    "case-framer-summary"
+  ],
+  "friendly-low-pressure": [
+    "visual-soft-onboarding",
+    "visual-education-clear",
+    "visual-community-warm"
+  ],
+  "generation": [
+    "visual-choice-must-compile",
+    "assets-affect-strategy"
+  ],
+  "hashicorp": [
+    "case-hashicorp-summary"
+  ],
+  "high": [
+    "generic-hero-cards-cta",
+    "tech-blue-purple",
+    "premium-black-gold",
+    "ecommerce-promotion",
+    "visual-as-color-test",
+    "brand-copycat",
+    "image-first-without-images"
+  ],
+  "hp": [
+    "case-hp-summary"
+  ],
+  "ibm": [
+    "case-ibm-summary"
+  ],
+  "image-first": [
+    "visual-clean-white-gallery",
+    "visual-warm-soft-gallery",
+    "visual-editorial-portfolio-grid",
+    "visual-visual-essay",
+    "visual-cream-lifestyle",
+    "visual-dark-gallery-spotlight",
+    "visual-cinematic-black",
+    "visual-luxury-detail-closeup",
+    "visual-full-bleed-scene",
+    "visual-travel-story",
+    "visual-experience-map"
+  ],
+  "immersive-scene-driven": [
+    "visual-full-bleed-scene",
+    "visual-travel-story",
+    "visual-experience-map"
+  ],
+  "info-clear-conversion-offer": [
+    "compose-info-clear-conversion-offer"
+  ],
+  "info-clear-conversion-proof-before-offer": [
+    "compose-info-clear-conversion-proof-before-offer"
+  ],
+  "info-compare-packages": [
+    "compose-info-compare-packages"
+  ],
+  "info-compare-scenario-matrix": [
+    "compose-info-compare-scenario-matrix"
+  ],
+  "info-content-hub-explore": [
+    "compose-info-content-hub-explore"
+  ],
+  "info-content-hub-task-lanes": [
+    "compose-info-content-hub-task-lanes"
+  ],
+  "info-editorial-chapter-thread": [
+    "compose-info-editorial-chapter-thread"
+  ],
+  "info-editorial-thesis": [
+    "compose-info-editorial-thesis"
+  ],
+  "info-event-agenda-first": [
+    "compose-info-event-agenda-first"
+  ],
+  "info-event-participation": [
+    "compose-info-event-participation"
+  ],
+  "info-option-preset": [
+    "info-work-first-service",
+    "info-trust-first-service",
+    "info-product-demo-first",
+    "info-clear-conversion-offer",
+    "info-editorial-thesis",
+    "info-content-hub-explore",
+    "info-tool-operate-preview",
+    "info-work-first-story-gallery",
+    "info-trust-first-cases-before-proof",
+    "info-product-demo-problem-solution",
+    "info-clear-conversion-proof-before-offer",
+    "info-editorial-chapter-thread",
+    "info-content-hub-task-lanes",
+    "info-tool-operate-guided-walkthrough",
+    "info-compare-scenario-matrix",
+    "info-event-agenda-first",
+    "info-price-package-value-before-price",
+    "info-compare-packages",
+    "info-event-participation",
+    "info-price-package-clarity"
+  ],
+  "info-price-package-clarity": [
+    "compose-info-price-package-clarity"
+  ],
+  "info-price-package-value-before-price": [
+    "compose-info-price-package-value-before-price"
+  ],
+  "info-product-demo-first": [
+    "compose-info-product-demo-first"
+  ],
+  "info-product-demo-problem-solution": [
+    "compose-info-product-demo-problem-solution"
+  ],
+  "info-tool-operate-guided-walkthrough": [
+    "compose-info-tool-operate-guided-walkthrough"
+  ],
+  "info-tool-operate-preview": [
+    "compose-info-tool-operate-preview"
+  ],
+  "info-trust-first-cases-before-proof": [
+    "compose-info-trust-first-cases-before-proof"
+  ],
+  "info-trust-first-service": [
+    "compose-info-trust-first-service"
+  ],
+  "info-work-first-service": [
+    "compose-info-work-first-service"
+  ],
+  "info-work-first-story-gallery": [
+    "compose-info-work-first-story-gallery"
+  ],
+  "information": [
+    "structure-is-information"
+  ],
+  "intent": [
+    "decision-before-decoration",
+    "decision-user-trust-sensitive",
+    "decision-user-buyer",
+    "decision-user-aesthetic-first",
+    "decision-user-comparer"
+  ],
+  "intercom": [
+    "case-intercom-summary"
+  ],
+  "judgment": [
+    "decision-before-decoration"
+  ],
+  "kraken": [
+    "case-kraken-summary"
+  ],
+  "lamborghini": [
+    "case-lamborghini-summary"
+  ],
+  "linear.app": [
+    "case-linear-app-summary"
+  ],
+  "lovable": [
+    "case-lovable-summary"
+  ],
+  "mastercard": [
+    "case-mastercard-summary"
+  ],
+  "medium": [
+    "consulting-jargon",
+    "dark-dashboard-for-professional",
+    "too-many-visual-moves"
+  ],
+  "memory": [
+    "page-task-build-brand-impression"
+  ],
+  "meta": [
+    "case-meta-summary"
+  ],
+  "minimax": [
+    "case-minimax-summary"
+  ],
+  "mintlify": [
+    "case-mintlify-summary"
+  ],
+  "miro": [
+    "case-miro-summary"
+  ],
+  "mistral.ai": [
+    "case-mistral-ai-summary"
+  ],
+  "mongodb": [
+    "case-mongodb-summary"
+  ],
+  "nike": [
+    "case-nike-summary"
+  ],
+  "nintendo-2001": [
+    "case-nintendo-2001-summary"
+  ],
+  "notion": [
+    "case-notion-summary"
+  ],
+  "nvidia": [
+    "case-nvidia-summary"
+  ],
+  "ollama": [
+    "case-ollama-summary"
+  ],
+  "opencode.ai": [
+    "case-opencode-ai-summary"
+  ],
+  "option-composition-rule": [
+    "compose-info-work-first-service",
+    "compose-info-trust-first-service",
+    "compose-info-product-demo-first",
+    "compose-info-clear-conversion-offer",
+    "compose-info-editorial-thesis",
+    "compose-info-content-hub-explore",
+    "compose-info-tool-operate-preview",
+    "compose-info-compare-packages",
+    "compose-info-event-participation",
+    "compose-info-price-package-clarity",
+    "compose-info-work-first-story-gallery",
+    "compose-info-trust-first-cases-before-proof",
+    "compose-info-product-demo-problem-solution",
+    "compose-info-clear-conversion-proof-before-offer",
+    "compose-info-editorial-chapter-thread",
+    "compose-info-content-hub-task-lanes",
+    "compose-info-tool-operate-guided-walkthrough",
+    "compose-info-compare-scenario-matrix",
+    "compose-info-event-agenda-first",
+    "compose-info-price-package-value-before-price"
+  ],
+  "option-quality": [
+    "options-must-differ"
+  ],
+  "page-task": [
+    "page-task-understand-product",
+    "page-task-book-or-contact",
+    "page-task-read-or-explore",
+    "page-task-choose-package",
+    "page-task-build-brand-impression"
+  ],
+  "persuasion": [
+    "persuasion-trust-proof",
+    "persuasion-work-proof",
+    "work-proof",
+    "product-proof",
+    "persuasion-experience-sample",
+    "result-proof",
+    "trust-proof",
+    "experience-proof",
+    "emotion-proof",
+    "efficiency-proof",
+    "expertise-proof"
+  ],
+  "pinterest": [
+    "case-pinterest-summary"
+  ],
+  "playstation": [
+    "case-playstation-summary"
+  ],
+  "posthog": [
+    "case-posthog-summary"
+  ],
+  "preview": [
+    "visual-choice-must-compile"
+  ],
+  "pricing": [
+    "page-task-choose-package"
+  ],
+  "pricing-packages": [
+    "info-price-package-value-before-price",
+    "info-price-package-clarity"
+  ],
+  "product": [
+    "page-task-understand-product",
+    "persuasion-experience-sample"
+  ],
+  "product-clarity-interface-first": [
+    "visual-light-product-console",
+    "visual-dark-product-stage",
+    "visual-demo-first-workflow"
+  ],
+  "product-first": [
+    "visual-light-product-console",
+    "visual-dark-product-stage",
+    "visual-demo-first-workflow",
+    "visual-dense-workbench-light",
+    "visual-dark-ops-dashboard",
+    "visual-plugin-compact-panel",
+    "visual-structured-tech-light",
+    "visual-terminal-docs-dark",
+    "visual-interactive-signature"
+  ],
+  "product-proof": [
+    "product-proof"
+  ],
+  "product-showcase": [
+    "info-product-demo-first",
+    "info-product-demo-problem-solution"
+  ],
+  "proof-first": [
+    "visual-institutional-light",
+    "visual-navy-authority",
+    "visual-calm-human-service",
+    "visual-natural-green-service",
+    "visual-data-infrastructure"
+  ],
+  "raycast": [
+    "case-raycast-summary"
+  ],
+  "renault": [
+    "case-renault-summary"
+  ],
+  "replicate": [
+    "case-replicate-summary"
+  ],
+  "resend": [
+    "case-resend-summary"
+  ],
+  "result-proof": [
+    "result-proof"
+  ],
+  "revolut": [
+    "case-revolut-summary"
+  ],
+  "risk": [
+    "risk-is-part-of-recommendation",
+    "decision-user-trust-sensitive"
+  ],
+  "runtime-selected": [
+    "ux-navigation-smooth-scroll-1",
+    "ux-navigation-back-button-4",
+    "ux-animation-excessive-motion-7",
+    "ux-animation-reduced-motion-9",
+    "ux-animation-loading-states-10",
+    "ux-animation-hover-vs-tap-11",
+    "ux-layout-z-index-management-15",
+    "ux-layout-content-jumping-19",
+    "ux-touch-touch-target-size-22",
+    "ux-interaction-focus-states-28",
+    "ux-interaction-loading-buttons-32",
+    "ux-interaction-error-feedback-33",
+    "ux-interaction-confirmation-dialogs-35",
+    "ux-accessibility-color-contrast-36",
+    "ux-accessibility-color-only-37",
+    "ux-accessibility-alt-text-38",
+    "ux-accessibility-aria-labels-40",
+    "ux-accessibility-keyboard-navigation-41",
+    "ux-accessibility-form-labels-43",
+    "ux-accessibility-error-messages-44",
+    "ux-performance-image-optimization-46",
+    "ux-forms-input-labels-54",
+    "ux-forms-submit-feedback-61",
+    "ux-responsive-touch-friendly-66",
+    "ux-responsive-readable-font-size-67",
+    "ux-responsive-viewport-meta-68",
+    "ux-responsive-horizontal-scroll-69",
+    "ux-typography-contrast-readability-76",
+    "ux-feedback-loading-indicators-78",
+    "ux-navigation-sticky-navigation-2",
+    "ux-navigation-active-state-3",
+    "ux-navigation-deep-linking-5",
+    "ux-animation-duration-timing-8",
+    "ux-animation-continuous-animation-12",
+    "ux-animation-transform-performance-13",
+    "ux-layout-overflow-hidden-16",
+    "ux-layout-fixed-positioning-17",
+    "ux-layout-stacking-context-18",
+    "ux-layout-viewport-units-20",
+    "ux-layout-container-width-21",
+    "ux-interaction-hover-states-29",
+    "ux-interaction-active-states-30",
+    "ux-interaction-disabled-states-31",
+    "ux-interaction-success-feedback-34",
+    "ux-accessibility-heading-hierarchy-39",
+    "ux-accessibility-screen-reader-42",
+    "ux-accessibility-skip-links-45",
+    "ux-performance-lazy-loading-47",
+    "ux-performance-code-splitting-48",
+    "ux-performance-caching-49",
+    "ux-performance-font-loading-50",
+    "ux-performance-third-party-scripts-51",
+    "ux-performance-bundle-size-52",
+    "ux-performance-render-blocking-53",
+    "ux-forms-error-placement-55",
+    "ux-forms-inline-validation-56",
+    "ux-forms-input-types-57",
+    "ux-forms-autofill-support-58",
+    "ux-forms-required-indicators-59",
+    "ux-forms-password-visibility-60",
+    "ux-forms-input-affordance-62",
+    "ux-forms-mobile-keyboards-63",
+    "ux-responsive-mobile-first-64",
+    "ux-responsive-breakpoint-testing-65",
+    "ux-responsive-image-scaling-70",
+    "ux-responsive-table-handling-71",
+    "ux-typography-line-height-72",
+    "ux-typography-line-length-73",
+    "ux-typography-font-size-scale-74",
+    "ux-typography-font-loading-75",
+    "ux-typography-heading-clarity-77",
+    "ux-feedback-empty-states-79",
+    "ux-feedback-error-recovery-80",
+    "ux-feedback-progress-indicators-81",
+    "ux-feedback-toast-notifications-82",
+    "ux-feedback-confirmation-messages-83",
+    "ux-content-truncation-84",
+    "ux-navigation-breadcrumbs-6",
+    "ux-animation-easing-functions-14",
+    "ux-touch-haptic-feedback-27"
+  ],
+  "runwayml": [
+    "case-runwayml-summary"
+  ],
+  "sanity": [
+    "case-sanity-summary"
+  ],
+  "sentry": [
+    "case-sentry-summary"
+  ],
+  "shopify": [
+    "case-shopify-summary"
+  ],
+  "single-signature-memory": [
+    "visual-one-bold-accent",
+    "visual-graphic-poster",
+    "visual-interactive-signature"
+  ],
+  "slack": [
+    "case-slack-summary"
+  ],
+  "spacex": [
+    "case-spacex-summary"
+  ],
+  "spacious": [
+    "visual-clean-white-gallery",
+    "visual-warm-soft-gallery",
+    "visual-calm-human-service",
+    "visual-longform-calm",
+    "visual-cream-lifestyle",
+    "visual-dark-gallery-spotlight",
+    "visual-cinematic-black",
+    "visual-soft-onboarding",
+    "visual-graphic-poster",
+    "visual-full-bleed-scene",
+    "visual-travel-story"
+  ],
+  "spotify": [
+    "case-spotify-summary"
+  ],
+  "starbucks": [
+    "case-starbucks-summary"
+  ],
+  "stripe": [
+    "case-stripe-summary"
+  ],
+  "summary-only": [
+    "case-airbnb-summary",
+    "case-airtable-summary",
+    "case-apple-summary",
+    "case-binance-summary",
+    "case-bmw-summary",
+    "case-bmw-m-summary",
+    "case-bugatti-summary",
+    "case-cal-summary",
+    "case-claude-summary",
+    "case-clay-summary",
+    "case-clickhouse-summary",
+    "case-cohere-summary",
+    "case-coinbase-summary",
+    "case-composio-summary",
+    "case-cursor-summary",
+    "case-dell-1996-summary",
+    "case-elevenlabs-summary",
+    "case-expo-summary",
+    "case-ferrari-summary",
+    "case-figma-summary",
+    "case-framer-summary",
+    "case-hashicorp-summary",
+    "case-hp-summary",
+    "case-ibm-summary",
+    "case-intercom-summary",
+    "case-kraken-summary",
+    "case-lamborghini-summary",
+    "case-linear-app-summary",
+    "case-lovable-summary",
+    "case-mastercard-summary",
+    "case-meta-summary",
+    "case-minimax-summary",
+    "case-mintlify-summary",
+    "case-miro-summary",
+    "case-mistral-ai-summary",
+    "case-mongodb-summary",
+    "case-nike-summary",
+    "case-nintendo-2001-summary",
+    "case-notion-summary",
+    "case-nvidia-summary",
+    "case-ollama-summary",
+    "case-opencode-ai-summary",
+    "case-pinterest-summary",
+    "case-playstation-summary",
+    "case-posthog-summary",
+    "case-raycast-summary",
+    "case-renault-summary",
+    "case-replicate-summary",
+    "case-resend-summary",
+    "case-revolut-summary",
+    "case-runwayml-summary",
+    "case-sanity-summary",
+    "case-sentry-summary",
+    "case-shopify-summary",
+    "case-slack-summary",
+    "case-spacex-summary",
+    "case-spotify-summary",
+    "case-starbucks-summary",
+    "case-stripe-summary",
+    "case-supabase-summary",
+    "case-superhuman-summary",
+    "case-tesla-summary",
+    "case-theverge-summary",
+    "case-together-ai-summary",
+    "case-uber-summary",
+    "case-vercel-summary",
+    "case-vodafone-summary",
+    "case-voltagent-summary",
+    "case-warp-summary",
+    "case-webflow-summary",
+    "case-wired-summary",
+    "case-wise-summary",
+    "case-x-ai-summary",
+    "case-zapier-summary"
+  ],
+  "supabase": [
+    "case-supabase-summary"
+  ],
+  "superhuman": [
+    "case-superhuman-summary"
+  ],
+  "system-efficiency-clear-density": [
+    "visual-dense-workbench-light",
+    "visual-dark-ops-dashboard",
+    "visual-plugin-compact-panel"
+  ],
+  "technical-precision-structured-trust": [
+    "visual-structured-tech-light",
+    "visual-terminal-docs-dark",
+    "visual-data-infrastructure"
+  ],
+  "tesla": [
+    "case-tesla-summary"
+  ],
+  "text-first": [
+    "visual-broadsheet-editorial",
+    "visual-longform-calm",
+    "visual-human-story-cards",
+    "visual-bright-event-action",
+    "visual-course-launch",
+    "visual-consumer-offer-clean",
+    "visual-soft-onboarding",
+    "visual-education-clear",
+    "visual-community-warm",
+    "visual-one-bold-accent",
+    "visual-graphic-poster"
+  ],
+  "theverge": [
+    "case-theverge-summary"
+  ],
+  "together.ai": [
+    "case-together-ai-summary"
+  ],
+  "tool-operation": [
+    "info-tool-operate-preview",
+    "info-tool-operate-guided-walkthrough"
+  ],
+  "trial": [
+    "persuasion-experience-sample"
+  ],
+  "trust": [
+    "decision-user-trust-sensitive",
+    "persuasion-trust-proof"
+  ],
+  "trust-first": [
+    "info-trust-first-service",
+    "info-trust-first-cases-before-proof"
+  ],
+  "trust-proof": [
+    "trust-proof"
+  ],
+  "trust-restraint-proof-first": [
+    "visual-institutional-light",
+    "visual-navy-authority",
+    "visual-calm-human-service"
+  ],
+  "uber": [
+    "case-uber-summary"
+  ],
+  "ux-quality": [
+    "ux-navigation-smooth-scroll-1",
+    "ux-navigation-back-button-4",
+    "ux-animation-excessive-motion-7",
+    "ux-animation-reduced-motion-9",
+    "ux-animation-loading-states-10",
+    "ux-animation-hover-vs-tap-11",
+    "ux-layout-z-index-management-15",
+    "ux-layout-content-jumping-19",
+    "ux-touch-touch-target-size-22",
+    "ux-interaction-focus-states-28",
+    "ux-interaction-loading-buttons-32",
+    "ux-interaction-error-feedback-33",
+    "ux-interaction-confirmation-dialogs-35",
+    "ux-accessibility-color-contrast-36",
+    "ux-accessibility-color-only-37",
+    "ux-accessibility-alt-text-38",
+    "ux-accessibility-aria-labels-40",
+    "ux-accessibility-keyboard-navigation-41",
+    "ux-accessibility-form-labels-43",
+    "ux-accessibility-error-messages-44",
+    "ux-performance-image-optimization-46",
+    "ux-forms-input-labels-54",
+    "ux-forms-submit-feedback-61",
+    "ux-responsive-touch-friendly-66",
+    "ux-responsive-readable-font-size-67",
+    "ux-responsive-viewport-meta-68",
+    "ux-responsive-horizontal-scroll-69",
+    "ux-typography-contrast-readability-76",
+    "ux-feedback-loading-indicators-78",
+    "ux-navigation-sticky-navigation-2",
+    "ux-navigation-active-state-3",
+    "ux-navigation-deep-linking-5",
+    "ux-animation-duration-timing-8",
+    "ux-animation-continuous-animation-12",
+    "ux-animation-transform-performance-13",
+    "ux-layout-overflow-hidden-16",
+    "ux-layout-fixed-positioning-17",
+    "ux-layout-stacking-context-18",
+    "ux-layout-viewport-units-20",
+    "ux-layout-container-width-21",
+    "ux-interaction-hover-states-29",
+    "ux-interaction-active-states-30",
+    "ux-interaction-disabled-states-31",
+    "ux-interaction-success-feedback-34",
+    "ux-accessibility-heading-hierarchy-39",
+    "ux-accessibility-screen-reader-42",
+    "ux-accessibility-skip-links-45",
+    "ux-performance-lazy-loading-47",
+    "ux-performance-code-splitting-48",
+    "ux-performance-caching-49",
+    "ux-performance-font-loading-50",
+    "ux-performance-third-party-scripts-51",
+    "ux-performance-bundle-size-52",
+    "ux-performance-render-blocking-53",
+    "ux-forms-error-placement-55",
+    "ux-forms-inline-validation-56",
+    "ux-forms-input-types-57",
+    "ux-forms-autofill-support-58",
+    "ux-forms-required-indicators-59",
+    "ux-forms-password-visibility-60",
+    "ux-forms-input-affordance-62",
+    "ux-forms-mobile-keyboards-63",
+    "ux-responsive-mobile-first-64",
+    "ux-responsive-breakpoint-testing-65",
+    "ux-responsive-image-scaling-70",
+    "ux-responsive-table-handling-71",
+    "ux-typography-line-height-72",
+    "ux-typography-line-length-73",
+    "ux-typography-font-size-scale-74",
+    "ux-typography-font-loading-75",
+    "ux-typography-heading-clarity-77",
+    "ux-feedback-empty-states-79",
+    "ux-feedback-error-recovery-80",
+    "ux-feedback-progress-indicators-81",
+    "ux-feedback-toast-notifications-82",
+    "ux-feedback-confirmation-messages-83",
+    "ux-content-truncation-84",
+    "ux-navigation-breadcrumbs-6",
+    "ux-animation-easing-functions-14",
+    "ux-touch-haptic-feedback-27"
+  ],
+  "variant:info-clear-conversion-offer": [
+    "info-clear-conversion-proof-before-offer"
+  ],
+  "variant:info-compare-packages": [
+    "info-compare-scenario-matrix"
+  ],
+  "variant:info-content-hub-explore": [
+    "info-content-hub-task-lanes"
+  ],
+  "variant:info-editorial-thesis": [
+    "info-editorial-chapter-thread"
+  ],
+  "variant:info-event-participation": [
+    "info-event-agenda-first"
+  ],
+  "variant:info-price-package-clarity": [
+    "info-price-package-value-before-price"
+  ],
+  "variant:info-product-demo-first": [
+    "info-product-demo-problem-solution"
+  ],
+  "variant:info-tool-operate-preview": [
+    "info-tool-operate-guided-walkthrough"
+  ],
+  "variant:info-trust-first-service": [
+    "info-trust-first-cases-before-proof"
+  ],
+  "variant:info-work-first-service": [
+    "info-work-first-story-gallery"
+  ],
+  "vercel": [
+    "case-vercel-summary"
+  ],
+  "visual": [
+    "visual-serves-need"
+  ],
+  "visual-option-preset": [
+    "visual-clean-white-gallery",
+    "visual-warm-soft-gallery",
+    "visual-editorial-portfolio-grid",
+    "visual-light-product-console",
+    "visual-dark-product-stage",
+    "visual-demo-first-workflow",
+    "visual-institutional-light",
+    "visual-navy-authority",
+    "visual-calm-human-service",
+    "visual-broadsheet-editorial",
+    "visual-longform-calm",
+    "visual-visual-essay",
+    "visual-cream-lifestyle",
+    "visual-natural-green-service",
+    "visual-human-story-cards",
+    "visual-dark-gallery-spotlight",
+    "visual-cinematic-black",
+    "visual-luxury-detail-closeup",
+    "visual-bright-event-action",
+    "visual-course-launch",
+    "visual-consumer-offer-clean",
+    "visual-dense-workbench-light",
+    "visual-dark-ops-dashboard",
+    "visual-plugin-compact-panel",
+    "visual-structured-tech-light",
+    "visual-terminal-docs-dark",
+    "visual-data-infrastructure",
+    "visual-soft-onboarding",
+    "visual-education-clear",
+    "visual-community-warm",
+    "visual-one-bold-accent",
+    "visual-graphic-poster",
+    "visual-interactive-signature",
+    "visual-full-bleed-scene",
+    "visual-travel-story",
+    "visual-experience-map"
+  ],
+  "visual-variant": [
+    "visual-clean-white-gallery",
+    "visual-warm-soft-gallery",
+    "visual-editorial-portfolio-grid",
+    "visual-light-product-console",
+    "visual-dark-product-stage",
+    "visual-demo-first-workflow",
+    "visual-institutional-light",
+    "visual-navy-authority",
+    "visual-calm-human-service",
+    "visual-broadsheet-editorial",
+    "visual-longform-calm",
+    "visual-visual-essay",
+    "visual-cream-lifestyle",
+    "visual-natural-green-service",
+    "visual-human-story-cards",
+    "visual-dark-gallery-spotlight",
+    "visual-cinematic-black",
+    "visual-luxury-detail-closeup",
+    "visual-bright-event-action",
+    "visual-course-launch",
+    "visual-consumer-offer-clean",
+    "visual-dense-workbench-light",
+    "visual-dark-ops-dashboard",
+    "visual-plugin-compact-panel",
+    "visual-structured-tech-light",
+    "visual-terminal-docs-dark",
+    "visual-data-infrastructure",
+    "visual-soft-onboarding",
+    "visual-education-clear",
+    "visual-community-warm",
+    "visual-one-bold-accent",
+    "visual-graphic-poster",
+    "visual-interactive-signature",
+    "visual-full-bleed-scene",
+    "visual-travel-story",
+    "visual-experience-map"
+  ],
+  "vodafone": [
+    "case-vodafone-summary"
+  ],
+  "voltagent": [
+    "case-voltagent-summary"
+  ],
+  "warm-real-life": [
+    "visual-cream-lifestyle",
+    "visual-natural-green-service",
+    "visual-human-story-cards"
+  ],
+  "warp": [
+    "case-warp-summary"
+  ],
+  "webflow": [
+    "case-webflow-summary"
+  ],
+  "wired": [
+    "case-wired-summary"
+  ],
+  "wise": [
+    "case-wise-summary"
+  ],
+  "work-first": [
+    "info-work-first-service",
+    "info-work-first-story-gallery"
+  ],
+  "work-proof": [
+    "persuasion-work-proof",
+    "work-proof"
+  ],
+  "x.ai": [
+    "case-x-ai-summary"
+  ],
+  "zapier": [
+    "case-zapier-summary"
+  ],
+  "专业服务": [
+    "info-trust-first-service"
+  ],
+  "专注、实时、稳定": [
+    "visual-dark-ops-dashboard"
+  ],
+  "专注、技术、沉浸": [
+    "visual-dark-product-stage"
+  ],
+  "严谨、复杂但清楚": [
+    "visual-data-infrastructure"
+  ],
+  "产品定价": [
+    "info-price-package-clarity"
+  ],
+  "产品展示": [
+    "case-airbnb-summary",
+    "case-apple-summary",
+    "case-binance-summary",
+    "case-bmw-summary",
+    "case-bmw-m-summary",
+    "case-bugatti-summary",
+    "case-cal-summary",
+    "case-claude-summary",
+    "case-clay-summary",
+    "case-clickhouse-summary",
+    "case-cohere-summary",
+    "case-coinbase-summary",
+    "case-composio-summary",
+    "case-cursor-summary",
+    "case-expo-summary",
+    "case-hashicorp-summary",
+    "case-hp-summary",
+    "case-ibm-summary",
+    "case-intercom-summary",
+    "case-linear-app-summary",
+    "case-meta-summary",
+    "case-minimax-summary",
+    "case-mintlify-summary",
+    "case-miro-summary",
+    "case-mistral-ai-summary",
+    "case-mongodb-summary",
+    "case-nike-summary",
+    "case-nintendo-2001-summary",
+    "case-notion-summary",
+    "case-nvidia-summary",
+    "case-ollama-summary",
+    "case-opencode-ai-summary",
+    "case-pinterest-summary",
+    "case-playstation-summary",
+    "case-posthog-summary",
+    "case-raycast-summary",
+    "case-renault-summary",
+    "case-replicate-summary",
+    "case-resend-summary",
+    "case-revolut-summary",
+    "case-sentry-summary",
+    "case-slack-summary",
+    "case-spacex-summary",
+    "case-stripe-summary",
+    "case-supabase-summary",
+    "case-superhuman-summary",
+    "case-together-ai-summary",
+    "case-vercel-summary",
+    "case-vodafone-summary",
+    "case-voltagent-summary",
+    "case-warp-summary",
+    "case-webflow-summary",
+    "case-wired-summary",
+    "case-wise-summary",
+    "case-x-ai-summary",
+    "case-zapier-summary"
+  ],
+  "亲近、自然、有温度": [
+    "visual-warm-soft-gallery"
+  ],
+  "价格套餐": [
+    "info-compare-packages"
+  ],
+  "会员": [
+    "info-price-package-clarity"
+  ],
+  "会议": [
+    "info-event-agenda-first"
+  ],
+  "作品/图片先行": [
+    "case-airbnb-summary",
+    "case-airtable-summary",
+    "case-apple-summary",
+    "case-bmw-summary",
+    "case-bmw-m-summary",
+    "case-bugatti-summary",
+    "case-cal-summary",
+    "case-claude-summary",
+    "case-clay-summary",
+    "case-clickhouse-summary",
+    "case-cohere-summary",
+    "case-coinbase-summary",
+    "case-composio-summary",
+    "case-cursor-summary",
+    "case-elevenlabs-summary",
+    "case-expo-summary",
+    "case-ferrari-summary",
+    "case-figma-summary",
+    "case-framer-summary",
+    "case-hashicorp-summary",
+    "case-hp-summary",
+    "case-ibm-summary",
+    "case-intercom-summary",
+    "case-meta-summary",
+    "case-minimax-summary",
+    "case-mintlify-summary",
+    "case-miro-summary",
+    "case-mistral-ai-summary",
+    "case-mongodb-summary",
+    "case-nike-summary",
+    "case-nintendo-2001-summary",
+    "case-notion-summary",
+    "case-nvidia-summary",
+    "case-ollama-summary",
+    "case-opencode-ai-summary",
+    "case-pinterest-summary",
+    "case-playstation-summary",
+    "case-posthog-summary",
+    "case-raycast-summary",
+    "case-renault-summary",
+    "case-replicate-summary",
+    "case-resend-summary",
+    "case-revolut-summary",
+    "case-sentry-summary",
+    "case-shopify-summary",
+    "case-slack-summary",
+    "case-spacex-summary",
+    "case-stripe-summary",
+    "case-superhuman-summary",
+    "case-together-ai-summary",
+    "case-uber-summary",
+    "case-vercel-summary",
+    "case-vodafone-summary",
+    "case-voltagent-summary",
+    "case-warp-summary",
+    "case-webflow-summary",
+    "case-wired-summary",
+    "case-wise-summary",
+    "case-x-ai-summary",
+    "case-zapier-summary"
+  ],
+  "信任优先": [
+    "case-airbnb-summary",
+    "case-binance-summary",
+    "case-bmw-m-summary",
+    "case-claude-summary",
+    "case-cohere-summary",
+    "case-coinbase-summary",
+    "case-dell-1996-summary",
+    "case-expo-summary",
+    "case-hashicorp-summary",
+    "case-hp-summary",
+    "case-ibm-summary",
+    "case-meta-summary",
+    "case-miro-summary",
+    "case-mongodb-summary",
+    "case-nintendo-2001-summary",
+    "case-notion-summary",
+    "case-replicate-summary",
+    "case-together-ai-summary"
+  ],
+  "内容产品": [
+    "info-editorial-thesis"
+  ],
+  "分析工具": [
+    "info-tool-operate-preview"
+  ],
+  "单一服务": [
+    "info-clear-conversion-offer"
+  ],
+  "友好、轻松、不吓人": [
+    "visual-soft-onboarding"
+  ],
+  "叙事、层次、探索": [
+    "visual-visual-essay"
+  ],
+  "可靠、克制、清楚": [
+    "visual-institutional-light"
+  ],
+  "后台": [
+    "info-tool-operate-preview"
+  ],
+  "向往、探索、叙事": [
+    "visual-travel-story"
+  ],
+  "咨询": [
+    "info-clear-conversion-offer"
+  ],
+  "品牌故事": [
+    "info-editorial-thesis"
+  ],
+  "品牌白皮书": [
+    "info-editorial-chapter-thread"
+  ],
+  "品牌表达": [
+    "case-kraken-summary",
+    "case-lamborghini-summary",
+    "case-lovable-summary",
+    "case-mastercard-summary",
+    "case-runwayml-summary",
+    "case-sanity-summary",
+    "case-spotify-summary",
+    "case-starbucks-summary",
+    "case-tesla-summary",
+    "case-theverge-summary"
+  ],
+  "多场景选型": [
+    "info-compare-scenario-matrix"
+  ],
+  "大胆、明确、可记住": [
+    "visual-graphic-poster"
+  ],
+  "媒体": [
+    "info-content-hub-explore"
+  ],
+  "安心、温和、可信": [
+    "visual-calm-human-service"
+  ],
+  "安静、深入、克制": [
+    "visual-longform-calm"
+  ],
+  "客户更信结果": [
+    "info-trust-first-cases-before-proof"
+  ],
+  "工作坊": [
+    "info-event-agenda-first"
+  ],
+  "工具/SaaS": [
+    "case-airbnb-summary",
+    "case-apple-summary",
+    "case-binance-summary",
+    "case-bmw-summary",
+    "case-bmw-m-summary",
+    "case-bugatti-summary",
+    "case-cal-summary",
+    "case-claude-summary",
+    "case-clay-summary",
+    "case-clickhouse-summary",
+    "case-cohere-summary",
+    "case-coinbase-summary",
+    "case-composio-summary",
+    "case-cursor-summary",
+    "case-expo-summary",
+    "case-hashicorp-summary",
+    "case-hp-summary",
+    "case-ibm-summary",
+    "case-intercom-summary",
+    "case-linear-app-summary",
+    "case-meta-summary",
+    "case-minimax-summary",
+    "case-mintlify-summary",
+    "case-miro-summary",
+    "case-mistral-ai-summary",
+    "case-mongodb-summary",
+    "case-nike-summary",
+    "case-nintendo-2001-summary",
+    "case-notion-summary",
+    "case-nvidia-summary",
+    "case-ollama-summary",
+    "case-opencode-ai-summary",
+    "case-pinterest-summary",
+    "case-playstation-summary",
+    "case-posthog-summary",
+    "case-raycast-summary",
+    "case-renault-summary",
+    "case-replicate-summary",
+    "case-resend-summary",
+    "case-revolut-summary",
+    "case-sentry-summary",
+    "case-slack-summary",
+    "case-spacex-summary",
+    "case-stripe-summary",
+    "case-supabase-summary",
+    "case-superhuman-summary",
+    "case-together-ai-summary",
+    "case-vercel-summary",
+    "case-vodafone-summary",
+    "case-voltagent-summary",
+    "case-warp-summary",
+    "case-webflow-summary",
+    "case-wired-summary",
+    "case-wise-summary",
+    "case-x-ai-summary",
+    "case-zapier-summary"
+  ],
+  "帮助中心": [
+    "info-content-hub-task-lanes"
+  ],
+  "平台": [
+    "info-product-demo-first"
+  ],
+  "开发者、专注、专业": [
+    "visual-terminal-docs-dark"
+  ],
+  "开放、亲近、有活力": [
+    "visual-community-warm"
+  ],
+  "报名": [
+    "info-clear-conversion-offer"
+  ],
+  "报告": [
+    "info-editorial-thesis"
+  ],
+  "招募": [
+    "info-event-participation"
+  ],
+  "探索、参与、空间感": [
+    "visual-experience-map"
+  ],
+  "插件": [
+    "info-product-demo-first",
+    "info-tool-operate-preview"
+  ],
+  "摄影/设计/空间/美食/艺术服务": [
+    "info-work-first-service"
+  ],
+  "摄影/设计/空间服务": [
+    "info-work-first-story-gallery"
+  ],
+  "文化项目": [
+    "info-editorial-thesis"
+  ],
+  "新手工具": [
+    "info-tool-operate-guided-walkthrough"
+  ],
+  "新鲜、可玩、有传播性": [
+    "visual-interactive-signature"
+  ],
+  "方案选择": [
+    "info-compare-packages"
+  ],
+  "有完整项目故事": [
+    "info-work-first-story-gallery"
+  ],
+  "有识别度、不混乱": [
+    "visual-one-bold-accent"
+  ],
+  "服务套餐": [
+    "info-price-package-clarity"
+  ],
+  "服务层级": [
+    "info-compare-packages"
+  ],
+  "权威、阅读、锋利": [
+    "visual-broadsheet-editorial"
+  ],
+  "案例库": [
+    "info-content-hub-explore"
+  ],
+  "沉浸、直观、有现场感": [
+    "visual-full-bleed-scene"
+  ],
+  "沉浸、精品、戏剧": [
+    "visual-dark-gallery-spotlight"
+  ],
+  "活力、清楚、有冲劲": [
+    "visual-bright-event-action"
+  ],
+  "活动": [
+    "info-event-participation"
+  ],
+  "清楚、稳定、易理解": [
+    "visual-light-product-console"
+  ],
+  "清爽、专业、客观": [
+    "visual-clean-white-gallery"
+  ],
+  "温暖、亲近、轻松": [
+    "visual-cream-lifestyle"
+  ],
+  "生成器": [
+    "info-tool-operate-preview"
+  ],
+  "用户不确定自己属于哪种情况": [
+    "info-compare-scenario-matrix"
+  ],
+  "用户先判断风格": [
+    "info-work-first-service"
+  ],
+  "用户关心时间安排": [
+    "info-event-agenda-first"
+  ],
+  "用户容易只比价格": [
+    "info-price-package-value-before-price"
+  ],
+  "用户按任务而非栏目找内容": [
+    "info-content-hub-task-lanes"
+  ],
+  "用户有顾虑": [
+    "info-clear-conversion-proof-before-offer"
+  ],
+  "用户痛点明确": [
+    "info-product-demo-problem-solution"
+  ],
+  "用户目标明确": [
+    "info-clear-conversion-offer"
+  ],
+  "用户需要理解交付结果": [
+    "info-work-first-story-gallery"
+  ],
+  "用户需要理解功能": [
+    "info-product-demo-first"
+  ],
+  "用户需要资质/流程/保障": [
+    "info-trust-first-service"
+  ],
+  "直接、互动、低门槛": [
+    "visual-demo-first-workflow"
+  ],
+  "直接、可信、节奏快": [
+    "visual-course-launch"
+  ],
+  "真实、有陪伴感": [
+    "visual-human-story-cards"
+  ],
+  "知识库": [
+    "info-content-hub-explore",
+    "info-content-hub-task-lanes"
+  ],
+  "社群": [
+    "info-event-participation"
+  ],
+  "稳重、权威、低风险": [
+    "visual-navy-authority"
+  ],
+  "竞品对比": [
+    "info-compare-packages"
+  ],
+  "精密、可信、工程感": [
+    "visual-structured-tech-light"
+  ],
+  "精致、稀缺、克制": [
+    "visual-luxury-detail-closeup"
+  ],
+  "紧凑、明确、低干扰": [
+    "visual-plugin-compact-panel"
+  ],
+  "线下体验": [
+    "info-event-participation"
+  ],
+  "编辑叙事": [
+    "case-airbnb-summary",
+    "case-airtable-summary",
+    "case-apple-summary",
+    "case-binance-summary",
+    "case-bmw-summary",
+    "case-bmw-m-summary",
+    "case-bugatti-summary",
+    "case-cal-summary",
+    "case-claude-summary",
+    "case-clay-summary",
+    "case-clickhouse-summary",
+    "case-cohere-summary",
+    "case-coinbase-summary",
+    "case-composio-summary",
+    "case-cursor-summary",
+    "case-elevenlabs-summary",
+    "case-expo-summary",
+    "case-ferrari-summary",
+    "case-hashicorp-summary",
+    "case-hp-summary",
+    "case-ibm-summary",
+    "case-intercom-summary",
+    "case-minimax-summary",
+    "case-mintlify-summary",
+    "case-miro-summary",
+    "case-mistral-ai-summary",
+    "case-mongodb-summary",
+    "case-nike-summary",
+    "case-nintendo-2001-summary",
+    "case-notion-summary",
+    "case-nvidia-summary",
+    "case-ollama-summary",
+    "case-opencode-ai-summary",
+    "case-pinterest-summary",
+    "case-playstation-summary",
+    "case-posthog-summary",
+    "case-raycast-summary",
+    "case-renault-summary",
+    "case-replicate-summary",
+    "case-resend-summary",
+    "case-revolut-summary",
+    "case-sentry-summary",
+    "case-shopify-summary",
+    "case-spacex-summary",
+    "case-stripe-summary",
+    "case-supabase-summary",
+    "case-superhuman-summary",
+    "case-together-ai-summary",
+    "case-uber-summary",
+    "case-vercel-summary",
+    "case-vodafone-summary",
+    "case-voltagent-summary",
+    "case-warp-summary",
+    "case-webflow-summary",
+    "case-wired-summary",
+    "case-wise-summary",
+    "case-x-ai-summary",
+    "case-zapier-summary"
+  ],
+  "编辑感、克制、有节奏": [
+    "visual-editorial-portfolio-grid"
+  ],
+  "耐心、明确、可信": [
+    "visual-education-clear"
+  ],
+  "自然、安心、健康": [
+    "visual-natural-green-service"
+  ],
+  "视觉参考": [
+    "case-kraken-summary",
+    "case-lamborghini-summary",
+    "case-lovable-summary",
+    "case-mastercard-summary",
+    "case-runwayml-summary",
+    "case-sanity-summary",
+    "case-spotify-summary",
+    "case-starbucks-summary",
+    "case-tesla-summary",
+    "case-theverge-summary"
+  ],
+  "视觉素材强": [
+    "info-work-first-service"
+  ],
+  "订阅": [
+    "info-price-package-clarity"
+  ],
+  "订阅/会员": [
+    "info-price-package-value-before-price"
+  ],
+  "课程": [
+    "info-content-hub-explore",
+    "info-price-package-clarity"
+  ],
+  "课程发布": [
+    "info-event-participation"
+  ],
+  "资源集合": [
+    "info-content-hub-explore"
+  ],
+  "资质需要但不必首屏堆砌": [
+    "info-trust-first-cases-before-proof"
+  ],
+  "轻快、不廉价": [
+    "visual-consumer-offer-clean"
+  ],
+  "配置器": [
+    "info-tool-operate-preview",
+    "info-tool-operate-guided-walkthrough"
+  ],
+  "长文报告": [
+    "info-editorial-chapter-thread"
+  ],
+  "需要先对齐任务再看界面": [
+    "info-product-demo-problem-solution"
+  ],
+  "需要社会证明再行动": [
+    "info-clear-conversion-proof-before-offer"
+  ],
+  "需要表达观点": [
+    "info-editorial-thesis"
+  ],
+  "需要跳读的长内容": [
+    "info-editorial-chapter-thread"
+  ],
+  "预约": [
+    "info-clear-conversion-offer"
+  ],
+  "预约/咨询转化": [
+    "info-clear-conversion-proof-before-offer"
+  ],
+  "首次使用门槛高": [
+    "info-tool-operate-guided-walkthrough"
+  ],
+  "高感知价值服务": [
+    "info-price-package-value-before-price"
+  ],
+  "高效、清晰、可操作": [
+    "visual-dense-workbench-light"
+  ],
+  "高级、沉稳、场景感": [
+    "visual-cinematic-black"
+  ],
+  "高风险决策": [
+    "info-trust-first-service"
+  ]
+}

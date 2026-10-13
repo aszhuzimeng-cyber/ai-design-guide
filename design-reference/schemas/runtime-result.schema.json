@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Runtime Design Reference Result",
+  "type": "object",
+  "required": [
+    "queryUnderstanding",
+    "principles",
+    "infoPlanCandidates",
+    "visualVariantCandidates",
+    "antiPatterns",
+    "checklist"
+  ],
+  "properties": {
+    "queryUnderstanding": {
+      "type": "object"
+    },
+    "principles": {
+      "type": "array"
+    },
+    "infoPlanCandidates": {
+      "type": "array"
+    },
+    "visualJudgmentCandidates": {
+      "type": "array"
+    },
+    "visualVariantCandidates": {
+      "type": "array"
+    },
+    "antiPatterns": {
+      "type": "array"
+    },
+    "checklist": {
+      "type": "array"
+    }
+  }
+}

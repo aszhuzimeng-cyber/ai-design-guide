@@ -1,0 +1,3326 @@
+[
+  {
+    "id": "info-work-first-service",
+    "label": "先看作品，再了解服务",
+    "basedOnArchetype": "work-first",
+    "bestFor": [
+      "视觉素材强",
+      "用户先判断风格",
+      "摄影/设计/空间/美食/艺术服务"
+    ],
+    "structure": [
+      "代表作品",
+      "风格分类",
+      "精选案例",
+      "服务流程",
+      "价格或套餐",
+      "客户评价",
+      "预约咨询"
+    ],
+    "reason": "适合用户先判断风格是否匹配，再决定要不要了解流程和价格。",
+    "risk": "如果作品素材不够强，首屏说服力会不足。",
+    "requiredAssets": [
+      "高质量作品图片",
+      "作品分类",
+      "服务流程",
+      "客户评价"
+    ],
+    "previewStructure": {
+      "hero": "image-first",
+      "sectionCount": 7,
+      "density": "spacious",
+      "proofPosition": "after-works"
+    },
+    "generationRules": [
+      "作品模块必须前置",
+      "服务说明放在作品之后",
+      "文案不要压过图片",
+      "预约入口要清楚但不抢作品"
+    ],
+    "forbiddenPatterns": [
+      "generic-hero-cards-cta",
+      "image-first-without-images"
+    ],
+    "pageArchitecture": "作品主导的 gallery-first 低保真：首屏让代表作品占最大面积，文字只负责定位；作品网格先展开，服务流程和预约入口后置。",
+    "aboveFold": {
+      "layout": "full-width-media-or-large-media-left",
+      "primaryZone": "1-3 个代表作品或一个强作品大图",
+      "secondaryZone": "一句话定位、风格标签、服务范围",
+      "proofZone": "不前置，只露出轻量客户/项目数量信号",
+      "actionZone": "轻量预约/查看作品按钮，不抢作品焦点",
+      "visualWeight": {
+        "media": 70,
+        "text": 20,
+        "action": 10
+      }
+    },
+    "sections": [
+      {
+        "role": "first-judgment",
+        "layout": "large-showcase",
+        "content": "代表作品",
+        "why": "先让用户判断审美和能力是否匹配。"
+      },
+      {
+        "role": "browse-and-compare",
+        "layout": "filterable-gallery-grid",
+        "content": "风格分类与精选案例",
+        "why": "让用户快速找到和自己需求相近的作品。"
+      },
+      {
+        "role": "understand-service",
+        "layout": "step-list-after-gallery",
+        "content": "服务流程与交付方式",
+        "why": "在用户认可作品后再解释合作方式。"
+      },
+      {
+        "role": "reduce-risk",
+        "layout": "testimonial-strip",
+        "content": "客户评价、项目结果、常见问题",
+        "why": "补足信任，但不压过作品。"
+      },
+      {
+        "role": "next-action",
+        "layout": "soft-cta-band",
+        "content": "预约咨询或查看套餐",
+        "why": "给明确下一步，但语气保持克制。"
+      }
+    ],
+    "layoutRhythm": "大图判断 -> 网格浏览 -> 服务解释 -> 证明 -> 轻行动",
+    "decisionPath": [
+      "看风格是否喜欢",
+      "找到相近案例",
+      "理解怎么合作",
+      "确认风险可控",
+      "预约或询价"
+    ],
+    "previewWireframe": {
+      "hero": "media-dominant",
+      "body": "gallery-then-explanation",
+      "proofPlacement": "after-gallery",
+      "ctaPlacement": "soft-after-proof",
+      "density": "spacious"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，保留作品/服务/流程/联系入口",
+      "shell": "单页长滚动，首屏和作品区都要足够宽",
+      "footer": "轻量联系收束，避免复杂营销页脚"
+    },
+    "firstScreen": {
+      "layout": "大图首屏或左大图右短文案",
+      "priority": "代表作品/项目画面先出现",
+      "secondary": "一句话定位 + 少量服务标签 + 轻 CTA"
+    },
+    "contentFlow": {
+      "pattern": "大图首屏 -> 分类筛选 -> 作品网格/瀑布流 -> 服务流程 -> 证明 -> 联系",
+      "browsePattern": "作品多时用筛选网格或瀑布流；作品少时用精选大卡片，不强行轮播",
+      "proofPosition": "证明放在作品之后，不要压过作品判断"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "large-media-showcase",
+      "showcase": "filterable-gallery-grid",
+      "optional": [
+        "horizontal-featured-carousel",
+        "masonry-gallery"
+      ],
+      "finalAction": "soft-contact-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择这个作品先行架构",
+        "是否手动改成瀑布流/轮播/网格"
+      ],
+      "aiCompletes": [
+        "具体网格列数",
+        "图片比例",
+        "作品卡片信息密度",
+        "证明条位置"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先看作品，再了解服务",
+    "userLabel": "先看作品，再了解服务",
+    "summary": "适合用户先判断风格是否匹配，再决定要不要了解流程和价格。",
+    "appliesWhen": [
+      "视觉素材强",
+      "用户先判断风格",
+      "摄影/设计/空间/美食/艺术服务"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户先判断风格是否匹配，再决定要不要了解流程和价格。",
+    "risks": [
+      "如果作品素材不够强，首屏说服力会不足。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "work-first",
+      "视觉素材强",
+      "用户先判断风格",
+      "摄影/设计/空间/美食/艺术服务"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 92
+  },
+  {
+    "id": "info-trust-first-service",
+    "label": "先证明可靠，再讲服务",
+    "basedOnArchetype": "trust-first",
+    "bestFor": [
+      "高风险决策",
+      "专业服务",
+      "用户需要资质/流程/保障"
+    ],
+    "structure": [
+      "明确定位",
+      "关键可信证明",
+      "服务说明",
+      "流程与保障",
+      "案例/评价",
+      "FAQ",
+      "咨询入口"
+    ],
+    "reason": "适合用户先担心靠不靠谱的场景，先降低风险，再引导咨询。",
+    "risk": "如果证明很多但价值不清，页面会显得沉重。",
+    "requiredAssets": [
+      "资质或背景",
+      "流程",
+      "评价或案例",
+      "保障说明"
+    ],
+    "previewStructure": {
+      "hero": "proof-first",
+      "sectionCount": 7,
+      "density": "balanced",
+      "proofPosition": "above-fold"
+    },
+    "generationRules": [
+      "首屏必须出现可信证明或明确背书",
+      "流程和保障要在中段讲清楚",
+      "避免促销式倒计时和夸张承诺"
+    ],
+    "forbiddenPatterns": [
+      "ecommerce-promotion",
+      "consulting-jargon"
+    ],
+    "pageArchitecture": "信任前置的 proof-first 低保真：首屏先回答靠不靠谱，再讲服务内容；证明、流程和保障比氛围更重要。",
+    "aboveFold": {
+      "layout": "claim-left-proof-right",
+      "primaryZone": "明确定位和关键可信承诺",
+      "secondaryZone": "资质、数据、客户评价或案例摘要",
+      "proofZone": "首屏可见，靠近主标题",
+      "actionZone": "咨询入口 + 查看流程的次按钮",
+      "visualWeight": {
+        "claim": 35,
+        "proof": 45,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "risk-reduction",
+        "layout": "proof-cards-above-fold",
+        "content": "资质、背书、客户结果",
+        "why": "先降低用户的不确定感。"
+      },
+      {
+        "role": "service-clarity",
+        "layout": "two-column-service-list",
+        "content": "服务范围与适合对象",
+        "why": "让用户确认是不是为自己解决问题。"
+      },
+      {
+        "role": "process-confidence",
+        "layout": "numbered-process",
+        "content": "流程、周期、保障",
+        "why": "把专业服务变成可预期过程。"
+      },
+      {
+        "role": "case-validation",
+        "layout": "case-summary-cards",
+        "content": "案例/评价/前后对比",
+        "why": "用真实证据加强信任。"
+      },
+      {
+        "role": "objection-handling",
+        "layout": "faq-accordion",
+        "content": "FAQ 和咨询入口",
+        "why": "处理最后的顾虑。"
+      }
+    ],
+    "layoutRhythm": "可信定位 -> 证明前置 -> 服务解释 -> 流程保障 -> 案例 FAQ -> 咨询",
+    "decisionPath": [
+      "先判断是否可靠",
+      "确认服务是否相关",
+      "理解流程和保障",
+      "查看真实证据",
+      "咨询"
+    ],
+    "previewWireframe": {
+      "hero": "proof-first",
+      "body": "proof-service-process",
+      "proofPlacement": "above-fold",
+      "ctaPlacement": "after-risk-reduction",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，服务/案例/流程/FAQ/咨询清楚可达",
+      "shell": "证明和服务说明交替推进的长页",
+      "footer": "咨询入口 + 资质/联系方式收束"
+    },
+    "firstScreen": {
+      "layout": "左侧定位和承诺，右侧证明卡/数据/客户结果",
+      "priority": "先回答靠不靠谱",
+      "secondary": "服务范围和咨询入口作为辅助"
+    },
+    "contentFlow": {
+      "pattern": "可信定位 -> 证明卡 -> 服务说明 -> 流程保障 -> 案例评价 -> FAQ -> 咨询",
+      "browsePattern": "证明用卡片/数据条/案例摘要，不用纯氛围图撑场",
+      "proofPosition": "证明必须首屏可见"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "claim-proof-split",
+      "proof": "proof-card-grid",
+      "process": "numbered-process",
+      "finalAction": "consultation-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择信任前置架构",
+        "是否强调案例/资质/流程"
+      ],
+      "aiCompletes": [
+        "证明卡数量",
+        "流程步骤数量",
+        "FAQ 密度",
+        "咨询入口重复位置"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先证明可靠，再讲服务",
+    "userLabel": "先证明可靠，再讲服务",
+    "summary": "适合用户先担心靠不靠谱的场景，先降低风险，再引导咨询。",
+    "appliesWhen": [
+      "高风险决策",
+      "专业服务",
+      "用户需要资质/流程/保障"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户先担心靠不靠谱的场景，先降低风险，再引导咨询。",
+    "risks": [
+      "如果证明很多但价值不清，页面会显得沉重。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "trust-first",
+      "高风险决策",
+      "专业服务",
+      "用户需要资质/流程/保障"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 91
+  },
+  {
+    "id": "info-product-demo-first",
+    "label": "先看产品怎么工作",
+    "basedOnArchetype": "product-showcase",
+    "bestFor": [
+      "SaaS",
+      "AI 工具",
+      "插件",
+      "平台",
+      "用户需要理解功能"
+    ],
+    "structure": [
+      "产品界面或 demo",
+      "核心使用场景",
+      "功能分组",
+      "工作流",
+      "集成/生态",
+      "案例证明",
+      "试用入口"
+    ],
+    "reason": "适合复杂产品，用界面和流程让用户看懂价值。",
+    "risk": "如果没有真实截图或 demo，页面会显得空泛。",
+    "requiredAssets": [
+      "产品截图",
+      "demo 或 mockup",
+      "功能列表",
+      "使用场景"
+    ],
+    "previewStructure": {
+      "hero": "product-first",
+      "sectionCount": 7,
+      "density": "balanced",
+      "proofPosition": "after-demo"
+    },
+    "generationRules": [
+      "首屏必须展示产品界面或结果预览",
+      "功能按使用场景分组",
+      "避免只用抽象插画和口号"
+    ],
+    "forbiddenPatterns": [
+      "tech-blue-purple",
+      "generic-hero-cards-cta"
+    ],
+    "pageArchitecture": "产品界面先行的 demo-first 低保真：首屏直接展示产品界面、demo 或结果预览，后面按使用场景解释功能。",
+    "aboveFold": {
+      "layout": "screen-center-with-caption",
+      "primaryZone": "产品界面、demo、生成结果或工作流预览",
+      "secondaryZone": "一句话说明它帮用户完成什么",
+      "proofZone": "集成数量、用户数量或结果样例轻量露出",
+      "actionZone": "试用/查看 demo",
+      "visualWeight": {
+        "product": 60,
+        "explanation": 25,
+        "action": 15
+      }
+    },
+    "sections": [
+      {
+        "role": "product-recognition",
+        "layout": "hero-screen",
+        "content": "产品界面或结果预览",
+        "why": "让用户先看见产品到底是什么。"
+      },
+      {
+        "role": "scenario-mapping",
+        "layout": "use-case-tabs",
+        "content": "核心使用场景",
+        "why": "按任务解释功能，而不是堆功能名。"
+      },
+      {
+        "role": "workflow-understanding",
+        "layout": "step-flow-with-screens",
+        "content": "工作流和关键状态",
+        "why": "让用户理解怎么用。"
+      },
+      {
+        "role": "capability-depth",
+        "layout": "feature-groups",
+        "content": "功能分组、集成、生态",
+        "why": "在理解主流程后补充能力范围。"
+      },
+      {
+        "role": "trial-decision",
+        "layout": "demo-cta-band",
+        "content": "案例证明和试用入口",
+        "why": "把理解转成试用。"
+      }
+    ],
+    "layoutRhythm": "界面看见 -> 场景理解 -> 流程走通 -> 功能补充 -> 试用",
+    "decisionPath": [
+      "看懂产品形态",
+      "确认使用场景",
+      "理解流程",
+      "判断能力够不够",
+      "试用"
+    ],
+    "previewWireframe": {
+      "hero": "product-screen-dominant",
+      "body": "scenario-tabs-then-workflow",
+      "proofPlacement": "after-demo",
+      "ctaPlacement": "near-demo-and-end",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，产品/场景/功能/案例/试用入口",
+      "shell": "产品界面和场景解释交替出现",
+      "footer": "试用、文档或联系入口收束"
+    },
+    "firstScreen": {
+      "layout": "产品界面或结果预览居中/右侧，标题解释它完成什么任务",
+      "priority": "产品画面和工作流先出现",
+      "secondary": "场景说明和试用入口"
+    },
+    "contentFlow": {
+      "pattern": "产品界面 -> 使用场景 tabs -> 工作流步骤 -> 功能分组 -> 集成/案例 -> 试用",
+      "browsePattern": "复杂功能用 tabs/步骤流，不用堆三张泛功能卡",
+      "proofPosition": "证明放在 demo 之后，用结果样例或客户场景支撑"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "product-screen-stage",
+      "explain": "scenario-tabs",
+      "workflow": "step-flow-with-screens",
+      "finalAction": "trial-cta-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择产品界面先行架构",
+        "是否强调 demo/截图/工作流"
+      ],
+      "aiCompletes": [
+        "界面卡片大小",
+        "tabs 数量",
+        "功能分组方式",
+        "试用入口位置"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先看产品怎么工作",
+    "userLabel": "先看产品怎么工作",
+    "summary": "适合复杂产品，用界面和流程让用户看懂价值。",
+    "appliesWhen": [
+      "SaaS",
+      "AI 工具",
+      "插件",
+      "平台",
+      "用户需要理解功能"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合复杂产品，用界面和流程让用户看懂价值。",
+    "risks": [
+      "如果没有真实截图或 demo，页面会显得空泛。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "product-showcase",
+      "SaaS",
+      "AI 工具",
+      "插件",
+      "平台",
+      "用户需要理解功能"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 90
+  },
+  {
+    "id": "info-clear-conversion-offer",
+    "label": "先讲清核心价值，再推动行动",
+    "basedOnArchetype": "clear-conversion",
+    "bestFor": [
+      "预约",
+      "报名",
+      "咨询",
+      "单一服务",
+      "用户目标明确"
+    ],
+    "structure": [
+      "一句话 offer",
+      "核心收益",
+      "适合人群",
+      "服务/功能",
+      "证明",
+      "流程/价格",
+      "FAQ",
+      "行动入口"
+    ],
+    "reason": "适合用户已经有需求，只需要快速判断值不值得行动。",
+    "risk": "如果页面需要审美或品牌铺垫，太直接会显得销售感强。",
+    "requiredAssets": [
+      "清楚 offer",
+      "收益点",
+      "行动入口",
+      "基础证明"
+    ],
+    "previewStructure": {
+      "hero": "text-first",
+      "sectionCount": 8,
+      "density": "balanced",
+      "proofPosition": "mid-page"
+    },
+    "generationRules": [
+      "首屏要说清楚提供什么和下一步动作",
+      "CTA 稳定出现但不要多个主按钮抢焦点",
+      "FAQ 用来降低犹豫"
+    ],
+    "forbiddenPatterns": [
+      "consulting-jargon",
+      "too-many-visual-moves"
+    ],
+    "pageArchitecture": "清晰 offer 的 conversion-first 低保真：首屏先说清楚给谁、解决什么、下一步做什么，证明和 FAQ 为行动服务。",
+    "aboveFold": {
+      "layout": "headline-benefits-action",
+      "primaryZone": "一句话 offer 与核心收益",
+      "secondaryZone": "适合人群、服务范围或结果承诺",
+      "proofZone": "1-2 个短证明靠近 CTA",
+      "actionZone": "明确主 CTA + 低压力次操作",
+      "visualWeight": {
+        "offer": 45,
+        "benefits": 30,
+        "action": 25
+      }
+    },
+    "sections": [
+      {
+        "role": "offer-clarity",
+        "layout": "direct-hero",
+        "content": "offer、收益、适合对象",
+        "why": "让已有需求的用户快速判断值不值得继续。"
+      },
+      {
+        "role": "value-evidence",
+        "layout": "benefit-proof-pairs",
+        "content": "收益点和对应证明",
+        "why": "每个承诺都要有支撑。"
+      },
+      {
+        "role": "how-it-works",
+        "layout": "compact-process",
+        "content": "流程、价格或交付方式",
+        "why": "降低行动成本。"
+      },
+      {
+        "role": "objection-handling",
+        "layout": "faq-with-cta",
+        "content": "FAQ、保障、行动入口",
+        "why": "处理临门一脚的犹豫。"
+      }
+    ],
+    "layoutRhythm": "offer -> 收益 -> 证明 -> 流程/价格 -> FAQ -> 行动",
+    "decisionPath": [
+      "确认是不是给我",
+      "确认能得到什么",
+      "确认可信",
+      "确认成本",
+      "行动"
+    ],
+    "previewWireframe": {
+      "hero": "offer-and-action",
+      "body": "benefits-proof-faq",
+      "proofPlacement": "near-benefits",
+      "ctaPlacement": "above-fold-and-end",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航或简化导航，行动入口始终清楚",
+      "shell": "短节奏长页，收益和证明快速交替",
+      "footer": "FAQ + 主行动入口收束"
+    },
+    "firstScreen": {
+      "layout": "标题 offer + 收益点 + 主 CTA + 轻证明",
+      "priority": "先讲清楚用户能得到什么",
+      "secondary": "适合谁和下一步动作"
+    },
+    "contentFlow": {
+      "pattern": "offer -> 收益点 -> 证明 -> 流程/价格 -> FAQ -> 行动",
+      "browsePattern": "收益点用短卡片或横向条，避免长篇解释",
+      "proofPosition": "证明靠近收益点和 CTA"
+    },
+    "componentPatterns": {
+      "navigation": "simple-top-nav",
+      "hero": "offer-benefit-action",
+      "benefits": "benefit-proof-pairs",
+      "finalAction": "repeated-cta-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择转化优先架构",
+        "是否强调报名/咨询/购买"
+      ],
+      "aiCompletes": [
+        "CTA 重复频率",
+        "收益卡片数量",
+        "FAQ 数量",
+        "证明条形式"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先讲清核心价值，再推动行动",
+    "userLabel": "先讲清核心价值，再推动行动",
+    "summary": "适合用户已经有需求，只需要快速判断值不值得行动。",
+    "appliesWhen": [
+      "预约",
+      "报名",
+      "咨询",
+      "单一服务",
+      "用户目标明确"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户已经有需求，只需要快速判断值不值得行动。",
+    "risks": [
+      "如果页面需要审美或品牌铺垫，太直接会显得销售感强。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "clear-conversion",
+      "预约",
+      "报名",
+      "咨询",
+      "单一服务",
+      "用户目标明确"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 89
+  },
+  {
+    "id": "info-editorial-thesis",
+    "label": "先讲观点，再带用户看下去",
+    "basedOnArchetype": "editorial-story",
+    "bestFor": [
+      "内容产品",
+      "品牌故事",
+      "报告",
+      "文化项目",
+      "需要表达观点"
+    ],
+    "structure": [
+      "核心观点",
+      "背景/冲突",
+      "分段论证",
+      "案例或人物",
+      "图文证据",
+      "深入阅读/参与入口"
+    ],
+    "reason": "适合先建立理解和兴趣，而不是一上来推动购买。",
+    "risk": "如果用户只想快速预约或购买，叙事节奏可能偏慢。",
+    "requiredAssets": [
+      "清楚观点",
+      "故事素材",
+      "图片或案例",
+      "后续阅读入口"
+    ],
+    "previewStructure": {
+      "hero": "text-first",
+      "sectionCount": 6,
+      "density": "spacious",
+      "proofPosition": "through-story"
+    },
+    "generationRules": [
+      "首屏必须有明确观点",
+      "模块顺序要像阅读路径",
+      "不要把每一屏都做成营销卡片"
+    ],
+    "forbiddenPatterns": [
+      "generic-hero-cards-cta",
+      "consulting-jargon"
+    ],
+    "pageArchitecture": "观点叙事的 editorial 低保真：首屏抛出观点或冲突，页面像文章一样分段推进，行动入口不打断阅读节奏。",
+    "aboveFold": {
+      "layout": "editorial-title-with-context",
+      "primaryZone": "核心观点、主题或冲突",
+      "secondaryZone": "背景说明、作者/来源、阅读线索",
+      "proofZone": "不集中堆证明，随段落穿插",
+      "actionZone": "弱化，放为继续阅读/参与入口",
+      "visualWeight": {
+        "thesis": 55,
+        "context": 30,
+        "action": 15
+      }
+    },
+    "sections": [
+      {
+        "role": "set-thesis",
+        "layout": "large-title-editorial",
+        "content": "核心观点与背景",
+        "why": "先让用户知道为什么值得读。"
+      },
+      {
+        "role": "build-understanding",
+        "layout": "longform-sections",
+        "content": "分段论证和图文证据",
+        "why": "用节奏推进理解，而不是堆卡片。"
+      },
+      {
+        "role": "humanize",
+        "layout": "case-or-person-story",
+        "content": "案例、人物或场景",
+        "why": "让观点变具体。"
+      },
+      {
+        "role": "continue",
+        "layout": "reading-next-step",
+        "content": "深入阅读、订阅或参与入口",
+        "why": "在理解之后给下一步。"
+      }
+    ],
+    "layoutRhythm": "观点 -> 背景冲突 -> 分段论证 -> 案例证据 -> 深入/参与",
+    "decisionPath": [
+      "被观点吸引",
+      "理解背景",
+      "相信论证",
+      "看到具体例子",
+      "继续阅读或参与"
+    ],
+    "previewWireframe": {
+      "hero": "text-thesis",
+      "body": "longform-with-evidence",
+      "proofPlacement": "through-story",
+      "ctaPlacement": "after-reading",
+      "density": "spacious"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航弱化，阅读路径优先",
+      "shell": "像专题文章一样分段推进",
+      "footer": "继续阅读/订阅/参与入口"
+    },
+    "firstScreen": {
+      "layout": "大标题 + 背景摘要 + 作者/来源/主题线索",
+      "priority": "观点或冲突先出现",
+      "secondary": "场景图片或关键证据辅助"
+    },
+    "contentFlow": {
+      "pattern": "观点 -> 背景冲突 -> 分段论证 -> 图文证据 -> 案例/人物 -> 下一步",
+      "browsePattern": "使用长文段落、图文穿插和引用块，不做营销卡片堆叠",
+      "proofPosition": "证明随叙事穿插"
+    },
+    "componentPatterns": {
+      "navigation": "minimal-top-nav",
+      "hero": "editorial-title",
+      "body": "longform-sections",
+      "media": "inline-evidence-figures",
+      "finalAction": "reading-next-step"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择观点叙事架构"
+      ],
+      "aiCompletes": [
+        "段落节奏",
+        "图文比例",
+        "引用/证据位置",
+        "行动入口弱化方式"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先讲观点，再带用户看下去",
+    "userLabel": "先讲观点，再带用户看下去",
+    "summary": "适合先建立理解和兴趣，而不是一上来推动购买。",
+    "appliesWhen": [
+      "内容产品",
+      "品牌故事",
+      "报告",
+      "文化项目",
+      "需要表达观点"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合先建立理解和兴趣，而不是一上来推动购买。",
+    "risks": [
+      "如果用户只想快速预约或购买，叙事节奏可能偏慢。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "editorial-story",
+      "内容产品",
+      "品牌故事",
+      "报告",
+      "文化项目",
+      "需要表达观点"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 88
+  },
+  {
+    "id": "info-content-hub-explore",
+    "label": "帮用户找到想看的内容",
+    "basedOnArchetype": "content-hub",
+    "bestFor": [
+      "知识库",
+      "案例库",
+      "课程",
+      "媒体",
+      "资源集合"
+    ],
+    "structure": [
+      "总入口",
+      "推荐内容",
+      "分类/搜索",
+      "内容卡片",
+      "专题集合",
+      "订阅或行动入口"
+    ],
+    "reason": "适合内容量较多、用户目标不完全相同的页面。",
+    "risk": "如果内容量不足，入口型页面会显得空。",
+    "requiredAssets": [
+      "内容列表",
+      "分类",
+      "摘要",
+      "封面或标签"
+    ],
+    "previewStructure": {
+      "hero": "text-first",
+      "sectionCount": 6,
+      "density": "compact",
+      "proofPosition": "content-signals"
+    },
+    "generationRules": [
+      "分类必须按用户任务组织",
+      "内容卡片信息要一致",
+      "搜索/筛选入口要清楚"
+    ],
+    "forbiddenPatterns": [
+      "generic-hero-cards-cta"
+    ],
+    "pageArchitecture": "内容入口型 hub 低保真：首屏提供总入口、推荐和分类，核心是帮助用户找内容，不是讲完整故事。",
+    "aboveFold": {
+      "layout": "search-category-featured",
+      "primaryZone": "搜索/分类/推荐内容入口",
+      "secondaryZone": "热门专题或最新内容",
+      "proofZone": "内容数量、更新频率、精选标签",
+      "actionZone": "订阅、收藏或进入专题",
+      "visualWeight": {
+        "navigation": 45,
+        "featured": 35,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "orient",
+        "layout": "hub-header-with-search",
+        "content": "总入口、搜索、分类",
+        "why": "让不同目的的用户都能开始。"
+      },
+      {
+        "role": "recommend",
+        "layout": "featured-content-grid",
+        "content": "推荐内容和专题",
+        "why": "帮助没有明确目标的用户探索。"
+      },
+      {
+        "role": "browse",
+        "layout": "consistent-card-grid",
+        "content": "内容卡片列表",
+        "why": "保持扫描效率。"
+      },
+      {
+        "role": "return",
+        "layout": "subscription-band",
+        "content": "订阅、收藏、继续浏览入口",
+        "why": "给长期内容关系一个入口。"
+      }
+    ],
+    "layoutRhythm": "入口导航 -> 推荐 -> 分类浏览 -> 专题 -> 订阅",
+    "decisionPath": [
+      "选择查找方式",
+      "看到推荐",
+      "筛选内容",
+      "进入详情",
+      "订阅或返回"
+    ],
+    "previewWireframe": {
+      "hero": "hub-navigation",
+      "body": "featured-then-grid",
+      "proofPlacement": "content-signals",
+      "ctaPlacement": "subscription-after-browse",
+      "density": "compact"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航 + 搜索/分类入口",
+      "shell": "内容索引页或资源首页",
+      "footer": "订阅、专题和返回入口"
+    },
+    "firstScreen": {
+      "layout": "总入口 + 搜索 + 推荐内容/分类",
+      "priority": "先帮用户找到入口",
+      "secondary": "热门专题和内容数量信号"
+    },
+    "contentFlow": {
+      "pattern": "入口导航 -> 推荐 -> 分类筛选 -> 内容网格 -> 专题集合 -> 订阅",
+      "browsePattern": "内容多用分类网格，内容少用精选列表，不强装门户",
+      "proofPosition": "用内容数量/更新时间/精选标签作为证明"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav-search",
+      "hero": "hub-search-categories",
+      "content": "consistent-card-grid",
+      "optional": [
+        "sidebar-filter",
+        "topic-rail"
+      ],
+      "finalAction": "subscription-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择内容入口架构",
+        "是否需要搜索/分类"
+      ],
+      "aiCompletes": [
+        "分类数量",
+        "卡片字段",
+        "推荐区大小",
+        "订阅入口位置"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "帮用户找到想看的内容",
+    "userLabel": "帮用户找到想看的内容",
+    "summary": "适合内容量较多、用户目标不完全相同的页面。",
+    "appliesWhen": [
+      "知识库",
+      "案例库",
+      "课程",
+      "媒体",
+      "资源集合"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合内容量较多、用户目标不完全相同的页面。",
+    "risks": [
+      "如果内容量不足，入口型页面会显得空。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "content-hub",
+      "知识库",
+      "案例库",
+      "课程",
+      "媒体",
+      "资源集合"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 87
+  },
+  {
+    "id": "info-tool-operate-preview",
+    "label": "让用户直接操作并看到结果",
+    "basedOnArchetype": "tool-operation",
+    "bestFor": [
+      "生成器",
+      "配置器",
+      "插件",
+      "后台",
+      "分析工具"
+    ],
+    "structure": [
+      "当前输入/状态",
+      "主要操作区",
+      "结果预览",
+      "辅助设置",
+      "历史/保存/导出"
+    ],
+    "reason": "适合工具型页面，重点是让用户快速完成任务并获得反馈。",
+    "risk": "如果首屏做成营销大标题，会压住真正操作。",
+    "requiredAssets": [
+      "输入模型",
+      "结果预览",
+      "状态反馈",
+      "保存或导出"
+    ],
+    "previewStructure": {
+      "hero": "product-first",
+      "sectionCount": 5,
+      "density": "compact",
+      "proofPosition": "result-preview"
+    },
+    "generationRules": [
+      "核心操作必须在首屏可见",
+      "状态反馈要清楚",
+      "营销文案不能占据工具首屏"
+    ],
+    "forbiddenPatterns": [
+      "generic-hero-cards-cta",
+      "too-many-visual-moves"
+    ],
+    "pageArchitecture": "工具操作型 workbench 低保真：首屏就是操作台，输入、控制、结果预览和状态反馈必须同时可见。",
+    "aboveFold": {
+      "layout": "control-panel-plus-preview",
+      "primaryZone": "主要输入/操作区和结果预览",
+      "secondaryZone": "参数、状态、历史或提示",
+      "proofZone": "结果质量通过预览体现，不用营销背书前置",
+      "actionZone": "生成、保存、同步、导出等任务按钮",
+      "visualWeight": {
+        "controls": 35,
+        "preview": 45,
+        "status": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "operate",
+        "layout": "split-workbench",
+        "content": "输入区、设置区、结果预览",
+        "why": "工具用户要先完成任务。"
+      },
+      {
+        "role": "feedback",
+        "layout": "status-and-errors",
+        "content": "状态、错误、加载、空态",
+        "why": "操作必须有反馈。"
+      },
+      {
+        "role": "iterate",
+        "layout": "history-and-versions",
+        "content": "历史记录、保存、导出",
+        "why": "支持反复调整。"
+      },
+      {
+        "role": "learn-lightly",
+        "layout": "inline-help",
+        "content": "轻量提示和示例",
+        "why": "帮助新手，但不挤占操作空间。"
+      }
+    ],
+    "layoutRhythm": "输入 -> 操作 -> 预览 -> 调整 -> 保存/导出",
+    "decisionPath": [
+      "输入信息",
+      "调整参数",
+      "查看结果",
+      "修改",
+      "保存或同步"
+    ],
+    "previewWireframe": {
+      "hero": "workbench",
+      "body": "controls-preview-status",
+      "proofPlacement": "result-preview",
+      "ctaPlacement": "task-buttons-in-toolbar",
+      "density": "compact"
+    },
+    "pageFrame": {
+      "navigation": "轻导航或工具栏，操作区优先",
+      "shell": "工作台布局，不是营销落地页",
+      "footer": "可弱化，更多使用状态栏/保存入口"
+    },
+    "firstScreen": {
+      "layout": "左操作区 + 右结果预览，或上工具栏 + 主预览",
+      "priority": "输入、控制和结果反馈先出现",
+      "secondary": "示例、状态、历史记录"
+    },
+    "contentFlow": {
+      "pattern": "输入 -> 操作 -> 预览 -> 调整 -> 历史/保存/导出",
+      "browsePattern": "使用面板、控件、状态条，不用大段品牌文案",
+      "proofPosition": "结果预览本身就是证明"
+    },
+    "componentPatterns": {
+      "navigation": "toolbar",
+      "hero": "split-workbench",
+      "controls": "control-panel",
+      "preview": "result-preview-panel",
+      "finalAction": "save-export-actions"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择工具工作台架构"
+      ],
+      "aiCompletes": [
+        "面板比例",
+        "控件分组",
+        "状态反馈",
+        "空态和错误态"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "让用户直接操作并看到结果",
+    "userLabel": "让用户直接操作并看到结果",
+    "summary": "适合工具型页面，重点是让用户快速完成任务并获得反馈。",
+    "appliesWhen": [
+      "生成器",
+      "配置器",
+      "插件",
+      "后台",
+      "分析工具"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合工具型页面，重点是让用户快速完成任务并获得反馈。",
+    "risks": [
+      "如果首屏做成营销大标题，会压住真正操作。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "tool-operation",
+      "生成器",
+      "配置器",
+      "插件",
+      "后台",
+      "分析工具"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 86
+  },
+  {
+    "id": "info-compare-packages",
+    "label": "帮用户比较后做选择",
+    "basedOnArchetype": "comparison-decision",
+    "bestFor": [
+      "价格套餐",
+      "服务层级",
+      "方案选择",
+      "竞品对比"
+    ],
+    "structure": [
+      "选择问题",
+      "方案概览",
+      "对比表",
+      "适合人群",
+      "推荐路径",
+      "FAQ/保障",
+      "行动入口"
+    ],
+    "reason": "适合用户不知道该选哪个，需要理解差异和适合场景。",
+    "risk": "如果对比维度太多，用户会更难做决定。",
+    "requiredAssets": [
+      "方案列表",
+      "差异点",
+      "价格或权益",
+      "适合人群"
+    ],
+    "previewStructure": {
+      "hero": "text-first",
+      "sectionCount": 7,
+      "density": "balanced",
+      "proofPosition": "comparison-table"
+    },
+    "generationRules": [
+      "每个方案要说明适合谁",
+      "对比维度不要过多",
+      "推荐方案必须有理由"
+    ],
+    "forbiddenPatterns": [
+      "ecommerce-promotion",
+      "consulting-jargon"
+    ],
+    "pageArchitecture": "对比决策型 comparison 低保真：先定义选择问题，再用少量维度比较方案，最后给推荐路径。",
+    "aboveFold": {
+      "layout": "choice-question-plus-options",
+      "primaryZone": "用户正在选择什么",
+      "secondaryZone": "2-4 个方案概览",
+      "proofZone": "推荐理由或适合人群标签",
+      "actionZone": "查看对比/选择方案",
+      "visualWeight": {
+        "question": 30,
+        "options": 50,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "frame-choice",
+        "layout": "choice-question",
+        "content": "选择问题和方案概览",
+        "why": "先让用户知道差异来自哪里。"
+      },
+      {
+        "role": "compare",
+        "layout": "comparison-table",
+        "content": "少量关键维度对比",
+        "why": "帮助用户扫描差异。"
+      },
+      {
+        "role": "recommend",
+        "layout": "recommendation-path",
+        "content": "适合人群和推荐路径",
+        "why": "给不会选的人一个判断依据。"
+      },
+      {
+        "role": "reassure",
+        "layout": "faq-guarantee",
+        "content": "FAQ、保障、行动入口",
+        "why": "降低选错风险。"
+      }
+    ],
+    "layoutRhythm": "选择问题 -> 方案概览 -> 对比表 -> 推荐路径 -> FAQ/保障",
+    "decisionPath": [
+      "理解选项",
+      "比较差异",
+      "找到适合自己的",
+      "确认风险",
+      "选择"
+    ],
+    "previewWireframe": {
+      "hero": "choice-overview",
+      "body": "cards-table-recommendation",
+      "proofPlacement": "comparison-table",
+      "ctaPlacement": "per-option-and-end",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，价格/对比/FAQ/咨询清楚可达",
+      "shell": "对比和推荐路径优先的长页",
+      "footer": "保障和咨询入口收束"
+    },
+    "firstScreen": {
+      "layout": "选择问题 + 方案概览卡",
+      "priority": "先让用户知道自己在比较什么",
+      "secondary": "推荐标签和适合人群"
+    },
+    "contentFlow": {
+      "pattern": "选择问题 -> 方案卡 -> 对比表 -> 适合人群 -> 推荐路径 -> FAQ/保障",
+      "browsePattern": "对比维度少而清楚，不做超长参数表",
+      "proofPosition": "证明靠近推荐路径"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "choice-overview-cards",
+      "comparison": "comparison-table",
+      "guide": "recommendation-path",
+      "finalAction": "choose-or-consult-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择比较决策架构"
+      ],
+      "aiCompletes": [
+        "对比维度",
+        "推荐标签",
+        "表格密度",
+        "FAQ 放置"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "帮用户比较后做选择",
+    "userLabel": "帮用户比较后做选择",
+    "summary": "适合用户不知道该选哪个，需要理解差异和适合场景。",
+    "appliesWhen": [
+      "价格套餐",
+      "服务层级",
+      "方案选择",
+      "竞品对比"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户不知道该选哪个，需要理解差异和适合场景。",
+    "risks": [
+      "如果对比维度太多，用户会更难做决定。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "comparison-decision",
+      "价格套餐",
+      "服务层级",
+      "方案选择",
+      "竞品对比"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 85
+  },
+  {
+    "id": "info-event-participation",
+    "label": "讲清活动亮点和参与方式",
+    "basedOnArchetype": "community-event",
+    "bestFor": [
+      "活动",
+      "社群",
+      "课程发布",
+      "招募",
+      "线下体验"
+    ],
+    "structure": [
+      "活动主题",
+      "亮点/收益",
+      "时间地点/对象",
+      "流程安排",
+      "嘉宾/过往证明",
+      "报名入口",
+      "FAQ"
+    ],
+    "reason": "适合让用户快速理解活动值不值得参加，以及怎么参加。",
+    "risk": "如果只做氛围不讲清信息，会影响报名。",
+    "requiredAssets": [
+      "时间地点",
+      "流程",
+      "嘉宾或过往照片",
+      "报名方式"
+    ],
+    "previewStructure": {
+      "hero": "text-first",
+      "sectionCount": 7,
+      "density": "balanced",
+      "proofPosition": "mid-page"
+    },
+    "generationRules": [
+      "时间地点和报名入口必须清楚",
+      "活动亮点不能只写情绪文案",
+      "FAQ 处理常见顾虑"
+    ],
+    "forbiddenPatterns": [
+      "too-many-visual-moves"
+    ],
+    "pageArchitecture": "活动参与型 event 低保真：首屏讲清活动是什么、为什么值得参加、何时何地参加，报名入口必须稳定可见。",
+    "aboveFold": {
+      "layout": "event-title-details-action",
+      "primaryZone": "活动主题和亮点",
+      "secondaryZone": "时间、地点、对象、名额",
+      "proofZone": "嘉宾、往届照片或参与人数",
+      "actionZone": "报名/加入日历/了解流程",
+      "visualWeight": {
+        "theme": 40,
+        "details": 30,
+        "action": 30
+      }
+    },
+    "sections": [
+      {
+        "role": "event-recognition",
+        "layout": "event-hero",
+        "content": "主题、亮点、时间地点",
+        "why": "先讲清活动基本判断信息。"
+      },
+      {
+        "role": "value-and-fit",
+        "layout": "benefit-and-audience",
+        "content": "收获、适合对象、嘉宾",
+        "why": "让用户判断值不值得参加。"
+      },
+      {
+        "role": "schedule",
+        "layout": "timeline",
+        "content": "流程安排",
+        "why": "降低不确定感。"
+      },
+      {
+        "role": "registration",
+        "layout": "sticky-or-repeat-cta",
+        "content": "报名入口、FAQ",
+        "why": "行动路径不能丢。"
+      }
+    ],
+    "layoutRhythm": "主题亮点 -> 时间地点 -> 收获对象 -> 流程 -> 报名 FAQ",
+    "decisionPath": [
+      "知道活动是什么",
+      "确认时间地点",
+      "判断是否适合",
+      "理解流程",
+      "报名"
+    ],
+    "previewWireframe": {
+      "hero": "event-info-first",
+      "body": "benefits-timeline-registration",
+      "proofPlacement": "mid-page",
+      "ctaPlacement": "above-fold-and-sticky",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航或活动锚点导航，报名入口固定可见",
+      "shell": "活动信息和参与路径快速推进",
+      "footer": "报名/联系方式/FAQ 收束"
+    },
+    "firstScreen": {
+      "layout": "活动主题 + 亮点 + 时间地点 + 报名入口",
+      "priority": "先讲清是什么活动、何时何地、为什么参加",
+      "secondary": "嘉宾/往届/名额作为证明"
+    },
+    "contentFlow": {
+      "pattern": "主题亮点 -> 时间地点 -> 收获对象 -> 流程时间线 -> 嘉宾/证明 -> 报名 FAQ",
+      "browsePattern": "用时间线、信息条和报名卡，不只做情绪海报",
+      "proofPosition": "嘉宾、往届照片或参与人数放中前段"
+    },
+    "componentPatterns": {
+      "navigation": "event-anchor-nav",
+      "hero": "event-info-action",
+      "schedule": "timeline",
+      "proof": "speaker-proof-cards",
+      "finalAction": "registration-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择活动参与架构"
+      ],
+      "aiCompletes": [
+        "时间线形式",
+        "报名入口重复频率",
+        "嘉宾卡数量",
+        "FAQ 数量"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "讲清活动亮点和参与方式",
+    "userLabel": "讲清活动亮点和参与方式",
+    "summary": "适合让用户快速理解活动值不值得参加，以及怎么参加。",
+    "appliesWhen": [
+      "活动",
+      "社群",
+      "课程发布",
+      "招募",
+      "线下体验"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合让用户快速理解活动值不值得参加，以及怎么参加。",
+    "risks": [
+      "如果只做氛围不讲清信息，会影响报名。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "community-event",
+      "活动",
+      "社群",
+      "课程发布",
+      "招募",
+      "线下体验"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 84
+  },
+  {
+    "id": "info-price-package-clarity",
+    "label": "讲清价格、权益和保障",
+    "basedOnArchetype": "pricing-packages",
+    "bestFor": [
+      "服务套餐",
+      "订阅",
+      "会员",
+      "课程",
+      "产品定价"
+    ],
+    "structure": [
+      "定价说明",
+      "套餐卡片",
+      "适合人群",
+      "权益对比",
+      "保障/FAQ",
+      "行动入口"
+    ],
+    "reason": "适合价格是主要决策点的页面，让用户知道每档为什么值得。",
+    "risk": "如果只列价格不讲价值，用户会只找最便宜的。",
+    "requiredAssets": [
+      "价格",
+      "权益",
+      "适合人群",
+      "保障条款"
+    ],
+    "previewStructure": {
+      "hero": "text-first",
+      "sectionCount": 6,
+      "density": "balanced",
+      "proofPosition": "after-pricing"
+    },
+    "generationRules": [
+      "套餐必须说明适合谁",
+      "权益对比要清楚",
+      "限制和保障不能隐藏"
+    ],
+    "forbiddenPatterns": [
+      "ecommerce-promotion"
+    ],
+    "pageArchitecture": "价格套餐型 pricing 低保真：价格卡片是核心，但必须同时解释适合谁、权益差异、限制和保障。",
+    "aboveFold": {
+      "layout": "pricing-context-plus-cards",
+      "primaryZone": "定价说明和套餐卡片",
+      "secondaryZone": "适合人群、推荐套餐、关键权益",
+      "proofZone": "保障、退款、客户数量或评价",
+      "actionZone": "选择套餐/咨询",
+      "visualWeight": {
+        "pricing": 55,
+        "explanation": 25,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "price-understanding",
+        "layout": "pricing-cards",
+        "content": "套餐、价格、推荐标签",
+        "why": "价格是主要决策点，要直接可见。"
+      },
+      {
+        "role": "value-clarity",
+        "layout": "benefit-comparison",
+        "content": "权益对比和限制",
+        "why": "避免用户只看价格。"
+      },
+      {
+        "role": "fit-guidance",
+        "layout": "who-it-is-for",
+        "content": "适合人群和选择建议",
+        "why": "帮助小白判断买哪档。"
+      },
+      {
+        "role": "risk-reduction",
+        "layout": "guarantee-faq",
+        "content": "保障、FAQ、咨询入口",
+        "why": "降低付费顾虑。"
+      }
+    ],
+    "layoutRhythm": "价格卡片 -> 权益对比 -> 适合人群 -> 保障 FAQ -> 行动",
+    "decisionPath": [
+      "看到价格",
+      "理解每档差异",
+      "判断适合哪档",
+      "确认保障",
+      "购买或咨询"
+    ],
+    "previewWireframe": {
+      "hero": "pricing-cards-first",
+      "body": "comparison-fit-guarantee",
+      "proofPlacement": "after-pricing",
+      "ctaPlacement": "per-plan-and-end",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，价格/权益/FAQ/咨询可达",
+      "shell": "定价卡片 + 权益解释 + 风险降低",
+      "footer": "保障和咨询入口收束"
+    },
+    "firstScreen": {
+      "layout": "定价说明 + 套餐卡片 + 推荐标签",
+      "priority": "价格和适合谁直接可见",
+      "secondary": "关键权益和保障"
+    },
+    "contentFlow": {
+      "pattern": "价格卡片 -> 权益对比 -> 适合人群 -> 限制说明 -> 保障 FAQ -> 行动",
+      "browsePattern": "套餐卡片和权益表搭配，不隐藏限制",
+      "proofPosition": "保障放在价格之后，FAQ 前置到用户犹豫处"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "pricing-cards-first",
+      "comparison": "benefit-comparison-table",
+      "guide": "who-it-is-for-cards",
+      "finalAction": "plan-choice-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择价格套餐架构"
+      ],
+      "aiCompletes": [
+        "推荐套餐高亮强度",
+        "权益表密度",
+        "限制说明位置",
+        "保障表达方式"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "讲清价格、权益和保障",
+    "userLabel": "讲清价格、权益和保障",
+    "summary": "适合价格是主要决策点的页面，让用户知道每档为什么值得。",
+    "appliesWhen": [
+      "服务套餐",
+      "订阅",
+      "会员",
+      "课程",
+      "产品定价"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合价格是主要决策点的页面，让用户知道每档为什么值得。",
+    "risks": [
+      "如果只列价格不讲价值，用户会只找最便宜的。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "pricing-packages",
+      "服务套餐",
+      "订阅",
+      "会员",
+      "课程",
+      "产品定价"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high",
+    "priority": 83
+  },
+  {
+    "id": "info-work-first-story-gallery",
+    "label": "先看案例故事，再了解服务",
+    "basedOnArchetype": "work-first",
+    "variantOf": "info-work-first-service",
+    "bestFor": [
+      "有完整项目故事",
+      "用户需要理解交付结果",
+      "摄影/设计/空间服务"
+    ],
+    "structure": [
+      "案例故事",
+      "代表画面",
+      "作品分类",
+      "服务流程",
+      "客户评价",
+      "预约咨询"
+    ],
+    "reason": "适合先用案例结果建立共鸣，再让用户看作品细节和服务方式。",
+    "risk": "如果没有成体系的案例叙事，故事段会显得空。",
+    "requiredAssets": [
+      "案例故事",
+      "代表画面",
+      "作品分类",
+      "服务流程"
+    ],
+    "previewStructure": {
+      "hero": "story-first",
+      "sectionCount": 6,
+      "density": "spacious",
+      "proofPosition": "in-story"
+    },
+    "generationRules": [
+      "首屏必须是案例故事或结果摘要",
+      "作品画廊放在故事之后",
+      "避免只有图片没有叙事"
+    ],
+    "forbiddenPatterns": [
+      "generic-hero-cards-cta",
+      "image-first-without-images"
+    ],
+    "priority": 86,
+    "pageArchitecture": "案例叙事主导的 story-first 低保真：首屏用代表性案例故事建立共鸣，再展开作品画面与服务说明（design-md 作品集叙事 + ux-pro landing 故事线）。",
+    "aboveFold": {
+      "layout": "story-lead-with-featured-work",
+      "primaryZone": "一个完整案例故事或项目结果摘要",
+      "secondaryZone": "代表画面、风格标签、查看全部作品入口",
+      "proofZone": "案例结果数据或客户一句话评价",
+      "actionZone": "查看案例详情 / 浏览作品",
+      "visualWeight": {
+        "story": 40,
+        "media": 40,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "story-hook",
+        "layout": "case-story-hero",
+        "content": "代表性案例故事与结果",
+        "why": "用具体结果先建立共鸣，而不只堆图片。"
+      },
+      {
+        "role": "visual-proof",
+        "layout": "featured-work-strip",
+        "content": "关键画面与风格线索",
+        "why": "在理解故事后承接视觉判断。"
+      },
+      {
+        "role": "browse-works",
+        "layout": "filterable-gallery-grid",
+        "content": "分类作品与更多案例",
+        "why": "让用户继续探索相近作品。"
+      },
+      {
+        "role": "understand-service",
+        "layout": "step-list",
+        "content": "服务流程与交付方式",
+        "why": "认可案例后再谈合作。"
+      },
+      {
+        "role": "next-action",
+        "layout": "soft-cta-band",
+        "content": "预约咨询",
+        "why": "克制行动入口。"
+      }
+    ],
+    "layoutRhythm": "案例故事 -> 代表画面 -> 作品浏览 -> 服务说明 -> 预约",
+    "decisionPath": [
+      "被案例打动",
+      "看风格是否匹配",
+      "浏览更多作品",
+      "理解合作方式",
+      "预约"
+    ],
+    "previewWireframe": {
+      "hero": "story-led-media",
+      "body": "narrative-then-gallery",
+      "proofPlacement": "in-story",
+      "ctaPlacement": "after-gallery",
+      "density": "spacious"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，案例/作品/服务/联系",
+      "shell": "故事段 + 画廊段交替的长页",
+      "footer": "轻量预约收束"
+    },
+    "firstScreen": {
+      "layout": "案例故事摘要 + 代表画面并排或上下",
+      "priority": "案例结果与故事先出现",
+      "secondary": "风格标签与浏览作品入口"
+    },
+    "contentFlow": {
+      "pattern": "案例故事 -> 代表画面 -> 分类作品 -> 服务流程 -> 预约",
+      "browsePattern": "故事区用叙事块，作品区用网格",
+      "proofPosition": "证明嵌入案例叙事，不单列为首屏大块"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "case-story-hero",
+      "showcase": "filterable-gallery-grid",
+      "finalAction": "soft-contact-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择案例叙事先行变体"
+      ],
+      "aiCompletes": [
+        "故事长度",
+        "代表画面数量",
+        "画廊密度"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先看案例故事，再了解服务",
+    "userLabel": "先看案例故事，再了解服务",
+    "summary": "适合先用案例结果建立共鸣，再让用户看作品细节和服务方式。",
+    "appliesWhen": [
+      "有完整项目故事",
+      "用户需要理解交付结果",
+      "摄影/设计/空间服务"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合先用案例结果建立共鸣，再让用户看作品细节和服务方式。",
+    "risks": [
+      "如果没有成体系的案例叙事，故事段会显得空。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "work-first",
+      "variant:info-work-first-service",
+      "有完整项目故事",
+      "用户需要理解交付结果",
+      "摄影/设计/空间服务"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-trust-first-cases-before-proof",
+    "label": "先看案例结果，再核资质保障",
+    "basedOnArchetype": "trust-first",
+    "variantOf": "info-trust-first-service",
+    "bestFor": [
+      "B2B 服务",
+      "客户更信结果",
+      "资质需要但不必首屏堆砌"
+    ],
+    "structure": [
+      "客户案例结果",
+      "服务范围",
+      "资质认证",
+      "流程保障",
+      "FAQ",
+      "咨询入口"
+    ],
+    "reason": "适合用案例结果先建立能力感，再用资质和流程做二次确认。",
+    "risk": "如果案例太少或不够具体，仍需前置更强资质。",
+    "requiredAssets": [
+      "客户案例",
+      "结果数据",
+      "资质材料",
+      "流程说明"
+    ],
+    "previewStructure": {
+      "hero": "case-first",
+      "sectionCount": 6,
+      "density": "balanced",
+      "proofPosition": "cases-then-credentials"
+    },
+    "generationRules": [
+      "案例结果必须首屏可见",
+      "资质放在案例中后段",
+      "流程和 FAQ 处理最后顾虑"
+    ],
+    "forbiddenPatterns": [
+      "ecommerce-promotion",
+      "consulting-jargon"
+    ],
+    "priority": 86,
+    "pageArchitecture": "案例先行的 trust variant：先用可验证案例结果建立相关性与能力感，再把资质、流程和保障作为二次确认（ux-pro social-proof 后置 credentials）。",
+    "aboveFold": {
+      "layout": "case-result-with-service-promise",
+      "primaryZone": "代表性客户案例结果与场景匹配",
+      "secondaryZone": "一句话服务承诺与适合对象",
+      "proofZone": "案例数据/评价摘要，资质仅轻量露出",
+      "actionZone": "查看更多案例 / 了解流程",
+      "visualWeight": {
+        "cases": 50,
+        "claim": 25,
+        "action": 25
+      }
+    },
+    "sections": [
+      {
+        "role": "case-validation",
+        "layout": "case-result-cards",
+        "content": "客户案例结果与场景",
+        "why": "用结果先证明能力相关，降低抽象感。"
+      },
+      {
+        "role": "service-clarity",
+        "layout": "two-column-service-list",
+        "content": "服务范围与交付对象",
+        "why": "确认是否解决自己的问题。"
+      },
+      {
+        "role": "credentials",
+        "layout": "credential-strip",
+        "content": "资质、认证、团队背景",
+        "why": "在案例之后补足正式背书。"
+      },
+      {
+        "role": "process-confidence",
+        "layout": "numbered-process",
+        "content": "流程、周期、保障",
+        "why": "把合作变成可预期过程。"
+      },
+      {
+        "role": "objection-handling",
+        "layout": "faq-accordion",
+        "content": "FAQ 与咨询入口",
+        "why": "处理最后顾虑。"
+      }
+    ],
+    "layoutRhythm": "案例结果 -> 服务匹配 -> 资质背书 -> 流程保障 -> FAQ 咨询",
+    "decisionPath": [
+      "案例是否像我",
+      "服务是否对口",
+      "资质是否过关",
+      "流程是否放心",
+      "咨询"
+    ],
+    "previewWireframe": {
+      "hero": "case-result-first",
+      "body": "cases-then-credentials",
+      "proofPlacement": "cases-first",
+      "ctaPlacement": "after-process",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，案例/服务/资质/流程/咨询",
+      "shell": "案例 -> 服务 -> 资质的长页",
+      "footer": "咨询 + 资质摘要收束"
+    },
+    "firstScreen": {
+      "layout": "案例结果卡在上，服务承诺在下或右侧",
+      "priority": "案例结果先建立能力感",
+      "secondary": "资质仅轻量标签，不抢案例"
+    },
+    "contentFlow": {
+      "pattern": "案例结果 -> 服务说明 -> 资质背书 -> 流程保障 -> FAQ",
+      "browsePattern": "案例用结果卡，资质用条带或徽标墙",
+      "proofPosition": "正式资质放在案例中后段"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "case-result-hero",
+      "proof": "credential-strip",
+      "process": "numbered-process",
+      "finalAction": "consultation-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择案例先行变体",
+        "案例与资质比重"
+      ],
+      "aiCompletes": [
+        "案例卡数量",
+        "资质展示形式",
+        "流程步骤数"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先看案例结果，再核资质保障",
+    "userLabel": "先看案例结果，再核资质保障",
+    "summary": "适合用案例结果先建立能力感，再用资质和流程做二次确认。",
+    "appliesWhen": [
+      "B2B 服务",
+      "客户更信结果",
+      "资质需要但不必首屏堆砌"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用案例结果先建立能力感，再用资质和流程做二次确认。",
+    "risks": [
+      "如果案例太少或不够具体，仍需前置更强资质。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "trust-first",
+      "variant:info-trust-first-service",
+      "B2B 服务",
+      "客户更信结果",
+      "资质需要但不必首屏堆砌"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-product-demo-problem-solution",
+    "label": "先懂问题，再看方案和演示",
+    "basedOnArchetype": "product-showcase",
+    "variantOf": "info-product-demo-first",
+    "bestFor": [
+      "用户痛点明确",
+      "SaaS/AI 工具",
+      "需要先对齐任务再看界面"
+    ],
+    "structure": [
+      "痛点问题",
+      "方案概述",
+      "产品演示",
+      "场景功能",
+      "集成案例",
+      "试用入口"
+    ],
+    "reason": "适合用户还不确定产品是否解决自己的问题，需要先对齐痛点再看 demo。",
+    "risk": "如果痛点写得太泛，会显得像营销套话。",
+    "requiredAssets": [
+      "痛点描述",
+      "方案摘要",
+      "产品截图或 demo",
+      "试用入口"
+    ],
+    "previewStructure": {
+      "hero": "problem-first",
+      "sectionCount": 6,
+      "density": "balanced",
+      "proofPosition": "after-demo"
+    },
+    "generationRules": [
+      "前两屏完成问题与方案对齐",
+      "演示必须承接方案而非孤立截图",
+      "避免跳过痛点直接堆功能"
+    ],
+    "forbiddenPatterns": [
+      "tech-blue-purple",
+      "generic-hero-cards-cta"
+    ],
+    "priority": 86,
+    "pageArchitecture": "问题驱动的 problem-solution-demo 低保真：先对齐痛点与任务，再给方案框架，最后落到界面演示（ux-pro landing problem-agitation + design-md SaaS 叙事）。",
+    "aboveFold": {
+      "layout": "problem-headline-solution-preview",
+      "primaryZone": "用户痛点或待完成任务",
+      "secondaryZone": "方案一句话与结果预览缩略图",
+      "proofZone": "不前置，用方案逻辑代替空泛口号",
+      "actionZone": "查看演示 / 了解方案",
+      "visualWeight": {
+        "problem": 35,
+        "solution": 35,
+        "demo": 30
+      }
+    },
+    "sections": [
+      {
+        "role": "problem-frame",
+        "layout": "problem-statement",
+        "content": "痛点、现状、成本",
+        "why": "先让用户确认这是在说我。"
+      },
+      {
+        "role": "solution-outline",
+        "layout": "solution-summary",
+        "content": "方案思路与关键改变",
+        "why": "在演示前建立理解框架。"
+      },
+      {
+        "role": "product-demo",
+        "layout": "hero-screen",
+        "content": "产品界面或工作流演示",
+        "why": "用 demo 验证方案可行。"
+      },
+      {
+        "role": "scenario-depth",
+        "layout": "use-case-tabs",
+        "content": "场景化功能展开",
+        "why": "按任务补充能力细节。"
+      },
+      {
+        "role": "trial-decision",
+        "layout": "demo-cta-band",
+        "content": "案例证明与试用入口",
+        "why": "把理解转为行动。"
+      }
+    ],
+    "layoutRhythm": "问题痛点 -> 方案概述 -> 产品演示 -> 场景功能 -> 试用",
+    "decisionPath": [
+      "确认痛点",
+      "认同方案",
+      "看懂演示",
+      "判断能力",
+      "试用"
+    ],
+    "previewWireframe": {
+      "hero": "problem-statement",
+      "body": "solution-then-demo",
+      "proofPlacement": "after-demo",
+      "ctaPlacement": "near-demo",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，问题/方案/演示/试用",
+      "shell": "叙事段过渡到产品界面段",
+      "footer": "试用与文档入口"
+    },
+    "firstScreen": {
+      "layout": "痛点标题 + 方案摘要 + demo 缩略预览",
+      "priority": "问题与任务先对齐",
+      "secondary": "方案一句话与演示入口"
+    },
+    "contentFlow": {
+      "pattern": "痛点 -> 方案 -> 演示 -> 场景功能 -> 试用",
+      "browsePattern": "前两屏以文字逻辑为主，第三屏进入界面",
+      "proofPosition": "案例证明跟在 demo 之后"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "problem-solution-split",
+      "explain": "solution-summary",
+      "workflow": "hero-screen-demo",
+      "finalAction": "trial-cta-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择问题驱动变体"
+      ],
+      "aiCompletes": [
+        "痛点表述强度",
+        "方案块长度",
+        "demo 出现位置"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先懂问题，再看方案和演示",
+    "userLabel": "先懂问题，再看方案和演示",
+    "summary": "适合用户还不确定产品是否解决自己的问题，需要先对齐痛点再看 demo。",
+    "appliesWhen": [
+      "用户痛点明确",
+      "SaaS/AI 工具",
+      "需要先对齐任务再看界面"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户还不确定产品是否解决自己的问题，需要先对齐痛点再看 demo。",
+    "risks": [
+      "如果痛点写得太泛，会显得像营销套话。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "product-showcase",
+      "variant:info-product-demo-first",
+      "用户痛点明确",
+      "SaaS/AI 工具",
+      "需要先对齐任务再看界面"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-clear-conversion-proof-before-offer",
+    "label": "先用证明打消顾虑，再讲清 offer",
+    "basedOnArchetype": "clear-conversion",
+    "variantOf": "info-clear-conversion-offer",
+    "bestFor": [
+      "用户有顾虑",
+      "预约/咨询转化",
+      "需要社会证明再行动"
+    ],
+    "structure": [
+      "评价/案例证明",
+      "一句话 offer",
+      "核心收益",
+      "流程价格",
+      "FAQ",
+      "行动入口"
+    ],
+    "reason": "适合用户有兴趣但犹豫，先看到证明再理解 offer 更容易行动。",
+    "risk": "如果证明薄弱，前置反而会暴露短板。",
+    "requiredAssets": [
+      "客户评价或案例",
+      "清楚 offer",
+      "行动入口",
+      "FAQ"
+    ],
+    "previewStructure": {
+      "hero": "proof-first",
+      "sectionCount": 6,
+      "density": "balanced",
+      "proofPosition": "above-fold"
+    },
+    "generationRules": [
+      "证明区必须在 offer 之前",
+      "offer 和 CTA 紧跟证明之后",
+      "FAQ 处理最后犹豫"
+    ],
+    "forbiddenPatterns": [
+      "consulting-jargon",
+      "ecommerce-promotion"
+    ],
+    "priority": 86,
+    "pageArchitecture": "证明前置的 conversion variant：先用评价、案例或保障打消顾虑，再展开 offer 与收益（ux-pro objection-handling before CTA）。",
+    "aboveFold": {
+      "layout": "proof-strip-then-offer",
+      "primaryZone": "2-3 条可信证明或客户结果",
+      "secondaryZone": "一句话 offer 与核心收益",
+      "proofZone": "首屏上半区即证明",
+      "actionZone": "主 CTA 放在 offer 明确之后",
+      "visualWeight": {
+        "proof": 40,
+        "offer": 35,
+        "action": 25
+      }
+    },
+    "sections": [
+      {
+        "role": "trust-open",
+        "layout": "proof-strip",
+        "content": "评价、案例摘要、保障",
+        "why": "高犹豫场景先降风险。"
+      },
+      {
+        "role": "offer-clarity",
+        "layout": "direct-hero",
+        "content": "offer、收益、适合对象",
+        "why": "证明后再讲清价值。"
+      },
+      {
+        "role": "value-evidence",
+        "layout": "benefit-proof-pairs",
+        "content": "收益点与对应证明",
+        "why": "每个承诺有支撑。"
+      },
+      {
+        "role": "how-it-works",
+        "layout": "compact-process",
+        "content": "流程、价格或交付",
+        "why": "降低行动成本。"
+      },
+      {
+        "role": "objection-handling",
+        "layout": "faq-with-cta",
+        "content": "FAQ 与行动入口",
+        "why": "处理临门犹豫。"
+      }
+    ],
+    "layoutRhythm": "证明背书 -> offer 收益 -> 价值证据 -> 流程价格 -> FAQ 行动",
+    "decisionPath": [
+      "先信不靠谱",
+      "再看值不值",
+      "确认收益",
+      "确认成本",
+      "行动"
+    ],
+    "previewWireframe": {
+      "hero": "proof-then-offer",
+      "body": "social-proof-before-benefits",
+      "proofPlacement": "above-fold",
+      "ctaPlacement": "after-offer",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "简化导航，证明与行动入口清楚",
+      "shell": "证明带 -> offer 区 -> FAQ 收束",
+      "footer": "FAQ + 主 CTA"
+    },
+    "firstScreen": {
+      "layout": "证明条/评价条 + offer 标题 + CTA",
+      "priority": "社会证明先出现",
+      "secondary": "offer 与适合人群"
+    },
+    "contentFlow": {
+      "pattern": "证明 -> offer -> 收益证据 -> 流程 -> FAQ -> 行动",
+      "browsePattern": "证明用横向条或评价卡，不堆长文案",
+      "proofPosition": "证明必须在 offer 之前可见"
+    },
+    "componentPatterns": {
+      "navigation": "simple-top-nav",
+      "hero": "proof-then-offer-hero",
+      "benefits": "benefit-proof-pairs",
+      "finalAction": "repeated-cta-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择证明前置变体"
+      ],
+      "aiCompletes": [
+        "证明条数量",
+        "offer 出现位置",
+        "CTA 频率"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先用证明打消顾虑，再讲清 offer",
+    "userLabel": "先用证明打消顾虑，再讲清 offer",
+    "summary": "适合用户有兴趣但犹豫，先看到证明再理解 offer 更容易行动。",
+    "appliesWhen": [
+      "用户有顾虑",
+      "预约/咨询转化",
+      "需要社会证明再行动"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户有兴趣但犹豫，先看到证明再理解 offer 更容易行动。",
+    "risks": [
+      "如果证明薄弱，前置反而会暴露短板。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "clear-conversion",
+      "variant:info-clear-conversion-offer",
+      "用户有顾虑",
+      "预约/咨询转化",
+      "需要社会证明再行动"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-editorial-chapter-thread",
+    "label": "用章节线索带着读下去",
+    "basedOnArchetype": "editorial-story",
+    "variantOf": "info-editorial-thesis",
+    "bestFor": [
+      "长文报告",
+      "品牌白皮书",
+      "需要跳读的长内容"
+    ],
+    "structure": [
+      "章节导览",
+      "核心观点",
+      "分章论证",
+      "图文证据",
+      "延伸阅读"
+    ],
+    "reason": "适合内容较长、读者可能跳读的场景，用章节线索降低阅读成本。",
+    "risk": "如果内容很短，章节导览会显得多余。",
+    "requiredAssets": [
+      "章节结构",
+      "核心观点",
+      "分段素材",
+      "延伸阅读"
+    ],
+    "previewStructure": {
+      "hero": "chapter-index",
+      "sectionCount": 5,
+      "density": "spacious",
+      "proofPosition": "inline"
+    },
+    "generationRules": [
+      "必须有章节导览或阅读线索",
+      "章节标题清楚可跳转",
+      "避免把所有内容塞进首屏"
+    ],
+    "forbiddenPatterns": [
+      "generic-hero-cards-cta"
+    ],
+    "priority": 86,
+    "pageArchitecture": "章节线索式 editorial variant：用章节导览和阅读线索分段推进，适合长内容品牌报告（design-md 长文专题结构）。",
+    "aboveFold": {
+      "layout": "chapter-index-with-thesis",
+      "primaryZone": "核心观点 + 章节导览/阅读时间",
+      "secondaryZone": "背景摘要与作者线索",
+      "proofZone": "章节内穿插证据",
+      "actionZone": "开始阅读第一章",
+      "visualWeight": {
+        "thesis": 40,
+        "index": 35,
+        "action": 25
+      }
+    },
+    "sections": [
+      {
+        "role": "chapter-map",
+        "layout": "chapter-index",
+        "content": "章节列表与阅读线索",
+        "why": "让用户知道将要读什么。"
+      },
+      {
+        "role": "set-thesis",
+        "layout": "large-title-editorial",
+        "content": "核心观点开篇",
+        "why": "建立阅读动机。"
+      },
+      {
+        "role": "thread-sections",
+        "layout": "numbered-chapters",
+        "content": "按章节展开论证",
+        "why": "线索清楚，方便跳读。"
+      },
+      {
+        "role": "humanize",
+        "layout": "inline-case-figures",
+        "content": "案例、人物、数据插图",
+        "why": "让章节内容可感。"
+      },
+      {
+        "role": "continue",
+        "layout": "reading-next-step",
+        "content": "延伸阅读或参与入口",
+        "why": "读完后给下一步。"
+      }
+    ],
+    "layoutRhythm": "章节导览 -> 观点开篇 -> 分段章节 -> 图文证据 -> 延伸参与",
+    "decisionPath": [
+      "看目录是否相关",
+      "被观点吸引",
+      "按章节阅读",
+      "相信证据",
+      "继续深入"
+    ],
+    "previewWireframe": {
+      "hero": "chapter-index",
+      "body": "threaded-sections",
+      "proofPlacement": "inline-chapters",
+      "ctaPlacement": "after-reading",
+      "density": "spacious"
+    },
+    "pageFrame": {
+      "navigation": "弱化导航 + 章节锚点",
+      "shell": "章节索引 + 分段长文",
+      "footer": "延伸阅读入口"
+    },
+    "firstScreen": {
+      "layout": "章节导览 + 核心观点标题",
+      "priority": "阅读线索与观点同时可见",
+      "secondary": "作者/来源与预计阅读时间"
+    },
+    "contentFlow": {
+      "pattern": "章节导览 -> 观点 -> 分章论证 -> 证据插图 -> 延伸",
+      "browsePattern": "章节编号清楚，支持锚点跳转",
+      "proofPosition": "证据按章节穿插"
+    },
+    "componentPatterns": {
+      "navigation": "chapter-anchor-nav",
+      "hero": "chapter-index-hero",
+      "body": "numbered-chapters",
+      "finalAction": "reading-next-step"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择章节线索变体"
+      ],
+      "aiCompletes": [
+        "章节数量",
+        "导览形式",
+        "插图密度"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "用章节线索带着读下去",
+    "userLabel": "用章节线索带着读下去",
+    "summary": "适合内容较长、读者可能跳读的场景，用章节线索降低阅读成本。",
+    "appliesWhen": [
+      "长文报告",
+      "品牌白皮书",
+      "需要跳读的长内容"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合内容较长、读者可能跳读的场景，用章节线索降低阅读成本。",
+    "risks": [
+      "如果内容很短，章节导览会显得多余。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "editorial-story",
+      "variant:info-editorial-thesis",
+      "长文报告",
+      "品牌白皮书",
+      "需要跳读的长内容"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-content-hub-task-lanes",
+    "label": "按任务分栏，快速找内容",
+    "basedOnArchetype": "content-hub",
+    "variantOf": "info-content-hub-explore",
+    "bestFor": [
+      "知识库",
+      "帮助中心",
+      "用户按任务而非栏目找内容"
+    ],
+    "structure": [
+      "任务车道",
+      "车道推荐",
+      "搜索浏览",
+      "内容卡片",
+      "订阅入口"
+    ],
+    "reason": "适合用户带着任务来，需要按「我要学什么/解决什么」找入口。",
+    "risk": "如果任务划分不清楚，车道反而增加认知负担。",
+    "requiredAssets": [
+      "任务分类",
+      "内容列表",
+      "搜索",
+      "推荐路径"
+    ],
+    "previewStructure": {
+      "hero": "task-lanes",
+      "sectionCount": 5,
+      "density": "compact",
+      "proofPosition": "lane-meta"
+    },
+    "generationRules": [
+      "首屏按任务组织入口",
+      "每个车道有明确推荐",
+      "保留全站搜索和浏览"
+    ],
+    "forbiddenPatterns": [
+      "generic-hero-cards-cta"
+    ],
+    "priority": 86,
+    "pageArchitecture": "任务分栏式 hub variant：按用户任务组织入口车道，而非纯内容类型分类（ux-pro app-interface task-based IA）。",
+    "aboveFold": {
+      "layout": "task-lanes-with-search",
+      "primaryZone": "3-4 个任务车道（如学习/选型/排障）",
+      "secondaryZone": "搜索与每个车道下的推荐",
+      "proofZone": "内容数量与更新信号",
+      "actionZone": "进入车道或搜索",
+      "visualWeight": {
+        "lanes": 50,
+        "search": 30,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "task-orient",
+        "layout": "task-lane-cards",
+        "content": "按任务划分的入口车道",
+        "why": "用户常按任务而非栏目找内容。"
+      },
+      {
+        "role": "lane-recommend",
+        "layout": "lane-featured-lists",
+        "content": "每个车道下的推荐路径",
+        "why": "给不明确目标的用户捷径。"
+      },
+      {
+        "role": "browse",
+        "layout": "consistent-card-grid",
+        "content": "全站内容卡片",
+        "why": "保留自由浏览。"
+      },
+      {
+        "role": "return",
+        "layout": "subscription-band",
+        "content": "订阅或收藏入口",
+        "why": "建立长期关系。"
+      }
+    ],
+    "layoutRhythm": "任务分栏 -> 车道推荐 -> 全站浏览 -> 订阅",
+    "decisionPath": [
+      "识别自己的任务",
+      "进入车道",
+      "看推荐",
+      "浏览或搜索",
+      "订阅"
+    ],
+    "previewWireframe": {
+      "hero": "task-lanes",
+      "body": "lanes-then-lists",
+      "proofPlacement": "lane-meta",
+      "ctaPlacement": "per-lane",
+      "density": "compact"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航 + 搜索",
+      "shell": "任务车道 + 列表索引",
+      "footer": "订阅与返回入口"
+    },
+    "firstScreen": {
+      "layout": "任务车道横排或分栏 + 搜索",
+      "priority": "按任务找入口",
+      "secondary": "每车道下 1-2 个推荐"
+    },
+    "contentFlow": {
+      "pattern": "任务车道 -> 车道推荐 -> 全站列表 -> 订阅",
+      "browsePattern": "车道用语义图标+短标签，列表保持统一卡片",
+      "proofPosition": "内容数量显示在车道 meta"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav-search",
+      "hero": "task-lane-header",
+      "content": "lane-featured-lists",
+      "finalAction": "subscription-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择任务分栏变体",
+        "车道数量"
+      ],
+      "aiCompletes": [
+        "车道命名",
+        "推荐列表长度",
+        "搜索位置"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "按任务分栏，快速找内容",
+    "userLabel": "按任务分栏，快速找内容",
+    "summary": "适合用户带着任务来，需要按「我要学什么/解决什么」找入口。",
+    "appliesWhen": [
+      "知识库",
+      "帮助中心",
+      "用户按任务而非栏目找内容"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户带着任务来，需要按「我要学什么/解决什么」找入口。",
+    "risks": [
+      "如果任务划分不清楚，车道反而增加认知负担。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "content-hub",
+      "variant:info-content-hub-explore",
+      "知识库",
+      "帮助中心",
+      "用户按任务而非栏目找内容"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-tool-operate-guided-walkthrough",
+    "label": "先跟着示例走一遍，再自己操作",
+    "basedOnArchetype": "tool-operation",
+    "variantOf": "info-tool-operate-preview",
+    "bestFor": [
+      "新手工具",
+      "配置器",
+      "首次使用门槛高"
+    ],
+    "structure": [
+      "示例引导",
+      "分步操作",
+      "结果预览",
+      "历史保存",
+      "导出同步"
+    ],
+    "reason": "适合首次使用门槛高的工具，用示例带走通再开放操作。",
+    "risk": "如果引导太长，老用户会觉得啰嗦。",
+    "requiredAssets": [
+      "示例任务",
+      "分步说明",
+      "结果预览",
+      "保存导出"
+    ],
+    "previewStructure": {
+      "hero": "guided-first",
+      "sectionCount": 5,
+      "density": "compact",
+      "proofPosition": "example-result"
+    },
+    "generationRules": [
+      "必须提供可完成的示例引导",
+      "引导后可跳过并进入全功能",
+      "状态反馈始终可见"
+    ],
+    "forbiddenPatterns": [
+      "generic-hero-cards-cta",
+      "too-many-visual-moves"
+    ],
+    "priority": 86,
+    "pageArchitecture": "引导示例式 tool variant：先用示例任务带用户走通一遍，再开放完整操作台（ux-pro onboarding walkthrough pattern）。",
+    "aboveFold": {
+      "layout": "guided-example-above-workbench",
+      "primaryZone": "分步引导区 + 示例输入已填好",
+      "secondaryZone": "结果预览与下一步提示",
+      "proofZone": "示例结果即证明",
+      "actionZone": "下一步 / 自己试试",
+      "visualWeight": {
+        "guide": 45,
+        "preview": 35,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "guided-pass",
+        "layout": "step-walkthrough",
+        "content": "示例任务分步引导",
+        "why": "降低首次使用门槛。"
+      },
+      {
+        "role": "operate",
+        "layout": "split-workbench",
+        "content": "完整输入区与结果预览",
+        "why": "引导后开放自由操作。"
+      },
+      {
+        "role": "feedback",
+        "layout": "status-and-errors",
+        "content": "状态与错误反馈",
+        "why": "操作必须有响应。"
+      },
+      {
+        "role": "iterate",
+        "layout": "history-and-versions",
+        "content": "历史、保存、导出",
+        "why": "支持反复尝试。"
+      }
+    ],
+    "layoutRhythm": "示例引导 -> 分步完成 -> 开放操作 -> 预览调整 -> 保存导出",
+    "decisionPath": [
+      "跟着示例做",
+      "看懂结果",
+      "自己输入",
+      "调整参数",
+      "保存"
+    ],
+    "previewWireframe": {
+      "hero": "guided-walkthrough",
+      "body": "steps-then-workbench",
+      "proofPlacement": "example-result",
+      "ctaPlacement": "step-next",
+      "density": "compact"
+    },
+    "pageFrame": {
+      "navigation": "工具栏 + 轻量帮助",
+      "shell": "引导层可折叠，下接工作台",
+      "footer": "保存/导出状态区"
+    },
+    "firstScreen": {
+      "layout": "分步引导叠在或邻接操作台",
+      "priority": "示例步骤与结果预览",
+      "secondary": "跳过引导 / 自己操作"
+    },
+    "contentFlow": {
+      "pattern": "示例引导 -> 分步完成 -> 开放工作台 -> 保存导出",
+      "browsePattern": "引导用步骤条，完成后平滑过渡到全功能面板",
+      "proofPosition": "示例结果即证明"
+    },
+    "componentPatterns": {
+      "navigation": "toolbar-with-help",
+      "hero": "guided-walkthrough-panel",
+      "controls": "split-workbench",
+      "finalAction": "save-export-actions"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择引导示例变体"
+      ],
+      "aiCompletes": [
+        "引导步数",
+        "示例预填内容",
+        "跳过逻辑"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先跟着示例走一遍，再自己操作",
+    "userLabel": "先跟着示例走一遍，再自己操作",
+    "summary": "适合首次使用门槛高的工具，用示例带走通再开放操作。",
+    "appliesWhen": [
+      "新手工具",
+      "配置器",
+      "首次使用门槛高"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合首次使用门槛高的工具，用示例带走通再开放操作。",
+    "risks": [
+      "如果引导太长，老用户会觉得啰嗦。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "tool-operation",
+      "variant:info-tool-operate-preview",
+      "新手工具",
+      "配置器",
+      "首次使用门槛高"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-compare-scenario-matrix",
+    "label": "按使用场景对照选方案",
+    "basedOnArchetype": "comparison-decision",
+    "variantOf": "info-compare-packages",
+    "bestFor": [
+      "多场景选型",
+      "SaaS 套餐",
+      "用户不确定自己属于哪种情况"
+    ],
+    "structure": [
+      "场景问题",
+      "场景矩阵",
+      "推荐路径",
+      "FAQ保障",
+      "行动入口"
+    ],
+    "reason": "适合用户需要先对号入座场景，再理解方案差异。",
+    "risk": "如果场景分得太细，矩阵会变复杂。",
+    "requiredAssets": [
+      "场景列表",
+      "方案差异",
+      "推荐逻辑",
+      "FAQ"
+    ],
+    "previewStructure": {
+      "hero": "scenario-first",
+      "sectionCount": 5,
+      "density": "balanced",
+      "proofPosition": "matrix"
+    },
+    "generationRules": [
+      "必须先定义场景问题",
+      "矩阵维度少而清楚",
+      "每个场景有推荐方案"
+    ],
+    "forbiddenPatterns": [
+      "ecommerce-promotion",
+      "consulting-jargon"
+    ],
+    "priority": 86,
+    "pageArchitecture": "场景矩阵式 comparison variant：按使用场景列方案差异，而非纯价格参数表（ux-pro products comparison matrix）。",
+    "aboveFold": {
+      "layout": "scenario-question-matrix-preview",
+      "primaryZone": "用户在什么场景下做选择",
+      "secondaryZone": "场景 x 方案矩阵预览",
+      "proofZone": "每个场景下的推荐标签",
+      "actionZone": "展开矩阵 / 查看推荐",
+      "visualWeight": {
+        "scenario": 40,
+        "matrix": 40,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "scenario-frame",
+        "layout": "scenario-question",
+        "content": "场景问题与角色",
+        "why": "先对齐用户在什么情况下选。"
+      },
+      {
+        "role": "matrix-compare",
+        "layout": "scenario-matrix",
+        "content": "场景 x 方案对照矩阵",
+        "why": "用场景组织差异而非堆参数。"
+      },
+      {
+        "role": "recommend",
+        "layout": "recommendation-path",
+        "content": "各场景推荐路径",
+        "why": "帮用户快速对号入座。"
+      },
+      {
+        "role": "reassure",
+        "layout": "faq-guarantee",
+        "content": "FAQ、保障、行动入口",
+        "why": "降低选错风险。"
+      }
+    ],
+    "layoutRhythm": "场景问题 -> 场景矩阵 -> 推荐路径 -> FAQ 保障",
+    "decisionPath": [
+      "对号入座场景",
+      "看矩阵差异",
+      "接受推荐",
+      "确认保障",
+      "选择"
+    ],
+    "previewWireframe": {
+      "hero": "scenario-question",
+      "body": "matrix-recommendation",
+      "proofPlacement": "matrix-cells",
+      "ctaPlacement": "per-scenario",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，场景/对比/FAQ",
+      "shell": "场景矩阵主导的长页",
+      "footer": "保障与咨询收束"
+    },
+    "firstScreen": {
+      "layout": "场景问题 + 矩阵预览",
+      "priority": "场景对号入座",
+      "secondary": "方案列标题与推荐角标"
+    },
+    "contentFlow": {
+      "pattern": "场景 -> 矩阵 -> 推荐 -> FAQ",
+      "browsePattern": "矩阵维度少，按场景行组织",
+      "proofPosition": "推荐理由写在矩阵单元格内"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "scenario-matrix-hero",
+      "comparison": "scenario-matrix-table",
+      "guide": "recommendation-path",
+      "finalAction": "choose-or-consult-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择场景矩阵变体"
+      ],
+      "aiCompletes": [
+        "场景行数",
+        "方案列数",
+        "推荐标签样式"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "按使用场景对照选方案",
+    "userLabel": "按使用场景对照选方案",
+    "summary": "适合用户需要先对号入座场景，再理解方案差异。",
+    "appliesWhen": [
+      "多场景选型",
+      "SaaS 套餐",
+      "用户不确定自己属于哪种情况"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户需要先对号入座场景，再理解方案差异。",
+    "risks": [
+      "如果场景分得太细，矩阵会变复杂。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "comparison-decision",
+      "variant:info-compare-packages",
+      "多场景选型",
+      "SaaS 套餐",
+      "用户不确定自己属于哪种情况"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-event-agenda-first",
+    "label": "先看议程安排，再决定报名",
+    "basedOnArchetype": "community-event",
+    "variantOf": "info-event-participation",
+    "bestFor": [
+      "会议",
+      "工作坊",
+      "用户关心时间安排"
+    ],
+    "structure": [
+      "议程时间线",
+      "活动亮点",
+      "嘉宾证明",
+      "地点名额",
+      "报名FAQ"
+    ],
+    "reason": "适合用户先判断时间投入值不值得，议程清楚比氛围更重要。",
+    "risk": "如果议程未确定，时间线会显得不可靠。",
+    "requiredAssets": [
+      "议程",
+      "时间地点",
+      "嘉宾或往届",
+      "报名方式"
+    ],
+    "previewStructure": {
+      "hero": "agenda-first",
+      "sectionCount": 5,
+      "density": "balanced",
+      "proofPosition": "in-agenda"
+    },
+    "generationRules": [
+      "议程时间线首屏可见",
+      "报名入口稳定重复",
+      "亮点和嘉宾支撑议程价值"
+    ],
+    "forbiddenPatterns": [
+      "too-many-visual-moves"
+    ],
+    "priority": 86,
+    "pageArchitecture": "议程先行的 event variant：首屏用时间线议程帮用户判断值不值得投入时间，再展开亮点与报名（design-md 会议活动页）。",
+    "aboveFold": {
+      "layout": "agenda-timeline-with-title",
+      "primaryZone": "活动时间线与关键议程块",
+      "secondaryZone": "活动主题、地点、对象",
+      "proofZone": "嘉宾/往届片段穿插议程",
+      "actionZone": "加入日历 / 报名",
+      "visualWeight": {
+        "agenda": 45,
+        "theme": 30,
+        "action": 25
+      }
+    },
+    "sections": [
+      {
+        "role": "agenda-scan",
+        "layout": "agenda-timeline",
+        "content": "时间线与议程安排",
+        "why": "用户先判断时间投入是否值得。"
+      },
+      {
+        "role": "value-and-fit",
+        "layout": "benefit-and-audience",
+        "content": "亮点、适合对象、嘉宾",
+        "why": "议程之后解释价值。"
+      },
+      {
+        "role": "logistics",
+        "layout": "event-details-strip",
+        "content": "地点、名额、注意事项",
+        "why": "降低参与成本疑虑。"
+      },
+      {
+        "role": "registration",
+        "layout": "sticky-or-repeat-cta",
+        "content": "报名入口与 FAQ",
+        "why": "行动路径稳定可见。"
+      }
+    ],
+    "layoutRhythm": "议程时间线 -> 活动价值 -> 地点名额 -> 报名 FAQ",
+    "decisionPath": [
+      "扫议程是否值得",
+      "判断适合度",
+      "确认时间地点",
+      "处理顾虑",
+      "报名"
+    ],
+    "previewWireframe": {
+      "hero": "agenda-timeline",
+      "body": "agenda-value-registration",
+      "proofPlacement": "in-agenda",
+      "ctaPlacement": "sticky-registration",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "活动锚点导航，议程/亮点/报名",
+      "shell": "议程时间线主导",
+      "footer": "报名与 FAQ"
+    },
+    "firstScreen": {
+      "layout": "议程时间线 + 活动标题信息条",
+      "priority": "时间与议程块先可见",
+      "secondary": "主题、地点、报名按钮"
+    },
+    "contentFlow": {
+      "pattern": "议程 -> 价值亮点 -> 地点名额 -> 报名 FAQ",
+      "browsePattern": "议程用垂直时间线，嘉宾穿插在议程节点",
+      "proofPosition": "嘉宾/往届证明嵌在议程中后段"
+    },
+    "componentPatterns": {
+      "navigation": "event-agenda-nav",
+      "hero": "agenda-timeline-hero",
+      "schedule": "vertical-agenda",
+      "finalAction": "registration-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择议程先行变体"
+      ],
+      "aiCompletes": [
+        "议程粒度",
+        "时间线样式",
+        "报名按钮位置"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先看议程安排，再决定报名",
+    "userLabel": "先看议程安排，再决定报名",
+    "summary": "适合用户先判断时间投入值不值得，议程清楚比氛围更重要。",
+    "appliesWhen": [
+      "会议",
+      "工作坊",
+      "用户关心时间安排"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合用户先判断时间投入值不值得，议程清楚比氛围更重要。",
+    "risks": [
+      "如果议程未确定，时间线会显得不可靠。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "community-event",
+      "variant:info-event-participation",
+      "会议",
+      "工作坊",
+      "用户关心时间安排"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "info-price-package-value-before-price",
+    "label": "先讲清价值，再出价格",
+    "basedOnArchetype": "pricing-packages",
+    "variantOf": "info-price-package-clarity",
+    "bestFor": [
+      "订阅/会员",
+      "高感知价值服务",
+      "用户容易只比价格"
+    ],
+    "structure": [
+      "价值成果",
+      "适合人群",
+      "套餐价格",
+      "权益对比",
+      "保障FAQ",
+      "行动入口"
+    ],
+    "reason": "适合需要先让用户理解每档解决什么问题，再看到价格。",
+    "risk": "如果价值描述太虚，会拖慢决策。",
+    "requiredAssets": [
+      "价值说明",
+      "适合人群",
+      "价格权益",
+      "保障条款"
+    ],
+    "previewStructure": {
+      "hero": "value-first",
+      "sectionCount": 6,
+      "density": "balanced",
+      "proofPosition": "in-value"
+    },
+    "generationRules": [
+      "价值与适合谁必须在价格卡之前",
+      "价格区仍要清楚可比",
+      "限制和保障不能隐藏"
+    ],
+    "forbiddenPatterns": [
+      "ecommerce-promotion"
+    ],
+    "priority": 86,
+    "pageArchitecture": "价值先行的 pricing variant：先讲清每档解决什么问题、适合谁，再展示价格卡片（ux-pro value-before-price pattern）。",
+    "aboveFold": {
+      "layout": "value-outcomes-then-pricing-teaser",
+      "primaryZone": "各档价值主张与适合人群",
+      "secondaryZone": "关键成果或权益摘要",
+      "proofZone": "客户结果或保障轻量露出",
+      "actionZone": "查看完整价格 / 选套餐",
+      "visualWeight": {
+        "value": 50,
+        "pricing": 30,
+        "action": 20
+      }
+    },
+    "sections": [
+      {
+        "role": "value-frame",
+        "layout": "value-outcome-cards",
+        "content": "各档解决什么问题",
+        "why": "避免用户只比价格不比价值。"
+      },
+      {
+        "role": "fit-guidance",
+        "layout": "who-it-is-for",
+        "content": "适合人群与选择建议",
+        "why": "帮用户对号入座。"
+      },
+      {
+        "role": "price-understanding",
+        "layout": "pricing-cards",
+        "content": "套餐价格与推荐标签",
+        "why": "价值清楚后再出价格。"
+      },
+      {
+        "role": "risk-reduction",
+        "layout": "guarantee-faq",
+        "content": "权益对比、保障、FAQ",
+        "why": "降低付费顾虑。"
+      }
+    ],
+    "layoutRhythm": "价值说明 -> 适合人群 -> 价格卡片 -> 权益保障 -> 行动",
+    "decisionPath": [
+      "理解价值差异",
+      "判断适合哪档",
+      "看到价格",
+      "确认保障",
+      "购买咨询"
+    ],
+    "previewWireframe": {
+      "hero": "value-context",
+      "body": "value-then-pricing-cards",
+      "proofPlacement": "after-value",
+      "ctaPlacement": "per-plan",
+      "density": "balanced"
+    },
+    "pageFrame": {
+      "navigation": "顶部导航，价值/价格/FAQ",
+      "shell": "价值解释段 + 定价段",
+      "footer": "保障与咨询"
+    },
+    "firstScreen": {
+      "layout": "价值成果卡 + 价格预告",
+      "priority": "各档价值与适合谁",
+      "secondary": "价格区间或「查看价格」入口"
+    },
+    "contentFlow": {
+      "pattern": "价值 -> 适合人群 -> 价格卡 -> 权益保障 -> 行动",
+      "browsePattern": "价值用语义卡，价格区再展开完整套餐",
+      "proofPosition": "客户结果放在价值卡内"
+    },
+    "componentPatterns": {
+      "navigation": "top-nav",
+      "hero": "value-outcome-hero",
+      "comparison": "pricing-cards",
+      "guide": "who-it-is-for-cards",
+      "finalAction": "plan-choice-band"
+    },
+    "layoutDecisions": {
+      "userChooses": [
+        "是否选择价值先行变体"
+      ],
+      "aiCompletes": [
+        "价值卡数量",
+        "价格出现滚动位置",
+        "保障表达"
+      ]
+    },
+    "type": "info-option-preset",
+    "title": "先讲清价值，再出价格",
+    "userLabel": "先讲清价值，再出价格",
+    "summary": "适合需要先让用户理解每档解决什么问题，再看到价格。",
+    "appliesWhen": [
+      "订阅/会员",
+      "高感知价值服务",
+      "用户容易只比价格"
+    ],
+    "avoidWhen": [],
+    "rationale": "适合需要先让用户理解每档解决什么问题，再看到价格。",
+    "risks": [
+      "如果价值描述太虚，会拖慢决策。"
+    ],
+    "tags": [
+      "info-option-preset",
+      "pricing-packages",
+      "variant:info-price-package-clarity",
+      "订阅/会员",
+      "高感知价值服务",
+      "用户容易只比价格"
+    ],
+    "sourceRefs": [
+      "internal/product-principles",
+      "design-md/*",
+      "ux-pro/landing.csv"
+    ],
+    "sourceTypes": [
+      "internal-principle",
+      "design-md",
+      "ux-pro"
+    ],
+    "confidence": "high"
+  }
+]

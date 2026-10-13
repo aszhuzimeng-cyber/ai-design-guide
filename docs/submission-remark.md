@@ -4,9 +4,9 @@
 
 **项目类型**：网页研究原型 / 人机协同设计工具
 
-**项目地址**：填写公开 GitHub 仓库首页链接。
+**项目地址**：[GitHub 公开仓库](https://github.com/aszhuzimeng-cyber/ai-design-guide)
 
-**演示视频**：仓库内 `docs/demo.mp4`，约 51 秒。
+**演示视频**：[观看项目介绍视频](https://github.com/aszhuzimeng-cyber/ai-design-guide/blob/main/docs/demo.mp4)，约 51 秒。
 
 **Remark（推荐版）**：
 
